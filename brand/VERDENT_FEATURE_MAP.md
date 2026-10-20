@@ -19,7 +19,7 @@ Column key / 表头：**Content status / 内容状态 · Possible jokes / 可能
 | 功能 | 事实边界 | Content status | Possible jokes | Best format |
 | --- | --- | --- | --- | --- |
 | Outcome → task decomposition | Break goals into phases and tasks / 将目标拆成阶段与子任务 | Idea / unassigned | A “tiny idea” takes three pages; Mochi asks about lunch / 小点子展开三页，Mochi 只问午饭 | 4-panel comic / 4 格漫画 |
-| Parallel agents | Concurrent workers / 多 worker 并行推进 | Idea / unassigned | Lucky also eats snacks in parallel / 项目和零食都在并行 | Subtle motion / 轻动效 |
+| Parallel agents | Concurrent workers / 多 worker 并行推进 | Draft: Motion 003 / 已有未发布样片 | The team works; the founder naps / 团队工作，创始猫午睡 | Story motion / 剧情动效 |
 | Project board / review | Track status and review deliverables / 跟踪状态与复核交付 | Idea / unassigned | Everything is To Review, including Mochi's coffee / 咖啡也在待审 | 3-panel comic / 3 格漫画 |
 | Contextual replies | Decisions stay with their task / 决策关联具体任务 | Idea / unassigned | Lucky says “yes”; Mochi asks “Which idea?” / Lucky 答应了，但答应的是哪件事 | 4-panel comic / 4 格漫画 |
 | Memory | Carry preferences and decisions forward / 延续偏好与决策 | Idea / unassigned | The tool remembers less sugar; Lucky forgets / 工具记住少糖，Lucky 忘记 | 2-panel comic / 2 格漫画 |

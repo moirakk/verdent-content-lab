@@ -44,6 +44,10 @@ For an exact template-based continuation, use a separate working copy with the a
 
 ## Review & Save · 检查与保存
 
+For voiced episodes, install `scripts/requirements-audio.txt` in a Python environment and make ffmpeg/ffprobe available. Run `python scripts/build-episode-audio.py motion/003-chief-nap-officer/episode.json --version v002` to create a new audio version, then update the template's audio asset reference and build the HTML. Never overwrite an existing audio version. Speech generation needs network access; playback of the embedded result does not.
+
+配音集需 Python 声音依赖与 ffmpeg/ffprobe。用新版本名生成声音，再更新模板中的音轨文件名并生成 HTML；已有声音版本不覆盖。生成语音需要联网，成片声音已内嵌，播放无需联网。原始对白分轨和原创配乐也会保留。
+
 Check dialogue, phone-size readability, pause, replay, and version links in a browser. Commit source, generated HTML, archives, and indexes together. Documentation-only edits do not require rebuilding episodes.
 
 用浏览器检查对白、手机尺寸可读性、暂停重播和版本链接。提交时一起保存源码、生成 HTML、存档和索引。只改说明时无需重新生成作品。

@@ -10,6 +10,7 @@ Browser-playable HTML for recording and reuse. Motion IDs are separate from comi
 | --- | --- | --- | --- | --- |
 | 001 | Have an idea | Draft, unpublished / 待审，未发布 | v001 · 8s / 8 秒 | [Brief / 说明](001-have-an-idea/README.md) · [Play / 播放](001-have-an-idea/index.html) · [Versions / 历史](001-have-an-idea/versions/index.html) |
 | 002 | One Tiny Feature | Draft, unpublished / 待审，未发布 | v001 · 12s / 12 秒 | [Brief / 说明](002-tiny-feature/README.md) · [Play / 播放](002-tiny-feature/index.html) · [Versions / 历史](002-tiny-feature/versions/index.html) |
+| 003 | Chief Nap Officer | Pilot draft, unpublished / 待审试播，未发布 | v003 · 18s / 18 秒 | [Brief / 说明](003-chief-nap-officer/README.md) · [Play with sound / 带声音播放](003-chief-nap-officer/index.html) · [Versions / 历史](003-chief-nap-officer/versions/index.html) |
 
 ## Per-Episode Layout · 每条作品结构
 

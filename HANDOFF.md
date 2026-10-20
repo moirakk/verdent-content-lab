@@ -33,6 +33,7 @@ Read / 阅读：[Photo / 真猫照片](characters/references/README.md) → [IP 
 | EP.07 | Unconfirmed idea / 未确认选题 | Continue after EP.06 direction is clear / 待 EP.06 方向明确后推进 |
 | Motion 001 | Two unpublished draft versions / 两版未发布样片 | Use v001 as the working baseline / 以 v001 为当前基准继续完善 |
 | [Motion 002](motion/002-tiny-feature/README.md) | New 12s painted draft, selected v001 / 新增 12 秒水粉样片，当前 v001 | Review art and cup-growth timing / 验看角色和杯子变大的节奏 |
+| [Motion 003](motion/003-chief-nap-officer/README.md) | 18s story pilot, selected v003, audio v001 / 18 秒剧情试播，HTML v003、声音 v001 | Review story, product clarity, voices and score / 验看剧情、产品表达与声音 |
 
 [CONTENT_MAP.md](CONTENT_MAP.md) is the publication-status source of truth / 发布状态统一维护在内容进度表中。
 
@@ -50,6 +51,10 @@ Both versions were rebuilt from conversation context. The old `/mnt/data/verdent
 Motion 002 is a separate original episode with its own local template and [version history](motion/002-tiny-feature/versions/index.html). Its painterly appearance is an experiment based on the newest reference, not a replacement of Motion 001.
 
 动态 002 是独立新作，使用本集模板和历史目录；新水粉画风是依据最新参考进行的本集试验，不替换动态 001。
+
+The creator liked Motion 002's painted style. Motion 003 continues that direction with an additional sleeping Lucky pose, original official logo, two synthetic English voices, and original music. [Editorial strategy](brand/CONTENT_STRATEGY.md) proposes a Tiny Company series; its wider premise and content mix remain proposals for creator review.
+
+创作者认可了动态 002 的画风。003 延续该方向，增加 Lucky 睡姿、官方原 Logo、双角色英文合成配音和原创配乐。长期“小公司”系列及内容配比仍为待确认提案。
 
 ## 4. How to Continue · 接下来怎么做
 

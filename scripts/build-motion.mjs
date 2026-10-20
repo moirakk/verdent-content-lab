@@ -22,11 +22,11 @@ if (!template.startsWith(path.join(root, "motion") + path.sep)) throw new Error(
 const [html, css, javascript] = await Promise.all(["index.html", "style.css", "motion.js"].map(file => readFile(path.join(template, file), "utf8")));
 const frozenSource = { "index.html": html, "style.css": css, "motion.js": javascript };
 let hydratedHtml = html;
-for (const match of html.matchAll(/asset:([a-zA-Z0-9._-]+\.(png|webp|jpe?g))/g)) {
+for (const match of html.matchAll(/asset:([a-zA-Z0-9._-]+\.(png|webp|jpe?g|m4a|mp3|wav|ogg))/g)) {
   const asset = match[1];
   const bytes = await readFile(path.join(template, "assets", asset));
-  const mime = match[2] === "jpg" || match[2] === "jpeg" ? "jpeg" : match[2];
-  hydratedHtml = hydratedHtml.replaceAll(`asset:${asset}`, `data:image/${mime};base64,${bytes.toString("base64")}`);
+  const mimeTypes = { png:"image/png", webp:"image/webp", jpg:"image/jpeg", jpeg:"image/jpeg", m4a:"audio/mp4", mp3:"audio/mpeg", wav:"audio/wav", ogg:"audio/ogg" };
+  hydratedHtml = hydratedHtml.replaceAll(`asset:${asset}`, `data:${mimeTypes[match[2]]};base64,${bytes.toString("base64")}`);
   frozenSource[`assets/${asset}`] = bytes;
 }
 const safeJson = JSON.stringify(episode).replace(/</g, "\\u003c");

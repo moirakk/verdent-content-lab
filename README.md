@@ -19,6 +19,7 @@ A private home for reusable characters, comics, HTML motion, scripts, and social
 | Purpose / 目的 | Entry / 入口 |
 | --- | --- |
 | Understand the IP, style, and product facts / 看人设、画风、功能 | [Brand & Rules / 设定资料](brand/README.md) |
+| Plan the official social series / 规划官媒长期栏目 | [Editorial Strategy / 内容策略](brand/CONTENT_STRATEGY.md) |
 | Find the original cat photo / 找真猫参考图 | [Character References / 角色参考](characters/references/README.md) |
 | Watch, edit, or reuse motion / 看动态片、改片、挑旧版 | [Motion / 动态内容](motion/README.md) |
 | Continue the comic series / 继续漫画 | [Comics / 漫画内容](comics/README.md) |
@@ -58,6 +59,7 @@ verdent-content-lab/
 - Comics / 漫画：EP.05 **It Works on My Machine.** is published / 已发布 → **Mid-Autumn Special** (publication unverified / 发布状态待核实) → **EP.06** (next regular episode / 下一篇正篇) → EP.07.
 - Motion 001 / 动态 001：**v001, 8 seconds / 8 秒** is selected; **v002, 12 seconds / 12 秒** is an alternative. Both are unpublished drafts / 两版均为未发布的待审样片。
 - Motion 002 / 动态 002：[One Tiny Feature](motion/002-tiny-feature/README.md), **v001, 12 seconds / 12 秒**. New painted character art and a growing coffee cup; draft for review / 新水粉角色与变大的咖啡杯，待审效果样片。
+- Motion 003 / 动态 003：[Chief Nap Officer](motion/003-chief-nap-officer/README.md), **v003, 18 seconds / 18 秒**. A story with Manager parallel work, English voices, original music, and the supplied official logo / 并行团队剧情、英文配音、原创配乐与官方 Logo 的待审试播。
 - Missing archive / 待归档：EP.05 artwork and publishing link / EP.05 原稿与发布链接。EP.06 and EP.07 contain proposals, not finished artwork / EP.06、EP.07 目前只有选题说明。
 - Pages / 线上预览：Not enabled; GitHub rejected private-repository Pages under the current plan / 当前套餐不支持该私有仓库的 Pages，尚无线上预览。
 

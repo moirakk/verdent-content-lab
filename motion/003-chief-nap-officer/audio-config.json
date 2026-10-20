@@ -1,0 +1,4 @@
+{
+  "Mochi": { "voice": "en-US-JennyNeural", "rate": "-3%", "pitch": "-4Hz", "direction": "Calm and dry; let the question do the joke. / 冷静平稳，让追问本身形成笑点。" },
+  "Lucky": { "voice": "en-US-EricNeural", "rate": "+8%", "pitch": "+14Hz", "direction": "Bright, eager, slightly playful; not a shouting announcer. / 轻快兴奋，带一点俏皮，不用播音腔。" }
+}

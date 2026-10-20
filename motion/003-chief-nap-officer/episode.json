@@ -1,0 +1,16 @@
+{
+  "id": "003-chief-nap-officer",
+  "title": "Chief Nap Officer",
+  "kicker": "MOCHI & LUCKY · THE TINY COMPANY 003",
+  "footer": "the team works. the founder naps.",
+  "footerAt": 15100,
+  "template": "motion/003-chief-nap-officer/template",
+  "duration": 18000,
+  "beats": [
+    { "at": 0, "speaker": "Lucky", "text": "I started a company.", "shot": "hook", "voiceAt": 250 },
+    { "at": 2600, "speaker": "Mochi", "text": "You have no employees.", "shot": "doubt", "voiceAt": 2800 },
+    { "at": 5600, "speaker": "Lucky", "text": "About that.", "shot": "team", "voiceAt": 5800 },
+    { "at": 9600, "speaker": "Mochi", "text": "Then what do you do?", "shot": "question", "voiceAt": 9800 },
+    { "at": 12300, "speaker": "Lucky", "text": "Chief Nap Officer.", "shot": "nap", "voiceAt": 12500 }
+  ]
+}

@@ -6,6 +6,8 @@ Open [index.html](index.html) in a browser after downloading the repository. Thi
 
 [Previous preview home / 旧版预览首页](index-v001.html) is retained as an independent HTML snapshot / 原预览首页也作为独立 HTML 保留。
 
+[Preview home with Motion 002 / 含动态 002 的旧首页](index-v002.html) is also retained / 该版首页同样保留。Motion 003 has English audio; open its player and click Watch with sound / 003 请进入播放器点击声音按钮。
+
 Edit episode sources in `motion/`, then run the build tool to refresh generated copies. Keep every historical HTML intact. Do not place the real-cat photo, private character notes, or internal captions here. The audience-facing preview and creative content remain English; this internal README is bilingual.
 
 作品应在 motion 中修改源码，再通过工具更新生成副本。历史 HTML 全部保留；真猫照片、内部设定与文案不放进此目录。面向观众的预览和成品保持英文，本内部说明双语。
