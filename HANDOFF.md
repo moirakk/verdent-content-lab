@@ -33,7 +33,7 @@ Read / 阅读：[Photo / 真猫照片](characters/references/README.md) → [IP 
 | EP.07 | Unconfirmed idea / 未确认选题 | Continue after EP.06 direction is clear / 待 EP.06 方向明确后推进 |
 | Motion 001 | Two unpublished draft versions / 两版未发布样片 | Use v001 as the working baseline / 以 v001 为当前基准继续完善 |
 | [Motion 002](motion/002-tiny-feature/README.md) | New 12s painted draft, selected v001 / 新增 12 秒水粉样片，当前 v001 | Review art and cup-growth timing / 验看角色和杯子变大的节奏 |
-| [Motion 003](motion/003-chief-nap-officer/README.md) | 18s story pilot, selected v003, audio v001 / 18 秒剧情试播，HTML v003、声音 v001 | Review story, product clarity, voices and score / 验看剧情、产品表达与声音 |
+| [Motion 003](motion/003-chief-nap-officer/README.md) | 18s story pilot, selected v004, audio v001 / 18 秒剧情试播，HTML v004、声音 v001 | Review new poses, acting and cameras / 验看新姿势、表演与镜头 |
 
 [CONTENT_MAP.md](CONTENT_MAP.md) is the publication-status source of truth / 发布状态统一维护在内容进度表中。
 
@@ -58,10 +58,12 @@ The creator liked Motion 002's painted style. Motion 003 continues that directio
 
 ## 4. How to Continue · 接下来怎么做
 
+Motion 003 v004 adds three original poses and stronger timeline-driven acting. Shared originals and generation prompts are in [characters/poses/](characters/poses/README.md); frozen v001–v003 are unchanged. Edit this episode's own `template/`, not the shared baseline / 003 v004 新增三姿势及时间轴表演；共享原图与提示词在姿势库，旧版本不动。本集改自己的模板，不改共用基准。
+
 | Task / 工作 | Edit / 修改位置 | Finish / 完成后 |
 | --- | --- | --- |
 | Dialogue or timing / 对白与节奏 | The episode's `episode.json` / 对应作品配置 | Build, review, save all outputs / 生成、检查、保存全部输出 |
-| Character art or motion / 角色画面与动作 | `motion/_template/` | Rebuild only intended episodes / 只重新生成本次要更新的作品 |
+| Character art or motion / 角色画面与动作 | The episode's `template/`, or `motion/_template/` for shared-baseline episodes / 本集模板；使用共用基准的作品才改共用模板 | Rebuild only intended episodes / 只重新生成本次要更新的作品 |
 | Reuse a past version / 复用旧版 | Copy archived HTML into a new working folder / 把旧版复制到新工作目录 | Keep the original archive unchanged / 原存档不动 |
 | Continue the comic / 继续漫画 | `comics/ep06/` | Write the story, then storyboard and artwork / 先故事，再分镜和画稿 |
 | Publish content / 准备发布 | `captions/` | English copy; update the content map after publishing / 英文文案，实际发布后更新总表 |

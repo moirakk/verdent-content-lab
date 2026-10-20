@@ -15,9 +15,13 @@
     <div class="scene" aria-hidden="true">
       <svg class="ground" viewBox="0 0 800 260"><path d="M55 192 Q234 171 383 187 Q599 174 750 198 L737 224 Q428 209 61 231Z"/><path class="ground-line" d="M59 242 Q393 231 742 242"/></svg>
       <div class="cast" id="cast">
-        <div class="cat mochi"><img id="cat-source" src="asset:cats-gouache-v001.png" alt="" draggable="false"></div>
-        <div class="cat lucky"><img id="lucky-image" alt="" draggable="false"></div>
-        <div class="sleeping-lucky"><img src="asset:lucky-sleeping-v001.png" alt="" draggable="false"></div>
+        <svg class="actor-stage" viewBox="0 0 800 625" preserveAspectRatio="xMidYMax meet">
+          <defs><clipPath id="mochi-half"><rect width="400" height="625"/></clipPath></defs>
+          <g class="mochi-actor"><g id="mochi-neutral" clip-path="url(#mochi-half)"><image href="asset:cats-gouache-v001.png" x="0" y="75" width="800" height="533.33"/></g><g id="mochi-skeptic" opacity="0"><image href="asset:mochi-side-eye-v001.png" x="-136.12" y="170.04" width="674.42" height="449.62"/></g></g>
+          <g id="lucky-proud"><image href="asset:lucky-proud-v001.png" x="263.22" y="159.17" width="688.35" height="458.9"/></g>
+          <g id="lucky-yawn" opacity="0"><image href="asset:lucky-yawn-v001.png" x="380.86" y="326.57" width="438.86" height="292.57"/></g>
+          <g id="lucky-sleep" opacity="0"><image href="asset:lucky-sleeping-v001.png" x="354.59" y="316.38" width="477.76" height="318.51"/></g>
+        </svg>
       </div>
       <span class="spark spark-one">✧</span><span class="spark spark-two">✧</span>
       <span class="nap-letter nap-one">z</span><span class="nap-letter nap-two">z</span><span class="nap-letter nap-three">z</span>
@@ -28,9 +32,9 @@
       <p class="manager-kicker">THE TEAM</p><h2>Three workers. <br>One very small company.</h2>
       <div class="brief"><span>THE BRIEF</span><p>Build our cat café site.</p></div>
       <div class="workers">
-        <div class="worker"><span class="worker-id">01</span><div><p>Homepage</p><span class="worker-track"><span id="work-one"></span></span></div><span class="working">Working</span></div>
-        <div class="worker"><span class="worker-id">02</span><div><p>Menu</p><span class="worker-track"><span id="work-two"></span></span></div><span class="working">Working</span></div>
-        <div class="worker"><span class="worker-id">03</span><div><p>Booking</p><span class="worker-track"><span id="work-three"></span></span></div><span class="working">Working</span></div>
+        <div class="worker" id="worker-one"><span class="worker-id">01</span><div><p>Homepage</p><span class="worker-track"><span id="work-one"></span></span></div><span class="working">Working</span></div>
+        <div class="worker" id="worker-two"><span class="worker-id">02</span><div><p>Menu</p><span class="worker-track"><span id="work-two"></span></span></div><span class="working">Working</span></div>
+        <div class="worker" id="worker-three"><span class="worker-id">03</span><div><p>Booking</p><span class="worker-track"><span id="work-three"></span></span></div><span class="working">Working</span></div>
       </div>
       <p class="manager-bottom"><span class="tiny-dot" aria-hidden="true"></span> Working in parallel.</p>
     </section>

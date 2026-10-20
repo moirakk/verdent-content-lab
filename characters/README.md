@@ -1,5 +1,7 @@
 # Characters · 角色资料
 
+[Reusable gouache poses / 可复用水粉姿势库](poses/README.md)：Lucky's raised paw and yawn, Mochi's skeptical side-eye / Lucky 举爪、打哈欠，Mochi 怀疑侧目。
+
 | Character / 角色 | Identity & personality / 身份与性格 | Profile / 档案 |
 | --- | --- | --- |
 | Mochi | Yellow older sister; calm, rational, dry humor / 黄猫姐姐，冷静、理性、冷面幽默 | [Mochi](mochi.md) |

@@ -21,7 +21,7 @@ This is the publication-status source of truth. Documentation is bilingual; all 
 | --- | --- | --- | --- | --- |
 | 001 | Have an idea | Draft, unpublished / 待审样片，未发布 | 4:5, 8s, silent, 2 lines / 8 秒无声、2 句对白 | [HTML](motion/001-have-an-idea/index.html) · [Dialogue / 对白](motion/001-have-an-idea/episode.json); rebuilt from context / 根据对话重建 |
 | 002 | One Tiny Feature | Draft, unpublished / 待审样片，未发布 | 4:5, 12s, silent, 4 lines / 12 秒无声、4 句对白 | [HTML](motion/002-tiny-feature/index.html) · [Brief / 说明](motion/002-tiny-feature/README.md); original painted art, growing coffee / 原创水粉角色与变大的咖啡杯 |
-| 003 | Chief Nap Officer | Pilot draft, unpublished / 待审试播，未发布 | 18s, voiced + music, 9:16 / 4:5 / 18 秒配音配乐、双比例 | [HTML](motion/003-chief-nap-officer/index.html) · [Brief / 说明](motion/003-chief-nap-officer/README.md); Manager parallel team / Manager 并行团队；当前 v003 |
+| 003 | Chief Nap Officer | Pilot draft, unpublished / 待审试播，未发布 | 18s, voiced + music, 9:16 / 4:5 / 18 秒配音配乐、双比例 | [HTML](motion/003-chief-nap-officer/index.html) · [Brief / 说明](motion/003-chief-nap-officer/README.md); Manager parallel team / Manager 并行团队；当前 v004 |
 | — | Reusable template / 共用模板 | Ready for reuse / 可复用 | Original SVG, paper, subtle motion / 原创 SVG、纸纹、轻动效 | [Template / 模板](motion/_template/README.md) |
 
 Motion 001 uses v001 (8s); v002 is a reconstructed 12s alternative, archived later. Both remain unpublished. Version numbers follow archive order, not selection priority.
@@ -32,9 +32,9 @@ Motion 002 explores the creator's new gouache reference; its selected version is
 
 动态 002 当前选用 v001，探索新增水粉参考的效果。已使用“小功能／大咖啡”的候选笑点，之后制作漫画 EP.06 时先查看本集，避免原样重复；EP.06 仍未定稿。
 
-Motion 003 is the proposed Tiny Company series pilot: founder claim → parallel workers → founder nap. Selected HTML: v003, with a more compact 4:5 layout and clearer product text; earlier versions are retained. Audio version v001 is shared by all three HTML versions. The original official logo is now archived. See [editorial strategy](brand/CONTENT_STRATEGY.md) for the proposed reusable series, not a confirmed publishing schedule.
+Motion 003 is the proposed Tiny Company series pilot: founder claim → parallel workers → founder nap. Selected HTML: v004, adding three original poses, stronger acting and closer cameras to v003's compact 4:5 layout. Earlier versions are retained. Audio v001 is shared by all four HTML versions. The official logo is archived unchanged. See [editorial strategy](brand/CONTENT_STRATEGY.md) for proposals, not a confirmed schedule.
 
-动态 003 为“小公司”方向试播，当前 HTML 为 v003（收紧 4:5 布局、加大产品要点文字），早期版本也保留；声音 v001 为三版共用。官方 Logo 原文件已归档。长期栏目见内容策略，目前是方向提案，不是已确认的发布排期。
+动态 003 为“小公司”方向试播，当前 HTML 为 v004，在 v003 的紧凑 4:5 布局上新增三张原创姿势、角色表演和近景镜头；四版 HTML 全保留，共用声音 v001。官方 Logo 原文件已归档。长期栏目是方向提案，不是已确认排期。
 
 ## Status Rules · 状态约定
 

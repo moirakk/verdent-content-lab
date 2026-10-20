@@ -6,6 +6,8 @@ Draft pilot for the proposed Tiny Company series. 18 seconds, English dialogue, 
 
 ## Story · 剧情
 
+Selected HTML / 当前选用：**v004**. Three additional original poses, a proud little entrance, speaking nods, skeptical reaction, a yawn/stretch before sleep, closer character shots, and staggered worker arrivals. The 18-second dialogue and audio v001 stay unchanged. v001–v003 remain available / 新增三张原创姿势，加入得意小跳、说话点头、怀疑反应、伸展打哈欠再睡着、角色近景和团队错峰入场。18 秒对白与声音 v001 不变，旧版全部保留。
+
 | Time / 时间 | Beat / 剧情 | Product job / 产品作用 |
 | --- | --- | --- |
 | 0–2.6s | Lucky: “I started a company.” | Immediate character claim / 首帧抛出事件 |
@@ -28,9 +30,9 @@ Click **Watch with sound** to restart with the English voices and music. Browser
 
 ## Edit & Preserve · 修改与留档
 
-`episode.json` defines dialogue and timings; `template/` holds this episode's scene and embedded assets. The artwork reuses Motion 002's approved visual direction with an additional original sleeping Lucky pose. The official logo is the creator-supplied PNG, unmodified.
+`episode.json` defines dialogue and timings; `template/` holds this episode's scene and embedded assets. The artwork follows Motion 002's liked visual direction, with original raised-paw, side-eye, yawn and sleeping poses. The official logo is the creator-supplied PNG, unmodified.
 
-对白与节奏在 episode.json，画面和素材在本集 template。沿用动态 002 获认可的视觉方向，增加原创 Lucky 睡姿；Logo 使用创作者提供的原始 PNG。
+对白与节奏在 episode.json，画面和素材在本集 template。沿用动态 002 获认可的视觉方向，增加原创举爪、侧目、打哈欠及睡姿；Logo 使用创作者提供的原始 PNG。
 
 ```sh
 node scripts/build-motion.mjs motion/003-chief-nap-officer/episode.json

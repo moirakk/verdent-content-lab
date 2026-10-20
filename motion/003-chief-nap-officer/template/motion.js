@@ -24,8 +24,8 @@
   let requestId = 0;
   const smooth = value => { const bounded = Math.min(1, Math.max(0, value)); return bounded * bounded * (3 - 2 * bounded); };
   const format = value => `0:${String(Math.floor(value / 1000)).padStart(2, "0")}`;
-  const shots = { hook:{x:-21,scale:1.19,mochi:.35}, doubt:{x:0,scale:1,mochi:1}, team:{x:0,scale:.96,mochi:1}, question:{x:0,scale:1,mochi:1}, nap:{x:0,scale:1,mochi:1} };
-  document.getElementById("lucky-image").src = document.getElementById("cat-source").src;
+  const shots = { hook:{x:-23,scale:1.26,mochi:.6}, doubt:{x:0,scale:1,mochi:1}, team:{x:0,scale:.96,mochi:1}, question:{x:9,scale:1.06,mochi:1}, nap:{x:0,scale:1,mochi:1} };
+  const actors = Object.fromEntries(["mochi-neutral","mochi-skeptic","lucky-proud","lucky-yawn","lucky-sleep"].map(id => [id,document.getElementById(id)]));
   document.title = `Mochi & Lucky · ${episode.title}`;
   document.getElementById("kicker").textContent = episode.kicker;
   document.getElementById("footer").textContent = episode.footer;
@@ -51,11 +51,28 @@
       paper.dataset.shot = beat.shot;
       activeBeat = index;
     }
-    const blend = reduced.matches ? 1 : smooth((elapsed - beat.at) / 650);
+    const blend = reduced.matches ? 1 : smooth((elapsed - beat.at) / 480);
     const before = shots[episode.beats[Math.max(0,index - 1)].shot];
     const after = shots[beat.shot];
     const panel = beat.shot === "team" ? smooth((elapsed - beat.at) / 450) : beat.shot === "question" ? 1 - smooth((elapsed - beat.at) / 450) : 0;
     const nap = smooth((elapsed - 14700) / 650);
+    const skeptical = smooth((elapsed - 2600) / 320);
+    const yawn = smooth((elapsed - 12300) / 420);
+    const acting = reduced.matches ? 0 : 1;
+    const speech = smooth((elapsed - beat.voiceAt) / 180) * (1 - smooth((elapsed - beat.voiceAt - 1450) / 300));
+    const nod = Math.sin((elapsed - beat.voiceAt) / 190) * speech * acting;
+    const hop = Math.sin(Math.PI * Math.min(1, elapsed / 700)) * 16 * acting;
+    const stretch = Math.sin(Math.PI * Math.min(1,Math.max(0,(elapsed - 12300) / 2000))) * acting;
+    const breathing = Math.sin(elapsed / 650) * .008 * acting;
+    actors["mochi-neutral"].setAttribute("opacity", String(1 - skeptical));
+    actors["mochi-skeptic"].setAttribute("opacity", String(skeptical));
+    actors["mochi-skeptic"].setAttribute("transform", `rotate(${beat.speaker === "Mochi" ? nod * 1.8 : 0} 200 610)`);
+    actors["lucky-proud"].setAttribute("opacity", String(1 - yawn));
+    actors["lucky-proud"].setAttribute("transform", `translate(0 ${-hop - (beat.speaker === "Lucky" ? nod * 5 : 0)}) rotate(${beat.speaker === "Lucky" ? nod * 1.4 : 0} 600 610)`);
+    actors["lucky-yawn"].setAttribute("opacity", String(yawn * (1 - nap)));
+    actors["lucky-yawn"].setAttribute("transform", `translate(600 610) scale(${1 + stretch * .045} ${1 - stretch * .035}) translate(-600 -610)`);
+    actors["lucky-sleep"].setAttribute("opacity", String(nap));
+    actors["lucky-sleep"].setAttribute("transform", `translate(600 610) scale(1 ${1 + breathing}) translate(-600 -610)`);
     const style = paper.style;
     style.setProperty("--cast-x", `${before.x + (after.x - before.x) * blend}%`);
     style.setProperty("--cast-scale", String(before.scale + (after.scale - before.scale) * blend));
@@ -69,6 +86,7 @@
     manager.setAttribute("aria-hidden", String(panel < .05));
     const work = smooth((elapsed - 5750) / 5000);
     ["work-one","work-two","work-three"].forEach((id,position) => { document.getElementById(id).style.width = `${18 + work * (52 - position * 5)}%`; });
+    ["worker-one","worker-two","worker-three"].forEach((id,position) => { document.getElementById(id).style.setProperty("--arrival", String(reduced.matches ? 1 : smooth((elapsed - 5850 - position * 140) / 350))); });
     seek.value = String(Math.round(elapsed));
     seek.setAttribute("aria-valuetext", `${(elapsed / 1000).toFixed(1)} seconds`);
     clock.textContent = `${format(elapsed)} / ${format(episode.duration)}`;

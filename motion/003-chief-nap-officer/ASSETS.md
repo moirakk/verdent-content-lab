@@ -2,6 +2,12 @@
 
 ## Artwork · 画面
 
+- [`template/assets/lucky-proud-v001.png`](template/assets/lucky-proud-v001.png): raised-paw announcement / 举爪宣布。
+- [`template/assets/mochi-side-eye-v001.png`](template/assets/mochi-side-eye-v001.png): crossed-paw skeptical reaction / 抱爪怀疑反应。
+- [`template/assets/lucky-yawn-v001.png`](template/assets/lucky-yawn-v001.png): stretch/yawn before the sleeping pose / 睡前伸展打哈欠。
+
+These three new transparent originals were generated separately with the built-in image tool and saved unchanged. Reusable source files live in [the pose library](../../characters/poses/README.md); exact prompts and reference roles are in [the generation record](../../characters/poses/PROMPTS.md). HTML v004 embeds all three and freezes the original bytes / 新增三张透明原创姿势，分别由内置工具生成，原图不改；共享库和最终提示词见链接。HTML v004 内嵌三张，并完整归档原素材。
+
 - [`template/assets/cats-gouache-v001.png`](template/assets/cats-gouache-v001.png): unchanged original character painting reused from Motion 002 / 沿用动态 002 的原始角色素材。
 - [`template/assets/lucky-sleeping-v001.png`](template/assets/lucky-sleeping-v001.png): new original transparent sleeping pose, generated with the built-in Image Generation tool / 内置图像生成工具制作的原创透明睡姿。
 - [`template/assets/verdent-logo-original.png`](template/assets/verdent-logo-original.png): byte-for-byte copy of the creator's official PNG / 创作者官方原图的完整副本，不重画、不拉伸。
