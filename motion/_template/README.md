@@ -1,4 +1,14 @@
-# Mochi & Lucky · Motion Template
+# Mochi & Lucky · Motion Template / 动态模板
+
+## English Guide · 英文说明
+
+Offline HTML/CSS/JS with original inline SVG cats. Default: 4:5, internal canvas 800 × 1000, 8-second loop. `index.html` holds the scene, `style.css` the layout and subtle motion, and `motion.js` the shared timeline and controls. Each episode's `episode.json` supplies English titles, dialogue, and timing.
+
+For a new episode, copy a configuration into its new directory, set an ID such as `002-monday`, and run `node scripts/build-motion.mjs motion/002-monday/episode.json` from the repository root. The tool builds standalone HTML and preview copies, preserving every different output under `versions/vNNN/`. Existing unarchived HTML is captured before replacement. Repeated identical builds do not add duplicates. Frozen template sources accompany newly generated versions; early captured HTML may not have them.
+
+Open `versions/index.html` to browse archives. Never overwrite or delete version folders; copy an old version to edit it. Version numbers follow archive order and timestamps record capture time. Default builds update only 001; rebuild other intended episodes individually after shared template changes. Maintain preview-home navigation when adding episodes.
+
+`duration` and beat `at` values are milliseconds; beats start at zero and increase. Each beat has speaker Mochi / Lucky and English text. `?capture=1` hides controls; `?t=6500` pauses at a fixed frame. Space pauses/resumes, R restarts, F requests fullscreen. Reduced-motion settings start paused and disable ambient animation. Check phone readability, safe margins, punchline timing, character colors, pause behavior, and offline playback. Documentation is bilingual; the creative content stays English only.
 
 纯 HTML / CSS / JS，内嵌原创 SVG 猫，无远程依赖。4:5，内部 800 × 1000，默认 8 秒循环。
 

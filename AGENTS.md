@@ -1,4 +1,12 @@
-# Content Lab Rules
+# Content Lab Rules · 内容工作室协作规则
+
+Repository documentation must be bilingual (English + Chinese). All produced audience-facing content must be English only: comic dialogue, titles, motion text, subtitles, finished scripts, captions, and published image descriptions. Keep direct addresses as Mochi / Lucky, never sis / bro.
+
+仓库说明、导航和交接资料必须中英双语；面向观众的成品文字全部使用英文，包括漫画对白、标题、动态片文字、字幕、成品脚本、社媒文案和发布用图片描述。内部解释可双语。英文对白直接叫 Mochi / Lucky，不使用 sis / bro。
+
+Read README.md → HANDOFF.md → CONTENT_MAP.md, then the relevant section README. Preserve stable paths, original reference photos, and every HTML archive. Never modify or delete `versions/vNNN/`. Build edited motion through the working template and episode configuration; commit sources, outputs, archives, and indexes together. Preview copies belong in docs; private reference photos do not. Mark content as published only after an actual release. Keep the repository private.
+
+接手顺序：README.md → HANDOFF.md → CONTENT_MAP.md → 对应分区 README。已有路径和存档保持稳定，发布状态以实际发布为准。
 
 每一版 HTML 都要保留。修改 motion 时先保留已有文件，再通过 `node scripts/build-motion.mjs <episode.json path>` 生成新版本；构建会保存现有 HTML、归档新版本并更新版本索引。`motion/<id>/versions/vNNN/` 与 `docs/motion/<id>/versions/vNNN/` 是永久存档，不得覆盖、删除或改写。历史版本可以复制成新片继续编辑。
 

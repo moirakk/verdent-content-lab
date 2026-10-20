@@ -1,4 +1,14 @@
-# Mochi & Lucky · IP Bible
+# Mochi & Lucky · IP Bible / 人物与内容设定
+
+## English Guide · 英文说明
+
+Mochi is the yellow older sister: calm, rational, and dryly funny. Lucky is the black younger brother: enthusiastic, lively, and easily carried away. They live and build things together. The humor comes from their different rhythms and everyday work, not a repeated product rescue.
+
+Give both cats agency: Lucky can be right, and Mochi can procrastinate or get excited. Mochi teases but cares; Lucky is curious, not incompetent. Keep dialogue short, natural, and readable on a phone. Address each other as Mochi / Lucky, never sis / bro. All finished titles, dialogue, scripts, on-screen text, and social copy are English only; repository explanations are bilingual.
+
+Write the character desire and punchline before deciding whether Verdent belongs in the scene. It can appear as a quiet tool or be absent. Avoid forced feature lists, product praise, and sales calls. Check the feature map before making product claims.
+
+Preserve identities, original designs, and compositions. Borrow reference texture and line quality only. New accessories are props until approved as permanent traits. EP.05 is published, followed by the Mid-Autumn Special, then regular EP.06. Motion numbering is separate. Verify actual release before marking Published, and mark missing historical art honestly.
 
 ## 核心
 

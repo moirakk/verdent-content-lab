@@ -1,4 +1,10 @@
-# Mochi & Lucky · 真猫外貌参考
+# Mochi & Lucky · Photo Reference / 真猫外貌参考
+
+Creator-provided on 2026-10-20 as `mochi to lucky.jpeg`. The original file is preserved without cropping or color edits and stays outside public preview copies.
+
+Mochi is the orange cat at the back left: fluffy golden-orange fur, pale tabby marks, cream muzzle/chin/chest, pink nose, round eyes, and triangular ears. Lucky is the black cat in the foreground right: dark short fur, large upright ears, yellow-green round eyes, dark nose, and a long slim tail. Preserve these distinguishing features while simplifying the illustration.
+
+Perspective and lighting do not establish true size or exact color. Personality is creator-defined, not inferred from the photograph. Use this photo for appearance, and the visual-style guide for paper, linework, and spacing. Keep existing HTML archives unchanged.
 
 ![Mochi 与 Lucky 真猫参考](mochi-and-lucky-original.jpeg)
 

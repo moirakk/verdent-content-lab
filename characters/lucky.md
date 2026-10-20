@@ -2,6 +2,10 @@
 
 黑猫弟弟。热情、活泼、容易上头。它的冲动来自真诚好奇，不是无能。
 
+Black younger brother; eager, lively, easily carried away. His impulsiveness comes from curiosity, not incompetence. He shares ideas before considering details, loves new projects, and underestimates scope; he can also support Mochi and be right. Keep his English natural rather than filling every line with exclamation marks.
+
+Appearance follows the black cat in the foreground right of the photo: dark short fur, large upright triangular ears, bright yellow-green round eyes, small dark nose, long slim tail. Early SVGs simplify his eyes to cream; preserve those archives and refine later artwork. Poses include excited, typing, confused, sleeping, peeking, and running. His ears and tail can move more than Mochi's, without constant bouncing.
+
 - 真猫参考：[照片与外貌说明](references/README.md)，照片右前方黑猫。
 - 外形锚点：近黑色短毛、大而直立的三角耳、黄绿色圆眼、小深色鼻子与细长尾巴。插画使用温黑色和原创简化轮廓；旧 SVG 的奶油色眼睛属于早期简化，后续新画稿逐步保留黄绿虹膜特征，历史版不重画。
 - 声线：先兴奋分享，再意识到细节；英文直接叫 Mochi。

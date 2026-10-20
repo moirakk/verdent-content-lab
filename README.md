@@ -1,59 +1,75 @@
-# Verdent Content Lab
+# Verdent Content Lab · Mochi & Lucky 内容工作室
 
-Mochi & Lucky 的长期内容工作室：复用原创角色、漫画、HTML motion、脚本与社媒内容。维护者：[@moirakk](https://github.com/moirakk)。
+A private home for reusable characters, comics, HTML motion, scripts, and social content. Maintainer: [@moirakk](https://github.com/moirakk).
 
-> Character first. Joke second. Product third.
+用于长期保存和复用角色设定、漫画、动态 HTML、脚本与社媒内容的私有仓库。
 
-Mochi 是冷静、理性、有 dry humor 的黄猫姐姐；Lucky 是热情、活泼、容易上头的黑猫弟弟。英文对白直接叫 Mochi / Lucky，不使用 sis / bro。Verdent 是自然存在于它们世界里的工具；每集先让角色和笑点成立。
+> Character first. Joke second. Product third. / 先有人物，再有笑点，最后才是产品。
 
-## 从这里开始
+**Language / 语言：Repository documentation is bilingual (English + Chinese). All audience-facing content is English only. 仓库说明中英双语；漫画对白、动态片文字、标题、字幕、成品脚本和社媒文案全部使用英文。**
 
-- [内容总表与发布顺序](CONTENT_MAP.md)
-- [IP Bible](brand/IP_BIBLE.md) · [视觉规范](brand/VISUAL_STYLE.md) · [产品功能与笑点库](brand/VERDENT_FEATURE_MAP.md)
-- [Mochi](characters/mochi.md) · [Lucky](characters/lucky.md)
-- [真猫参考照片与外貌锚点](characters/references/README.md)：交接时先辨认角色，再阅读风格规范。
-- [首条动态样片：Have an idea](motion/001-have-an-idea/index.html)
-- [动态模板使用说明](motion/_template/README.md)
+## Start Here · 接手入口
 
-## 目录
+1. [Handoff / 交接说明](HANDOFF.md) — Current state, next steps, and rules / 当前状态、下一步与协作规则。
+2. [Characters / 角色与照片](characters/README.md) — Meet Mochi and Lucky / 确认角色身份与真猫外貌。
+3. [Content Map / 内容进度](CONTENT_MAP.md) — Published, planned, and selected versions / 已发布、待制作与当前选用版本。
+
+## Find What You Need · 按用途查找
+
+| Purpose / 目的 | Entry / 入口 |
+| --- | --- |
+| Understand the IP, style, and product facts / 看人设、画风、功能 | [Brand & Rules / 设定资料](brand/README.md) |
+| Find the original cat photo / 找真猫参考图 | [Character References / 角色参考](characters/references/README.md) |
+| Watch, edit, or reuse motion / 看动态片、改片、挑旧版 | [Motion / 动态内容](motion/README.md) |
+| Continue the comic series / 继续漫画 | [Comics / 漫画内容](comics/README.md) |
+| Prepare publishing copy / 准备发布文案 | [Captions / 社媒文案](captions/README.md) |
+| Generate and archive HTML / 生成与保存 HTML | [Tools / 制作工具](scripts/README.md) |
+| Preview locally / 本地浏览预览 | [Preview Home / 预览首页](docs/index.html) |
+
+## Structure · 仓库结构
+
+Stable paths keep existing works and version links usable. Each section has a bilingual README.
+
+目录路径保持固定，每个分区都有双语说明，方便接手并继续使用已有作品和版本链接。
 
 ```text
-brand/                      IP、视觉与产品事实
-characters/                 角色声线、表情与姿势
-motion/_template/           复用 HTML / CSS / JS 源码
-motion/001-have-an-idea/     首条独立 HTML 样片与对白配置
-motion/experiments/         未定稿的动效试验
-comics/ep06/                下一篇正篇
-comics/ep07/                后续正篇占位
-comics/ideas/               节日篇与选题池
-captions/                   英文 caption、发布文案
-scripts/                    独立 HTML 构建工具
-docs/                       GitHub Pages 预览专用目录
-CONTENT_MAP.md              唯一发布状态总表
+verdent-content-lab/
+├── README.md          Start here / 首页导航
+├── HANDOFF.md         Handoff / 交接与下一步
+├── CONTENT_MAP.md     Progress / 内容进度表
+├── AGENTS.md          Working rules / 协作助手规则
+├── brand/             IP, style, features / 设定、画风、产品功能
+├── characters/        Character profiles + photo / 角色档案与照片
+├── motion/            Animated HTML / 动态内容
+│   ├── _template/     Shared working template / 共用工作模板
+│   ├── 001-have-an-idea/
+│   │   ├── index.html Selected version / 当前选用版
+│   │   ├── episode.json Dialogue + timing / 对白与节奏
+│   │   └── versions/  Every saved version / 全部历史版本
+│   └── experiments/   Motion studies / 动效试验
+├── comics/            EP.06, EP.07, ideas / 漫画正篇与选题
+├── captions/          English publishing copy / 英文发布文案
+├── docs/              Preview copies / 浏览器预览副本
+└── scripts/           Build and archive tools / 生成与归档工具
 ```
 
-## 本地预览与长期复用
+## Current State · 当前状态
 
-直接在浏览器打开 `motion/001-have-an-idea/index.html`，无需安装依赖、联网或构建。画面为 4:5，推荐录制 1080 × 1350。`?capture=1` 隐藏录制控制按钮；`?t=6500` 固定到第 6.5 秒；空格暂停，R 重播，F 切换全屏。
+- Comics / 漫画：EP.05 **It Works on My Machine.** is published / 已发布 → **Mid-Autumn Special** (publication unverified / 发布状态待核实) → **EP.06** (next regular episode / 下一篇正篇) → EP.07.
+- Motion 001 / 动态 001：**v001, 8 seconds / 8 秒** is selected; **v002, 12 seconds / 12 秒** is an alternative. Both are unpublished drafts / 两版均为未发布的待审样片。
+- Missing archive / 待归档：EP.05 artwork and publishing link / EP.05 原稿与发布链接。EP.06 and EP.07 contain proposals, not finished artwork / EP.06、EP.07 目前只有选题说明。
+- Pages / 线上预览：Not enabled; GitHub rejected private-repository Pages under the current plan / 当前套餐不支持该私有仓库的 Pages，尚无线上预览。
 
-更新模板或对白后，用 Node.js 18+ 运行 `node scripts/build-motion.mjs`，同时重建单文件样片与 `docs/` 预览。新片复制首条的 `episode.json`，改 id、标题和对白，再运行 `node scripts/build-motion.mjs motion/002-your-title/episode.json`。不要手工修改生成的 HTML。构建后检查预览，再提交源文件与生成文件。
+## Versions & Preview · 版本与预览
 
-**每一版 HTML 都保留独立文件**，不只依赖 Git 历史。构建时自动保存到 `motion/<id>/versions/v001/`、`v002/` 等目录；当前文件只是最新选用版，原存档永不覆盖。生成的新版本同时保存对白与模板源码，方便恢复或复制继续修改。相同 HTML 的重复构建不另存一份。
+**Every HTML version stays as a separate file. / 每版 HTML 都保留独立文件。** See [Motion 001 History / 动态 001 版本列表](motion/001-have-an-idea/versions/index.html). The highest version number is not necessarily the selected version / 最大编号不代表当前选用版。
 
-从 [001 历史版本列表](motion/001-have-an-idea/versions/index.html) 直接打开任意旧版；`versions/index.json` 记录来源、保存时间与校验值。Git commit 继续保留全仓库历史。每条片有独立编号；motion 001 与漫画 EP.06 是不同系列。添加内容时同步更新 `CONTENT_MAP.md`，只有实际发布后才能写 Published。
+Download the repository and open an HTML file in a browser; GitHub's file view displays source code. No installation is needed to watch. Editing and generation steps are in [Tools / 制作工具](scripts/README.md).
 
-## 当前发布顺序
+下载仓库后用浏览器打开 HTML 即可观看，无需安装；GitHub 文件页展示的是源码。修改与生成步骤见工具说明。
 
-EP.05 **It Works on My Machine.** 已发布 → **Mid-Autumn Special**（接续的特别篇，发布状态待核实）→ **EP.06**（下一篇正篇）→ EP.07。不会把 Mid-Autumn Special 算成 EP.06。
+## Ownership · 原创与使用范围
 
-首条 motion 是基于对话重建的原创样片：旧文件 `/mnt/data/verdent_motion_001.html` 在本次环境中不可访问。保留历史对话中的 8 秒节奏、原对白 “Mochi, I have an idea.” / “How tiny?” 与落点 “the project was not tiny.”，不是旧版原件，也尚未标记为已发布。
+Original characters and content; all rights reserved. No open-source license is granted. Style references guide texture, linework, and spacing; character designs and compositions stay original. The original cat photo stays in private reference materials, outside `docs/`.
 
-## GitHub Pages
-
-预览配置采用 `main` 分支的 `/docs`。该目录只包含可展示的静态预览，内部设定、草稿和 caption 不复制进去。私有仓库的 Pages 需要账号套餐支持；仓库保持私有，Pages 网站通常公开可访问。以仓库 Settings → Pages 的实际状态为准。
-
-本次实际启用请求被 GitHub 拒绝（HTTP 422：Your current plan does not support GitHub Pages for this repository）。**Pages 未启用，目前没有线上预览链接**；仓库保持私有，未修改套餐。可直接下载或本地打开样片。
-
-未来套餐支持后，在 Settings → Pages 选择 Deploy from a branch → main → /docs。预期入口 `https://moirakk.github.io/verdent-content-lab/`，首片 `https://moirakk.github.io/verdent-content-lab/motion/001-have-an-idea/`；这些地址目前未部署。
-
-原创角色与内容，保留全部权利；本仓库不附带开源授权。参考插画仅用于研究材质与线条语言，不复制参考账号角色、构图或画面。
+原创角色与内容保留全部权利，本仓库不附带开源授权。风格参考只借鉴纸张、线条和留白，不复制角色与构图。真猫照片保存在私有参考资料中，不放入预览目录。

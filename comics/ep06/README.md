@@ -1,4 +1,8 @@
-# EP.06 · Brief
+# EP.06 · Brief / 正篇创作说明
+
+Next regular comic, after EP.05 and the Mid-Autumn Special. Title and topic are unconfirmed. Proposal: Lucky's “just one tiny feature” grows while Mochi quietly switches to a larger coffee cup. Refine the visual joke before deciding whether a product needs to appear.
+
+This is an internal proposal, not an approved script or finished artwork. Add the English script, storyboard, source art, and exports after approval; update the content map after publishing. Do not confuse this comic ID with another project's EP06 product video.
 
 状态：Brief，标题待定。下一篇正篇；排在 EP.05《It Works on My Machine.》与 Mid-Autumn Special 之后。
 

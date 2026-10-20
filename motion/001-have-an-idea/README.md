@@ -1,4 +1,10 @@
-# Motion 001 · Have an idea
+# Motion 001 · Have an idea / 动态 001 说明
+
+Draft, unpublished. The selected version is v001, an 8-second silent 4:5 loop. Lucky says “Mochi, I have an idea.” Mochi asks “How tiny?” The footer reads “the project was not tiny.” Verdent appears only as a quiet laptop label, with no feature claim or sales call.
+
+The unavailable old HTML was rebuilt from conversation context, with original new SVG art informed by the style reference and real-cat photo. v002 is a 12-second automation-joke alternative reconstructed from the earlier draft configuration and archived later. Archive order does not determine the selected version. v001 was captured as standalone HTML; v002 includes its dialogue and template source.
+
+Open `index.html` locally to watch; use the history links below for older versions. Edit `episode.json` and build from the repository root. Preserve all archives and keep finished creative text English only.
 
 状态：Draft sample / unpublished。8 秒无声循环，4:5。
 

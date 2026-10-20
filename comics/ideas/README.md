@@ -1,4 +1,8 @@
-# Comic Ideas
+# Comic Ideas · 漫画选题池
+
+These are proposals, not approved or published stories. Regular numbering resumes at EP.06; seasonal stories use Special. All finished scripts and lettering are English only. Check past work for repetition; EP.05 artwork is still pending archival.
+
+English overview: “Just one tiny feature” contrasts Lucky's scope creep with Mochi's growing coffee cup (EP.06 candidate, 4 panels). “The last tab” lets Mochi secretly start a project after telling Lucky to sleep (EP.07 candidate, 3 panels). “The moon is loading” contrasts Lucky waiting for the moon with Mochi eating mooncake (seasonal proposal). All can work without a product appearance.
 
 这里只记录提案，不代表已确认或已发布。正篇编号从 EP.06 接续；节日篇用 Special。
 

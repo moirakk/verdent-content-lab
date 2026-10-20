@@ -1,4 +1,14 @@
-# Visual Style · Mochi & Lucky
+# Visual Style · 视觉规范 / Mochi & Lucky
+
+## English Guide · 英文说明
+
+Use warm aged ivory paper, controlled rough black linework, muted color blocks, generous empty space, and restrained but cute expressions. Character designs, poses, and compositions must be original. Avoid copying the reference account, rigid component-like cartoon shapes, plastic gradients, glossy 3D highlights, or crowded overlays.
+
+The palette below is shared across episodes. Paper grain stays static and subtle. Use rounded, intentionally asymmetric contours, about 4–6 units at 800-unit width; do not simulate drawing with constant jitter. Mochi keeps fluffy orange-gold fur, cream muzzle/chest, light tabby marks, and a pink nose. Lucky keeps dark short fur, large triangular ears, yellow-green round eyes, and a slim tail. Existing simplified SVG versions remain intact; refine future versions from the original photo.
+
+Default motion is 4:5 at 1080 × 1350, with an 800 × 1000 internal canvas and at least 5% safe margins. Dialogue sits above the characters. Motion 001 loops for 8 seconds; other durations follow the story. Use only gentle blinking, breathing, tails, coffee steam, and screen flicker. Offset character rhythms, support reduced motion and pause/replay, use offline font fallbacks, and keep all finished text English. Allow time for the punchline.
+
+For comics, determine pauses before panel count. Give each panel one action or reaction, including silent reaction panels. Show only product details relevant to the joke. Seasonal accents keep the same paper and line system.
 
 ## 方向
 
