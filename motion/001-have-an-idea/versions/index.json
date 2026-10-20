@@ -1,0 +1,18 @@
+[
+  {
+    "version": "v001",
+    "capturedAt": "2026-10-20T03:20:26.967Z",
+    "sha256": "38ba08e4843dbece69806295e978fc7ea40ead0cf8865d35459a8e10dd40c578",
+    "source": "captured-existing-html",
+    "note": "",
+    "title": "Have an idea"
+  },
+  {
+    "version": "v002",
+    "capturedAt": "2026-10-20T03:20:40.288Z",
+    "sha256": "9994505ed89278859efe0fda796b91afc1c29a6c4417b34789eb2b8f4ef499a4",
+    "source": "generated-with-template",
+    "note": "Early 12-second alternative rebuilt from the first draft configuration recorded in this chat. Saved later than the current 8-second version; archive numbering follows save order.",
+    "title": "Have an idea"
+  }
+]

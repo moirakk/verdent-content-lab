@@ -1,0 +1,30 @@
+{
+  "id": "001-have-an-idea",
+  "title": "Have an idea",
+  "kicker": "MOCHI & LUCKY · MOTION 001",
+  "footer": "one idea. zero chill.",
+  "duration": 12000,
+  "note": "Early 12-second alternative rebuilt from the first draft configuration recorded in this chat. Saved later than the current 8-second version; archive numbering follows save order.",
+  "beats": [
+    {
+      "at": 0,
+      "speaker": "Lucky",
+      "text": "Mochi, I have an idea."
+    },
+    {
+      "at": 3000,
+      "speaker": "Mochi",
+      "text": "Of course you do."
+    },
+    {
+      "at": 6000,
+      "speaker": "Lucky",
+      "text": "What if we automate this?"
+    },
+    {
+      "at": 9000,
+      "speaker": "Mochi",
+      "text": "You mean thinking?"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3eddf">
+  <title>Mochi &amp; Lucky · Motion Template</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="paper" aria-label="Mochi and Lucky animated comic">
+    <div class="grain" aria-hidden="true"></div>
+    <header>
+      <p class="kicker" id="kicker">MOCHI &amp; LUCKY · MOTION TEMPLATE</p>
+      <p class="series">small cats, big ideas.</p>
+    </header>
+    <section class="dialogue" aria-label="Current dialogue">
+      <p class="speaker" id="speaker">Lucky</p>
+      <h1 id="line">Mochi, I have an idea.</h1>
+      <svg class="thought" viewBox="0 0 90 30" aria-hidden="true"><path d="M5 8 Q35 19 73 6 M66 4 L75 5 L71 14"/></svg>
+    </section>
+    <svg class="drawing" viewBox="0 0 800 580" role="img" aria-labelledby="art-title art-desc">
+      <title id="art-title">Mochi and Lucky at their desk</title>
+      <desc id="art-desc">Calm yellow Mochi sits on the left. Eager black Lucky sits on the right. A small laptop and a cup of coffee rest on a hand-drawn desk.</desc>
+      <defs>
+        <filter id="paper-grain"><feTurbulence type="fractalNoise" baseFrequency=".68" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter>
+      </defs>
+      <g class="background-lines">
+        <path d="M83 96 Q118 92 147 96 M99 107 L131 108"/>
+        <path d="M675 95 L675 77 M667 85 L684 85"/>
+        <path d="M110 420 Q391 412 697 423"/>
+      </g>
+      <ellipse class="floor-shadow" cx="397" cy="494" rx="287" ry="13"/>
+      <g class="tail mochi-tail">
+        <path class="mochi-fill" d="M218 435 C165 470 98 456 104 410 C107 387 135 387 139 407 C139 428 169 428 190 410 Z"/>
+      </g>
+      <g class="cat mochi-body">
+        <path class="mochi-fill" d="M202 320 C174 347 168 399 176 451 Q220 469 308 449 C320 411 304 343 281 320 Z"/>
+        <path class="mochi-fill" d="M171 202 C162 182 166 153 174 136 Q195 136 225 163 Q249 158 269 167 Q294 145 305 146 Q317 175 309 200 C336 236 317 298 282 316 Q226 342 184 307 C150 281 149 233 171 202 Z"/>
+        <path class="fur" d="M211 169 L215 186 M234 164 L237 183 M258 171 L258 187"/>
+        <g class="eyes mochi-eyes">
+          <path class="eye-lid" d="M182 233 Q198 241 212 232 M257 233 Q272 241 287 231"/>
+          <path class="pupil" d="M199 238 L200 248 M271 238 L271 248"/>
+        </g>
+        <path class="nose" d="M228 254 L242 254 L235 263 Z"/>
+        <path class="fine" d="M235 263 L235 269 Q244 275 251 267"/>
+        <path class="whisker" d="M170 257 L147 253 M171 270 L149 274 M295 256 L318 251 M297 269 L319 271"/>
+        <path class="paw" d="M205 346 Q194 370 204 388 M277 347 Q290 372 278 392"/>
+        <path class="fine" d="M202 443 L201 454 M218 444 L219 457 M275 445 L274 455 M291 444 L290 454"/>
+      </g>
+      <g class="tail lucky-tail">
+        <path class="lucky-fill" d="M581 432 C646 458 707 414 685 369 C676 352 656 357 657 375 C667 402 625 418 596 406 Z"/>
+      </g>
+      <g class="cat lucky-body">
+        <path class="lucky-fill" d="M509 323 C481 350 478 404 486 449 Q541 466 607 449 C620 410 601 349 576 322 Z"/>
+        <path class="lucky-fill" d="M483 205 Q471 170 487 139 Q507 143 532 169 Q553 161 576 170 Q602 144 621 151 Q629 177 619 209 C643 246 628 296 592 317 C551 341 497 323 478 290 C462 266 464 230 483 205 Z"/>
+        <path class="lucky-ear" d="M488 168 L492 188 M613 177 L606 193"/>
+        <g class="eyes lucky-eyes">
+          <path class="eye-white" d="M493 235 C493 215 521 213 524 235 C528 259 494 262 493 235 Z"/>
+          <path class="eye-white" d="M566 234 C565 213 595 211 597 234 C600 258 568 259 566 234 Z"/>
+          <ellipse class="eye-pupil" cx="507" cy="237" rx="4" ry="8"/>
+          <ellipse class="eye-pupil" cx="579" cy="236" rx="4" ry="8"/>
+        </g>
+        <path class="nose" d="M539 259 L551 258 L545 265 Z"/>
+        <path class="lucky-mouth" d="M535 276 Q546 285 555 273"/>
+        <path class="lucky-whisker" d="M483 265 L459 261 M485 279 L464 284 M609 264 L635 259 M608 278 L632 282"/>
+        <path class="lucky-paw" d="M515 353 Q500 373 514 389 M581 350 Q596 369 581 391"/>
+        <path class="lucky-paw" d="M510 443 L510 452 M527 446 L528 456 M575 445 L574 454 M592 443 L591 453"/>
+      </g>
+      <g class="idea-marks">
+        <path d="M650 190 L665 176 M654 211 L676 208 M633 169 L640 151"/>
+      </g>
+      <g class="desk">
+        <path class="desk-top" d="M97 388 Q359 381 699 389 L700 405 Q376 400 98 408 Z"/>
+        <path class="desk-leg" d="M128 409 L124 492 M657 406 L663 494"/>
+        <g class="coffee">
+          <path class="cup" d="M296 347 Q321 342 342 347 L338 382 Q319 391 300 381 Z"/>
+          <path class="cup-handle" d="M342 353 Q363 348 359 365 Q355 376 341 371"/>
+          <path class="coffee-line" d="M301 351 Q319 355 336 349"/>
+          <g class="steam"><path d="M310 334 C300 321 320 318 311 303"/><path d="M328 332 C320 318 338 313 330 299"/></g>
+        </g>
+        <g class="laptop">
+          <path class="screen" d="M379 304 Q424 300 473 306 L480 377 L385 378 Z"/>
+          <path class="screen-sheen" d="M391 315 L460 315 L465 362 L396 363 Z"/>
+          <path class="laptop-base" d="M375 380 L489 378 L502 387 Q443 394 369 388 Z"/>
+          <circle class="screen-dot" cx="426" cy="331" r="5"/>
+          <text class="product-label" x="429" y="350" text-anchor="middle">Verdent</text>
+        </g>
+        <g class="plant">
+          <path class="plant-pot" d="M141 349 L174 348 L170 383 L146 385 Z"/>
+          <path class="plant-stem" d="M158 347 Q154 326 160 304"/>
+          <path class="leaf" d="M156 333 Q132 333 135 316 Q154 313 156 333 Z M158 320 Q177 319 179 303 Q160 300 158 320 Z"/>
+        </g>
+      </g>
+      <text class="character-label" x="233" y="538" text-anchor="middle">Mochi</text>
+      <text class="character-label" x="550" y="538" text-anchor="middle">Lucky</text>
+    </svg>
+    <footer><span class="little-line" aria-hidden="true"></span><p id="footer">the project was not tiny.</p><span class="edition">M &amp; L</span></footer>
+    <div class="sr-only" id="transcript"></div>
+  </main>
+  <nav class="controls" aria-label="Playback controls">
+    <button type="button" id="play" aria-pressed="false">Pause</button>
+    <button type="button" id="restart">Replay</button>
+    <button type="button" id="fullscreen">Full screen</button>
+  </nav>
+  <script id="episode-config" type="application/json">{"id":"template","title":"Motion Template","kicker":"MOCHI & LUCKY · MOTION TEMPLATE","footer":"the project was not tiny.","duration":8000,"beats":[{"at":0,"speaker":"Lucky","text":"Mochi, I have an idea."},{"at":3500,"speaker":"Mochi","text":"How tiny?"}]}</script>
+  <script src="motion.js"></script>
+</body>
+</html>

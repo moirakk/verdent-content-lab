@@ -1,0 +1,19 @@
+{
+  "id": "001-have-an-idea",
+  "title": "Have an idea",
+  "kicker": "MOCHI & LUCKY · MOTION 001",
+  "footer": "the project was not tiny.",
+  "duration": 8000,
+  "beats": [
+    {
+      "at": 0,
+      "speaker": "Lucky",
+      "text": "Mochi, I have an idea."
+    },
+    {
+      "at": 3500,
+      "speaker": "Mochi",
+      "text": "How tiny?"
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3eddf">
+  <title>Mochi &amp; Lucky · Have an idea</title>
+  <style>
+:root {
+  color-scheme: light;
+  --paper: #f3eddf;
+  --ink: #302e2a;
+  --mochi: #d5ae6c;
+  --lucky: #363633;
+  --sage: #8c9b82;
+  --blush: #c78f7e;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #ded8cd;
+  color: var(--ink);
+  font-family: "Chalkboard SE", "Comic Sans MS", "Trebuchet MS", sans-serif;
+}
+.paper {
+  width: min(100vw, 76svh, 800px);
+  aspect-ratio: 4 / 5;
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  background: var(--paper);
+  container-type: inline-size;
+  box-shadow: 0 12px 55px #302e2a12;
+}
+.grain {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+  opacity: .055;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.7' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Cpath fill='%23000' filter='url(%23n)' opacity='.8' d='M0 0h150v150H0z'/%3E%3C/svg%3E");
+  mix-blend-mode: multiply;
+}
+header { position: absolute; top: 6.5%; left: 8%; right: 8%; }
+.kicker { font: 600 1.65cqw / 1.4 "Trebuchet MS", sans-serif; letter-spacing: .18em; margin: 0; opacity: .7; }
+.series { margin: 1.4cqw 0 0; font-size: 2.7cqw; opacity: .72; }
+.dialogue { position: absolute; top: 19%; left: 10%; width: 80%; z-index: 2; }
+.speaker { font-size: 2.1cqw; letter-spacing: .08em; margin: 0 0 1.7cqw; }
+h1 { font-size: 5.7cqw; line-height: 1.3; font-weight: 500; letter-spacing: -.035em; margin: 0; max-width: 100%; text-wrap: balance; }
+.thought { width: 10cqw; height: 4cqw; margin: 2cqw 0 0 2cqw; fill: none; stroke: var(--ink); stroke-width: 2; stroke-linecap: round; opacity: .55; }
+.drawing { position: absolute; bottom: 11%; width: 100%; height: auto; overflow: visible; }
+.drawing path { stroke: var(--ink); stroke-width: 4.5; stroke-linecap: round; stroke-linejoin: round; }
+.drawing .background-lines path { fill: none; stroke: #b9af9d; stroke-width: 2; opacity: .55; }
+.floor-shadow { fill: #d5cbb7; opacity: .28; }
+.mochi-fill { fill: var(--mochi); }
+.lucky-fill { fill: var(--lucky); }
+.drawing .fur { fill: none; stroke: #a17a46; stroke-width: 5; }
+.drawing .fine, .drawing .whisker { fill: none; stroke-width: 2.5; }
+.eye-lid, .pupil { fill: none; }
+.drawing .nose { fill: var(--blush); stroke-width: 1.4; }
+.paw { fill: none; }
+.drawing .lucky-ear { fill: none; stroke: #777568; stroke-width: 3; }
+.drawing .eye-white { fill: var(--paper); stroke: none; }
+.eye-pupil { fill: var(--ink); }
+.drawing .lucky-mouth, .drawing .lucky-whisker, .drawing .lucky-paw { fill: none; stroke: #bcb6a7; stroke-width: 2.5; }
+.idea-marks { fill: none; stroke: #ab9876; opacity: .8; }
+.drawing .idea-marks path { stroke: #ab9876; stroke-width: 3; }
+.desk-top { fill: #e1d1b6; }
+.desk-leg { fill: none; }
+.cup { fill: #e5dfd0; }
+.cup-handle, .coffee-line { fill: none; }
+.drawing .coffee-line { stroke: #a29075; stroke-width: 2; }
+.drawing .steam path { fill: none; stroke: #a99c85; stroke-width: 2.3; }
+.screen { fill: #a1aa95; }
+.drawing .screen-sheen { fill: #b8c0aa; stroke: none; }
+.laptop-base { fill: #b8b9a8; }
+.screen-dot { fill: #5e7156; }
+.product-label { font: 14px "Trebuchet MS", sans-serif; fill: #4e5e47; }
+.plant-pot { fill: #c9ad98; }
+.plant-stem { fill: none; }
+.drawing .leaf { fill: var(--sage); stroke-width: 2.5; }
+.character-label { font-size: 20px; fill: #8c8373; }
+footer { position: absolute; left: 10%; right: 10%; bottom: 5.2%; display: flex; align-items: center; gap: 2.2cqw; }
+.little-line { width: 4.5cqw; height: 2px; background: #ad9f87; transform: rotate(-3deg); }
+footer p { font-size: 2.6cqw; margin: 0; }
+.edition { margin-left: auto; font-size: 1.6cqw; opacity: .5; letter-spacing: .12em; }
+.controls { display: flex; gap: 10px; margin: 15px 10px; }
+button { color: var(--ink); background: #f3eddf; border: 1px solid #b9af9d; border-radius: 5px; padding: 8px 13px; font: 13px "Trebuchet MS", sans-serif; cursor: pointer; }
+button:focus-visible { outline: 3px solid #768969; outline-offset: 3px; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.cat { transform-origin: center bottom; transform-box: fill-box; animation: breathe 4.7s ease-in-out infinite; }
+.lucky-body { animation-duration: 3.8s; animation-delay: -1.3s; }
+.tail { transform-box: fill-box; }
+.mochi-tail { transform-origin: 90% 60%; animation: tail 5.4s ease-in-out infinite; }
+.lucky-tail { transform-origin: 5% 90%; animation: tail 3.4s ease-in-out infinite reverse; }
+.eyes { transform-box: fill-box; transform-origin: center; animation: blink 5.8s infinite; }
+.lucky-eyes { animation-duration: 4.9s; animation-delay: -1.7s; }
+.steam { animation: steam 3.4s ease-in-out infinite; }
+.screen-dot { animation: screen 6s ease-in-out infinite; }
+.paused *, .paused *::before, .paused *::after { animation-play-state: paused !important; }
+.capture .controls { display: none; }
+.capture .paper, .paper:fullscreen { width: min(100vw, 80svh); }
+.paper:fullscreen { margin: auto; }
+@keyframes breathe { 0%, 100% { transform: scaleY(1); } 50% { transform: scaleY(1.012); } }
+@keyframes tail { 0%, 100% { transform: rotate(-2deg); } 50% { transform: rotate(3deg); } }
+@keyframes blink { 0%, 44%, 48%, 100% { transform: scaleY(1); } 46% { transform: scaleY(.08); } }
+@keyframes steam { 0%, 100% { transform: translateY(2px); opacity: .25; } 50% { transform: translateY(-5px); opacity: .65; } }
+@keyframes screen { 0%, 100% { opacity: .6; } 50% { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .paper * { animation: none !important; } }
+
+</style>
+</head>
+<body>
+  <main class="paper" aria-label="Mochi and Lucky animated comic">
+    <div class="grain" aria-hidden="true"></div>
+    <header>
+      <p class="kicker" id="kicker">MOCHI &amp; LUCKY · MOTION 001</p>
+      <p class="series">small cats, big ideas.</p>
+    </header>
+    <section class="dialogue" aria-label="Current dialogue">
+      <p class="speaker" id="speaker">Lucky</p>
+      <h1 id="line">Mochi, I have an idea.</h1>
+      <svg class="thought" viewBox="0 0 90 30" aria-hidden="true"><path d="M5 8 Q35 19 73 6 M66 4 L75 5 L71 14"/></svg>
+    </section>
+    <svg class="drawing" viewBox="0 0 800 580" role="img" aria-labelledby="art-title art-desc">
+      <title id="art-title">Mochi and Lucky at their desk</title>
+      <desc id="art-desc">Calm yellow Mochi sits on the left. Eager black Lucky sits on the right. A small laptop and a cup of coffee rest on a hand-drawn desk.</desc>
+      <defs>
+        <filter id="paper-grain"><feTurbulence type="fractalNoise" baseFrequency=".68" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter>
+      </defs>
+      <g class="background-lines">
+        <path d="M83 96 Q118 92 147 96 M99 107 L131 108"/>
+        <path d="M675 95 L675 77 M667 85 L684 85"/>
+        <path d="M110 420 Q391 412 697 423"/>
+      </g>
+      <ellipse class="floor-shadow" cx="397" cy="494" rx="287" ry="13"/>
+      <g class="tail mochi-tail">
+        <path class="mochi-fill" d="M218 435 C165 470 98 456 104 410 C107 387 135 387 139 407 C139 428 169 428 190 410 Z"/>
+      </g>
+      <g class="cat mochi-body">
+        <path class="mochi-fill" d="M202 320 C174 347 168 399 176 451 Q220 469 308 449 C320 411 304 343 281 320 Z"/>
+        <path class="mochi-fill" d="M171 202 C162 182 166 153 174 136 Q195 136 225 163 Q249 158 269 167 Q294 145 305 146 Q317 175 309 200 C336 236 317 298 282 316 Q226 342 184 307 C150 281 149 233 171 202 Z"/>
+        <path class="fur" d="M211 169 L215 186 M234 164 L237 183 M258 171 L258 187"/>
+        <g class="eyes mochi-eyes">
+          <path class="eye-lid" d="M182 233 Q198 241 212 232 M257 233 Q272 241 287 231"/>
+          <path class="pupil" d="M199 238 L200 248 M271 238 L271 248"/>
+        </g>
+        <path class="nose" d="M228 254 L242 254 L235 263 Z"/>
+        <path class="fine" d="M235 263 L235 269 Q244 275 251 267"/>
+        <path class="whisker" d="M170 257 L147 253 M171 270 L149 274 M295 256 L318 251 M297 269 L319 271"/>
+        <path class="paw" d="M205 346 Q194 370 204 388 M277 347 Q290 372 278 392"/>
+        <path class="fine" d="M202 443 L201 454 M218 444 L219 457 M275 445 L274 455 M291 444 L290 454"/>
+      </g>
+      <g class="tail lucky-tail">
+        <path class="lucky-fill" d="M581 432 C646 458 707 414 685 369 C676 352 656 357 657 375 C667 402 625 418 596 406 Z"/>
+      </g>
+      <g class="cat lucky-body">
+        <path class="lucky-fill" d="M509 323 C481 350 478 404 486 449 Q541 466 607 449 C620 410 601 349 576 322 Z"/>
+        <path class="lucky-fill" d="M483 205 Q471 170 487 139 Q507 143 532 169 Q553 161 576 170 Q602 144 621 151 Q629 177 619 209 C643 246 628 296 592 317 C551 341 497 323 478 290 C462 266 464 230 483 205 Z"/>
+        <path class="lucky-ear" d="M488 168 L492 188 M613 177 L606 193"/>
+        <g class="eyes lucky-eyes">
+          <path class="eye-white" d="M493 235 C493 215 521 213 524 235 C528 259 494 262 493 235 Z"/>
+          <path class="eye-white" d="M566 234 C565 213 595 211 597 234 C600 258 568 259 566 234 Z"/>
+          <ellipse class="eye-pupil" cx="507" cy="237" rx="4" ry="8"/>
+          <ellipse class="eye-pupil" cx="579" cy="236" rx="4" ry="8"/>
+        </g>
+        <path class="nose" d="M539 259 L551 258 L545 265 Z"/>
+        <path class="lucky-mouth" d="M535 276 Q546 285 555 273"/>
+        <path class="lucky-whisker" d="M483 265 L459 261 M485 279 L464 284 M609 264 L635 259 M608 278 L632 282"/>
+        <path class="lucky-paw" d="M515 353 Q500 373 514 389 M581 350 Q596 369 581 391"/>
+        <path class="lucky-paw" d="M510 443 L510 452 M527 446 L528 456 M575 445 L574 454 M592 443 L591 453"/>
+      </g>
+      <g class="idea-marks">
+        <path d="M650 190 L665 176 M654 211 L676 208 M633 169 L640 151"/>
+      </g>
+      <g class="desk">
+        <path class="desk-top" d="M97 388 Q359 381 699 389 L700 405 Q376 400 98 408 Z"/>
+        <path class="desk-leg" d="M128 409 L124 492 M657 406 L663 494"/>
+        <g class="coffee">
+          <path class="cup" d="M296 347 Q321 342 342 347 L338 382 Q319 391 300 381 Z"/>
+          <path class="cup-handle" d="M342 353 Q363 348 359 365 Q355 376 341 371"/>
+          <path class="coffee-line" d="M301 351 Q319 355 336 349"/>
+          <g class="steam"><path d="M310 334 C300 321 320 318 311 303"/><path d="M328 332 C320 318 338 313 330 299"/></g>
+        </g>
+        <g class="laptop">
+          <path class="screen" d="M379 304 Q424 300 473 306 L480 377 L385 378 Z"/>
+          <path class="screen-sheen" d="M391 315 L460 315 L465 362 L396 363 Z"/>
+          <path class="laptop-base" d="M375 380 L489 378 L502 387 Q443 394 369 388 Z"/>
+          <circle class="screen-dot" cx="426" cy="331" r="5"/>
+          <text class="product-label" x="429" y="350" text-anchor="middle">Verdent</text>
+        </g>
+        <g class="plant">
+          <path class="plant-pot" d="M141 349 L174 348 L170 383 L146 385 Z"/>
+          <path class="plant-stem" d="M158 347 Q154 326 160 304"/>
+          <path class="leaf" d="M156 333 Q132 333 135 316 Q154 313 156 333 Z M158 320 Q177 319 179 303 Q160 300 158 320 Z"/>
+        </g>
+      </g>
+      <text class="character-label" x="233" y="538" text-anchor="middle">Mochi</text>
+      <text class="character-label" x="550" y="538" text-anchor="middle">Lucky</text>
+    </svg>
+    <footer><span class="little-line" aria-hidden="true"></span><p id="footer">one idea. zero chill.</p><span class="edition">M &amp; L</span></footer>
+    <div class="sr-only" id="transcript"></div>
+  </main>
+  <nav class="controls" aria-label="Playback controls">
+    <button type="button" id="play" aria-pressed="false">Pause</button>
+    <button type="button" id="restart">Replay</button>
+    <button type="button" id="fullscreen">Full screen</button>
+  </nav>
+  <script id="episode-config" type="application/json">{"id":"001-have-an-idea","title":"Have an idea","kicker":"MOCHI & LUCKY · MOTION 001","footer":"one idea. zero chill.","duration":12000,"note":"Early 12-second alternative rebuilt from the first draft configuration recorded in this chat. Saved later than the current 8-second version; archive numbering follows save order.","beats":[{"at":0,"speaker":"Lucky","text":"Mochi, I have an idea."},{"at":3000,"speaker":"Mochi","text":"Of course you do."},{"at":6000,"speaker":"Lucky","text":"What if we automate this?"},{"at":9000,"speaker":"Mochi","text":"You mean thinking?"}]}</script>
+  <script>
+(() => {
+  "use strict";
+  const episode = JSON.parse(document.getElementById("episode-config").textContent);
+  const paper = document.querySelector(".paper");
+  const speaker = document.getElementById("speaker");
+  const line = document.getElementById("line");
+  const playButton = document.getElementById("play");
+  const params = new URLSearchParams(location.search);
+  const reducedMotion = matchMedia("(prefers-reduced-motion: reduce)");
+  const fixedValue = Number(params.get("t"));
+  const hasFixedTime = params.has("t") && Number.isFinite(fixedValue);
+  let elapsed = hasFixedTime ? Math.max(0, fixedValue) % episode.duration : 0;
+  let paused = hasFixedTime || reducedMotion.matches;
+  let previousTime = performance.now();
+  let previousBeat = -1;
+  let frameId = null;
+
+  document.title = `Mochi & Lucky · ${episode.title}`;
+  document.getElementById("kicker").textContent = episode.kicker;
+  document.getElementById("footer").textContent = episode.footer;
+  document.getElementById("transcript").textContent = episode.beats.map(beat => `${beat.speaker}: ${beat.text}`).join("\n");
+  document.body.classList.toggle("capture", params.get("capture") === "1");
+
+  function render() {
+    let currentBeat = 0;
+    episode.beats.forEach((beat, index) => {
+      if (elapsed >= beat.at) currentBeat = index;
+    });
+    if (currentBeat !== previousBeat) {
+      const beat = episode.beats[currentBeat];
+      speaker.textContent = beat.speaker;
+      line.textContent = beat.text;
+      paper.dataset.speaker = beat.speaker.toLowerCase();
+      previousBeat = currentBeat;
+    }
+  }
+
+  function tick(now) {
+    frameId = null;
+    if (paused || document.hidden) return;
+    elapsed = (elapsed + now - previousTime) % episode.duration;
+    previousTime = now;
+    render();
+    frameId = requestAnimationFrame(tick);
+  }
+
+  function syncPlayback() {
+    paper.classList.toggle("paused", paused);
+    playButton.textContent = paused ? "Play" : "Pause";
+    playButton.setAttribute("aria-pressed", String(paused));
+    if (frameId !== null) cancelAnimationFrame(frameId);
+    frameId = null;
+    previousTime = performance.now();
+    if (!paused && !document.hidden) frameId = requestAnimationFrame(tick);
+  }
+
+  function restart() {
+    elapsed = 0;
+    previousBeat = -1;
+    render();
+    paper.getAnimations({ subtree: true }).forEach(animation => { animation.currentTime = 0; });
+    syncPlayback();
+  }
+
+  async function toggleFullscreen() {
+    try {
+      if (document.fullscreenElement) await document.exitFullscreen();
+      else if (paper.requestFullscreen) await paper.requestFullscreen();
+    } catch {
+      document.getElementById("fullscreen").textContent = "Use browser full screen";
+    }
+  }
+
+  playButton.addEventListener("click", () => { paused = !paused; syncPlayback(); });
+  document.getElementById("restart").addEventListener("click", restart);
+  document.getElementById("fullscreen").addEventListener("click", toggleFullscreen);
+  document.addEventListener("keydown", event => {
+    if (event.target.closest("button, input, textarea, select, a") || event.ctrlKey || event.metaKey || event.altKey) return;
+    if (event.code === "Space") { event.preventDefault(); paused = !paused; syncPlayback(); }
+    if (event.key.toLowerCase() === "r") restart();
+    if (event.key.toLowerCase() === "f") toggleFullscreen();
+  });
+  document.addEventListener("visibilitychange", syncPlayback);
+  reducedMotion.addEventListener("change", () => { if (reducedMotion.matches) { paused = true; syncPlayback(); } });
+  render();
+  syncPlayback();
+  if (hasFixedTime) paper.getAnimations({ subtree: true }).forEach(animation => { animation.currentTime = elapsed; });
+})();
+
+</script>
+</body>
+</html>

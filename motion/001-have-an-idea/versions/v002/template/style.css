@@ -1,0 +1,106 @@
+:root {
+  color-scheme: light;
+  --paper: #f3eddf;
+  --ink: #302e2a;
+  --mochi: #d5ae6c;
+  --lucky: #363633;
+  --sage: #8c9b82;
+  --blush: #c78f7e;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #ded8cd;
+  color: var(--ink);
+  font-family: "Chalkboard SE", "Comic Sans MS", "Trebuchet MS", sans-serif;
+}
+.paper {
+  width: min(100vw, 76svh, 800px);
+  aspect-ratio: 4 / 5;
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  background: var(--paper);
+  container-type: inline-size;
+  box-shadow: 0 12px 55px #302e2a12;
+}
+.grain {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+  opacity: .055;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='150' height='150'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.7' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Cpath fill='%23000' filter='url(%23n)' opacity='.8' d='M0 0h150v150H0z'/%3E%3C/svg%3E");
+  mix-blend-mode: multiply;
+}
+header { position: absolute; top: 6.5%; left: 8%; right: 8%; }
+.kicker { font: 600 1.65cqw / 1.4 "Trebuchet MS", sans-serif; letter-spacing: .18em; margin: 0; opacity: .7; }
+.series { margin: 1.4cqw 0 0; font-size: 2.7cqw; opacity: .72; }
+.dialogue { position: absolute; top: 19%; left: 10%; width: 80%; z-index: 2; }
+.speaker { font-size: 2.1cqw; letter-spacing: .08em; margin: 0 0 1.7cqw; }
+h1 { font-size: 5.7cqw; line-height: 1.3; font-weight: 500; letter-spacing: -.035em; margin: 0; max-width: 100%; text-wrap: balance; }
+.thought { width: 10cqw; height: 4cqw; margin: 2cqw 0 0 2cqw; fill: none; stroke: var(--ink); stroke-width: 2; stroke-linecap: round; opacity: .55; }
+.drawing { position: absolute; bottom: 11%; width: 100%; height: auto; overflow: visible; }
+.drawing path { stroke: var(--ink); stroke-width: 4.5; stroke-linecap: round; stroke-linejoin: round; }
+.drawing .background-lines path { fill: none; stroke: #b9af9d; stroke-width: 2; opacity: .55; }
+.floor-shadow { fill: #d5cbb7; opacity: .28; }
+.mochi-fill { fill: var(--mochi); }
+.lucky-fill { fill: var(--lucky); }
+.drawing .fur { fill: none; stroke: #a17a46; stroke-width: 5; }
+.drawing .fine, .drawing .whisker { fill: none; stroke-width: 2.5; }
+.eye-lid, .pupil { fill: none; }
+.drawing .nose { fill: var(--blush); stroke-width: 1.4; }
+.paw { fill: none; }
+.drawing .lucky-ear { fill: none; stroke: #777568; stroke-width: 3; }
+.drawing .eye-white { fill: var(--paper); stroke: none; }
+.eye-pupil { fill: var(--ink); }
+.drawing .lucky-mouth, .drawing .lucky-whisker, .drawing .lucky-paw { fill: none; stroke: #bcb6a7; stroke-width: 2.5; }
+.idea-marks { fill: none; stroke: #ab9876; opacity: .8; }
+.drawing .idea-marks path { stroke: #ab9876; stroke-width: 3; }
+.desk-top { fill: #e1d1b6; }
+.desk-leg { fill: none; }
+.cup { fill: #e5dfd0; }
+.cup-handle, .coffee-line { fill: none; }
+.drawing .coffee-line { stroke: #a29075; stroke-width: 2; }
+.drawing .steam path { fill: none; stroke: #a99c85; stroke-width: 2.3; }
+.screen { fill: #a1aa95; }
+.drawing .screen-sheen { fill: #b8c0aa; stroke: none; }
+.laptop-base { fill: #b8b9a8; }
+.screen-dot { fill: #5e7156; }
+.product-label { font: 14px "Trebuchet MS", sans-serif; fill: #4e5e47; }
+.plant-pot { fill: #c9ad98; }
+.plant-stem { fill: none; }
+.drawing .leaf { fill: var(--sage); stroke-width: 2.5; }
+.character-label { font-size: 20px; fill: #8c8373; }
+footer { position: absolute; left: 10%; right: 10%; bottom: 5.2%; display: flex; align-items: center; gap: 2.2cqw; }
+.little-line { width: 4.5cqw; height: 2px; background: #ad9f87; transform: rotate(-3deg); }
+footer p { font-size: 2.6cqw; margin: 0; }
+.edition { margin-left: auto; font-size: 1.6cqw; opacity: .5; letter-spacing: .12em; }
+.controls { display: flex; gap: 10px; margin: 15px 10px; }
+button { color: var(--ink); background: #f3eddf; border: 1px solid #b9af9d; border-radius: 5px; padding: 8px 13px; font: 13px "Trebuchet MS", sans-serif; cursor: pointer; }
+button:focus-visible { outline: 3px solid #768969; outline-offset: 3px; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.cat { transform-origin: center bottom; transform-box: fill-box; animation: breathe 4.7s ease-in-out infinite; }
+.lucky-body { animation-duration: 3.8s; animation-delay: -1.3s; }
+.tail { transform-box: fill-box; }
+.mochi-tail { transform-origin: 90% 60%; animation: tail 5.4s ease-in-out infinite; }
+.lucky-tail { transform-origin: 5% 90%; animation: tail 3.4s ease-in-out infinite reverse; }
+.eyes { transform-box: fill-box; transform-origin: center; animation: blink 5.8s infinite; }
+.lucky-eyes { animation-duration: 4.9s; animation-delay: -1.7s; }
+.steam { animation: steam 3.4s ease-in-out infinite; }
+.screen-dot { animation: screen 6s ease-in-out infinite; }
+.paused *, .paused *::before, .paused *::after { animation-play-state: paused !important; }
+.capture .controls { display: none; }
+.capture .paper, .paper:fullscreen { width: min(100vw, 80svh); }
+.paper:fullscreen { margin: auto; }
+@keyframes breathe { 0%, 100% { transform: scaleY(1); } 50% { transform: scaleY(1.012); } }
+@keyframes tail { 0%, 100% { transform: rotate(-2deg); } 50% { transform: rotate(3deg); } }
+@keyframes blink { 0%, 44%, 48%, 100% { transform: scaleY(1); } 46% { transform: scaleY(.08); } }
+@keyframes steam { 0%, 100% { transform: translateY(2px); opacity: .25; } 50% { transform: translateY(-5px); opacity: .65; } }
+@keyframes screen { 0%, 100% { opacity: .6; } 50% { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .paper * { animation: none !important; } }
