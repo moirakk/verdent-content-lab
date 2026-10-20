@@ -32,10 +32,11 @@ Read / 阅读：[Photo / 真猫照片](characters/references/README.md) → [IP 
 | EP.06 | Next regular comic, brief only / 下一篇正篇，目前只有选题说明 | Confirm story and storyboard / 确定故事与分镜 |
 | EP.07 | Unconfirmed idea / 未确认选题 | Continue after EP.06 direction is clear / 待 EP.06 方向明确后推进 |
 | Motion 001 | Two unpublished draft versions / 两版未发布样片 | Use v001 as the working baseline / 以 v001 为当前基准继续完善 |
+| [Motion 002](motion/002-tiny-feature/README.md) | New 12s painted draft, selected v001 / 新增 12 秒水粉样片，当前 v001 | Review art and cup-growth timing / 验看角色和杯子变大的节奏 |
 
 [CONTENT_MAP.md](CONTENT_MAP.md) is the publication-status source of truth / 发布状态统一维护在内容进度表中。
 
-## 3. Which Version? · 用哪一版
+## 3. Motion 001 Versions · 动态 001 用哪一版
 
 - [Selected / 当前选用](motion/001-have-an-idea/index.html)：v001, 8 seconds / 8 秒。Dialogue / 对白：“Mochi, I have an idea.” / “How tiny?”
 - [v001 archive / v001 存档](motion/001-have-an-idea/versions/v001/index.html)：Captured standalone HTML; no separate frozen template / 初次捕获的独立 HTML，未分离保存当时模板。
@@ -45,6 +46,10 @@ Read / 阅读：[Photo / 真猫照片](characters/references/README.md) → [IP 
 Both versions were rebuilt from conversation context. The old `/mnt/data/verdent_motion_001.html` was unavailable. v002 was reconstructed from an earlier draft configuration and archived later; version numbers follow archive order, not original creation dates.
 
 两版均根据对话重建，旧环境中的原 HTML 未能取回。v002 根据早期配置补存，版本编号按归档顺序，不冒充原始创作日期。
+
+Motion 002 is a separate original episode with its own local template and [version history](motion/002-tiny-feature/versions/index.html). Its painterly appearance is an experiment based on the newest reference, not a replacement of Motion 001.
+
+动态 002 是独立新作，使用本集模板和历史目录；新水粉画风是依据最新参考进行的本集试验，不替换动态 001。
 
 ## 4. How to Continue · 接下来怎么做
 

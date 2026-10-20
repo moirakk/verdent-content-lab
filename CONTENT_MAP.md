@@ -20,11 +20,16 @@ This is the publication-status source of truth. Documentation is bilingual; all 
 | ID / 编号 | Title / 标题 | Status / 状态 | Format / 规格 | Source / 来源 |
 | --- | --- | --- | --- | --- |
 | 001 | Have an idea | Draft, unpublished / 待审样片，未发布 | 4:5, 8s, silent, 2 lines / 8 秒无声、2 句对白 | [HTML](motion/001-have-an-idea/index.html) · [Dialogue / 对白](motion/001-have-an-idea/episode.json); rebuilt from context / 根据对话重建 |
+| 002 | One Tiny Feature | Draft, unpublished / 待审样片，未发布 | 4:5, 12s, silent, 4 lines / 12 秒无声、4 句对白 | [HTML](motion/002-tiny-feature/index.html) · [Brief / 说明](motion/002-tiny-feature/README.md); original painted art, growing coffee / 原创水粉角色与变大的咖啡杯 |
 | — | Reusable template / 共用模板 | Ready for reuse / 可复用 | Original SVG, paper, subtle motion / 原创 SVG、纸纹、轻动效 | [Template / 模板](motion/_template/README.md) |
 
 Motion 001 uses v001 (8s); v002 is a reconstructed 12s alternative, archived later. Both remain unpublished. Version numbers follow archive order, not selection priority.
 
 001 的 [版本列表](motion/001-have-an-idea/versions/index.html)：`v001` 是当前选用的 8 秒对白版；`v002` 是依据本次会话早期配置重建并补存的 12 秒自动化备选版。编号按归档顺序，两版均未发布；以后每次生成不同 HTML 都保留独立版本。
+
+Motion 002 explores the creator's new gouache reference; its selected version is v001. It adapts the “tiny feature / bigger coffee” candidate joke, so check it before revisiting that idea in comic EP.06. EP.06 remains unconfirmed.
+
+动态 002 当前选用 v001，探索新增水粉参考的效果。已使用“小功能／大咖啡”的候选笑点，之后制作漫画 EP.06 时先查看本集，避免原样重复；EP.06 仍未定稿。
 
 ## Status Rules · 状态约定
 

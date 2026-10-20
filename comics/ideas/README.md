@@ -13,3 +13,5 @@ English overview: “Just one tiny feature” contrasts Lucky's scope creep with
 | The moon is loading | Lucky 急着等满月，Mochi 已经吃月饼 | 无 | 节日漫画 | [Special brief](mid-autumn-special.md) |
 
 每个选题先检查是否重复已发布内容；EP.05 原稿待归档。
+
+Adaptation note / 改编记录：“Just one tiny feature” has been explored in [Motion 002](../../motion/002-tiny-feature/README.md), an unpublished draft. Check it before adapting the joke again; comic EP.06 is still unconfirmed. 小功能配大咖啡的笑点已用于未发布的动态 002，漫画再用前需检查重复，EP.06 仍未确认。

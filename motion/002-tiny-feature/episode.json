@@ -1,0 +1,15 @@
+{
+  "id": "002-tiny-feature",
+  "title": "One Tiny Feature",
+  "kicker": "MOCHI & LUCKY · LITTLE MOMENTS 002",
+  "footer": "the feature was not tiny.",
+  "footerAt": 9800,
+  "template": "motion/002-tiny-feature/template",
+  "duration": 12000,
+  "beats": [
+    { "at": 0, "speaker": "Lucky", "text": "Just one tiny feature.", "cupScale": 1 },
+    { "at": 3000, "speaker": "Lucky", "text": "And a login.", "cupScale": 1.5 },
+    { "at": 6000, "speaker": "Lucky", "text": "And payments.", "cupScale": 2.2 },
+    { "at": 9000, "speaker": "Mochi", "text": "I'll get a bigger cup.", "cupScale": 3 }
+  ]
+}

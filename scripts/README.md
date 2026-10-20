@@ -28,6 +28,10 @@ Use an ID such as `002-monday`, matching the episode directory. The tool writes 
 
 编号使用类似 002-monday 的形式，并与目录名一致。生成后补充双语作品说明、英文发布文案，并更新内容进度和预览入口。
 
+An episode may set `template` to its own template directory inside `motion/`. Local `asset:filename.png` image references are loaded from that template's `assets/` folder and embedded into standalone HTML. New archive snapshots include those source images alongside the template.
+
+作品可通过 template 配置使用 motion 内的独立模板。模板中的图片标记从其 assets 目录读取，生成时内嵌进单文件 HTML；归档同时保存模板与原始图片。
+
 ## Reuse an Old Version · 继续使用旧版
 
 Open the archived HTML to reuse it as-is. To edit independently, copy it into a new working folder and keep the archive unchanged.

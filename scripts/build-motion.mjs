@@ -17,11 +17,21 @@ episode.beats.forEach((beat, index) => {
   if (!["Mochi", "Lucky"].includes(beat.speaker) || typeof beat.text !== "string" || !beat.text.trim()) throw new Error("Each beat needs a character and text");
   if (/\b(sis|bro)\b/i.test(beat.text)) throw new Error("Dialogue must use character names");
 });
-const template = path.join(root, "motion/_template");
+const template = path.resolve(root, episode.template || "motion/_template");
+if (!template.startsWith(path.join(root, "motion") + path.sep)) throw new Error("Template must be inside motion/");
 const [html, css, javascript] = await Promise.all(["index.html", "style.css", "motion.js"].map(file => readFile(path.join(template, file), "utf8")));
+const frozenSource = { "index.html": html, "style.css": css, "motion.js": javascript };
+let hydratedHtml = html;
+for (const match of html.matchAll(/asset:([a-zA-Z0-9._-]+\.(png|webp|jpe?g))/g)) {
+  const asset = match[1];
+  const bytes = await readFile(path.join(template, "assets", asset));
+  const mime = match[2] === "jpg" || match[2] === "jpeg" ? "jpeg" : match[2];
+  hydratedHtml = hydratedHtml.replaceAll(`asset:${asset}`, `data:image/${mime};base64,${bytes.toString("base64")}`);
+  frozenSource[`assets/${asset}`] = bytes;
+}
 const safeJson = JSON.stringify(episode).replace(/</g, "\\u003c");
 const escapeHtml = value => value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
-const output = html
+const output = hydratedHtml
   .replace('<link rel="stylesheet" href="style.css">', () => `<style>\n${css}\n</style>`)
   .replace('<script src="motion.js"></script>', () => `<script>\n${javascript}\n</script>`)
   .replace(/<script id="episode-config" type="application\/json">[\s\S]*?<\/script>/, () => `<script id="episode-config" type="application/json">${safeJson}</script>`)
@@ -41,7 +51,7 @@ async function readOptional(file) {
 async function writeImmutable(file, content) {
   try { await writeFile(file, content, { flag: "wx" }); }
   catch (error) {
-    if (error.code !== "EEXIST" || await readFile(file, "utf8") !== content) throw error;
+    if (error.code !== "EEXIST" || !(await readFile(file)).equals(Buffer.isBuffer(content) ? content : Buffer.from(content))) throw error;
   }
 }
 const history = JSON.parse(await readOptional(historyPath) || "[]");
@@ -58,7 +68,11 @@ async function archive(content, source) {
   if (archivedEpisode) await writeImmutable(path.join(directory, "episode.json"), JSON.stringify(archivedEpisode, null, 2) + "\n");
   if (source) {
     await mkdir(path.join(directory, "template"));
-    for (const [name, value] of Object.entries(source)) await writeImmutable(path.join(directory, "template", name), value);
+    for (const [name, value] of Object.entries(source)) {
+      const destination = path.join(directory, "template", name);
+      await mkdir(path.dirname(destination), { recursive:true });
+      await writeImmutable(destination, value);
+    }
   }
   const previewVersion = path.join(previewDirectory, "versions", version);
   await mkdir(previewVersion, { recursive: true });
@@ -69,7 +83,7 @@ async function archive(content, source) {
 }
 const existing = await readOptional(path.join(episodeDirectory, "index.html"));
 if (existing !== null) await archive(existing, null);
-await archive(output, { "index.html": html, "style.css": css, "motion.js": javascript });
+await archive(output, frozenSource);
 const activeHash = createHash("sha256").update(output).digest("hex");
 const active = history.find(entry => entry.sha256 === activeHash);
 const rows = history.map(entry => `<li><a href="${entry.version}/index.html">${entry.version} · ${escapeHtml(entry.title)}</a>${entry.sha256 === activeHash ? " · current" : ""}${entry.note ? `<p>${escapeHtml(entry.note)}</p>` : ""}<small>Saved ${escapeHtml(entry.capturedAt)}</small></li>`).join("\n");
