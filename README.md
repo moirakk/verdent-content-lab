@@ -11,6 +11,7 @@ Mochi 是冷静、理性、有 dry humor 的黄猫姐姐；Lucky 是热情、活
 - [内容总表与发布顺序](CONTENT_MAP.md)
 - [IP Bible](brand/IP_BIBLE.md) · [视觉规范](brand/VISUAL_STYLE.md) · [产品功能与笑点库](brand/VERDENT_FEATURE_MAP.md)
 - [Mochi](characters/mochi.md) · [Lucky](characters/lucky.md)
+- [真猫参考照片与外貌锚点](characters/references/README.md)：交接时先辨认角色，再阅读风格规范。
 - [首条动态样片：Have an idea](motion/001-have-an-idea/index.html)
 - [动态模板使用说明](motion/_template/README.md)
 
