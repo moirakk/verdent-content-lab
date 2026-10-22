@@ -1,0 +1,191 @@
+{
+  "date": "2026-10-21",
+  "status": "generated-review-candidates",
+  "generationMode": "built-in ImageGen",
+  "approval": "User approved the direction, not each new drawing or final film.",
+  "expressionDrawings": {
+    "Mochi": 18,
+    "Lucky": 6
+  },
+  "sceneKeyframes": 12,
+  "animationFramesClaim": false,
+  "githubSync": "blocked: connected login is moirakk; connector repository list is empty, target returns 404; CLI network unavailable.",
+  "assets": [
+    {
+      "id": "E-M01",
+      "path": "characters/expressions/mochi-six-moods-v001.png",
+      "width": 1536,
+      "height": 1024,
+      "alpha": true,
+      "bytes": 2280939,
+      "sha256": "fadfa6120791ababbee5c68478a21d53eaa0e4e4b8cc36b79afe898a04c10d03",
+      "source": "/Users/a1234/.codex/generated_images/01a1574b-c8ea-76d1-91d0-8c4ab977ffbe/exec-d2eeea0c-44db-4597-9f1c-813c7ca627c9.png",
+      "status": "review-candidate"
+    },
+    {
+      "id": "E-L01",
+      "path": "characters/expressions/lucky-six-moods-v001.png",
+      "width": 1536,
+      "height": 1024,
+      "alpha": true,
+      "bytes": 1990613,
+      "sha256": "cf9f1d826baac5ec3a9c5ed8c6e46f05d0894ec38e4a6db11a25723e58a616e4",
+      "source": "/Users/a1234/.codex/generated_images/01a1574b-c8ea-76d1-91d0-8c4ab977ffbe/exec-22fdcc97-a8ab-46b5-a43b-6e916ada056c.png",
+      "status": "review-candidate"
+    },
+    {
+      "id": "S01",
+      "path": "scenes/window-rain/keyframe-v001.png",
+      "width": 1122,
+      "height": 1402,
+      "alpha": false,
+      "bytes": 2600368,
+      "sha256": "c77cc76bc54098a0598db6d8565dc56541efe533025cefa2c3b1364f31e8beb9",
+      "source": "/Users/a1234/.codex/generated_images/01a1574b-c8ea-76d1-91d0-8c4ab977ffbe/exec-41b426d3-feb7-4582-a3cf-c6c3ba928431.png",
+      "status": "review-candidate"
+    },
+    {
+      "id": "S02",
+      "path": "scenes/box-living-room/keyframe-v001.png",
+      "width": 1122,
+      "height": 1402,
+      "alpha": false,
+      "bytes": 2629712,
+      "sha256": "e4211141134d3f3d03a5c049e8e5919d5fc4adc225a7ee0f41f1470098a7b4d0",
+      "source": "/Users/a1234/.codex/generated_images/01a1574b-c8ea-76d1-91d0-8c4ab977ffbe/exec-9152edd7-83d6-44ff-b859-f0f4ca6d9d49.png",
+      "status": "review-candidate"
+    },
+    {
+      "id": "S03",
+      "path": "scenes/kitchen-last-treat/keyframe-v001.png",
+      "width": 1122,
+      "height": 1402,
+      "alpha": false,
+      "bytes": 2592216,
+      "sha256": "9e51b4851f71795fb5ab125573f4ff7febfeeb6fee3d4d62775e30d6cffd49f2",
+      "source": "/Users/a1234/.codex/generated_images/01a1574b-c8ea-76d1-91d0-8c4ab977ffbe/exec-38e73172-92ad-4090-8df8-f3ea13e2680b.png",
+      "status": "review-candidate"
+    },
+    {
+      "id": "S04",
+      "path": "scenes/plant-corner/keyframe-v001.png",
+      "width": 1122,
+      "height": 1402,
+      "alpha": false,
+      "bytes": 2740984,
+      "sha256": "098cfe71219a30c539d9c77ad6e46d76d2a8f100c74b3964c2388788efb726cf",
+      "source": "/Users/a1234/.codex/generated_images/01a1574b-c8ea-76d1-91d0-8c4ab977ffbe/exec-d6559a59-edbc-4ad7-8f13-8431ff58eecf.png",
+      "status": "review-candidate"
+    },
+    {
+      "id": "S05",
+      "path": "scenes/sun-patch-reading-nook/keyframe-v001.png",
+      "width": 1122,
+      "height": 1402,
+      "alpha": false,
+      "bytes": 2718766,
+      "sha256": "f5e427c9420397511f93f41b20c31488aeb98bda8d63a6e46c121b1579a49f1c",
+      "source": "/Users/a1234/.codex/generated_images/01a1574b-c8ea-76d1-91d0-8c4ab977ffbe/exec-d774ed91-f43b-4348-9ed1-00782d952249.png",
+      "status": "review-candidate"
+    },
+    {
+      "id": "S06",
+      "path": "scenes/blanket-sofa-evening/keyframe-v001.png",
+      "width": 1122,
+      "height": 1402,
+      "alpha": false,
+      "bytes": 2508335,
+      "sha256": "b9b4361fe1ff8f22ab6081b212f4d22ae94104bdeee28abc0b20c8526f774d24",
+      "source": "/Users/a1234/.codex/generated_images/01a1574b-c8ea-76d1-91d0-8c4ab977ffbe/exec-eb4a0ae8-d72d-45f5-9a15-fb2b456b76f9.png",
+      "status": "review-candidate"
+    },
+    {
+      "id": "S07",
+      "path": "scenes/laundry-basket/keyframe-v001.png",
+      "width": 1122,
+      "height": 1402,
+      "alpha": false,
+      "bytes": 2824448,
+      "sha256": "c39d8362e5dbffa398647afc7bea22b1ae3dc13a97629239c20f7138115db14b",
+      "source": "/Users/a1234/.codex/generated_images/01a1574b-c8ea-76d1-91d0-8c4ab977ffbe/exec-fec5387f-9ca0-4acd-8d37-eca60318394d.png",
+      "status": "review-candidate"
+    },
+    {
+      "id": "S08",
+      "path": "scenes/entryway-adventure/keyframe-v001.png",
+      "width": 1122,
+      "height": 1402,
+      "alpha": false,
+      "bytes": 2575551,
+      "sha256": "0afa0ec4b4c7d027857dad880fc2590ca3e2691342d322555b645b8545651efb",
+      "source": "/Users/a1234/.codex/generated_images/01a1574b-c8ea-76d1-91d0-8c4ab977ffbe/exec-564e1cda-b643-46c7-b79b-bad9751a0f26.png",
+      "status": "review-candidate"
+    },
+    {
+      "id": "S09",
+      "path": "scenes/garden-path-after-rain/keyframe-v001.png",
+      "width": 1122,
+      "height": 1402,
+      "alpha": false,
+      "bytes": 2877058,
+      "sha256": "aefd177d452d6ef299630d960e45a9f5c18d84c414d10c9b3b6d6ed3813a7cd2",
+      "source": "/Users/a1234/.codex/generated_images/01a1574b-c8ea-76d1-91d0-8c4ab977ffbe/exec-20aef6cc-9917-4398-8d4b-7230a0b95e33.png",
+      "status": "review-candidate"
+    },
+    {
+      "id": "S10",
+      "path": "scenes/park-picnic/keyframe-v001.png",
+      "width": 1122,
+      "height": 1402,
+      "alpha": false,
+      "bytes": 3118383,
+      "sha256": "688b22211e126b1552378842f314b1a73c68a266dc7c0bae3fb195b2a532b4a3",
+      "source": "/Users/a1234/.codex/generated_images/01a1574b-c8ea-76d1-91d0-8c4ab977ffbe/exec-7ca65280-6210-4512-a5c6-22e0b2927d68.png",
+      "status": "review-candidate"
+    },
+    {
+      "id": "S11",
+      "path": "scenes/night-terrace-stars/keyframe-v001.png",
+      "width": 1122,
+      "height": 1402,
+      "alpha": false,
+      "bytes": 2653838,
+      "sha256": "7469384ecffae7a7b5c52e77323fdc566f68057de36f50084da5aab58faa6133",
+      "source": "/Users/a1234/.codex/generated_images/01a1574b-c8ea-76d1-91d0-8c4ab977ffbe/exec-72ab87b8-7d1f-4e05-96a2-bdfb6472a465.png",
+      "status": "review-candidate"
+    },
+    {
+      "id": "S12",
+      "path": "scenes/neighborhood-bakery-window/keyframe-v001.png",
+      "width": 1122,
+      "height": 1402,
+      "alpha": false,
+      "bytes": 2768055,
+      "sha256": "9fa8da175b3c57a715c701bc37ef71f0dd3335fb2131d64304f00c090dd25c43",
+      "source": "/Users/a1234/.codex/generated_images/01a1574b-c8ea-76d1-91d0-8c4ab977ffbe/exec-230eead4-c653-4638-b892-97cb68b8c07c.png",
+      "status": "review-candidate"
+    },
+    {
+      "id": "E-M02",
+      "path": "characters/expressions/mochi-warm-moods-v001.png",
+      "width": 1536,
+      "height": 1024,
+      "alpha": true,
+      "bytes": 2292827,
+      "sha256": "6d506b11721855de7eaa9e2c07ede1a8422a9a659d2ded32b6b70b50f24c4f07",
+      "source": "/Users/a1234/.codex/generated_images/01a1574b-c8ea-76d1-91d0-8c4ab977ffbe/exec-70e82b83-bf17-476d-bd8b-12a180034f96.png",
+      "status": "review-candidate"
+    },
+    {
+      "id": "E-M03",
+      "path": "characters/expressions/mochi-curious-moods-v001.png",
+      "width": 1536,
+      "height": 1024,
+      "alpha": true,
+      "bytes": 2316046,
+      "sha256": "bf6c7087fb7e5e011e82213bd2efdc66153f8d6a7331addd5c879af0aae016f5",
+      "source": "/Users/a1234/.codex/generated_images/01a1574b-c8ea-76d1-91d0-8c4ab977ffbe/exec-b4ef5a69-49df-4c69-b991-d0c411f41a82.png",
+      "status": "review-candidate"
+    }
+  ]
+}
