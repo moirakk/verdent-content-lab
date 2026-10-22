@@ -1,0 +1,51 @@
+{
+  "version": "v003-story",
+  "duration": 20.0,
+  "score": "motion/004-that-was-a-sentence/audio/story-score-v001/score-normalized.wav",
+  "lines": [
+    {
+      "speaker": "Mochi",
+      "text": "Where are the samples?",
+      "start": 0.25,
+      "duration": 2.184,
+      "voice": "en-GB-MaisieNeural"
+    },
+    {
+      "speaker": "Lucky",
+      "text": "Internal testing.",
+      "start": 3.4,
+      "duration": 2.184,
+      "voice": "en-US-AnaNeural"
+    },
+    {
+      "speaker": "Mochi",
+      "text": "All twelve?",
+      "start": 6.4,
+      "duration": 1.872,
+      "voice": "en-GB-MaisieNeural"
+    },
+    {
+      "speaker": "Lucky",
+      "text": "Very thorough.",
+      "start": 9.2,
+      "duration": 1.872,
+      "voice": "en-US-AnaNeural"
+    },
+    {
+      "speaker": "Mochi",
+      "text": "We open tomorrow.",
+      "start": 12.4,
+      "duration": 2.112,
+      "voice": "en-GB-MaisieNeural"
+    },
+    {
+      "speaker": "Lucky",
+      "text": "I'll test again.",
+      "start": 16.0,
+      "duration": 1.968,
+      "voice": "en-US-AnaNeural"
+    }
+  ],
+  "syntheticChildSpeech": true,
+  "musicDuckedUnderSpeech": true
+}

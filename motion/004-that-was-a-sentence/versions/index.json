@@ -38,5 +38,13 @@
     "source": "generated-with-template",
     "note": "Rebuilt against the creator-selected 003/005 painted direction: exact blue-studio cast, grounded props, head-following speech and episode-specific acting. Limited animation, unpublished review draft.",
     "title": "That Was a Sentence"
+  },
+  {
+    "version": "v006",
+    "capturedAt": "2026-10-22T07:10:56.796Z",
+    "sha256": "d26b4f2e0e40e9d17f2896754292e4b68334c025d095fdaa7eb4f26946ac1d98",
+    "source": "generated-with-template",
+    "note": "Story-first redesign after creator feedback: new painted location, complete-character action drawings, visual cold open, camera changes and a distinct original score. Synthetic child dialogue; unpublished limited-animation review.",
+    "title": "Soft Launch"
   }
 ]

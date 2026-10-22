@@ -1,0 +1,139 @@
+{
+  "id": "002-tiny-feature",
+  "title": "One Tiny Feature",
+  "kicker": "MOCHI & LUCKY · LITTLE MOMENTS 002",
+  "footer": "Mochi & Lucky",
+  "footerAt": 17000,
+  "template": "motion/002-tiny-feature/template-story",
+  "duration": 18000,
+  "beats": [
+    {
+      "at": 0,
+      "speaker": "Lucky",
+      "text": "Just one tiny feature.",
+      "voiceAt": 250,
+      "captionUntil": 3100
+    },
+    {
+      "at": 3500,
+      "speaker": "Mochi",
+      "text": "One.",
+      "voiceAt": 3700,
+      "captionUntil": 5650
+    },
+    {
+      "at": 5700,
+      "speaker": "Lucky",
+      "text": "And a login.",
+      "voiceAt": 5900,
+      "captionUntil": 8200
+    },
+    {
+      "at": 8700,
+      "speaker": "Lucky",
+      "text": "And payments.",
+      "voiceAt": 8900,
+      "captionUntil": 11200
+    },
+    {
+      "at": 12200,
+      "speaker": "Mochi",
+      "text": "I'll get a bigger cup.",
+      "voiceAt": 12400,
+      "captionUntil": 15400
+    }
+  ],
+  "visualSystem": "painted-story-v002",
+  "voicesAvailable": true,
+  "note": "Story-first redesign after creator feedback: new painted location, complete-character action drawings, visual cold open, camera changes and a distinct original score. Synthetic child dialogue; unpublished limited-animation review.",
+  "storyType": "coffee",
+  "registration": {
+    "width": 1774,
+    "height": 887,
+    "cw": 443.5,
+    "ch": 443.5,
+    "frames": [
+      {
+        "l": 18,
+        "r": 442,
+        "t": 82,
+        "b": 416,
+        "headY": [
+          86,
+          130
+        ]
+      },
+      {
+        "l": 0,
+        "r": 442,
+        "t": 79,
+        "b": 415,
+        "headY": [
+          81,
+          132
+        ]
+      },
+      {
+        "l": 0,
+        "r": 430,
+        "t": 111,
+        "b": 419,
+        "headY": [
+          113,
+          132
+        ]
+      },
+      {
+        "l": 2,
+        "r": 427,
+        "t": 88,
+        "b": 420,
+        "headY": [
+          138,
+          92
+        ]
+      },
+      {
+        "l": 17,
+        "r": 442,
+        "t": 42,
+        "b": 371,
+        "headY": [
+          46,
+          87
+        ]
+      },
+      {
+        "l": 0,
+        "r": 442,
+        "t": 25,
+        "b": 370,
+        "headY": [
+          28,
+          54
+        ]
+      },
+      {
+        "l": 0,
+        "r": 431,
+        "t": 57,
+        "b": 370,
+        "headY": [
+          59,
+          116
+        ]
+      },
+      {
+        "l": 5,
+        "r": 422,
+        "t": -8,
+        "b": 374,
+        "headY": [
+          52,
+          -4
+        ]
+      }
+    ]
+  },
+  "videoExport": "previews/v003-coffee-story-review.mp4"
+}

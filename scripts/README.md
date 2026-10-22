@@ -64,4 +64,10 @@ Motion builds now syntax-check the template before archiving and embed `asset:*.
 
 ## Unified painted episodes · 统一水粉剧集
 
-001/002/004 use `motion/_painted-series/` as the editable common scene/player, copied to each `template-unified/` by `node scripts/sync-painted-series.mjs`. `--review` prepares a temporary render without a stale download. After rendering the matching movie into `previews/unified-painted-review.mp4`, sync without `--review`, build each episode configuration and rebuild the library. / 三集统一源码复制到本集模板；中间渲染隐藏下载，配好匹配视频后再同步、构建与更新目录。See [source notes / 源码说明](../motion/_painted-series/README.md).
+The earlier unified pass used `motion/_painted-series/` as the editable common scene/player, copied to each `template-unified/` by `node scripts/sync-painted-series.mjs`. `--review` prepares a temporary render without a stale download. After rendering the matching movie into `previews/unified-painted-review.mp4`, sync without `--review`, build each episode configuration and rebuild the library. / 三集统一源码复制到本集模板；中间渲染隐藏下载，配好匹配视频后再同步、构建与更新目录。See [source notes / 源码说明](../motion/_painted-series/README.md).
+
+## Story pass · 新剧情制作
+
+Current 001/002/004 source is `motion/_painted-story/`, prepared into `template-story/` with `node scripts/prepare-story-episodes.mjs --review`. `scripts/compose-story-scores.py` creates new original scene scores; do not rerun into an existing score version. Child speech is measured and mixed using `voice-existing-score.py`; incomplete attempts stay marked. After rendering the exact timeline and the matching audio to the configured `videoExport`, prepare without `--review`, build the three configurations and rebuild the library. / 当前使用新剧情源，配乐另存新版本，实测童声、保留失败尝试；渲染匹配画面声音后，复制视频、构建存档并更新目录。
+
+Current renderer / 当前渲染：`render-story-previews.cjs` saves the actual Chromium + ffmpeg procedure. Requires Node, Playwright with Chromium and ffmpeg. External Playwright can be provided through `RENDER_PLAYWRIGHT_MODULE`. Frames stay in OS temp; MP4 output follows the versioned `videoExport` setting. Existing video files are preserved by default. / 真实浏览器流程已保存；外置依赖可指定模块路径；帧图留临时目录，视频按配置另存版本，默认不覆盖已有视频。

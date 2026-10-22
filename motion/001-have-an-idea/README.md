@@ -1,3 +1,13 @@
+# The Corner Office · 当前生活短剧版
+
+**v004 · 18s · 4:5 · unpublished / 未发布。** New painted location, complete connected character actions, visual setup/payoff and a distinct original score with scene sounds. English child speech is verified in `audio/v003-story/`; final audio is embedded in `template-story/assets/episode-score.m4a`. / 新水粉布景、完整整猫动作、视觉铺垫反转、独立原创配乐与动作音；实测英文童声及混音已内嵌。
+
+[Play with sound / 带声播放](index.html) · [MP4 / 带声视频](previews/v004-corner-office-review.mp4) · [History / 历史](versions/index.html) · [Story source & limits / 剧情源码与边界](../_painted-story/README.md)
+
+Default playback waits for **Play with sound**; it starts from zero with dialogue, BGM and SFX together. The MP4 has the same soundtrack. Current editable source is `../_painted-story/` + this `episode.json`, prepared into `template-story/` by `scripts/prepare-story-episodes.mjs`. Earlier unified templates and earlier titles remain history. Limited animation, no phoneme lip sync. / 默认等待点击从头带声播放，视频为同一混音；当前修改统一剧情源和本集配置，再准备本集模板。旧模板旧标题保留，仍为有限动画，无音素口型。
+
+Earlier notes follow / 下文保留旧批次说明。
+
 # Current unified draft · 当前统一画风版
 
 **v003 · 10s · 4:5 · unpublished / 未发布**. Rebuilt using the exact 003 blue-studio cats and room, anchored speech bubbles, grounded props and complete connected pose drawings. English synthetic child voices and original music are embedded, with one-click playback and matching direct MP4 download. / 复用 003 原水粉猫和房间，统一头顶气泡、道具落地和整猫姿势，带英文合成童声、原创配乐、一键播放与匹配视频下载。

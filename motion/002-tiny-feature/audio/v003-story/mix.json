@@ -1,0 +1,44 @@
+{
+  "version": "v003-story",
+  "duration": 18.0,
+  "score": "motion/002-tiny-feature/audio/story-score-v001/score-normalized.wav",
+  "lines": [
+    {
+      "speaker": "Lucky",
+      "text": "Just one tiny feature.",
+      "start": 0.25,
+      "duration": 2.544,
+      "voice": "en-US-AnaNeural"
+    },
+    {
+      "speaker": "Mochi",
+      "text": "One.",
+      "start": 3.7,
+      "duration": 1.872,
+      "voice": "en-GB-MaisieNeural"
+    },
+    {
+      "speaker": "Lucky",
+      "text": "And a login.",
+      "start": 5.9,
+      "duration": 1.872,
+      "voice": "en-US-AnaNeural"
+    },
+    {
+      "speaker": "Lucky",
+      "text": "And payments.",
+      "start": 8.9,
+      "duration": 1.872,
+      "voice": "en-US-AnaNeural"
+    },
+    {
+      "speaker": "Mochi",
+      "text": "I'll get a bigger cup.",
+      "start": 12.4,
+      "duration": 2.256,
+      "voice": "en-GB-MaisieNeural"
+    }
+  ],
+  "syntheticChildSpeech": true,
+  "musicDuckedUnderSpeech": true
+}

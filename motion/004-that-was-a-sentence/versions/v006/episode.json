@@ -1,0 +1,173 @@
+{
+  "id": "004-that-was-a-sentence",
+  "title": "Soft Launch",
+  "kicker": "MOCHI & LUCKY · THE TINY COMPANY 004",
+  "footer": "Mochi & Lucky",
+  "footerAt": 19000,
+  "template": "motion/004-that-was-a-sentence/template-story",
+  "duration": 20000,
+  "storyType": "cafe",
+  "voicesAvailable": true,
+  "note": "Story-first redesign after creator feedback: new painted location, complete-character action drawings, visual cold open, camera changes and a distinct original score. Synthetic child dialogue; unpublished limited-animation review.",
+  "beats": [
+    {
+      "at": 0,
+      "speaker": "Mochi",
+      "text": "Where are the samples?",
+      "voiceAt": 250,
+      "captionUntil": 2900
+    },
+    {
+      "at": 3200,
+      "speaker": "Lucky",
+      "text": "Internal testing.",
+      "voiceAt": 3400,
+      "captionUntil": 5800
+    },
+    {
+      "at": 6200,
+      "speaker": "Mochi",
+      "text": "All twelve?",
+      "voiceAt": 6400,
+      "captionUntil": 8600
+    },
+    {
+      "at": 9000,
+      "speaker": "Lucky",
+      "text": "Very thorough.",
+      "voiceAt": 9200,
+      "captionUntil": 11500
+    },
+    {
+      "at": 12200,
+      "speaker": "Mochi",
+      "text": "We open tomorrow.",
+      "voiceAt": 12400,
+      "captionUntil": 14900
+    },
+    {
+      "at": 15800,
+      "speaker": "Lucky",
+      "text": "I'll test again.",
+      "voiceAt": 16000,
+      "captionUntil": 18600
+    }
+  ],
+  "soundEffects": [
+    {
+      "at": 4650,
+      "type": "paper",
+      "gain": 0.025
+    },
+    {
+      "at": 10450,
+      "type": "paper",
+      "gain": 0.045
+    },
+    {
+      "at": 10900,
+      "type": "paper",
+      "gain": 0.045
+    },
+    {
+      "at": 11350,
+      "type": "paper",
+      "gain": 0.045
+    },
+    {
+      "at": 14500,
+      "type": "chime",
+      "gain": 0.045
+    }
+  ],
+  "visualSystem": "painted-story-v002",
+  "registration": {
+    "width": 1774,
+    "height": 887,
+    "cw": 443.5,
+    "ch": 443.5,
+    "frames": [
+      {
+        "l": 16,
+        "r": 441,
+        "t": 85,
+        "b": 423,
+        "headY": [
+          87,
+          119
+        ]
+      },
+      {
+        "l": 12,
+        "r": 442,
+        "t": 77,
+        "b": 423,
+        "headY": [
+          80,
+          90
+        ]
+      },
+      {
+        "l": 0,
+        "r": 442,
+        "t": 145,
+        "b": 422,
+        "headY": [
+          173,
+          149
+        ]
+      },
+      {
+        "l": 0,
+        "r": 424,
+        "t": 88,
+        "b": 422,
+        "headY": [
+          90,
+          165
+        ]
+      },
+      {
+        "l": 17,
+        "r": 439,
+        "t": 41,
+        "b": 389,
+        "headY": [
+          43,
+          101
+        ]
+      },
+      {
+        "l": 1,
+        "r": 442,
+        "t": 32,
+        "b": 390,
+        "headY": [
+          34,
+          95
+        ]
+      },
+      {
+        "l": 0,
+        "r": 431,
+        "t": 34,
+        "b": 389,
+        "headY": [
+          37,
+          156
+        ]
+      },
+      {
+        "l": 5,
+        "r": 425,
+        "t": 27,
+        "b": 386,
+        "headY": [
+          30,
+          108
+        ]
+      }
+    ]
+  },
+  "videoExport": "previews/v006-soft-launch-review.mp4"
+}

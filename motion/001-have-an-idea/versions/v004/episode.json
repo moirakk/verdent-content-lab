@@ -1,0 +1,139 @@
+{
+  "id": "001-have-an-idea",
+  "title": "The Corner Office",
+  "kicker": "MOCHI & LUCKY · MOTION 001",
+  "footer": "Mochi & Lucky",
+  "duration": 18000,
+  "beats": [
+    {
+      "at": 0,
+      "speaker": "Lucky",
+      "text": "I upgraded the office.",
+      "voiceAt": 250,
+      "captionUntil": 2900
+    },
+    {
+      "at": 3100,
+      "speaker": "Mochi",
+      "text": "Where?",
+      "voiceAt": 3300,
+      "captionUntil": 5450
+    },
+    {
+      "at": 5500,
+      "speaker": "Lucky",
+      "text": "Corner office.",
+      "voiceAt": 5700,
+      "captionUntil": 8100
+    },
+    {
+      "at": 9500,
+      "speaker": "Mochi",
+      "text": "Room for two?",
+      "voiceAt": 9700,
+      "captionUntil": 12300
+    },
+    {
+      "at": 14500,
+      "speaker": "Lucky",
+      "text": "Open plan.",
+      "voiceAt": 14700,
+      "captionUntil": 16900
+    }
+  ],
+  "template": "motion/001-have-an-idea/template-story",
+  "visualSystem": "painted-story-v002",
+  "voicesAvailable": true,
+  "note": "Story-first redesign after creator feedback: new painted location, complete-character action drawings, visual cold open, camera changes and a distinct original score. Synthetic child dialogue; unpublished limited-animation review.",
+  "footerAt": 17000,
+  "storyType": "box",
+  "registration": {
+    "width": 1774,
+    "height": 887,
+    "cw": 443.5,
+    "ch": 443.5,
+    "frames": [
+      {
+        "l": 9,
+        "r": 442,
+        "t": 84,
+        "b": 418,
+        "headY": [
+          87,
+          110
+        ]
+      },
+      {
+        "l": 0,
+        "r": 418,
+        "t": 69,
+        "b": 418,
+        "headY": [
+          72,
+          129
+        ]
+      },
+      {
+        "l": 2,
+        "r": 428,
+        "t": 77,
+        "b": 419,
+        "headY": [
+          79,
+          91
+        ]
+      },
+      {
+        "l": 2,
+        "r": 423,
+        "t": 76,
+        "b": 418,
+        "headY": [
+          78,
+          130
+        ]
+      },
+      {
+        "l": 25,
+        "r": 433,
+        "t": 57,
+        "b": 369,
+        "headY": [
+          58,
+          59
+        ]
+      },
+      {
+        "l": 20,
+        "r": 421,
+        "t": 45,
+        "b": 368,
+        "headY": [
+          46,
+          56
+        ]
+      },
+      {
+        "l": 53,
+        "r": 407,
+        "t": 59,
+        "b": 370,
+        "headY": [
+          61,
+          93
+        ]
+      },
+      {
+        "l": 36,
+        "r": 395,
+        "t": 61,
+        "b": 370,
+        "headY": [
+          63,
+          95
+        ]
+      }
+    ]
+  },
+  "videoExport": "previews/v004-corner-office-review.mp4"
+}

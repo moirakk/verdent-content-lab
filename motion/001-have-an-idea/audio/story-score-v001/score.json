@@ -1,0 +1,22 @@
+{
+  "original": true,
+  "style": "box",
+  "bpm": 108,
+  "duration": 18,
+  "cues": [
+    [
+      5.25,
+      "box"
+    ],
+    [
+      12.8,
+      "box"
+    ],
+    [
+      13.4,
+      "box"
+    ]
+  ],
+  "level": "-23 LUFS before dialogue ducking",
+  "instruments": "synthetic plucked bass, pizzicato/soft keys, bell and woodblock; deterministic original notes"
+}

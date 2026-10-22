@@ -11,7 +11,9 @@ Documentation: English + Chinese. Finished content: English only / 仓库说明�
 
 Halloween 005 comes first. The library lists the selected file version, duration, aspect ratio, voice/music status and current video for all five films. Download MP4 includes the mixed audio; no screen recorder is needed. All remain unpublished drafts. / 万圣节优先；五条作品统一列出选用版、时长比例、声音状态与视频。MP4 已带混音，无需录屏；均为未发布待审稿。
 
-001/002/004 now share the accepted blue-room painting, head-following speech and grounded props. All five selected drafts have voiced MP4s. [Shared visual source](motion/_painted-series/README.md) / 三集已统一水粉画风、头顶对白与道具位置，五集选用稿均有带声视频。
+001/002/004 now tell distinct painted stories in a living room, coffee nook and bakery kitchen, with complete-cat actions, original BGM/SFX and explicit sound playback. [Current story source](motion/_painted-story/README.md) / 三集改为客厅、咖啡角、厨房生活喜剧，配完整整猫动作、独立 BGM/动作音和显式带声播放。
+
+[Project index / 项目整理入口](PROJECT_INDEX.md)
 
 ## Start Here · 从这里接手
 

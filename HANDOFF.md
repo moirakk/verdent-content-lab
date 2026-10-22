@@ -1,3 +1,13 @@
+# Latest story pass · 最新生活短剧批次（2026-10-22）
+
+Creator rejected repetitive scenery, dull dialogue-led plots and weak/muted BGM. Rebuilt 001 v004 **The Corner Office** (18s living-room box comedy), 002 v003 **One Tiny Feature** (18s coffee-nook escalation), 004 v006 **Soft Launch** (20s bakery samples comedy). Six new painted backgrounds/whole-character sheets, three original scores + SFX, 16 measured child lines in total. / 针对场景重复、剧情无聊与 BGM 感知弱，三集改不同生活布景与视觉笑点，新增六张原水粉画稿、三种原创配乐及动作音，共十六句实测童声。
+
+Current editable shared source is [motion/_painted-story](motion/_painted-story/README.md), copied to `template-story/` by `scripts/prepare-story-episodes.mjs`. Earlier `_painted-series`/`template-unified` are preserved and are no longer these three selected films. New titles do not change stable episode IDs or paths. 003 v019 and 005 v012 remain untouched. / 当前修改新剧情源，旧统一场景源保留；标题变化不改集数路径，003、005 保留。
+
+Default HTML waits for Play with sound. The library now has explicit unmuted playback buttons, not just native controls. Final mixes are normalized with BGM ducking; all direct MP4s include the same audio. Music identities/limits are documented in the source README. All remain unpublished limited-animation drafts. / 默认点即带声，目录同样显式开声，混音避让对白并统一响度，下载内含声音；仍为有限动画待审稿，未发布。
+
+Earlier handoff context follows / 下文保留旧批次背景。
+
 # Current visual-unification batch · 当前统一画风批次（2026-10-22）
 
 Creator instruction: 003/005 are acceptable visual benchmarks; rework 001/002/004 consistently. New selected drafts: 001 v003 (10s, 2 child lines), 002 v002 (14s, 4 lines), 004 v005 (18s, existing 5-line mix). All three use exact 003 room/cast art, 4:5 stages, head bubbles, grounded props and embedded matching MP4 downloads. 003 v019 and 005 v012 films are untouched. / 以 003、005 为视觉基准重做其余三集；统一水粉、4:5 舞台、头顶对白与落地道具，均有匹配带声下载；003、005 成片未改。

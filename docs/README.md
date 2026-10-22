@@ -23,3 +23,5 @@ The homepage is now a lightweight five-film library, Halloween first, with poste
 The previous five-episode homepage remains in [index-v004.html](index-v004.html). Current catalog source lives at `../episodes.json`; regenerate through `../scripts/build-episode-library.mjs`. / 旧首页保留；目录数据及构建工具位于仓库根部。
 
 2026-10-22 visual-unification update: all five library cards have videos with real mixed speech/music and downloads. 001 v003, 002 v002 and 004 v005 now share the original painted 003 cast/room; 003 v019 and 005 v012 remain the selected benchmarks. / 本轮统一画风后，五张卡均有实际带声视频与下载，三集重做，003、005 保留基准；全部待审、未发布。
+
+Latest story pass / 最新剧情批次：001 v004, 002 v003, 004 v006 now use distinct living-room, coffee-nook and kitchen scenes with original scores. All five cards offer explicit Play with sound buttons. Earlier unified-pass descriptions above are historical. Current selections are in [EPISODES.md](../EPISODES.md) and [PROJECT_INDEX.md](../PROJECT_INDEX.md). / 新三集改用不同生活布景及独立配乐，五集均显式带声播放；上方统一场景批次为历史，当前选用以总览和项目索引为准。

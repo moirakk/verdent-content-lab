@@ -1,55 +1,56 @@
 {
   "id": "004-that-was-a-sentence",
-  "title": "That Was a Sentence",
-  "kicker": "MOCHI & LUCKY \u00b7 THE TINY COMPANY 004",
-  "footer": "some tasks get volunteers.",
-  "footerAt": 15800,
-  "featureId": "M01",
-  "template": "motion/004-that-was-a-sentence/template-unified",
-  "duration": 18000,
-  "storyType": "decompose",
+  "title": "Soft Launch",
+  "kicker": "MOCHI & LUCKY · THE TINY COMPANY 004",
+  "footer": "Mochi & Lucky",
+  "footerAt": 19000,
+  "template": "motion/004-that-was-a-sentence/template-story",
+  "duration": 20000,
+  "storyType": "cafe",
   "voicesAvailable": true,
-  "note": "Rebuilt against the creator-selected 003/005 painted direction: exact blue-studio cast, grounded props, head-following speech and episode-specific acting. Limited animation, unpublished review draft.",
+  "note": "Story-first redesign after creator feedback: new painted location, complete-character action drawings, visual cold open, camera changes and a distinct original score. Synthetic child dialogue; unpublished limited-animation review.",
   "beats": [
     {
       "at": 0,
-      "speaker": "Lucky",
-      "text": "I have a plan.",
-      "shot": "claim",
+      "speaker": "Mochi",
+      "text": "Where are the samples?",
       "voiceAt": 250,
-      "captionUntil": 2322
+      "captionUntil": 2900
     },
     {
-      "at": 2400,
-      "speaker": "Mochi",
-      "text": "Let's hear it.",
-      "shot": "listen",
-      "voiceAt": 2600,
-      "captionUntil": 4722
-    },
-    {
-      "at": 4600,
+      "at": 3200,
       "speaker": "Lucky",
-      "text": "Open a cat caf\u00e9.",
-      "shot": "idea",
-      "voiceAt": 4800,
-      "captionUntil": 7306
+      "text": "Internal testing.",
+      "voiceAt": 3400,
+      "captionUntil": 5800
     },
     {
-      "at": 7400,
+      "at": 6200,
       "speaker": "Mochi",
-      "text": "That was a sentence.",
-      "shot": "reaction",
-      "voiceAt": 7600,
-      "captionUntil": 10058
+      "text": "All twelve?",
+      "voiceAt": 6400,
+      "captionUntil": 8600
     },
     {
-      "at": 12600,
+      "at": 9000,
       "speaker": "Lucky",
-      "text": "I call taste testing.",
-      "shot": "volunteer",
-      "voiceAt": 12800,
-      "captionUntil": 15474
+      "text": "Very thorough.",
+      "voiceAt": 9200,
+      "captionUntil": 11500
+    },
+    {
+      "at": 12200,
+      "speaker": "Mochi",
+      "text": "We open tomorrow.",
+      "voiceAt": 12400,
+      "captionUntil": 14900
+    },
+    {
+      "at": 15800,
+      "speaker": "Lucky",
+      "text": "I'll test again.",
+      "voiceAt": 16000,
+      "captionUntil": 18600
     }
   ],
   "soundEffects": [
@@ -79,12 +80,94 @@
       "gain": 0.045
     }
   ],
-  "voiceDurations": [
-    1872,
-    1872,
-    2256,
-    2208,
-    2424
-  ],
-  "visualSystem": "painted-blue-v001"
+  "visualSystem": "painted-story-v002",
+  "registration": {
+    "width": 1774,
+    "height": 887,
+    "cw": 443.5,
+    "ch": 443.5,
+    "frames": [
+      {
+        "l": 16,
+        "r": 441,
+        "t": 85,
+        "b": 423,
+        "headY": [
+          87,
+          119
+        ]
+      },
+      {
+        "l": 12,
+        "r": 442,
+        "t": 77,
+        "b": 423,
+        "headY": [
+          80,
+          90
+        ]
+      },
+      {
+        "l": 0,
+        "r": 442,
+        "t": 145,
+        "b": 422,
+        "headY": [
+          173,
+          149
+        ]
+      },
+      {
+        "l": 0,
+        "r": 424,
+        "t": 88,
+        "b": 422,
+        "headY": [
+          90,
+          165
+        ]
+      },
+      {
+        "l": 17,
+        "r": 439,
+        "t": 41,
+        "b": 389,
+        "headY": [
+          43,
+          101
+        ]
+      },
+      {
+        "l": 1,
+        "r": 442,
+        "t": 32,
+        "b": 390,
+        "headY": [
+          34,
+          95
+        ]
+      },
+      {
+        "l": 0,
+        "r": 431,
+        "t": 34,
+        "b": 389,
+        "headY": [
+          37,
+          156
+        ]
+      },
+      {
+        "l": 5,
+        "r": 425,
+        "t": 27,
+        "b": 386,
+        "headY": [
+          30,
+          108
+        ]
+      }
+    ]
+  },
+  "videoExport": "previews/v006-soft-launch-review.mp4"
 }

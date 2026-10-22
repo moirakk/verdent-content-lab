@@ -1,0 +1,22 @@
+{
+  "original": true,
+  "style": "coffee",
+  "bpm": 94,
+  "duration": 18,
+  "cues": [
+    [
+      6.7,
+      "cup"
+    ],
+    [
+      9.8,
+      "cup"
+    ],
+    [
+      13.1,
+      "cup"
+    ]
+  ],
+  "level": "-23 LUFS before dialogue ducking",
+  "instruments": "synthetic plucked bass, pizzicato/soft keys, bell and woodblock; deterministic original notes"
+}

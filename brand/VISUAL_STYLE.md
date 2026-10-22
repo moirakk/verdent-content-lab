@@ -64,3 +64,7 @@ Do not promise final video quality from a low-resolution MP4. Test the actual br
 6. Real browser recording and creator review, not only code/render checks / 实际录屏与创作者验看，不只看代码或离线渲染。
 
 For comic panels use the same identity, material and reaction logic; do not force a motion shot list into every comic / 漫画沿用相同造型材质与反应逻辑，不机械套动态分镜。
+
+## Story variety · 场景与剧情多样性（2026-10-22）
+
+Visual consistency means the same painted character identity, brush language and staging rules across different locations. It does not require every story to reuse the same room. Current 001/002/004 use separate living-room, coffee-nook and kitchen plates at 4:5; 003 stays 4:5 and Halloween 005 stays 9:16. Give each story a visible action/payoff and its own original score/SFX, with explicit sound playback. / 统一的是角色、笔触与空间规则，不是重复同一房间；当前三集分别用客厅、咖啡角、厨房，003 保留 4:5，005 保留节日竖屏；每集有动作反转和独立声音，显式带声播放。

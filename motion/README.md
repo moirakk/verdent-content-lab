@@ -14,12 +14,11 @@ Current here means the working file, not a release-approved film. The original p
 
 | ID / 编号 | Title / 标题 | Status / 状态 | Selected / 当前选用 | Links / 入口 |
 | --- | --- | --- | --- | --- |
-| 001 | Have an idea | Draft, unpublished / 待审，未发布 | v001 · 8s / 8 秒 | [Brief / 说明](001-have-an-idea/README.md) · [Play / 播放](001-have-an-idea/index.html) · [Versions / 历史](001-have-an-idea/versions/index.html) |
-| 002 | One Tiny Feature | Draft, unpublished / 待审，未发布 | v001 · 12s / 12 秒 | [Brief / 说明](002-tiny-feature/README.md) · [Play / 播放](002-tiny-feature/index.html) · [Versions / 历史](002-tiny-feature/versions/index.html) |
-| 003 | Chief Nap Officer | Blue A acting polish / 蓝地板 A 版表演打磨 | A v019 · 18s; B v016 · 12s / 默认新 A，B 保留 | [A HTML](003-chief-nap-officer/versions/v019/index.html) · [Review MP4](003-chief-nap-officer/previews/v019-blue-acting-review.mp4) · [B HTML](003-chief-nap-officer/versions/v016/index.html) |
-| 004 | That Was a Sentence | Voiced draft / 童声样片 | v004 · 18s · child voices + music / 童声配乐 | [Brief / 说明](004-that-was-a-sentence/README.md) · [HTML](004-that-was-a-sentence/index.html) · [Video / 视频](004-that-was-a-sentence/previews/v004-voiced-browser-review.mp4) |
-
-| 005 | A Little More | Halloween limited-animation draft / 万圣节有限动画待审 | v012 · 18s · child voices + Halloween score / 童声与节日配乐 | [HTML](005-halloween/index.html) · [Review MP4](005-halloween/previews/halloween-wish-v012-voiced-review.mp4) · [Brief / 说明](005-halloween/README.md) |
+| 001 | The Corner Office | Review draft / 未发布待审 | v004 / 18s | [HTML](001-have-an-idea/index.html) / [MP4](001-have-an-idea/previews/v004-corner-office-review.mp4) / [History / 历史](001-have-an-idea/versions/index.html) |
+| 002 | One Tiny Feature | Review draft / 未发布待审 | v003 / 18s | [HTML](002-tiny-feature/index.html) / [MP4](002-tiny-feature/previews/v003-coffee-story-review.mp4) / [History / 历史](002-tiny-feature/versions/index.html) |
+| 003 | Chief Nap Officer | Review draft / 未发布待审 | v019 / 18s | [HTML](003-chief-nap-officer/index.html) / [MP4](003-chief-nap-officer/previews/v019-browser-review.mp4) / [History / 历史](003-chief-nap-officer/versions/index.html) |
+| 004 | Soft Launch | Review draft / 未发布待审 | v006 / 20s | [HTML](004-that-was-a-sentence/index.html) / [MP4](004-that-was-a-sentence/previews/v006-soft-launch-review.mp4) / [History / 历史](004-that-was-a-sentence/versions/index.html) |
+| 005 | A Little More | Review draft / 未发布待审 | v012 / 18s | [HTML](005-halloween/index.html) / [MP4](005-halloween/previews/halloween-wish-v012-voiced-review.mp4) / [History / 历史](005-halloween/versions/index.html) |
 
 ## Per-Episode Layout · 每条作品结构
 

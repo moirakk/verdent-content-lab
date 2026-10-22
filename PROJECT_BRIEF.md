@@ -82,3 +82,7 @@ The creator requests an animated candy wish to Verdent, original Halloween BGM, 
 The creator finds 003 and 005 acceptable as visual benchmarks and requests reworking all other existing films for consistency. 001/002/004 now share the exact 003 painted cast and room, whole connected poses, head-following speech and grounded scene props. Their current stage is 4:5; 005 keeps its 9:16 seasonal room/costumes. This does not approve publication. / 创作者认为 003、005 还行，要求其余全部重做并统一视觉；001、002、004 统一原水粉猫、房间、整猫姿势、头顶气泡和落地道具；三集用 4:5，005 保留节日竖屏装扮，均不代表批准发布。
 
 Current versions and exports are listed in [EPISODES.md](EPISODES.md). Earlier next-decision notes above describe prior production stages. / 当前版本与成片以总览为准，上方旧阶段建议仅作背景。
+
+## Latest story feedback · 最新剧情反馈（2026-10-22）
+
+After the first visual-unification pass, the creator found one repeated set, dialogue-led plots and weak/muted BGM unengaging. The next pass uses living-room box comedy (001), coffee-nook escalation (002) and bakery sample theft (004), with new complete-character poses, short camera changes, action sounds and distinct original scores. Default playback explicitly starts with sound. 003 and 005 remain visual benchmarks. No new release approval is implied. / 第一轮统一后被指出场景单一、剧情无聊与配乐感知弱，本轮改三种生活布景、整猫动作、短分镜、动作音与独立配乐，显式带声播放；003、005 保留基准，均不等于发布批准。

@@ -1,0 +1,44 @@
+{
+  "version": "v003-story",
+  "duration": 18.0,
+  "score": "motion/001-have-an-idea/audio/story-score-v001/score-normalized.wav",
+  "lines": [
+    {
+      "speaker": "Lucky",
+      "text": "I upgraded the office.",
+      "start": 0.25,
+      "duration": 2.52,
+      "voice": "en-US-AnaNeural"
+    },
+    {
+      "speaker": "Mochi",
+      "text": "Where?",
+      "start": 3.3,
+      "duration": 1.872,
+      "voice": "en-GB-MaisieNeural"
+    },
+    {
+      "speaker": "Lucky",
+      "text": "Corner office.",
+      "start": 5.7,
+      "duration": 2.016,
+      "voice": "en-US-AnaNeural"
+    },
+    {
+      "speaker": "Mochi",
+      "text": "Room for two?",
+      "start": 9.7,
+      "duration": 1.92,
+      "voice": "en-GB-MaisieNeural"
+    },
+    {
+      "speaker": "Lucky",
+      "text": "Open plan.",
+      "start": 14.7,
+      "duration": 1.872,
+      "voice": "en-US-AnaNeural"
+    }
+  ],
+  "syntheticChildSpeech": true,
+  "musicDuckedUnderSpeech": true
+}

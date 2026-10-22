@@ -1,8 +1,8 @@
 # Next Stories · 后续故事草稿
 
-Planning only. Halloween 005 remains the first production priority; these cards are not published, scheduled or rendered episodes. / 仅故事草稿，005 万圣节优先；以下未发布、未排期、未渲染成片。
+Card 1 is now Motion 001 v004, The Corner Office (18s review draft). Cards 2–3 remain planning only. All remain unpublished. Halloween is still featured / 第一张已改编为 001 v004 十八秒待审稿，后两张仍为草稿，均未发布，万圣节仍在目录首位。
 
-## 1. Office Upgrade · 办公室升级（首选）
+## 1. Office Upgrade · 办公室升级（已改编为 001 v004）
 
 Desire / 欲望：Lucky proudly upgrades their workspace; both cats prefer a cardboard box to any actual office. / Lucky 得意升级办公室，两只猫却都更喜欢纸箱。
 
