@@ -1,0 +1,629 @@
+{
+  "title": "A Little More \u2014 Halloween Wish",
+  "duration": 18.0,
+  "bpm": 108,
+  "tonality": "D harmonic minor",
+  "instruments": [
+    "synthetic celesta",
+    "pizzicato-like plucks",
+    "soft bass",
+    "woodblock paw-scuttle"
+  ],
+  "silence": [
+    6.5,
+    7.8
+  ],
+  "voice": false,
+  "samples": false,
+  "events": [
+    {
+      "at": 0.18,
+      "midi": 74,
+      "duration": 0.7,
+      "instrument": "bell",
+      "gain": 0.1
+    },
+    {
+      "at": 0.65,
+      "midi": 77,
+      "duration": 0.7,
+      "instrument": "bell",
+      "gain": 0.1
+    },
+    {
+      "at": 1.12,
+      "midi": 76,
+      "duration": 0.7,
+      "instrument": "bell",
+      "gain": 0.1
+    },
+    {
+      "at": 1.6,
+      "midi": 73,
+      "duration": 0.7,
+      "instrument": "bell",
+      "gain": 0.1
+    },
+    {
+      "at": 2.5,
+      "midi": 86,
+      "duration": 0.7,
+      "instrument": "bell",
+      "gain": 0.1
+    },
+    {
+      "at": 2.7,
+      "midi": 89,
+      "duration": 0.7,
+      "instrument": "bell",
+      "gain": 0.1
+    },
+    {
+      "at": 3.65,
+      "midi": 86,
+      "duration": 0.7,
+      "instrument": "bell",
+      "gain": 0.1
+    },
+    {
+      "at": 0.1,
+      "midi": 50,
+      "duration": 0.38,
+      "instrument": "pluck",
+      "gain": 0.08
+    },
+    {
+      "at": 1.15,
+      "midi": 57,
+      "duration": 0.38,
+      "instrument": "pluck",
+      "gain": 0.08
+    },
+    {
+      "at": 2.2,
+      "midi": 53,
+      "duration": 0.38,
+      "instrument": "pluck",
+      "gain": 0.08
+    },
+    {
+      "at": 3.8,
+      "midi": 62,
+      "duration": 0.38,
+      "instrument": "pluck",
+      "gain": 0.08
+    },
+    {
+      "at": 4.8,
+      "midi": 65,
+      "duration": 0.38,
+      "instrument": "pluck",
+      "gain": 0.08
+    },
+    {
+      "at": 5.1,
+      "midi": 68,
+      "duration": 0.38,
+      "instrument": "pluck",
+      "gain": 0.08
+    },
+    {
+      "at": 5.4,
+      "midi": 69,
+      "duration": 0.38,
+      "instrument": "pluck",
+      "gain": 0.08
+    },
+    {
+      "at": 5.7,
+      "midi": 74,
+      "duration": 0.38,
+      "instrument": "pluck",
+      "gain": 0.08
+    },
+    {
+      "at": 6.0,
+      "midi": 77,
+      "duration": 0.38,
+      "instrument": "pluck",
+      "gain": 0.08
+    },
+    {
+      "at": 7.8,
+      "midi": 74,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 7.8,
+      "midi": 50,
+      "duration": 0.38,
+      "instrument": "bass",
+      "gain": 0.08
+    },
+    {
+      "at": 7.88,
+      "midi": 64,
+      "duration": 0.08,
+      "instrument": "wood",
+      "gain": 0.035
+    },
+    {
+      "at": 7.97,
+      "midi": 77,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 8.14,
+      "midi": 81,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 8.31,
+      "midi": 80,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 8.39,
+      "midi": 67,
+      "duration": 0.08,
+      "instrument": "wood",
+      "gain": 0.035
+    },
+    {
+      "at": 8.48,
+      "midi": 77,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 8.48,
+      "midi": 53,
+      "duration": 0.38,
+      "instrument": "bass",
+      "gain": 0.08
+    },
+    {
+      "at": 8.65,
+      "midi": 73,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 8.82,
+      "midi": 76,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 8.9,
+      "midi": 65,
+      "duration": 0.08,
+      "instrument": "wood",
+      "gain": 0.035
+    },
+    {
+      "at": 8.99,
+      "midi": 81,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 9.16,
+      "midi": 74,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 9.16,
+      "midi": 57,
+      "duration": 0.38,
+      "instrument": "bass",
+      "gain": 0.08
+    },
+    {
+      "at": 9.33,
+      "midi": 77,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 9.41,
+      "midi": 68,
+      "duration": 0.08,
+      "instrument": "wood",
+      "gain": 0.035
+    },
+    {
+      "at": 9.5,
+      "midi": 81,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 9.67,
+      "midi": 80,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 9.84,
+      "midi": 77,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 9.84,
+      "midi": 49,
+      "duration": 0.38,
+      "instrument": "bass",
+      "gain": 0.08
+    },
+    {
+      "at": 9.92,
+      "midi": 66,
+      "duration": 0.08,
+      "instrument": "wood",
+      "gain": 0.035
+    },
+    {
+      "at": 10.01,
+      "midi": 73,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 10.18,
+      "midi": 76,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 10.35,
+      "midi": 81,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 10.43,
+      "midi": 64,
+      "duration": 0.08,
+      "instrument": "wood",
+      "gain": 0.035
+    },
+    {
+      "at": 10.52,
+      "midi": 74,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 10.52,
+      "midi": 50,
+      "duration": 0.38,
+      "instrument": "bass",
+      "gain": 0.08
+    },
+    {
+      "at": 10.69,
+      "midi": 77,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 10.86,
+      "midi": 81,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 10.94,
+      "midi": 67,
+      "duration": 0.08,
+      "instrument": "wood",
+      "gain": 0.035
+    },
+    {
+      "at": 11.030000000000001,
+      "midi": 80,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 11.2,
+      "midi": 77,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 11.2,
+      "midi": 53,
+      "duration": 0.38,
+      "instrument": "bass",
+      "gain": 0.08
+    },
+    {
+      "at": 11.370000000000001,
+      "midi": 73,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 11.450000000000001,
+      "midi": 65,
+      "duration": 0.08,
+      "instrument": "wood",
+      "gain": 0.035
+    },
+    {
+      "at": 11.54,
+      "midi": 76,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 11.71,
+      "midi": 81,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 11.879999999999999,
+      "midi": 74,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 11.879999999999999,
+      "midi": 57,
+      "duration": 0.38,
+      "instrument": "bass",
+      "gain": 0.08
+    },
+    {
+      "at": 11.959999999999999,
+      "midi": 68,
+      "duration": 0.08,
+      "instrument": "wood",
+      "gain": 0.035
+    },
+    {
+      "at": 12.05,
+      "midi": 77,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 12.219999999999999,
+      "midi": 81,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 12.39,
+      "midi": 80,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 12.47,
+      "midi": 66,
+      "duration": 0.08,
+      "instrument": "wood",
+      "gain": 0.035
+    },
+    {
+      "at": 12.56,
+      "midi": 77,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 12.56,
+      "midi": 49,
+      "duration": 0.38,
+      "instrument": "bass",
+      "gain": 0.08
+    },
+    {
+      "at": 12.73,
+      "midi": 73,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 12.9,
+      "midi": 76,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 12.98,
+      "midi": 64,
+      "duration": 0.08,
+      "instrument": "wood",
+      "gain": 0.035
+    },
+    {
+      "at": 13.07,
+      "midi": 81,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 13.24,
+      "midi": 74,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 13.24,
+      "midi": 50,
+      "duration": 0.38,
+      "instrument": "bass",
+      "gain": 0.08
+    },
+    {
+      "at": 13.41,
+      "midi": 77,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 13.49,
+      "midi": 67,
+      "duration": 0.08,
+      "instrument": "wood",
+      "gain": 0.035
+    },
+    {
+      "at": 13.58,
+      "midi": 81,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 13.75,
+      "midi": 80,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 13.92,
+      "midi": 77,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 13.92,
+      "midi": 53,
+      "duration": 0.38,
+      "instrument": "bass",
+      "gain": 0.08
+    },
+    {
+      "at": 14.0,
+      "midi": 65,
+      "duration": 0.08,
+      "instrument": "wood",
+      "gain": 0.035
+    },
+    {
+      "at": 14.09,
+      "midi": 73,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 14.260000000000002,
+      "midi": 76,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 14.43,
+      "midi": 81,
+      "duration": 0.25,
+      "instrument": "bell",
+      "gain": 0.055
+    },
+    {
+      "at": 14.51,
+      "midi": 68,
+      "duration": 0.08,
+      "instrument": "wood",
+      "gain": 0.035
+    },
+    {
+      "at": 14.85,
+      "midi": 62,
+      "duration": 0.55,
+      "instrument": "pluck",
+      "gain": 0.075
+    },
+    {
+      "at": 15.35,
+      "midi": 50,
+      "duration": 0.8,
+      "instrument": "bass",
+      "gain": 0.09
+    },
+    {
+      "at": 16.1,
+      "midi": 77,
+      "duration": 0.5,
+      "instrument": "bell",
+      "gain": 0.05
+    },
+    {
+      "at": 16.65,
+      "midi": 74,
+      "duration": 1.0,
+      "instrument": "bell",
+      "gain": 0.06
+    },
+    {
+      "at": 1.28,
+      "midi": 78,
+      "duration": 0.065,
+      "instrument": "wood",
+      "gain": 0.045
+    },
+    {
+      "at": 5.3,
+      "midi": 78,
+      "duration": 0.065,
+      "instrument": "wood",
+      "gain": 0.045
+    },
+    {
+      "at": 3.65,
+      "midi": 62,
+      "duration": 0.08,
+      "instrument": "wood",
+      "gain": 0.035
+    }
+  ]
+}

@@ -1,6 +1,12 @@
 # A Little More · Halloween Special / 万圣节特辑
 
-Current: **v008**, an 18-second browser-playable limited-animation draft, unpublished. / 当前 v008，18 秒浏览器有限动画待审稿，未发布。
+Current: **v010**, an 18-second browser-playable limited-animation draft, unpublished. / 当前 v010，18 秒浏览器有限动画待审稿，未发布。
+
+## Motion polish / 连续动作打磨
+
+The creator liked v008 and requested stronger animation. v010 preserves its exact art and adds event-driven body compression/recoil, a connected mesh across the whole ghost drawing for delayed cloth motion, a visible first-candy bucket impact and damped bucket wobble. The first candy now dips behind the rim instead of spinning forever. Candy emission accelerates, then settles before Mochi rises slightly and speaks at 14.8s. No new idle rocking was added. / 创作者认可 v008 后要求更强动画感；v010 保留原画，增加动作驱动的蓄力回弹、整猫连续网格上的布料延迟、落桶接触与阻尼轻晃；首糖落入桶中收住，不再持续旋转。糖雨由少变密，落稳后 Mochi 于 14.8 秒稍抬头接话。
+
+Art PNGs and the supplied logo are unchanged. This remains limited key-pose animation augmented with continuous deformation, not newly hand-drawn in-betweens. / 原 PNG 与 Logo 字节未改；当前为关键姿势加连续形变，非新增手绘中间帧。
 
 ## Latest visual direction / 最新画面要求
 
@@ -29,11 +35,11 @@ This uses full-pose changes and prop movement, not continuous hand-drawn in-betw
 
 Open [index.html](index.html), click **Sound off** to enable the embedded original music, and replay. Space pauses; R restarts. `?capture=1` hides controls; `?t=8500` freezes a moment. Reduced motion starts paused; final frame holds. / 单文件离线打开，点击声音按钮启用内嵌 BGM；支持暂停重播、录制模式、固定时间与减少动态，尾帧停住。
 
-[Browser-rendered review MP4](previews/halloween-wish-v008-review.mp4), 432×768, 24 browser samples/sec encoded at 24fps, with original score. It is a draft preview, not a final release master. / 浏览器采样审片视频，含原创配乐，非最终发布母版。
+[Browser-rendered review MP4](previews/halloween-wish-v010-review.mp4), 540×960, 24 browser samples/sec encoded at 24fps, with original score. It is a draft preview, not a final release master. / 浏览器采样审片视频，含原创配乐，非最终发布母版。
 
 ## Music & Art / 配乐与画稿
 
-- Original [score WAV](audio/v003/halloween-wish-score-v002.wav), [composition source](audio/v003/compose.py), [timed notes](audio/v003/score.json): 108 BPM, D harmonic minor, synthetic celesta, plucks, soft bass and light wooden taps; silence at 6.5–7.8s, faster note density during the candy shower. No third-party music samples. / 原创万圣节钟琴拨弦小调，糖雨前停顿、糖雨段音符加密，无第三方音乐采样。
+- Original [score WAV](audio/v004/halloween-wish-score-v003.wav), [composition source](audio/v004/compose.py), [timed notes](audio/v004/score.json): 108 BPM, D harmonic minor, synthetic celesta, plucks, soft bass and light wooden taps; silence at 6.5–7.8s, faster note density during the candy shower. No third-party music samples. / 原创万圣节钟琴拨弦小调，糖雨前停顿、糖雨段音符加密，无第三方音乐采样。
 - New [room](template-interaction/assets/halloween-room-v001.png), [Lucky sheet](template-interaction/assets/lucky-ghost-painted-v001.png), [Mochi sheet](template-interaction/assets/mochi-witch-painted-v001.png) generated with built-in ImageGen, anchored to the original blue-studio painting. [Exact prompts](PROMPT.md). / 内置 ImageGen 参考原画生成，提示词保留。
 - [Supplied Verdent logo](../../brand/assets/verdent-logo-supplied-2026-10-22.png): exact user-provided PNG, unmodified, displayed at its original aspect ratio. / 用户于 10 月 22 日提供的原 PNG，字节未改，原比例显示。
 - Native canvas candy, laptop and bucket props; painting strokes come from original raster art. / 糖果、电脑和桶为画布道具，角色背景使用绘画原图。
@@ -47,3 +53,7 @@ v001 is the vacuum storyboard animatic. v002–v004 preserve the initial candy-w
 Real Chromium playback checked: no JavaScript errors, music starts on user click, replay plays, pause holds timeline, and end holds the final frame. Frame registration and phone-sized screenshots reviewed; logo source checksum matches the supplied file. / Chromium 实测无脚本错误，点击出声，重播播放，暂停和尾帧停住；检查手机截图、整猫裁切及 Logo 原图校验。
 
 Current source / 当前源码：[template-interaction](template-interaction/motion.js). [Frame registration](template-interaction/frame-registration.json) was measured from each whole-character alpha component; the artwork itself was not edited. / 定位通过整猫透明通道主体测得，原画字节未编辑。
+
+Polish verification / 本轮检查：Chromium screenshots reviewed at contact, cloth recoil, bucket impact and shower start; no JavaScript errors; music/replay/pause/end hold passed again. Current review video uses 24 browser samples/sec at 540×960. v009 is the first motion pass; v010 closes subpixel seams in the cloth mesh. / 检查按键、布料回弹、落桶与糖雨起点截图，播放声音控制复查通过；审片为 540×960、每秒 24 次浏览器采样；v009 初轮动作，v010 修布料细接缝。
+
+Spatial staging check / 空间关系复查：Reviewed key contact, recoil and final hold at phone size. Cats remain on the foreground floor plane with ground shadows; laptop stays between them, pumpkin bucket in front; back candies and foreground pile maintain their occlusion order. Temporary lift is limited to the motivated startle/recoil. / 已在手机尺寸复查接触、回弹和尾帧：猫在近景地面且有落地阴影，电脑居中、南瓜桶在前，飞糖和糖堆前后遮挡分明；短暂离地仅用于受惊回弹。

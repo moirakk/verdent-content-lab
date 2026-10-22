@@ -21,7 +21,7 @@ Do not treat an assistant's generated proposal, a high version number, or a succ
 
 ## Halloween update · 万圣节新任务
 
-Creator selected a new candy-wish story on 2026-10-22. Current [005 v008](motion/005-halloween/index.html) is an 18-second painted limited-animation draft with a solid projected laptop, ghost/witch costumes and head-following bubbles with original Halloween BGM and the exact supplied logo. [Review video](motion/005-halloween/previews/halloween-wish-v008-review.mp4). Browser playback, sound, pause/replay and end hold were checked. No child speech or final approval. Previous vacuum concept remains in v001. / 创作者改为向 Verdent 许愿出糖，当前 005 v008 含原创 BGM 与新供原 Logo，播放声音控制已查；无童声，未获最终确认，吸尘器分镜保留于 v001。
+Creator selected a new candy-wish story on 2026-10-22. Current [005 v010](motion/005-halloween/index.html) is an 18-second painted limited-animation draft with a solid projected laptop, ghost/witch costumes and head-following bubbles with original Halloween BGM and the exact supplied logo. [Review video](motion/005-halloween/previews/halloween-wish-v010-review.mp4). Browser playback, sound, pause/replay and end hold were checked. No child speech or final approval. Previous vacuum concept remains in v001. / 创作者改为向 Verdent 许愿出糖，当前 005 v010 含原创 BGM 与新供原 Logo，播放声音控制已查；无童声，未获最终确认，吸尘器分镜保留于 v001。
 
 Earlier assets/animation/docs were successfully pushed in a6ed89c; the old access block is resolved. / 旧稿已通过 a6ed89c 推送，此前仓库访问障碍已解决。
 
