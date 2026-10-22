@@ -36,3 +36,7 @@ Current films are limited-animation review drafts: complete painted key poses pl
 Use one verified capability only when a story needs it, and label illustrative UI. [Product research](brand/VERDENT_FEATURE_MAP.md) and [strategy](brand/CONTENT_STRATEGY.md) support editorial work; proposed worlds and queues are not approved canon or schedules / 剧情需要时使用经核实的能力，区分示意界面；资料和策略不自动成为固定世界观或排期。
 
 All motion films remain unpublished. Comic EP.05 has creator-confirmed publication but missing release details. Check [actual status](CONTENT_MAP.md) before making claims. Keep the repository private / 动态均未发布；漫画 EP.05 已由创作者确认发布，详情待归档；仓库保持私有。
+
+## Latest clarification · 最新澄清（2026-10-22）
+
+The creator now asks Verdent to participate in the revised stories, with direct requests and visible computer responses; adding a logo alone is insufficient. Keep cat proportions unchanged, strengthen acting, clarify Soft Launch, and rework Halloween with natural child delivery. [Current revisions / 本轮改稿](WORK_IN_PROGRESS.md) remain unfinished / 本轮要求品牌参与剧情，对工具说话并看到反馈；不能只贴标志。造型比例不变，加强表演、讲清 Soft Launch，并让万圣节童声自然。改稿仍在制作。

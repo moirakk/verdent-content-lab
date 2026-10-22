@@ -1,0 +1,15 @@
+{
+  "version": "v006-natural",
+  "score": "audio/v006-score/halloween-wish-score-v004.wav",
+  "lines": [
+    {
+      "rate": "+1%"
+    },
+    {
+      "rate": "+3%"
+    },
+    {
+      "rate": "-1%"
+    }
+  ]
+}

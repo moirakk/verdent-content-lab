@@ -37,3 +37,7 @@ The earlier accumulated handoffs are in [documentation history](archive/README.m
 ## Next · 下一步
 
 [Task list](TASKS.md) contains current film-review gaps and archival follow-ups. Git sync and passing checks do not equal creative approval / 待办列出审片与归档缺口；Git 同步和检查通过不等于创意验收。
+
+## Saved unfinished revisions · 已保存未完成改稿
+
+[Production drafts / 制作中](WORK_IN_PROGRESS.md) tracks the new Verdent-led coffee/bakery stories and Halloween voice/motion pass. Selected episode.json files still point at completed films. Resume from each draft config; do not mistake working download placeholders for matching exports / 新品牌剧情与节日优化另存；选用配置仍指向完成片，接手读改稿配置，工作下载占位不可当新片。

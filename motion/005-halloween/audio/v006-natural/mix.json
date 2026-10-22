@@ -1,0 +1,51 @@
+{
+  "recipe": {
+    "version": "v006-natural",
+    "score": "audio/v006-score/halloween-wish-score-v004.wav",
+    "lines": [
+      {
+        "rate": "+1%"
+      },
+      {
+        "rate": "+3%"
+      },
+      {
+        "rate": "-1%"
+      }
+    ]
+  },
+  "lines": [
+    {
+      "speaker": "Lucky",
+      "text": "Hey, Verdent... treats, please?",
+      "start": 0.25,
+      "duration": 2.5775,
+      "voice": "en-US-AnaNeural",
+      "rate": "+1%",
+      "file": "line-01.wav"
+    },
+    {
+      "speaker": "Lucky",
+      "text": "Ooh! A little more?",
+      "start": 5.35,
+      "duration": 1.924,
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
+      "file": "line-02.wav"
+    },
+    {
+      "speaker": "Mochi",
+      "text": "You call that little?",
+      "start": 16.05,
+      "duration": 1.027,
+      "voice": "en-GB-MaisieNeural",
+      "rate": "-1%",
+      "file": "line-03.wav"
+    }
+  ],
+  "duration": 20.0,
+  "syntheticChildSpeech": true,
+  "outerSilenceTrimmed": true,
+  "internalPausesPreserved": true,
+  "musicDuckedUnderSpeech": true
+}

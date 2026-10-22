@@ -1,0 +1,556 @@
+{
+  "id": "004-that-was-a-sentence",
+  "title": "Soft Launch",
+  "kicker": "MOCHI & LUCKY · THE TINY COMPANY 004",
+  "footer": "Mochi & Lucky",
+  "footerAt": 19000,
+  "template": "motion/004-that-was-a-sentence/template-bakery-preview",
+  "duration": 20000,
+  "storyType": "cafe",
+  "voicesAvailable": true,
+  "note": "Rewritten setup and payoff: build bakery site, preview ready, test the website, Lucky eats the cookies, Mochi corrects him, buttery five-star verdict. Complete painted cats keep native proportions; no mesh warping. Illustrative Verdent preview; unpublished review draft.",
+  "beats": [
+    {
+      "at": 0,
+      "speaker": "Lucky",
+      "text": "Verdent, build our bakery site.",
+      "voiceAt": 250,
+      "captionUntil": 3650
+    },
+    {
+      "at": 4000,
+      "speaker": "Mochi",
+      "text": "Lucky, test the website.",
+      "voiceAt": 4200,
+      "captionUntil": 7250
+    },
+    {
+      "at": 7600,
+      "speaker": "Lucky",
+      "text": "On it.",
+      "voiceAt": 7800,
+      "captionUntil": 9700
+    },
+    {
+      "at": 11200,
+      "speaker": "Mochi",
+      "text": "The website, Lucky.",
+      "voiceAt": 11400,
+      "captionUntil": 14500
+    },
+    {
+      "at": 15400,
+      "speaker": "Lucky",
+      "text": "Five stars. Very buttery.",
+      "voiceAt": 15600,
+      "captionUntil": 19000
+    }
+  ],
+  "soundEffects": [
+    {
+      "at": 3450,
+      "type": "preview-ready"
+    },
+    {
+      "at": 8600,
+      "type": "cookie-tap"
+    },
+    {
+      "at": 9450,
+      "type": "crumb"
+    },
+    {
+      "at": 13200,
+      "type": "tray-slide"
+    }
+  ],
+  "visualSystem": "painted-independent-acting-v001",
+  "registration": {
+    "Mochi": [
+      {
+        "box": [
+          39,
+          313,
+          24,
+          350
+        ],
+        "anchor": [
+          200,
+          340
+        ],
+        "head": [
+          237,
+          133
+        ],
+        "paw": [
+          261,
+          333
+        ]
+      },
+      {
+        "box": [
+          388,
+          676,
+          48,
+          349
+        ],
+        "anchor": [
+          560,
+          340
+        ],
+        "head": [
+          601,
+          148
+        ],
+        "paw": [
+          625,
+          332
+        ]
+      },
+      {
+        "box": [
+          737,
+          1058,
+          76,
+          349
+        ],
+        "anchor": [
+          915,
+          340
+        ],
+        "head": [
+          979,
+          188
+        ],
+        "paw": [
+          990,
+          330
+        ]
+      },
+      {
+        "box": [
+          1091,
+          1400,
+          48,
+          349
+        ],
+        "anchor": [
+          1285,
+          340
+        ],
+        "head": [
+          1325,
+          147
+        ],
+        "paw": [
+          1346,
+          291
+        ]
+      },
+      {
+        "box": [
+          26,
+          355,
+          381,
+          678
+        ],
+        "anchor": [
+          200,
+          664
+        ],
+        "head": [
+          247,
+          482
+        ],
+        "paw": [
+          333,
+          580
+        ]
+      },
+      {
+        "box": [
+          368,
+          726,
+          386,
+          675
+        ],
+        "anchor": [
+          560,
+          664
+        ],
+        "head": [
+          625,
+          489
+        ],
+        "paw": [
+          708,
+          650
+        ]
+      },
+      {
+        "box": [
+          729,
+          1108,
+          408,
+          675
+        ],
+        "anchor": [
+          918,
+          664
+        ],
+        "head": [
+          1000,
+          508
+        ],
+        "paw": [
+          1090,
+          652
+        ]
+      },
+      {
+        "box": [
+          1114,
+          1405,
+          393,
+          677
+        ],
+        "anchor": [
+          1280,
+          664
+        ],
+        "head": [
+          1320,
+          491
+        ],
+        "paw": [
+          1380,
+          663
+        ]
+      },
+      {
+        "box": [
+          32,
+          317,
+          700,
+          1030
+        ],
+        "anchor": [
+          200,
+          1015
+        ],
+        "head": [
+          244,
+          800
+        ],
+        "paw": [
+          282,
+          947
+        ]
+      },
+      {
+        "box": [
+          387,
+          676,
+          700,
+          1035
+        ],
+        "anchor": [
+          560,
+          1019
+        ],
+        "head": [
+          605,
+          801
+        ],
+        "paw": [
+          636,
+          1015
+        ]
+      },
+      {
+        "box": [
+          750,
+          1026,
+          693,
+          1036
+        ],
+        "anchor": [
+          920,
+          1020
+        ],
+        "head": [
+          953,
+          799
+        ],
+        "paw": [
+          983,
+          1017
+        ]
+      },
+      {
+        "box": [
+          1113,
+          1384,
+          694,
+          1035
+        ],
+        "anchor": [
+          1280,
+          1020
+        ],
+        "head": [
+          1315,
+          801
+        ],
+        "paw": [
+          1345,
+          1017
+        ]
+      }
+    ],
+    "Lucky": [
+      {
+        "box": [
+          47,
+          316,
+          36,
+          359
+        ],
+        "anchor": [
+          240,
+          343
+        ],
+        "head": [
+          165,
+          172
+        ],
+        "paw": [
+          190,
+          341
+        ]
+      },
+      {
+        "box": [
+          389,
+          684,
+          75,
+          359
+        ],
+        "anchor": [
+          610,
+          345
+        ],
+        "head": [
+          520,
+          206
+        ],
+        "paw": [
+          536,
+          341
+        ]
+      },
+      {
+        "box": [
+          745,
+          1060,
+          109,
+          357
+        ],
+        "anchor": [
+          990,
+          342
+        ],
+        "head": [
+          877,
+          230
+        ],
+        "paw": [
+          884,
+          341
+        ]
+      },
+      {
+        "box": [
+          1084,
+          1424,
+          110,
+          357
+        ],
+        "anchor": [
+          1360,
+          340
+        ],
+        "head": [
+          1218,
+          235
+        ],
+        "paw": [
+          1220,
+          340
+        ]
+      },
+      {
+        "box": [
+          31,
+          326,
+          397,
+          686
+        ],
+        "anchor": [
+          270,
+          665
+        ],
+        "head": [
+          151,
+          505
+        ],
+        "paw": [
+          100,
+          610
+        ]
+      },
+      {
+        "box": [
+          359,
+          693,
+          412,
+          684
+        ],
+        "anchor": [
+          630,
+          664
+        ],
+        "head": [
+          515,
+          524
+        ],
+        "paw": [
+          375,
+          617
+        ]
+      },
+      {
+        "box": [
+          703,
+          1096,
+          446,
+          684
+        ],
+        "anchor": [
+          1025,
+          665
+        ],
+        "head": [
+          846,
+          546
+        ],
+        "paw": [
+          714,
+          647
+        ]
+      },
+      {
+        "box": [
+          1119,
+          1436,
+          457,
+          684
+        ],
+        "anchor": [
+          1375,
+          665
+        ],
+        "head": [
+          1228,
+          547
+        ],
+        "paw": [
+          1132,
+          647
+        ]
+      },
+      {
+        "box": [
+          46,
+          333,
+          739,
+          1034
+        ],
+        "anchor": [
+          270,
+          1015
+        ],
+        "head": [
+          175,
+          850
+        ],
+        "paw": [
+          153,
+          928
+        ]
+      },
+      {
+        "box": [
+          417,
+          682,
+          710,
+          1034
+        ],
+        "anchor": [
+          625,
+          1014
+        ],
+        "head": [
+          531,
+          829
+        ],
+        "paw": [
+          534,
+          1010
+        ]
+      },
+      {
+        "box": [
+          765,
+          1041,
+          701,
+          1034
+        ],
+        "anchor": [
+          980,
+          1014
+        ],
+        "head": [
+          878,
+          824
+        ],
+        "paw": [
+          890,
+          1010
+        ]
+      },
+      {
+        "box": [
+          1130,
+          1402,
+          703,
+          1033
+        ],
+        "anchor": [
+          1340,
+          1014
+        ],
+        "head": [
+          1230,
+          819
+        ],
+        "paw": [
+          1250,
+          1010
+        ]
+      }
+    ]
+  },
+  "videoExport": "previews/v008-website-test-review.mp4",
+  "brandStory": "Verdent builds a bakery-site preview; asked to test the website, Lucky taste-tests the cookies instead. / Verdent 做好烘焙店网页预览，Lucky 将测试网页误当成试吃饼干。"
+}

@@ -1,0 +1,21 @@
+{
+  "version": "v004-verdent",
+  "score": "audio/story-score-v001/score-normalized.wav",
+  "lines": [
+    {
+      "rate": "+3%"
+    },
+    {
+      "reuse": "audio/v003-story/line-02.mp3"
+    },
+    {
+      "reuse": "audio/v003-story/line-03.mp3"
+    },
+    {
+      "reuse": "audio/v003-story/line-04.mp3"
+    },
+    {
+      "reuse": "audio/v003-story/line-05.mp3"
+    }
+  ]
+}

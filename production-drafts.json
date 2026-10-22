@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-10-22",
+  "drafts": [
+    {
+      "episode": "002-tiny-feature",
+      "config": "motion/002-tiny-feature/drafts/2026-10-22-verdent-interaction/episode.json",
+      "template": "motion/002-tiny-feature/template-verdent",
+      "status": "work-in-progress",
+      "audioReady": true,
+      "newHtmlReady": false,
+      "newVideoReady": false,
+      "remaining": [
+        "Review computer placement and eye line / 复查电脑位置与视线",
+        "Render matching MP4 and new HTML / 导出匹配视频与新 HTML"
+      ]
+    },
+    {
+      "episode": "004-that-was-a-sentence",
+      "config": "motion/004-that-was-a-sentence/drafts/2026-10-22-verdent-interaction/episode.json",
+      "template": "motion/004-that-was-a-sentence/template-bakery-preview",
+      "status": "work-in-progress",
+      "audioReady": true,
+      "newHtmlReady": false,
+      "newVideoReady": false,
+      "remaining": [
+        "Review website/cookie visual setup and payoff / 复查网页与试吃的铺垫反转",
+        "Check native cat proportions and contact / 复查原比例猫与接触",
+        "Render matching MP4 and new HTML / 导出匹配视频与新 HTML"
+      ]
+    },
+    {
+      "episode": "005-halloween",
+      "config": "motion/005-halloween/drafts/2026-10-22-verdent-interaction/episode.json",
+      "template": "motion/005-halloween/template-natural",
+      "status": "work-in-progress",
+      "audioReady": true,
+      "newHtmlReady": false,
+      "newVideoReady": false,
+      "remaining": [
+        "Retiming of contact, candy and reactions to new 20s audio is still required / 尚需按新20秒声音重排接触出糖与反应",
+        "Remove cat-body/cloth deformation without reducing acting / 去除身体布料变形并加强表演",
+        "Render matching MP4 and new HTML / 导出匹配视频与新 HTML"
+      ]
+    }
+  ]
+}

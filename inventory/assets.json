@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "summary": {
-    "mediaFiles": 615,
-    "uniqueContents": 198,
-    "totalBytes": 876305416,
-    "uniqueBytes": 227313091
+    "mediaFiles": 673,
+    "uniqueContents": 224,
+    "totalBytes": 921673291,
+    "uniqueBytes": 233166527
   },
   "note": "Identical copies are intentional for standalone films, frozen source and docs previews. Never delete a copy using this catalog alone. / 单文件成片、永久源码和预览需要同内容副本，不可仅凭此表删除。",
   "assets": [
@@ -37,6 +37,22 @@
         {
           "path": "motion/005-halloween/template-interaction/assets/verdent-logo-supplied-2026-10-22.png",
           "role": "current-template"
+        },
+        {
+          "path": "motion/002-tiny-feature/template-verdent/assets/verdent-logo-original.png",
+          "role": "draft-template"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/template-bakery-preview/assets/verdent-logo-original.png",
+          "role": "draft-template"
+        },
+        {
+          "path": "motion/005-halloween/template-natural/assets/verdent-logo-original.png",
+          "role": "draft-template"
+        },
+        {
+          "path": "motion/005-halloween/template-natural/assets/verdent-logo-supplied-2026-10-22.png",
+          "role": "draft-template"
         },
         {
           "path": "motion/_painted-series/assets/verdent-logo.png",
@@ -1111,6 +1127,10 @@
           "role": "current-template"
         },
         {
+          "path": "motion/004-that-was-a-sentence/template-bakery-preview/assets/episode-room.png",
+          "role": "draft-template"
+        },
+        {
           "path": "motion/004-that-was-a-sentence/template-story/assets/episode-room.png",
           "role": "historical-source"
         },
@@ -1139,6 +1159,10 @@
           "role": "current-template"
         },
         {
+          "path": "motion/002-tiny-feature/template-verdent/assets/episode-cast.png",
+          "role": "draft-template"
+        },
+        {
           "path": "motion/002-tiny-feature/versions/v003/template/assets/episode-cast.png",
           "role": "immutable-archive"
         }
@@ -1157,6 +1181,10 @@
         {
           "path": "motion/002-tiny-feature/template-story/assets/episode-room.png",
           "role": "current-template"
+        },
+        {
+          "path": "motion/002-tiny-feature/template-verdent/assets/episode-room.png",
+          "role": "draft-template"
         },
         {
           "path": "motion/002-tiny-feature/versions/v003/template/assets/episode-room.png",
@@ -1181,6 +1209,10 @@
         {
           "path": "motion/002-tiny-feature/template-story/assets/painted-mug-v001.png",
           "role": "current-template"
+        },
+        {
+          "path": "motion/002-tiny-feature/template-verdent/assets/painted-mug-v001.png",
+          "role": "draft-template"
         },
         {
           "path": "motion/_painted-series/assets/painted-mug-v001.png",
@@ -1625,6 +1657,10 @@
         {
           "path": "motion/002-tiny-feature/audio/v003-story/line-02.mp3",
           "role": "audio-source"
+        },
+        {
+          "path": "motion/002-tiny-feature/audio/v004-verdent/line-02-raw.mp3",
+          "role": "audio-source"
         }
       ]
     },
@@ -1636,6 +1672,10 @@
       "locations": [
         {
           "path": "motion/002-tiny-feature/audio/v003-story/line-03.mp3",
+          "role": "audio-source"
+        },
+        {
+          "path": "motion/002-tiny-feature/audio/v004-verdent/line-03-raw.mp3",
           "role": "audio-source"
         }
       ]
@@ -1649,6 +1689,10 @@
         {
           "path": "motion/002-tiny-feature/audio/v003-story/line-04.mp3",
           "role": "audio-source"
+        },
+        {
+          "path": "motion/002-tiny-feature/audio/v004-verdent/line-04-raw.mp3",
+          "role": "audio-source"
         }
       ]
     },
@@ -1660,6 +1704,98 @@
       "locations": [
         {
           "path": "motion/002-tiny-feature/audio/v003-story/line-05.mp3",
+          "role": "audio-source"
+        },
+        {
+          "path": "motion/002-tiny-feature/audio/v004-verdent/line-05-raw.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/002-tiny-feature/audio/v004-verdent/episode-score.m4a",
+      "sha256": "9e4211c7cf0c3423d4536e4c2dcaed5a64d2532c3f1cae8b1655dc42876aaf7b",
+      "bytes": 389500,
+      "extension": "m4a",
+      "locations": [
+        {
+          "path": "motion/002-tiny-feature/audio/v004-verdent/episode-score.m4a",
+          "role": "audio-source"
+        },
+        {
+          "path": "motion/002-tiny-feature/template-verdent/assets/episode-score.m4a",
+          "role": "draft-template"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/002-tiny-feature/audio/v004-verdent/line-01-raw.mp3",
+      "sha256": "d8d69c29d20a0b70ad56625d606d71f5b803610026bb0b6e0f95b39cd400c385",
+      "bytes": 19440,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/002-tiny-feature/audio/v004-verdent/line-01-raw.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/002-tiny-feature/audio/v004-verdent/line-01.wav",
+      "sha256": "74286fb8700c3be015b9810c6d06581756a9e8afca28c880000f37eae9573a91",
+      "bytes": 211070,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/002-tiny-feature/audio/v004-verdent/line-01.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/002-tiny-feature/audio/v004-verdent/line-02.wav",
+      "sha256": "9e843e3cc3b3ea4351e3ca6213cdcaf41b1167bc1815895571fe83aecb3d67e6",
+      "bytes": 37514,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/002-tiny-feature/audio/v004-verdent/line-02.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/002-tiny-feature/audio/v004-verdent/line-03.wav",
+      "sha256": "5a05ff63ad2dd6c0529c7c93177abac556ef8b5735dc4dffafd6d36468043b2f",
+      "bytes": 79722,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/002-tiny-feature/audio/v004-verdent/line-03.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/002-tiny-feature/audio/v004-verdent/line-04.wav",
+      "sha256": "2a8f293612f69c781e2ff3ef4234e3a1c6c6355aac2d381758bdea688837fe7f",
+      "bytes": 89066,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/002-tiny-feature/audio/v004-verdent/line-04.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/002-tiny-feature/audio/v004-verdent/line-05.wav",
+      "sha256": "ac041441dbb5cf2537c3c758485685b4dfe5c0fa032d2347c507e51926e9bd5b",
+      "bytes": 117818,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/002-tiny-feature/audio/v004-verdent/line-05.wav",
           "role": "audio-source"
         }
       ]
@@ -1699,6 +1835,10 @@
           "role": "current-template"
         },
         {
+          "path": "motion/002-tiny-feature/template-verdent/assets/episode-export.mp4",
+          "role": "draft-template"
+        },
+        {
           "path": "motion/002-tiny-feature/previews/v003-coffee-story-review.mp4",
           "role": "review-export"
         },
@@ -1721,6 +1861,10 @@
         {
           "path": "motion/002-tiny-feature/template-story/assets/episode-score-raw.m4a",
           "role": "current-template"
+        },
+        {
+          "path": "motion/002-tiny-feature/template-verdent/assets/episode-score-raw.m4a",
+          "role": "draft-template"
         }
       ]
     },
@@ -2741,6 +2885,142 @@
       ]
     },
     {
+      "canonicalPath": "motion/004-that-was-a-sentence/audio/v005-website-test/episode-score.m4a",
+      "sha256": "3c4899b4a7dd9a67288d7e5164f9b5e99e431b9a587292adb22b6a02654bb3d4",
+      "bytes": 439884,
+      "extension": "m4a",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/audio/v005-website-test/episode-score.m4a",
+          "role": "audio-source"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/template-bakery-preview/assets/episode-score.m4a",
+          "role": "draft-template"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/audio/v005-website-test/line-01-raw.mp3",
+      "sha256": "d75d196bc8b95533458dd4c2a09a33672dae7ee244036a160cca832cbe9ec7e0",
+      "bytes": 19584,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/audio/v005-website-test/line-01-raw.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/audio/v005-website-test/line-01.wav",
+      "sha256": "a6fe1d7d693cba9e3d45246506f152fef22cf5a8641657b611d12d9e5cf2074c",
+      "bytes": 213762,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/audio/v005-website-test/line-01.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/audio/v005-website-test/line-02-raw.mp3",
+      "sha256": "a4b47cbbf5771aacfa018a8e51ac1d40bfef29f112b60d04cda032b727dc1843",
+      "bytes": 16704,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/audio/v005-website-test/line-02-raw.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/audio/v005-website-test/line-02.wav",
+      "sha256": "b64fee2688e8802cacf8f4fabeb6771f172c93da0e71629d52392c9c1ca7571d",
+      "bytes": 169738,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/audio/v005-website-test/line-02.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/audio/v005-website-test/line-03-raw.mp3",
+      "sha256": "604f6d800decc6fa22a6b721517a719e1d6d074d4dc16875d46e0ceb396da4d9",
+      "bytes": 11232,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/audio/v005-website-test/line-03-raw.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/audio/v005-website-test/line-03.wav",
+      "sha256": "d8e1c13e59afa68a7e66c37c2ddfc45538e2e485c67ed90741ad59afcbaa05b8",
+      "bytes": 36442,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/audio/v005-website-test/line-03.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/audio/v005-website-test/line-04-raw.mp3",
+      "sha256": "0a29d1fbc496c99b7b6fdc0c454a4f4922af6e6ccaa8f54a03c6204e1fdacc57",
+      "bytes": 14688,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/audio/v005-website-test/line-04-raw.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/audio/v005-website-test/line-04.wav",
+      "sha256": "f4e3947f519360bb2bea06ad90ce5488b05e0d0c40cdd641f9da31f03f57d2ce",
+      "bytes": 137398,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/audio/v005-website-test/line-04.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/audio/v005-website-test/line-05-raw.mp3",
+      "sha256": "8beb2416f520ebcfb312c5f24eb1ae37df676150d940a33a2bf4665613b48648",
+      "bytes": 23472,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/audio/v005-website-test/line-05-raw.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/audio/v005-website-test/line-05.wav",
+      "sha256": "43130897fc9023a14adef7d90200f2aeb59c4857454de688972aa4fe2e4c45fe",
+      "bytes": 277366,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/audio/v005-website-test/line-05.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
       "canonicalPath": "motion/004-that-was-a-sentence/previews/unified-painted-review.mp4",
       "sha256": "398252200f7da5488ad7fe6fca946b3f7c26168efdfc7e5628d30824cbe0c08e",
       "bytes": 1707545,
@@ -2831,6 +3111,10 @@
           "role": "current-template"
         },
         {
+          "path": "motion/004-that-was-a-sentence/template-bakery-preview/assets/episode-export.mp4",
+          "role": "draft-template"
+        },
+        {
           "path": "motion/004-that-was-a-sentence/previews/v007-continuous-acting-review.mp4",
           "role": "review-export"
         },
@@ -2855,6 +3139,10 @@
           "role": "current-template"
         },
         {
+          "path": "motion/004-that-was-a-sentence/template-bakery-preview/assets/lucky-reach-v001.png",
+          "role": "draft-template"
+        },
+        {
           "path": "motion/004-that-was-a-sentence/versions/v007/template/assets/lucky-reach-v001.png",
           "role": "immutable-archive"
         }
@@ -2871,6 +3159,10 @@
           "role": "current-template"
         },
         {
+          "path": "motion/004-that-was-a-sentence/template-bakery-preview/assets/mochi-block-v001.png",
+          "role": "draft-template"
+        },
+        {
           "path": "motion/004-that-was-a-sentence/versions/v007/template/assets/mochi-block-v001.png",
           "role": "immutable-archive"
         }
@@ -2885,6 +3177,10 @@
         {
           "path": "motion/004-that-was-a-sentence/template-acting/assets/painted-tray-v002.png",
           "role": "current-template"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/template-bakery-preview/assets/painted-tray-v002.png",
+          "role": "draft-template"
         },
         {
           "path": "motion/004-that-was-a-sentence/versions/v007/template/assets/painted-tray-v002.png",
@@ -3048,6 +3344,106 @@
       "locations": [
         {
           "path": "motion/005-halloween/audio/v005/line-03.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/audio/v006-natural/episode-score.m4a",
+      "sha256": "63624c20cf0790ac124a95980529c87601399db35fb5167c53f2bd35237876fc",
+      "bytes": 407046,
+      "extension": "m4a",
+      "locations": [
+        {
+          "path": "motion/005-halloween/audio/v006-natural/episode-score.m4a",
+          "role": "audio-source"
+        },
+        {
+          "path": "motion/005-halloween/template-natural/assets/episode-score.m4a",
+          "role": "draft-template"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/audio/v006-natural/line-01-raw.mp3",
+      "sha256": "5f5e4f989a3574f9d085a3f3af387865dcae1038ea1359d66bf69a387cbedb9c",
+      "bytes": 21312,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/005-halloween/audio/v006-natural/line-01-raw.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/audio/v006-natural/line-01.wav",
+      "sha256": "675dbe8e473f1f07dc199ab4974b6c37967514b6da95164e7ffc50fa64cb18cf",
+      "bytes": 247518,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/005-halloween/audio/v006-natural/line-01.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/audio/v006-natural/line-02-raw.mp3",
+      "sha256": "8ca4fbeaca059e6037a36f1548967df502de16ede7c3ca32ef016a2f9e9c3b55",
+      "bytes": 17280,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/005-halloween/audio/v006-natural/line-02-raw.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/audio/v006-natural/line-02.wav",
+      "sha256": "eca4c14d6d9408279d78f3afbf8d71c085c040fe777998249f412deac5ab1f5b",
+      "bytes": 184782,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/005-halloween/audio/v006-natural/line-02.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/audio/v006-natural/line-03-raw.mp3",
+      "sha256": "f178735c074dab65f31f8c124d1381a42089e1124d45dcb90f6634a203f0c95e",
+      "bytes": 12384,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/005-halloween/audio/v006-natural/line-03-raw.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/audio/v006-natural/line-03.wav",
+      "sha256": "df020b1166f5aa6c96803c87402022fe0019cc4d666a0bc1b768c71242581d63",
+      "bytes": 98670,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/005-halloween/audio/v006-natural/line-03.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/audio/v006-score/halloween-wish-score-v004.wav",
+      "sha256": "d0bef45aed578736b86fe4107875d23ae578bf1d0e8acd734db3eb749ad06158",
+      "bytes": 2560044,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/005-halloween/audio/v006-score/halloween-wish-score-v004.wav",
           "role": "audio-source"
         }
       ]
@@ -3539,6 +3935,10 @@
           "role": "current-template"
         },
         {
+          "path": "motion/005-halloween/template-natural/assets/episode-voices-v005.m4a",
+          "role": "draft-template"
+        },
+        {
           "path": "motion/005-halloween/versions/v012/template/assets/episode-voices-v005.m4a",
           "role": "immutable-archive"
         }
@@ -3553,6 +3953,10 @@
         {
           "path": "motion/005-halloween/template-interaction/assets/halloween-export-v010.mp4",
           "role": "current-template"
+        },
+        {
+          "path": "motion/005-halloween/template-natural/assets/halloween-export-v010.mp4",
+          "role": "draft-template"
         },
         {
           "path": "motion/005-halloween/previews/halloween-wish-v010-review.mp4",
@@ -3579,6 +3983,10 @@
           "role": "current-template"
         },
         {
+          "path": "motion/005-halloween/template-natural/assets/halloween-export-v012.mp4",
+          "role": "draft-template"
+        },
+        {
           "path": "motion/005-halloween/previews/halloween-wish-v012-voiced-review.mp4",
           "role": "review-export"
         },
@@ -3601,6 +4009,10 @@
         {
           "path": "motion/005-halloween/template-interaction/assets/halloween-room-v001.png",
           "role": "current-template"
+        },
+        {
+          "path": "motion/005-halloween/template-natural/assets/halloween-room-v001.png",
+          "role": "draft-template"
         },
         {
           "path": "motion/005-halloween/template-wish/assets/halloween-room-v001.png",
@@ -3663,6 +4075,10 @@
           "role": "current-template"
         },
         {
+          "path": "motion/005-halloween/template-natural/assets/halloween-wish-score-v001.m4a",
+          "role": "draft-template"
+        },
+        {
           "path": "motion/005-halloween/template-wish/assets/halloween-wish-score-v001.m4a",
           "role": "historical-source"
         },
@@ -3703,6 +4119,10 @@
           "role": "current-template"
         },
         {
+          "path": "motion/005-halloween/template-natural/assets/halloween-wish-score-v002.m4a",
+          "role": "draft-template"
+        },
+        {
           "path": "motion/005-halloween/versions/v008/template/assets/halloween-wish-score-v002.m4a",
           "role": "immutable-archive"
         }
@@ -3717,6 +4137,10 @@
         {
           "path": "motion/005-halloween/template-interaction/assets/halloween-wish-score-v003.m4a",
           "role": "current-template"
+        },
+        {
+          "path": "motion/005-halloween/template-natural/assets/halloween-wish-score-v003.m4a",
+          "role": "draft-template"
         },
         {
           "path": "motion/005-halloween/versions/v009/template/assets/halloween-wish-score-v003.m4a",
@@ -3741,6 +4165,10 @@
         {
           "path": "motion/005-halloween/template-interaction/assets/lucky-ghost-painted-v001.png",
           "role": "current-template"
+        },
+        {
+          "path": "motion/005-halloween/template-natural/assets/lucky-ghost-painted-v001.png",
+          "role": "draft-template"
         },
         {
           "path": "motion/005-halloween/versions/v005/template/assets/lucky-ghost-painted-v001.png",
@@ -3787,6 +4215,10 @@
           "role": "current-template"
         },
         {
+          "path": "motion/005-halloween/template-natural/assets/lucky-wish-sheet-v001.png",
+          "role": "draft-template"
+        },
+        {
           "path": "motion/005-halloween/template-wish/assets/lucky-wish-sheet-v001.png",
           "role": "historical-source"
         },
@@ -3815,6 +4247,10 @@
           "role": "current-template"
         },
         {
+          "path": "motion/005-halloween/template-natural/assets/mochi-wish-sheet-v001.png",
+          "role": "draft-template"
+        },
+        {
           "path": "motion/005-halloween/template-wish/assets/mochi-wish-sheet-v001.png",
           "role": "historical-source"
         },
@@ -3841,6 +4277,10 @@
         {
           "path": "motion/005-halloween/template-interaction/assets/mochi-witch-painted-v001.png",
           "role": "current-template"
+        },
+        {
+          "path": "motion/005-halloween/template-natural/assets/mochi-witch-painted-v001.png",
+          "role": "draft-template"
         },
         {
           "path": "motion/005-halloween/versions/v005/template/assets/mochi-witch-painted-v001.png",
