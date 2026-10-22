@@ -34,7 +34,7 @@
     {
       "id": "003-chief-nap-officer",
       "title": "Chief Nap Officer",
-      "version": "v019",
+      "version": "v020",
       "durationMs": 18000,
       "aspect": "4:5",
       "config": "motion/003-chief-nap-officer/episode.json",
@@ -42,8 +42,8 @@
       "html": "motion/003-chief-nap-officer/index.html",
       "video": "motion/003-chief-nap-officer/previews/v019-browser-review.mp4",
       "history": "motion/003-chief-nap-officer/versions/index.html",
-      "archiveCount": 19,
-      "sha256": "62ff0d6cb9f2ae7f1eb8b3caf5edfa84379768a53c9196216e7fd20630b00095",
+      "archiveCount": 20,
+      "sha256": "48869274c355e87860820af13189474e057480074e361f0e4f5878406a469a70",
       "status": "Unpublished draft"
     },
     {

@@ -6,7 +6,7 @@
   "storyType": "parallel",
   "voicesAvailable": true,
   "variant": "A",
-  "title": "Chief Nap Officer · Blue A Motion Polish",
+  "title": "Chief Nap Officer \u00b7 Blue A Motion Polish",
   "duration": 18000,
   "footerAt": 17100,
   "launchAt": 5300,
@@ -21,7 +21,7 @@
     2088,
     2280
   ],
-  "note": "Existing painted cats and original child audio retained. Retimed anticipation/contact/release and yawn/crouch/sleep holds, smoother motivated camera changes and shorter illustrative UI insert; current browser review draft. Prior A v017 and B v016 preserved.",
+  "note": "Added one-click download of the matching H.264/AAC review MP4 with child voices and original music. Film artwork, timing and soundtrack retained from v019; unpublished review draft.",
   "beats": [
     {
       "at": 0,
@@ -170,5 +170,6 @@
         600
       ]
     }
-  ]
+  ],
+  "videoExport": "previews/v019-browser-review.mp4"
 }

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "summary": {
-    "mediaFiles": 606,
+    "mediaFiles": 615,
     "uniqueContents": 198,
-    "totalBytes": 863711908,
+    "totalBytes": 876305416,
     "uniqueBytes": 227313091
   },
   "note": "Identical copies are intentional for standalone films, frozen source and docs previews. Never delete a copy using this catalog alone. / 单文件成片、永久源码和预览需要同内容副本，不可仅凭此表删除。",
@@ -160,6 +160,10 @@
         },
         {
           "path": "motion/003-chief-nap-officer/versions/v019/template/assets/verdent-logo-original.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v020/template/assets/verdent-logo-original.png",
           "role": "immutable-archive"
         },
         {
@@ -1985,6 +1989,10 @@
         {
           "path": "motion/003-chief-nap-officer/versions/v019/template/assets/episode-fast-v001.m4a",
           "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v020/template/assets/episode-fast-v001.m4a",
+          "role": "immutable-archive"
         }
       ]
     },
@@ -2016,6 +2024,10 @@
         },
         {
           "path": "motion/003-chief-nap-officer/versions/v019/template/assets/episode-blue-polish-v001.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v020/template/assets/episode-blue-polish-v001.m4a",
           "role": "immutable-archive"
         }
       ]
@@ -2097,22 +2109,6 @@
       ]
     },
     {
-      "canonicalPath": "motion/003-chief-nap-officer/previews/v019-browser-review.mp4",
-      "sha256": "1d781d21158e19b04d06b9e06ffd5057c28c4283a7267d47e0484bbf202e5028",
-      "bytes": 1959378,
-      "extension": "mp4",
-      "locations": [
-        {
-          "path": "motion/003-chief-nap-officer/previews/v019-browser-review.mp4",
-          "role": "review-export"
-        },
-        {
-          "path": "docs/media/003-chief-nap-officer-v019.mp4",
-          "role": "viewing-copy"
-        }
-      ]
-    },
-    {
       "canonicalPath": "motion/003-chief-nap-officer/template-blue-polish/assets/blue-cast-sequence-v001.png",
       "sha256": "5f7630cd4e46cbaa5d88a9626511ac59d9056f49045ddc6f0b1650c2597a8fd6",
       "bytes": 1069364,
@@ -2176,6 +2172,10 @@
         },
         {
           "path": "motion/003-chief-nap-officer/versions/v019/template/assets/blue-cast-sequence-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v020/template/assets/blue-cast-sequence-v001.png",
           "role": "immutable-archive"
         },
         {
@@ -2251,7 +2251,39 @@
           "role": "immutable-archive"
         },
         {
+          "path": "motion/003-chief-nap-officer/versions/v020/template/assets/blue-studio-background-v001.png",
+          "role": "immutable-archive"
+        },
+        {
           "path": "motion/004-that-was-a-sentence/versions/v005/template/assets/blue-studio-background-v001.png",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/003-chief-nap-officer/template-blue-polish/assets/episode-export.mp4",
+      "sha256": "1d781d21158e19b04d06b9e06ffd5057c28c4283a7267d47e0484bbf202e5028",
+      "bytes": 1959378,
+      "extension": "mp4",
+      "locations": [
+        {
+          "path": "motion/003-chief-nap-officer/template-blue-polish/assets/episode-export.mp4",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/previews/v019-browser-review.mp4",
+          "role": "review-export"
+        },
+        {
+          "path": "docs/media/003-chief-nap-officer-v019.mp4",
+          "role": "viewing-copy"
+        },
+        {
+          "path": "docs/media/003-chief-nap-officer-v020.mp4",
+          "role": "viewing-copy"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v020/template/assets/episode-export.mp4",
           "role": "immutable-archive"
         }
       ]
@@ -2300,6 +2332,10 @@
         },
         {
           "path": "motion/003-chief-nap-officer/versions/v019/template/assets/lucky-keyboard-insert-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v020/template/assets/lucky-keyboard-insert-v001.png",
           "role": "immutable-archive"
         },
         {

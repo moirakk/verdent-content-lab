@@ -30,7 +30,7 @@ Selected / 当前：[v003](002-tiny-feature/index.html) · [History / 历史入�
 
 ## 003 · Chief Nap Officer
 
-Selected / 当前：[v019](003-chief-nap-officer/index.html) · [History / 历史入口](003-chief-nap-officer/versions/index.html)
+Selected / 当前：[v020](003-chief-nap-officer/index.html) · [History / 历史入口](003-chief-nap-officer/versions/index.html)
 
 | Version / 版本 | Role / 状态 | Saved title / 当时标题 |
 | --- | --- | --- |
@@ -52,7 +52,8 @@ Selected / 当前：[v019](003-chief-nap-officer/index.html) · [History / 历�
 | [v016](003-chief-nap-officer/versions/v016/index.html) | Historical / 历史 | Chief Nap Officer · Blue Scene B |
 | [v017](003-chief-nap-officer/versions/v017/index.html) | Historical / 历史 | Chief Nap Officer · Blue A Acting Polish |
 | [v018](003-chief-nap-officer/versions/v018/index.html) | Invalid intermediate JavaScript / 无效中间脚本 | Chief Nap Officer · Blue A Motion Polish |
-| [v019](003-chief-nap-officer/versions/v019/index.html) | Selected review draft / 当前待审 | Chief Nap Officer · Blue A Motion Polish |
+| [v019](003-chief-nap-officer/versions/v019/index.html) | Historical / 历史 | Chief Nap Officer · Blue A Motion Polish |
+| [v020](003-chief-nap-officer/versions/v020/index.html) | Selected review draft / 当前待审 | Chief Nap Officer · Blue A Motion Polish |
 
 ## 004 · Soft Launch
 
