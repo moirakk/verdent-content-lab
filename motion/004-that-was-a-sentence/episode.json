@@ -8,20 +8,77 @@
   "template": "motion/004-that-was-a-sentence/template",
   "duration": 18000,
   "storyType": "decompose",
-  "voicesAvailable": false,
-  "note": "Original painted limited-animation story. Manager goal decomposition is illustrated, not a real screen recording. Child voices and every source frame retained. Draft for creator review.",
+  "voicesAvailable": true,
+  "note": "Painted goal-decomposition story with five measured synthetic child-voice lines, original ducked score and preserved earlier music-only drafts. Illustrative product UI; final creator review pending.",
   "beats": [
-    { "at": 0, "speaker": "Lucky", "text": "I have a plan.", "shot": "claim", "voiceAt": 250 },
-    { "at": 2400, "speaker": "Mochi", "text": "Let's hear it.", "shot": "listen", "voiceAt": 2600 },
-    { "at": 4600, "speaker": "Lucky", "text": "Open a cat café.", "shot": "idea", "voiceAt": 4800 },
-    { "at": 7400, "speaker": "Mochi", "text": "That was a sentence.", "shot": "reaction", "voiceAt": 7600 },
-    { "at": 12600, "speaker": "Lucky", "text": "I call taste testing.", "shot": "volunteer", "voiceAt": 12800 }
+    {
+      "at": 0,
+      "speaker": "Lucky",
+      "text": "I have a plan.",
+      "shot": "claim",
+      "voiceAt": 250
+    },
+    {
+      "at": 2400,
+      "speaker": "Mochi",
+      "text": "Let's hear it.",
+      "shot": "listen",
+      "voiceAt": 2600
+    },
+    {
+      "at": 4600,
+      "speaker": "Lucky",
+      "text": "Open a cat café.",
+      "shot": "idea",
+      "voiceAt": 4800
+    },
+    {
+      "at": 7400,
+      "speaker": "Mochi",
+      "text": "That was a sentence.",
+      "shot": "reaction",
+      "voiceAt": 7600
+    },
+    {
+      "at": 12600,
+      "speaker": "Lucky",
+      "text": "I call taste testing.",
+      "shot": "volunteer",
+      "voiceAt": 12800
+    }
   ],
   "soundEffects": [
-    { "at": 4650, "type": "paper", "gain": 0.025 },
-    { "at": 10450, "type": "paper", "gain": 0.045 },
-    { "at": 10900, "type": "paper", "gain": 0.045 },
-    { "at": 11350, "type": "paper", "gain": 0.045 },
-    { "at": 14500, "type": "chime", "gain": 0.045 }
+    {
+      "at": 4650,
+      "type": "paper",
+      "gain": 0.025
+    },
+    {
+      "at": 10450,
+      "type": "paper",
+      "gain": 0.045
+    },
+    {
+      "at": 10900,
+      "type": "paper",
+      "gain": 0.045
+    },
+    {
+      "at": 11350,
+      "type": "paper",
+      "gain": 0.045
+    },
+    {
+      "at": 14500,
+      "type": "chime",
+      "gain": 0.045
+    }
+  ],
+  "voiceDurations": [
+    1872,
+    1872,
+    2256,
+    2208,
+    2424
   ]
 }

@@ -1,0 +1,30 @@
+{
+  "version": "v005",
+  "duration": 18.0,
+  "score": "motion/005-halloween/audio/v004/halloween-wish-score-v003.wav",
+  "lines": [
+    {
+      "speaker": "Lucky",
+      "text": "Treats, please.",
+      "start": 0.25,
+      "duration": 2.088,
+      "voice": "en-US-AnaNeural"
+    },
+    {
+      "speaker": "Lucky",
+      "text": "A little more.",
+      "start": 4.95,
+      "duration": 1.872,
+      "voice": "en-US-AnaNeural"
+    },
+    {
+      "speaker": "Mochi",
+      "text": "Define “little”.",
+      "start": 14.95,
+      "duration": 2.136,
+      "voice": "en-GB-MaisieNeural"
+    }
+  ],
+  "syntheticChildSpeech": true,
+  "musicDuckedUnderSpeech": true
+}

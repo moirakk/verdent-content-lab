@@ -1,6 +1,14 @@
 # A Little More · Halloween Special / 万圣节特辑
 
-Current: **v010**, an 18-second browser-playable limited-animation draft, unpublished. / 当前 v010，18 秒浏览器有限动画待审稿，未发布。
+Current: **v012**, an 18-second browser-playable limited-animation draft, unpublished. / 当前 v012，18 秒浏览器有限动画待审稿，未发布。
+
+## Sound and direct download / 声音与直接下载
+
+**Play with sound** starts the 18-second film from zero with child dialogue and the original Halloween score. **Download MP4 with sound** saves the reviewed 540×960 H.264/AAC export embedded in the HTML; no screen recorder is needed. The download is a baked reviewed export, not a live renderer for later source edits. / 带声播放按钮从头启动童声与原万圣节 BGM；下载按钮保存内嵌的 540×960 带声 MP4，无需录屏。下载对应已审片导出，不会实时渲染未来的源码修改。
+
+[Voice mix](audio/v005/mix.json): Lucky/Ana at 0.25s and 4.95s; Mochi/Maisie at 14.95s. Measured durations 2.088s, 1.872s, 2.136s fit their captions. BGM ducks during speech; the final greeting waits until 17.25s. These are synthetic childlike voices, not real children. / 三句实测长度均落在字幕窗口内，讲话时压低 BGM，节日尾句延至 17.25 秒；为合成童声，非真人儿童。
+
+v011 adds download/play controls to the earlier music-only cut. v012 supplies the complete voiced export, with the same painted art and motions. The actual downloaded bytes were checked against the review MP4. / v011 为旧配乐版增加播放下载，v012 补齐完整童声及匹配视频；实测下载字节与审片文件相同。
 
 ## Motion polish / 连续动作打磨
 
@@ -29,13 +37,13 @@ This is fictional Halloween magic, not a real software capability claim. The cre
 - First candy launches, follows an arc, contacts the bucket and bounces; 330 candies then follow staggered gravity-like arcs, turn, land and settle against a bounded packed mound. These are deterministic 60 Hz sampled trajectories; not a general rigid-body solver. / 首糖抛物线落桶回弹，330 颗糖错峰旋转落下并堆积；轨迹固定采样，不冒充通用刚体碰撞引擎。
 - Magic sparkles respond to the wishes; music pauses before the shower. / 许愿触发火花，糖雨前停乐。
 
-This uses full-pose changes and prop movement, not continuous hand-drawn in-betweens or lip sync. Child speech remains pending. / 当前整猫姿势切换与道具运动，不是全手绘中间帧或口型同步，童声待补。
+This uses full-pose changes and prop movement, not continuous hand-drawn in-betweens or lip sync. Three verified synthetic child-voice lines are present; permanent casting and final performance approval remain pending. / 当前整猫姿势切换与道具运动，不是全手绘中间帧或口型同步，已有三句合成童声，永久定音与最终表演仍待确认。
 
 ## Playback / 播放
 
 Open [index.html](index.html), click **Sound off** to enable the embedded original music, and replay. Space pauses; R restarts. `?capture=1` hides controls; `?t=8500` freezes a moment. Reduced motion starts paused; final frame holds. / 单文件离线打开，点击声音按钮启用内嵌 BGM；支持暂停重播、录制模式、固定时间与减少动态，尾帧停住。
 
-[Browser-rendered review MP4](previews/halloween-wish-v010-review.mp4), 540×960, 24 browser samples/sec encoded at 24fps, with original score. It is a draft preview, not a final release master. / 浏览器采样审片视频，含原创配乐，非最终发布母版。
+[Browser-rendered review MP4](previews/halloween-wish-v012-voiced-review.mp4), 540×960, 24 browser samples/sec encoded at 24fps, with original score. It is a draft preview, not a final release master. / 浏览器采样审片视频，含原创配乐，非最终发布母版。
 
 ## Music & Art / 配乐与画稿
 

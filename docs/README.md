@@ -15,3 +15,9 @@ Open [index.html](index.html) in a browser after downloading the repository. Thi
 Edit episode sources in `motion/`, then run the build tool to refresh generated copies. Keep every historical HTML intact. Do not place the real-cat photo, private character notes, or internal captions here. The audience-facing preview and creative content remain English; this internal README is bilingual.
 
 作品应在 motion 中修改源码，再通过工具更新生成副本。历史 HTML 全部保留；真猫照片、内部设定与文案不放进此目录。面向观众的预览和成品保持英文，本内部说明双语。
+
+## Current library / 当前剧集总览
+
+The homepage is now a lightweight five-film library, Halloween first, with posters and on-demand video players instead of several simultaneous animation iframes. Open HTML uses explicit `index.html` paths so local file browsing works. MP4 copies include mixed audio. / 首页改为轻量剧集总览，缩略图和按需视频播放代替同时加载多条动画；HTML 使用显式文件路径，本地可用，MP4 带混音。
+
+The previous five-episode homepage remains in [index-v004.html](index-v004.html). Current catalog source lives at `../episodes.json`; regenerate through `../scripts/build-episode-library.mjs`. / 旧首页保留；目录数据及构建工具位于仓库根部。

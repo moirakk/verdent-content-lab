@@ -14,5 +14,21 @@
     "source": "generated-with-template",
     "note": "Original painted limited-animation story. Manager goal decomposition is illustrated, not a real screen recording. Child voices and every source frame retained. Draft for creator review.",
     "title": "That Was a Sentence"
+  },
+  {
+    "version": "v003",
+    "capturedAt": "2026-10-22T06:05:29.714Z",
+    "sha256": "c6dff2d1d805432a5604aa96526b7d2dd1306956ad615fd7d1934553662a7344",
+    "source": "generated-with-template",
+    "note": "Intermediate audio-wiring draft; use the verified v004 mix. / 配音接线中间稿，请用已核对的 v004。",
+    "title": "That Was a Sentence"
+  },
+  {
+    "version": "v004",
+    "capturedAt": "2026-10-22T06:06:27.066Z",
+    "sha256": "7ff2d9961ef2c97b838ba89d88e6324a9e17547b15caaf08c5dcadffddbd7fb9",
+    "source": "generated-with-template",
+    "note": "Painted goal-decomposition story with five measured synthetic child-voice lines, original ducked score and preserved earlier music-only drafts. Illustrative product UI; final creator review pending.",
+    "title": "That Was a Sentence"
   }
 ]

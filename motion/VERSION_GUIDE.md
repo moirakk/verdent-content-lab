@@ -77,3 +77,11 @@ v001: vacuum storyboard animatic. v002: first candy-wish build. v003: corrected 
 005 v005–v008: painted Halloween costumes, solid projected laptop, paw/key contact, head-following dialogue bubbles and candy front/back depth. v006 reduces the computer to keep faces clear; v007 refines complete-cat source windows and candy occlusion; v008 adds timed key taps and the current soundtrack. Current: v008. The room remains painted; 3D-rendered cat experiments were rejected and not used. / v005–v008 为油画装扮、电脑立体接触与头顶对白；v006 修电脑尺寸，v007 修整猫窗口和糖果遮挡，v008 加按键声与当前音轨；当前 v008，不采用三维渲染猫。
 
 005 v009–v010: creator-liked v008 preserved; continuous body anticipation/recoil, connected ghost-cloth mesh follow-through, bucket impact/wobble, accelerating candy rain and a later deadpan line. v010 fixes the mesh’s antialias seams. Current: v010, still unpublished. / 保留获认可 v008，增加连续蓄力回弹、整猫布料延迟、落桶晃动、糖雨加密与尾句停顿；v010 修网格抗锯齿细缝，为当前未发布工作稿。
+
+## 2026-10-22 library batch / 剧集整理与配音批次
+
+- 005 v011: one-click sound/direct music-only MP4 download. v012: three measured child lines, original Halloween BGM ducking, greeting after speech and matching embedded voiced export; current. / v011 加带声播放下载，v012 补三句童声及匹配带声视频，为当前版。
+- 004 v003: intermediate voice wiring, not selected. v004: verified five-line child mix is actually connected, with a browser export; current. / v003 为中间接线稿，v004 才是真正连接五句童声的当前版。
+- 003 v018: intermediate source draft with a JavaScript validation error, not playable/selected. v019 fixes it and supplies retimed contact/sleep and smooth camera; current. Build tooling now rejects invalid template JS before archiving. / v018 为脚本校验失败的中间稿，不使用；v019 修正并打磨节奏，为当前版；工具现会先拦截语法错误。
+
+Earlier HTML bytes are immutable even for intermediate drafts. The library opens only verified selected files. / 即使中间稿也保留原 HTML 字节，目录只打开核对后的选用版。

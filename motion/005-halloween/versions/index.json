@@ -78,5 +78,21 @@
     "source": "generated-with-template",
     "note": "Polish of creator-liked v008: same painted art, costumes, solid laptop and head bubbles. Continuous body anticipation/recoil, connected whole-sprite ghost cloth mesh, bucket impact, accelerating candy shower and a settled deadpan ending. Limited key-pose animation, no speech or lip sync.",
     "title": "A Little More"
+  },
+  {
+    "version": "v011",
+    "capturedAt": "2026-10-22T06:01:50.746Z",
+    "sha256": "fceb1e0d318d3607e58bea07437f0501e7009884e7545e4ef1e0dc34b99d511b",
+    "source": "generated-with-template",
+    "note": "Same creator-liked v010 animation and score, plus one-click Play with sound and an embedded direct MP4 download. Download is the reviewed v010 export, not a live re-render. Painted art, motion timing and archives preserved.",
+    "title": "A Little More"
+  },
+  {
+    "version": "v012",
+    "capturedAt": "2026-10-22T06:11:59.385Z",
+    "sha256": "158aa876b56954cc8382a0da2b9373c1b37ea43ea498b911c399562db381239f",
+    "source": "generated-with-template",
+    "note": "Voiced Halloween review draft: three measured synthetic child-voice lines, original Halloween score ducked under dialogue, final greeting after speech, one-click sound and direct export download. Same painted cats, costumes, staging and continuous acting as v010; prior silent/music-only versions retained.",
+    "title": "A Little More"
   }
 ]

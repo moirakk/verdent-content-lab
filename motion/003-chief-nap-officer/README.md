@@ -1,8 +1,14 @@
 # Motion 003 · Chief Nap Officer / 首席午睡官
 
-Current: [A polish · v017 · 18s](versions/v017/index.html), [review MP4](previews/v017-blue-acting-review.mp4). [Original A v015](versions/v015/index.html) and [B v016 · 12s](versions/v016/index.html) remain intact. All 4:5, English child speech and original music, not published. [Comparison](variants/README.md).
+Current: [A motion polish · v019 · 18s](versions/v019/index.html), [browser review MP4](previews/v019-browser-review.mp4). Earlier A v017 remains preserved. [Original A v015](versions/v015/index.html) and [B v016 · 12s](versions/v016/index.html) remain intact. All 4:5, English child speech and original music, not published. [Comparison](variants/README.md).
 
 当前为蓝地板水粉画风双版本：A 完整铺垫 18 秒、B 快节奏 12 秒，均为 4:5，英文童声和原创配乐，默认 A，待审未发布。两版复用同一剧情，不是两条新选题。旧版全部保留。以下 v001–v012 说明是历史记录，不覆盖本次已认可的场景方向。
+
+## Current timing pass / 当前节奏打磨
+
+v019 retimes the eight whole-character contact drawings, holds the press/release clearly, shortens the illustrative UI insert and eases camera changes over 320ms. Crouch and sleep now settle at 15.65s and 16.35s. Original painted assets, child speech and B v016 remain unchanged. / v019 调整八幅整猫接触稿节奏、按下收回停顿与短界面插镜；镜头以 320 毫秒缓入，15.65 秒下蹲、16.35 秒入睡，原画童声与 B 版不变。
+
+Browser-rendered preview: 480×600, 24fps, original speech/music. This improves timing and verification; it does not add newly drawn in-between frames. / 浏览器审片为 480×600、24fps、原童声配乐；本轮改节奏和验证，未新增手绘中间帧。
 
 ## Story · 剧情
 

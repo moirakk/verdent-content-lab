@@ -1,8 +1,8 @@
 # Motion 004 · That Was a Sentence / 那只是一句话
 
-**Local animation draft, v002; not published / 本地动画样片 v002，未发布。** 18 seconds, original painted limited animation, English captions and original music. Child-voice generation was blocked by current network restrictions, so this version is explicitly instrumental / 18 秒，原创水粉有限动画、英文字幕与原创配乐；当前网络限制导致童声未生成，本版明确为纯配乐样片。
+**Current voiced draft v004, unpublished / 当前童声版 v004，未发布。** Five measured synthetic child-voice lines and the original ducked score are now present. The earlier network block is resolved. / 已有五句实测合成童声与避让对白的原创配乐，此前联网障碍已解决。
 
-[Open HTML / 打开 HTML](index.html) · [Native video preview / 离线渲染视频预览](previews/v002-native-preview.mp4) · [All HTML versions / 全部 HTML 版本](versions/index.html) · [Assets & limits / 素材与限制](ASSETS.md)
+[Open HTML / 打开 HTML](index.html) · [Browser video preview / 浏览器审片](previews/v004-voiced-browser-review.mp4) · [All HTML versions / 全部 HTML 版本](versions/index.html) · [Assets & limits / 素材与限制](ASSETS.md)
 
 ## Story · 故事
 
@@ -22,11 +22,13 @@ Source / 来源：[Official Manager documentation / 官方文档](https://www.ve
 
 ## Watch & Record · 播放与录屏
 
-Open the standalone HTML locally in a browser. **Watch with sound** plays this version's music only. **Recording view** starts one clean 18-second run with controls hidden and requests fullscreen; press Esc to return. **Play once** holds the last frame; Replay resumes looping / 用浏览器离线打开单文件 HTML。声音按钮播放本版配乐；录屏模式隐藏控制区、尝试全屏、从头播一次 18 秒，结束停在尾帧；Esc 返回。重播恢复循环。
+Open the standalone HTML locally in a browser. **Watch with sound** plays child dialogue and original music. **Recording view** starts one clean 18-second run with controls hidden and requests fullscreen; press Esc to return. **Play once** holds the last frame; Replay resumes looping / 用浏览器离线打开单文件 HTML。声音按钮播放童声与配乐；录屏模式隐藏控制区、尝试全屏、从头播一次 18 秒，结束停在尾帧；Esc 返回。重播恢复循环。
 
 Default 9:16; Feed toggles 4:5. Use `?t=11500` for a fixed scene, `?format=feed` for 4:5, `?once=1` for one-shot playback. Reduced motion disables blinks, head acting, breathing, zoom and bounce; the story remains readable / 默认竖屏，可切 4:5；减少动态效果时关闭附加表演和镜头运动，保留故事信息。
 
-The MP4 is a 432×768 offline rendering of the same SVG timeline at 12 unique frames per second, encoded at 24fps. It is a review preview, **not a browser screen recording** or a 1080p final export. HTML playback keeps native resolution / 视频为同一 SVG 时间轴的离线低清预览，12 帧独立画面、24fps 编码，不冒充浏览器录屏或高清交付；HTML 保留原始可缩放画面。
+The current MP4 is an actual Chromium timeline capture, 540×960 at 24 samples/sec, with the verified v002 audio mix. Earlier v002-native-preview.mp4 remains the historical offline music-only render. / 当前视频为 Chromium 实测时间轴采样，540×960、每秒 24 帧，配实测 v002 混音；原离线配乐版视频保留。
+
+Voice timings / 配音实测：[audio/v002/mix.json](audio/v002/mix.json). All five line durations fit their beats. This is limited animation, without phoneme lip sync, and still needs creator film review. / 五句均落在时间窗内；仍为有限动画，无音素口型，待创作者成片验收。
 
 ## Continue · 继续制作
 

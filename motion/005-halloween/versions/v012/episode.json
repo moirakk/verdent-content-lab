@@ -1,0 +1,33 @@
+{
+  "id": "005-halloween",
+  "title": "A Little More",
+  "kicker": "MOCHI & LUCKY · HALLOWEEN SPECIAL",
+  "footer": "Happy Halloween.",
+  "duration": 18000,
+  "template": "motion/005-halloween/template-interaction",
+  "voicesAvailable": true,
+  "note": "Voiced Halloween review draft: three measured synthetic child-voice lines, original Halloween score ducked under dialogue, final greeting after speech, one-click sound and direct export download. Same painted cats, costumes, staging and continuous acting as v010; prior silent/music-only versions retained.",
+  "beats": [
+    {
+      "at": 0,
+      "speaker": "Lucky",
+      "text": "Treats, please.",
+      "voiceAt": 250,
+      "captionUntil": 3400
+    },
+    {
+      "at": 4800,
+      "speaker": "Lucky",
+      "text": "A little more.",
+      "voiceAt": 4950,
+      "captionUntil": 6900
+    },
+    {
+      "at": 14800,
+      "speaker": "Mochi",
+      "text": "Define “little”.",
+      "voiceAt": 14950,
+      "captionUntil": 18000
+    }
+  ]
+}

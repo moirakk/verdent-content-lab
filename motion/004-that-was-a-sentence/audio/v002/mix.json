@@ -1,0 +1,69 @@
+{
+  "version": "v002",
+  "duration": 18.0,
+  "music": "Original deterministic plucked-bass and toy-bell score, ducked under dialogue",
+  "soundEffects": [
+    {
+      "at": 4650,
+      "type": "paper",
+      "gain": 0.025
+    },
+    {
+      "at": 10450,
+      "type": "paper",
+      "gain": 0.045
+    },
+    {
+      "at": 10900,
+      "type": "paper",
+      "gain": 0.045
+    },
+    {
+      "at": 11350,
+      "type": "paper",
+      "gain": 0.045
+    },
+    {
+      "at": 14500,
+      "type": "chime",
+      "gain": 0.045
+    }
+  ],
+  "lines": [
+    {
+      "speaker": "Lucky",
+      "text": "I have a plan.",
+      "start": 0.25,
+      "duration": 1.872,
+      "voice": "en-US-AnaNeural"
+    },
+    {
+      "speaker": "Mochi",
+      "text": "Let's hear it.",
+      "start": 2.6,
+      "duration": 1.872,
+      "voice": "en-GB-MaisieNeural"
+    },
+    {
+      "speaker": "Lucky",
+      "text": "Open a cat caf\u00e9.",
+      "start": 4.8,
+      "duration": 2.256,
+      "voice": "en-US-AnaNeural"
+    },
+    {
+      "speaker": "Mochi",
+      "text": "That was a sentence.",
+      "start": 7.6,
+      "duration": 2.208,
+      "voice": "en-GB-MaisieNeural"
+    },
+    {
+      "speaker": "Lucky",
+      "text": "I call taste testing.",
+      "start": 12.8,
+      "duration": 2.424,
+      "voice": "en-US-AnaNeural"
+    }
+  ]
+}

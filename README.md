@@ -5,6 +5,12 @@ Private repository for reusable original cat stories, comics, HTML animation, sc
 **Character first. Joke second. Product third. / 先人物，再笑点，最后产品。**
 Documentation: English + Chinese. Finished content: English only / 仓库说明双语，成品全英文。
 
+## Watch & Save · 观看与保存
+
+**[Open Episode Library / 打开剧集总览](index.html)** · [Episode status table / 剧集表](EPISODES.md)
+
+Halloween 005 comes first. The library lists the selected file version, duration, aspect ratio, voice/music status and current video for all five films. Download MP4 includes the mixed audio; no screen recorder is needed. All remain unpublished drafts. / 万圣节优先；五条作品统一列出选用版、时长比例、声音状态与视频。MP4 已带混音，无需录屏；均为未发布待审稿。
+
 ## Start Here · 从这里接手
 
 | Read / 先看 | Answers / 解决什么问题 |
@@ -35,7 +41,7 @@ verdent-content-lab/
 ├── README.md / PROJECT_BRIEF.md / CONTENT_MAP.md / HANDOFF.md
 ├── brand/          Rules, style, product facts, proposed stories / 设定、画风、功能、提案
 ├── characters/     Profiles, private references, reusable art / 档案、私有参考、共享素材
-├── motion/         001–004, their templates, audio, previews, permanent versions / 作品与永久历史
+├── motion/         001–005, their templates, audio, previews, permanent versions / 作品与永久历史
 ├── comics/         EP.06, EP.07 and special/idea briefs / 正篇及节日选题
 ├── captions/       English publishing copy / 英文发布文案
 ├── docs/           Optional browser copies, not source / 浏览器副本，非源码

@@ -5,23 +5,29 @@
   "footer": "Happy Halloween.",
   "duration": 18000,
   "template": "motion/005-halloween/template-interaction",
-  "voicesAvailable": false,
-  "note": "Polish of creator-liked v008: same painted art, costumes, solid laptop and head bubbles. Continuous body anticipation/recoil, connected whole-sprite ghost cloth mesh, bucket impact, accelerating candy shower and a settled deadpan ending. Limited key-pose animation, no speech or lip sync.",
+  "voicesAvailable": true,
+  "note": "Voiced Halloween review draft: three measured synthetic child-voice lines, original Halloween score ducked under dialogue, final greeting after speech, one-click sound and direct export download. Same painted cats, costumes, staging and continuous acting as v010; prior silent/music-only versions retained.",
   "beats": [
     {
       "at": 0,
       "speaker": "Lucky",
-      "text": "Treats, please."
+      "text": "Treats, please.",
+      "voiceAt": 250,
+      "captionUntil": 3400
     },
     {
       "at": 4800,
       "speaker": "Lucky",
-      "text": "A little more."
+      "text": "A little more.",
+      "voiceAt": 4950,
+      "captionUntil": 6900
     },
     {
       "at": 14800,
       "speaker": "Mochi",
-      "text": "Define “little”."
+      "text": "Define “little”.",
+      "voiceAt": 14950,
+      "captionUntil": 18000
     }
   ]
 }

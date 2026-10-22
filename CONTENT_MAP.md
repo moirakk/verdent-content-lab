@@ -2,6 +2,8 @@
 
 Updated / 更新：2026-10-22（Asia/Shanghai）。This file is the actual-artifact/publication source of truth / 本文件统一记录实际文件与发布状态。
 
+[Episode library / 剧集总览](EPISODES.md) · [Browser library / 浏览器总览](docs/index.html)
+
 ## State Labels · 先分清状态
 
 - Confirmed direction: identity/style/voice preference, not a finished film / 已确认方向，不等于已确认成片。
@@ -15,12 +17,11 @@ Updated / 更新：2026-10-22（Asia/Shanghai）。This file is the actual-artif
 | --- | --- | --- | --- |
 | 001 · Have an Idea | [v001 HTML](motion/001-have-an-idea/index.html), 8s / 8 秒 | Silent reconstructed sample; 2 archived HTMLs / 无声重建样片，2 版存档 | Original old-environment HTML not recovered; not published / 未取回旧环境原稿，未发布 |
 | 002 · One Tiny Feature | [v001 HTML](motion/002-tiny-feature/index.html), 12s / 12 秒 | Original painted cats and growing cup; 1 archive / 原创水粉猫与咖啡杯动效，1 版 | Visual direction liked; no final release approval / 画风获认可，成片未获发布确认 |
-| 003 · Chief Nap Officer | [A polish · v017 · 18s](motion/003-chief-nap-officer/versions/v017/index.html), [B · v016 · 12s](motion/003-chief-nap-officer/versions/v016/index.html) | Eight additional complete contact drawings, speaker shots, silent reaction hold and remixed original score; 17 archives / 新增八幅完整接触稿、说话镜头、无字幕反应停顿及原配乐重混，17 版 | [18s review MP4](motion/003-chief-nap-officer/previews/v017-blue-acting-review.mp4); A selected, B unchanged; limited animation, creator/browser review pending / 默认 A，B 不动；有限动画待创作者与实录验收 |
-| 004 · That Was a Sentence | [v002 HTML](motion/004-that-was-a-sentence/index.html), 18s / 18 秒 | English captions, original score, animated task-plan scene, [MP4](motion/004-that-was-a-sentence/previews/v002-native-preview.mp4); 2 archives / 字幕配乐与任务展开画面、2 版 | No usable new child speech; browser recording/film review pending / 缺新童声，待浏览器录屏与成片确认 |
+| 003 · Chief Nap Officer | [A v019 · 18s](motion/003-chief-nap-officer/index.html), [B v016 · 12s](motion/003-chief-nap-officer/versions/v016/index.html) | Retimed contact/release and sleep, smooth camera, original child voices; 19 archives / 整猫接触入睡节奏与镜头缓入、原童声，19 版 | [Browser MP4](motion/003-chief-nap-officer/previews/v019-browser-review.mp4), 480×600/24fps; creator review pending / 待创作者验收 |
+| 004 · That Was a Sentence | [v004 HTML](motion/004-that-was-a-sentence/index.html), 18s / 18 秒 | Five verified synthetic child-voice lines + ducked score, [MP4](motion/004-that-was-a-sentence/previews/v004-voiced-browser-review.mp4); 4 archives / 五句童声与避让配乐，4 版 | Complete voiced browser preview; limited acting still needs review / 已有带声浏览器审片，有限动作待审 |
+| 005 · A Little More | [v012 HTML](motion/005-halloween/index.html), 18s / 18 秒 | Three verified synthetic child-voice lines, Halloween score, continuous painted acting, direct MP4 download and one-click sound; 12 archives / 三句童声、万圣节 BGM、连续动作与直接下载，12 版 | **Priority / 优先**: [voiced MP4](motion/005-halloween/previews/halloween-wish-v012-voiced-review.mp4); final creator review pending / 待创作者最终验收 |
 
-| 005 · A Little More | [v010 HTML](motion/005-halloween/index.html), 18s / 18 秒 | Twelve complete-cat key drawings, wishing action, candy trajectories/pile, original Halloween score, [review MP4](motion/005-halloween/previews/halloween-wish-v010-review.mp4); 10 archives / 十二幅油画装扮整猫稿、立体电脑按键互动、头顶对白、许愿糖雨与原创节日配乐及连续动作打磨，10 版 | Chromium playback/controls checked; no child speech, creator film review pending / 浏览器播放控制已查，无童声，待创作者成片验收 |
-
-**All five motion episodes remain unpublished drafts. 32 episode HTML archives total / 五条动态作品均未发布，共 32 个 HTML 存档。**
+**All five motion episodes remain unpublished drafts. 38 episode HTML archives total / 五条动态作品均未发布，共 38 个 HTML 存档。**
 
 Current production stage / 当前所处阶段：**2 of 4 — character acting and short-scene validation / 四阶段中的第 2 阶段：角色动作与短段验证**. This is not 50% completion; full-episode approval, actual recording and publication remain pending. [Stage definitions / 阶段说明](PRODUCTION_GUIDE.md) / 不按阶段数推算百分比；整集验收、实录与发布仍待完成。
 Details / 逐版解释：[Version Guide](motion/VERSION_GUIDE.md). Working paths were not changed by this reorganization / 本次整理没有切换当前作品文件。
@@ -38,10 +39,11 @@ Immediate priority / 当前优先：review the creator-requested Halloween candy
 | Additional episode art / 本集补充素材 | Paired seated cats and sleeping Lucky in episode assets / 成对坐姿与睡姿 | Do not imply all episode art is centralized in shared library / 尚非所有素材都集中共享库 |
 | 003 audio v001 / 旧声音 | Adult Jenny/Eric voices + original score / 成人声与配乐 | Retained for history; current voice direction rejects adult narration / 仅历史保留，不作为当前声线方向 |
 | 003 audio v002 / 当前童声 | Maisie UK + Ana US, 5 synthetic English lines, 18s mix / 两种英语口音、五句合成童声 | Existing usable pilot audio; not real child recordings or permanent casting approval / 可用试播音轨，非真人儿童录音或永久定音 |
-| 004 sound / 新集声音 | Original instrumental track and failed speech-attempt record / 原创配乐与语音失败记录 | Music only; no claim of completed child speech / 不能标成已配童声 |
+| 004 sound / 新集声音 | v002 mix: five measured child lines + original score / 五句实测童声与配乐 | Real audio now present; creator performance review pending / 已有音轨，待表演验收 |
+| 005 sound / 万圣节声音 | v005 mix: three measured child lines + original Halloween score / 三句实测童声与原节日配乐 | Music-only versions retained / 原配乐版保留 |
 | Official logo / 标志 | [Unmodified original](brand/assets/verdent-logo-original.png) / 原文件 | Use without redrawing/stretching / 不重画不拉伸 |
 
-Both MP4s are 18s, 432×768, 12 unique frames/sec encoded at 24fps, H.264/AAC. Offline timeline renders only / 两个视频仅为低清离线审片渲染。
+Current 003/004/005 review movies are actual Chromium timeline captures, 18s/24fps H.264/AAC: 003 is 480×600, 004/005 are 540×960. Older offline review movies remain historical / 当前三条均为浏览器时间轴采样，旧离线审片保留。
 
 ## Comics · 漫画连续性
 
@@ -63,7 +65,7 @@ This is not a full product specification or an approved 40-episode schedule / �
 
 - Private repo / 私有仓库：[moirakk/verdent-content-lab](https://github.com/moirakk/verdent-content-lab).
 - Previous complete project sync confirmed by push: `a6ed89c`, after cat-scene sync `42f7483` / 上一批全部旧稿已推送，新场景素材先由 42f7483 保存。
-- The Halloween source, outputs, archives, music and user-supplied logo are saved together in the next commit; consult GitHub for the current remote SHA / 本次万圣节源码、输出、历史、配乐和用户 Logo 一起提交；当前远端以 GitHub 提交号为准。
-- Public Pages not enabled after earlier private-plan rejection. Current HTML works as a standalone file; latest local-server/browser-recording check was blocked / Pages 未启用，可手动离线打开 HTML；上次本地服务与实录检查受阻。
+- Last complete pre-library sync: `b9fa7c0`. New library, voices and exports are committed together next; current remote SHA remains the source of truth / 上轮全部同步为 b9fa7c0，本轮总览配音导出一并提交，当前远端以实际 SHA 为准。
+- Pages remains disabled/private. [Episode library](docs/index.html) and all current HTMLs work locally; Chromium playback and direct MP4 download have been checked / Pages 未启用，目录与 HTML 可本地用，浏览器播放和视频下载已验证。
 
 For a real release, add approved asset/version, channel, date and URL. Unknown fields stay TBD / 真正发布后补最终版本、渠道、日期、链接，未知不编造。

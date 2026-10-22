@@ -1,0 +1,27 @@
+{
+  "id": "005-halloween",
+  "title": "A Little More",
+  "kicker": "MOCHI & LUCKY · HALLOWEEN SPECIAL",
+  "footer": "Happy Halloween.",
+  "duration": 18000,
+  "template": "motion/005-halloween/template-interaction",
+  "voicesAvailable": false,
+  "note": "Same creator-liked v010 animation and score, plus one-click Play with sound and an embedded direct MP4 download. Download is the reviewed v010 export, not a live re-render. Painted art, motion timing and archives preserved.",
+  "beats": [
+    {
+      "at": 0,
+      "speaker": "Lucky",
+      "text": "Treats, please."
+    },
+    {
+      "at": 4800,
+      "speaker": "Lucky",
+      "text": "A little more."
+    },
+    {
+      "at": 14800,
+      "speaker": "Mochi",
+      "text": "Define “little”."
+    }
+  ]
+}

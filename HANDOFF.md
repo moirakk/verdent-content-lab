@@ -1,3 +1,11 @@
+# Current batch · 当前批次（2026-10-22）
+
+Priority remains Halloween 005. [Library](docs/index.html) · [Episode list](EPISODES.md). Current: 005 v012 (3 verified child lines, original Halloween score, one-click sound and embedded matching MP4 download); 004 v004 (5 verified child lines); 003 v019 (retimed whole-cat contact/sleep and smooth camera). All have 18-second browser-rendered exports; all remain unpublished review drafts. / 万圣节优先；005 三句童声与直接下载、004 五句童声、003 整猫节奏均已完成本轮待审稿，均有浏览器导出，未发布。
+
+Voice generation is available again; do not repeat the historical blocked/missing-speech status for 004/005. Preserve the painted cats and room. [Next story drafts](motion/ideas/next-stories-2026-10-22.md) are proposals only. / 配音服务已恢复，勿沿用旧障碍状态；保留油画猫与房间，新故事仅草稿。
+
+The following sections are earlier context; current EPISODES.md and CONTENT_MAP.md take precedence / 下文为先前背景，当前状态以总览和进度表为准。
+
 # Handoff · 交接说明
 
 Updated / 更新：2026-10-22（Asia/Shanghai）。

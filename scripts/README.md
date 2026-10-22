@@ -53,3 +53,11 @@ New audio runs also save a frozen `voice-profiles.json` beside the raw lines and
 Check dialogue, phone-size readability, pause, replay, and version links in a browser. Commit source, generated HTML, archives, and indexes together. Documentation-only edits do not require rebuilding episodes.
 
 用浏览器检查对白、手机尺寸可读性、暂停重播和版本链接。提交时一起保存源码、生成 HTML、存档和索引。只改说明时无需重新生成作品。
+
+## Episode library & downloads / 剧集目录与下载
+
+Edit bilingual catalog data in `episodes.json`, then run `node scripts/build-episode-library.mjs`. The script validates selected current HTML hashes and voice flags, writes `EPISODES.md` and `docs/index.html`, and copies existing MP4s into `docs/media`. Posters live in `docs/assets/episodes`. / 修改目录数据后构建，验证选用版和声音标记，生成总览并复制视频。
+
+Motion builds now syntax-check the template before archiving and embed `asset:*.mp4` downloads as well as images/audio. The baked video must match the current review export; a download does not re-render future edits. / 动态构建会先查脚本语法，并可内嵌 MP4 下载；须更新匹配视频，不能把下载当作实时导出。
+
+`voice-existing-score.py` preserves a chosen existing score while generating and measuring child lines, ducking music under speech. Use a new audio version and never relabel failed attempts as available. / 配音工具保留指定原配乐，实测童声并避让，声音另起版本，失败不标成功。

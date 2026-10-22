@@ -8,6 +8,7 @@
   const reduced = matchMedia("(prefers-reduced-motion: reduce)");
   const fixed = params.has("t") && Number.isFinite(Number(params.get("t")));
   const clamp = value => Math.max(0, Math.min(1, value));
+  const smooth = value => { const x=clamp(value); return x*x*(3-2*x); };
   const format = value => "0:" + String(Math.floor(value / 1000)).padStart(2, "0");
   const set = (id, key, value) => element(id).setAttribute(key, String(value));
   let elapsed = fixed ? Math.max(0, Math.min(episode.duration - 1, Number(params.get("t")))) : 0;
@@ -50,14 +51,16 @@
     set("action-shot", "aria-hidden", !contact);
     set("action-shot", "data-frame", actionFrame);
     set("scene", "opacity", contact ? 0 : 1);
-    const detail = elapsed >= episode.detail[0] && elapsed < episode.detail[1] && !reduced.matches;
-    const shot = episode.shots.filter(item => elapsed >= item.at).at(-1);
-    const cameraScale = reduced.matches ? 1 : shot.scale;
-    const cameraLeft = Math.max(800 * (1 - cameraScale), Math.min(0, 400 - shot.focus[0] * cameraScale));
-    const cameraTop = Math.max(1000 * (1 - cameraScale), Math.min(0, 600 - shot.focus[1] * cameraScale));
-    const camera = reduced.matches || cameraScale === 1 ? "translate(0 0)" : "translate(" + cameraLeft + " " + cameraTop + ") scale(" + cameraScale + ")";
-    set("scene", "transform", detail ? "translate(400 480) scale(1.8) translate(-530 -620)" : camera);
-    set("cast", "opacity", detail ? 0 : 1);
+    const shotIndex = Math.max(0,episode.shots.findLastIndex(item=>elapsed>=item.at));
+    const shot=episode.shots[shotIndex],prior=episode.shots[Math.max(0,shotIndex-1)],blend=reduced.matches?1:smooth((elapsed-shot.at)/320);
+    const cameraScale=reduced.matches?1:prior.scale+(shot.scale-prior.scale)*blend;
+    const focus=shot.focus.map((v,i)=>prior.focus[i]+(v-prior.focus[i])*blend);
+    const left=Math.max(800*(1-cameraScale),Math.min(0,400-focus[0]*cameraScale));
+    const top=Math.max(1000*(1-cameraScale),Math.min(0,600-focus[1]*cameraScale));
+    const detailMix=reduced.matches?0:smooth((elapsed-episode.detail[0])/250)*smooth((episode.detail[1]-elapsed)/220);
+    const finalCameraScale=cameraScale+(1.8-cameraScale)*detailMix,x=left+(-554-left)*detailMix,y=top+(-636-top)*detailMix;
+    set("scene","transform",`translate(${x} ${y}) scale(${finalCameraScale})`);
+    set("cast","opacity",1-detailMix);
     set("screen-ui", "opacity", elapsed >= episode.launchAt ? 1 : 0);
     [0, 1, 2].forEach(position => {
       const progress = 28 + clamp((elapsed - episode.launchAt - position * 130) / 16000) * (120 - position * 20);

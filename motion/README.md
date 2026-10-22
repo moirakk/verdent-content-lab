@@ -8,16 +8,18 @@ Browser-playable HTML for recording and reuse. Motion IDs are separate from comi
 
 Current here means the working file, not a release-approved film. The original painting and accepted blue studio keyframe govern style / 本页“当前”指工作文件，不表示成片已批准；画风以原画和已认可蓝地板关键帧为准。
 
+[Episode library / 剧集总览](../EPISODES.md) · [Open browser library / 浏览器入口](../docs/index.html)
+
 ## Current Work · 当前作品
 
 | ID / 编号 | Title / 标题 | Status / 状态 | Selected / 当前选用 | Links / 入口 |
 | --- | --- | --- | --- | --- |
 | 001 | Have an idea | Draft, unpublished / 待审，未发布 | v001 · 8s / 8 秒 | [Brief / 说明](001-have-an-idea/README.md) · [Play / 播放](001-have-an-idea/index.html) · [Versions / 历史](001-have-an-idea/versions/index.html) |
 | 002 | One Tiny Feature | Draft, unpublished / 待审，未发布 | v001 · 12s / 12 秒 | [Brief / 说明](002-tiny-feature/README.md) · [Play / 播放](002-tiny-feature/index.html) · [Versions / 历史](002-tiny-feature/versions/index.html) |
-| 003 | Chief Nap Officer | Blue A acting polish / 蓝地板 A 版表演打磨 | A v017 · 18s; B v016 · 12s / 默认新 A，B 保留 | [A HTML](003-chief-nap-officer/versions/v017/index.html) · [Review MP4](003-chief-nap-officer/previews/v017-blue-acting-review.mp4) · [B HTML](003-chief-nap-officer/versions/v016/index.html) |
-| 004 | That Was a Sentence | Visual draft, speech pending / 画面样片、童声待补 | v002 · 18s · captions + music / 字幕配乐 | [Brief / 说明](004-that-was-a-sentence/README.md) · [HTML](004-that-was-a-sentence/index.html) · [Video / 视频](004-that-was-a-sentence/previews/v002-native-preview.mp4) |
+| 003 | Chief Nap Officer | Blue A acting polish / 蓝地板 A 版表演打磨 | A v019 · 18s; B v016 · 12s / 默认新 A，B 保留 | [A HTML](003-chief-nap-officer/versions/v019/index.html) · [Review MP4](003-chief-nap-officer/previews/v019-blue-acting-review.mp4) · [B HTML](003-chief-nap-officer/versions/v016/index.html) |
+| 004 | That Was a Sentence | Voiced draft / 童声样片 | v004 · 18s · child voices + music / 童声配乐 | [Brief / 说明](004-that-was-a-sentence/README.md) · [HTML](004-that-was-a-sentence/index.html) · [Video / 视频](004-that-was-a-sentence/previews/v004-voiced-browser-review.mp4) |
 
-| 005 | A Little More | Halloween limited-animation draft / 万圣节有限动画待审 | v010 · 18s · original score / 原创配乐 | [HTML](005-halloween/index.html) · [Review MP4](005-halloween/previews/halloween-wish-v010-review.mp4) · [Brief / 说明](005-halloween/README.md) |
+| 005 | A Little More | Halloween limited-animation draft / 万圣节有限动画待审 | v012 · 18s · child voices + Halloween score / 童声与节日配乐 | [HTML](005-halloween/index.html) · [Review MP4](005-halloween/previews/halloween-wish-v012-voiced-review.mp4) · [Brief / 说明](005-halloween/README.md) |
 
 ## Per-Episode Layout · 每条作品结构
 

@@ -1,0 +1,76 @@
+{
+  "updated": "2026-10-22",
+  "priority": "005-halloween",
+  "episodes": [
+    {
+      "id": "005-halloween",
+      "title": "A Little More",
+      "kind": "Halloween special",
+      "tagline": "Lucky makes a wish. The candy takes it literally.",
+      "priority": 1,
+      "musicAvailable": true,
+      "voicesAvailable": true,
+      "aspect": "9:16",
+      "video": "motion/005-halloween/previews/halloween-wish-v012-voiced-review.mp4",
+      "nextTask": "Review the final voice performance, acting and cat-to-prop staging before release.",
+      "nextTaskZh": "优先复查童声表现、动作和猫咪与道具的空间关系。",
+      "status": "Unpublished draft"
+    },
+    {
+      "id": "004-that-was-a-sentence",
+      "title": "That Was a Sentence",
+      "kind": "Story draft",
+      "tagline": "One sentence. Three tasks. One very eager taste tester.",
+      "priority": 2,
+      "musicAvailable": true,
+      "voicesAvailable": true,
+      "aspect": "9:16",
+      "video": "motion/004-that-was-a-sentence/previews/v004-voiced-browser-review.mp4",
+      "nextTask": "Child dialogue is complete. Review the remaining whole-character acting.",
+      "nextTaskZh": "童声已补齐，继续审整猫动作表现。",
+      "status": "Unpublished draft"
+    },
+    {
+      "id": "003-chief-nap-officer",
+      "title": "Chief Nap Officer",
+      "kind": "Voiced pilot",
+      "tagline": "Lucky starts a company. Mochi asks who does the work.",
+      "priority": 3,
+      "musicAvailable": true,
+      "voicesAvailable": true,
+      "aspect": "4:5",
+      "video": "motion/003-chief-nap-officer/previews/v019-browser-review.mp4",
+      "nextTask": "Review retimed contact/release and the yawn-to-sleep hold.",
+      "nextTaskZh": "复查接触收回节奏与哈欠入睡停顿。",
+      "status": "Unpublished draft"
+    },
+    {
+      "id": "002-tiny-feature",
+      "title": "One Tiny Feature",
+      "kind": "Painted short",
+      "tagline": "The feature grows. So does the coffee.",
+      "priority": 4,
+      "musicAvailable": false,
+      "voicesAvailable": false,
+      "aspect": "4:5",
+      "video": null,
+      "nextTask": "Retain the painted style reference; sound and release approval remain pending.",
+      "nextTaskZh": "保留绘画参考，声音与发布确认待补。",
+      "status": "Unpublished draft"
+    },
+    {
+      "id": "001-have-an-idea",
+      "title": "Have an Idea",
+      "kind": "Early sample",
+      "tagline": "Lucky has a tiny idea. Mochi has a question.",
+      "priority": 5,
+      "musicAvailable": false,
+      "voicesAvailable": false,
+      "aspect": "4:5",
+      "video": null,
+      "nextTask": "Keep as a historical reconstructed sample.",
+      "nextTaskZh": "作为早期重建样片保留。",
+      "status": "Unpublished draft"
+    }
+  ]
+}

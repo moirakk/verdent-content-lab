@@ -1,5 +1,6 @@
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { createHash } from "node:crypto";
+import { spawnSync } from "node:child_process";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -21,11 +22,13 @@ const template = path.resolve(root, episode.template || "motion/_template");
 if (!template.startsWith(path.join(root, "motion") + path.sep)) throw new Error("Template must be inside motion/");
 const [html, css, javascript] = await Promise.all(["index.html", "style.css", "motion.js"].map(file => readFile(path.join(template, file), "utf8")));
 const frozenSource = { "index.html": html, "style.css": css, "motion.js": javascript };
+const syntax = spawnSync(process.execPath, ["--check", path.join(template, "motion.js")], { encoding: "utf8" });
+if (syntax.status !== 0) throw new Error("Template JavaScript is invalid; no output was archived.\n" + syntax.stderr);
 let hydratedHtml = html;
-for (const match of html.matchAll(/asset:([a-zA-Z0-9._-]+\.(png|webp|jpe?g|m4a|mp3|wav|ogg))/g)) {
+for (const match of html.matchAll(/asset:([a-zA-Z0-9._-]+\.(png|webp|jpe?g|m4a|mp3|mp4|wav|ogg))/g)) {
   const asset = match[1];
   const bytes = await readFile(path.join(template, "assets", asset));
-  const mimeTypes = { png:"image/png", webp:"image/webp", jpg:"image/jpeg", jpeg:"image/jpeg", m4a:"audio/mp4", mp3:"audio/mpeg", wav:"audio/wav", ogg:"audio/ogg" };
+  const mimeTypes = { png:"image/png", webp:"image/webp", jpg:"image/jpeg", jpeg:"image/jpeg", m4a:"audio/mp4", mp3:"audio/mpeg", mp4:"video/mp4", wav:"audio/wav", ogg:"audio/ogg" };
   hydratedHtml = hydratedHtml.replaceAll(`asset:${asset}`, `data:${mimeTypes[match[2]]};base64,${bytes.toString("base64")}`);
   frozenSource[`assets/${asset}`] = bytes;
 }
