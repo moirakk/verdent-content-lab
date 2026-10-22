@@ -1,5 +1,7 @@
 # Project Index · 项目总索引
 
+**[🎬 成片｜点开录制 · Ready to record](成片.html)** — Completed recordable selections only / 只放已完成的可录制版本。
+
 ## Watch and continue · 观看与接手
 
 [Episode library / 剧集总览](docs/index.html) · [Selected versions / 当前版本](EPISODES.md) · [Actual state / 实际状态](CONTENT_MAP.md) · [Tasks / 待办](TASKS.md) · [Handoff / 接手](HANDOFF.md)

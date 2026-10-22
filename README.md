@@ -1,5 +1,9 @@
 # Verdent Content Lab · Mochi & Lucky 内容工作室
 
+## 🎬 [成片｜点开录制 · Ready to record](成片.html)
+
+**从这里打开 5 集可录制成片，或下载含配音和 BGM 的视频 / Open the five recordable cuts or download MP4s with voices and music.**
+
 Private sources and archives for the original painted cat series / 原创水粉小猫系列的私有源码与档案。
 
 **Character first. Joke second. Product third. / 先人物，再笑点，最后产品。**

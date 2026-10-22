@@ -2,7 +2,7 @@
 
 Updated / 更新：2026-10-22。Priority / 当前优先：**Halloween · 005**. All five films remain unpublished / 五条均未发布。
 
-[Open library / 打开总览](docs/index.html) · [Actual status / 实际状态](CONTENT_MAP.md)
+[🎬 Ready to record / 成片录制入口](成片.html) · [Open library / 打开总览](docs/index.html) · [Actual status / 实际状态](CONTENT_MAP.md)
 
 | Episode / 剧集 | Selected / 当前 | Sound / 声音 | Next / 下一步 | Open / 入口 |
 | --- | --- | --- | --- | --- |

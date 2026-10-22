@@ -43,6 +43,7 @@ Install optional browser tooling with npm install then npx playwright install ch
 
 | Script / 脚本 | Job / 职责 |
 | --- | --- |
+| build-recording-hub.mjs | Obvious recording entrance with full-screen sound playback and MP4 downloads / 显眼成片入口，全屏带声播放与视频下载 |
 | build-motion.mjs | Immutable standalone HTML/source versioning / 单文件及源码永久归档 |
 | build-episode-library.mjs | English browser library + bilingual episode table / 英文观看页及双语剧集表 |
 | build-repository-index.mjs | Media fingerprints, template map, version guide / 素材指纹、模板与版本索引 |
