@@ -1,0 +1,36 @@
+{
+  "version": "v001",
+  "duration": 14.0,
+  "music": "Original deterministic plucked-bass and toy-bell score, ducked under dialogue",
+  "soundEffects": [],
+  "lines": [
+    {
+      "speaker": "Lucky",
+      "text": "Just one tiny feature.",
+      "start": 0.2,
+      "duration": 2.544,
+      "voice": "en-US-AnaNeural"
+    },
+    {
+      "speaker": "Lucky",
+      "text": "And a login.",
+      "start": 3.2,
+      "duration": 1.872,
+      "voice": "en-US-AnaNeural"
+    },
+    {
+      "speaker": "Lucky",
+      "text": "And payments.",
+      "start": 6.2,
+      "duration": 1.872,
+      "voice": "en-US-AnaNeural"
+    },
+    {
+      "speaker": "Mochi",
+      "text": "I'll get a bigger cup.",
+      "start": 10.0,
+      "duration": 2.256,
+      "voice": "en-GB-MaisieNeural"
+    }
+  ]
+}

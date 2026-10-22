@@ -1,6 +1,12 @@
 # Version Guide · HTML 版本使用指南
 
-Updated / 更新：2026-10-21。22 immutable episode HTML archives / 共 22 个不可覆盖的作品 HTML 存档。
+Updated / 更新：2026-10-22。41 immutable episode HTML archives / 共 41 个不可覆盖的作品 HTML 存档。
+
+## Current selection · 当前选用
+
+001 **v003** (10s); 002 **v002** (14s); 003 **v019** (18s); 004 **v005** (18s); 005 **v012** (18s). All include actual synthetic child speech and original music. 001/002/004 have been rebuilt using the 003 painted room/cast, head bubbles, grounded props and matched downloadable MP4s. 003/005 retained as visual benchmarks. / 三集按原水粉素材重做，保留 003、005 视觉基准；五集均有实际童声、配乐和匹配视频。未发布。
+
+The sections below retain historical version descriptions; their older “current” wording describes those earlier batches. The list above and EPISODES.md take precedence. / 下方保留历史版本说明，其中“当前”为当时批次；最新以此表与总览为准。
 
 ## Do Not Confuse · 先区分四件事
 

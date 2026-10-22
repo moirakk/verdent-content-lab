@@ -1,0 +1,47 @@
+{
+  "id": "002-tiny-feature",
+  "title": "One Tiny Feature",
+  "kicker": "MOCHI & LUCKY · LITTLE MOMENTS 002",
+  "footer": "the feature was not tiny.",
+  "footerAt": 12500,
+  "template": "motion/002-tiny-feature/template-unified",
+  "duration": 14000,
+  "beats": [
+    {
+      "at": 0,
+      "speaker": "Lucky",
+      "text": "Just one tiny feature.",
+      "cupScale": 1,
+      "voiceAt": 200,
+      "captionUntil": 2800
+    },
+    {
+      "at": 3000,
+      "speaker": "Lucky",
+      "text": "And a login.",
+      "cupScale": 1.5,
+      "voiceAt": 3200,
+      "captionUntil": 5800
+    },
+    {
+      "at": 6000,
+      "speaker": "Lucky",
+      "text": "And payments.",
+      "cupScale": 2.2,
+      "voiceAt": 6200,
+      "captionUntil": 9600
+    },
+    {
+      "at": 9800,
+      "speaker": "Mochi",
+      "text": "I'll get a bigger cup.",
+      "cupScale": 3,
+      "voiceAt": 10000,
+      "captionUntil": 13300
+    }
+  ],
+  "visualSystem": "painted-blue-v001",
+  "voicesAvailable": true,
+  "note": "Rebuilt against the creator-selected 003/005 painted direction: exact blue-studio cast, grounded props, head-following speech and episode-specific acting. Limited animation, unpublished review draft.",
+  "storyType": "feature"
+}

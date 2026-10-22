@@ -1,0 +1,22 @@
+{
+  "version": "v001",
+  "duration": 10.0,
+  "music": "Original deterministic plucked-bass and toy-bell score, ducked under dialogue",
+  "soundEffects": [],
+  "lines": [
+    {
+      "speaker": "Lucky",
+      "text": "Mochi, I have an idea.",
+      "start": 0.25,
+      "duration": 2.784,
+      "voice": "en-US-AnaNeural"
+    },
+    {
+      "speaker": "Mochi",
+      "text": "How tiny?",
+      "start": 3.7,
+      "duration": 1.872,
+      "voice": "en-GB-MaisieNeural"
+    }
+  ]
+}

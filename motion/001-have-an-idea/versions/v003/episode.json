@@ -1,0 +1,29 @@
+{
+  "id": "001-have-an-idea",
+  "title": "Have an idea",
+  "kicker": "MOCHI & LUCKY · MOTION 001",
+  "footer": "the project was not tiny.",
+  "duration": 10000,
+  "beats": [
+    {
+      "at": 0,
+      "speaker": "Lucky",
+      "text": "Mochi, I have an idea.",
+      "voiceAt": 250,
+      "captionUntil": 3200
+    },
+    {
+      "at": 3500,
+      "speaker": "Mochi",
+      "text": "How tiny?",
+      "voiceAt": 3700,
+      "captionUntil": 6800
+    }
+  ],
+  "template": "motion/001-have-an-idea/template-unified",
+  "visualSystem": "painted-blue-v001",
+  "voicesAvailable": true,
+  "note": "Rebuilt against the creator-selected 003/005 painted direction: exact blue-studio cast, grounded props, head-following speech and episode-specific acting. Limited animation, unpublished review draft.",
+  "footerAt": 8500,
+  "storyType": "idea"
+}

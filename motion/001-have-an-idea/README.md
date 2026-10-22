@@ -1,3 +1,13 @@
+# Current unified draft · 当前统一画风版
+
+**v003 · 10s · 4:5 · unpublished / 未发布**. Rebuilt using the exact 003 blue-studio cats and room, anchored speech bubbles, grounded props and complete connected pose drawings. English synthetic child voices and original music are embedded, with one-click playback and matching direct MP4 download. / 复用 003 原水粉猫和房间，统一头顶气泡、道具落地和整猫姿势，带英文合成童声、原创配乐、一键播放与匹配视频下载。
+
+[Current HTML / 当前播放](index.html) · [MP4 / 带声视频](previews/unified-painted-review.mp4) · [History / 历史](versions/index.html) · [Shared source / 统一源码](../_painted-series/README.md)
+
+Edit `../_painted-series/` and `episode.json`; synchronize into `template-unified/`, render a matching movie, then build through `scripts/build-motion.mjs`. Earlier templates and versions remain historical. Limited animation, no phoneme lip sync. / 修改统一源码和本集配置，同步到工作模板，导出匹配视频后构建。原模板与旧版保留；有限动画，无音素口型。
+
+The following notes describe earlier drafts; current files above take precedence / 下文为旧稿说明，当前以上方为准。
+
 # Motion 001 · Have an idea / 动态 001 说明
 
 Draft, unpublished. The selected version is v001, an 8-second silent 4:5 loop. Lucky says “Mochi, I have an idea.” Mochi asks “How tiny?” The footer reads “the project was not tiny.” Verdent appears only as a quiet laptop label, with no feature claim or sales call.

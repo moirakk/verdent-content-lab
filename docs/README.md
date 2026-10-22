@@ -21,3 +21,5 @@ Edit episode sources in `motion/`, then run the build tool to refresh generated 
 The homepage is now a lightweight five-film library, Halloween first, with posters and on-demand video players instead of several simultaneous animation iframes. Open HTML uses explicit `index.html` paths so local file browsing works. MP4 copies include mixed audio. / 首页改为轻量剧集总览，缩略图和按需视频播放代替同时加载多条动画；HTML 使用显式文件路径，本地可用，MP4 带混音。
 
 The previous five-episode homepage remains in [index-v004.html](index-v004.html). Current catalog source lives at `../episodes.json`; regenerate through `../scripts/build-episode-library.mjs`. / 旧首页保留；目录数据及构建工具位于仓库根部。
+
+2026-10-22 visual-unification update: all five library cards have videos with real mixed speech/music and downloads. 001 v003, 002 v002 and 004 v005 now share the original painted 003 cast/room; 003 v019 and 005 v012 remain the selected benchmarks. / 本轮统一画风后，五张卡均有实际带声视频与下载，三集重做，003、005 保留基准；全部待审、未发布。

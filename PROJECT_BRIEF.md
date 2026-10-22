@@ -1,6 +1,6 @@
 # Project Brief · 项目总纲
 
-Updated / 更新：2026-10-21（Asia/Shanghai）。This is the current direction, not approval of any finished film / 本文件统一当前方向，不代表任何成片已批准。
+Updated / 更新：2026-10-22（Asia/Shanghai）。This is the current direction, not approval of any finished film / 本文件统一当前方向，不代表任何成片已批准。
 
 ## 1. Purpose · 我们到底在做什么
 
@@ -36,8 +36,8 @@ Latest style feedback / 最新画风反馈：The creator accepted the [blue stud
 | --- | --- |
 | Characters act through eyes, ears, head, body and contact with objects / 眼神耳朵头身与道具接触共同表演 | Blink drawings, clipped head/body layers and pose switches exist; a consistent full acting model sheet does not / 已有眨眼分层与姿势切换，尚无完整一致的表演设定表 |
 | Actions have anticipation, contact, reaction and settle / 动作有准备、接触、反应、落稳 | v010's cut-apart paw failed. v011 tests 8 full Lucky drawings and 4 full Mochi reactions without anatomical masks; stage-2 validation continues / v010 拆分导致断爪；v011 改为十二帧完整角色稿，不再解剖遮罩，仍在第 2 阶段验证 |
-| Dialogue, reaction pauses and music feel coordinated / 对白、停顿与声音协调 | 003 has child speech and music; 004 has music only / 003 有童声配乐，004 仅配乐 |
-| A recording looks like a coherent short film / 录屏像完整短动画 | Both drafts have been offline-rendered; latest browser playback/recording remains unverified under current restrictions / 两片已离线渲染，最新浏览器播放录屏仍待实测 |
+| Dialogue, reaction pauses and music feel coordinated / 对白、停顿与声音协调 | All five selected films now have synthetic child speech and original music / 五集选用稿均已有合成童声与原创配乐 |
+| A recording looks like a coherent short film / 录屏像完整短动画 | Selected drafts have actual Chromium timeline exports; final creator film review remains pending / 选用稿均有真实 Chromium 时间轴导出，待创作者成片验收 |
 | Stable style while acting grows richer / 表演丰富但画风不漂移 | Latest art/animation experiments still need side-by-side creator review / 新画稿与动画实验仍需对照参考验看 |
 
 **More PNGs or higher version numbers do not prove better animation. / 更多图片、更大版本号，不等于动画目标已完成。**
@@ -76,3 +76,9 @@ The earlier reorganization was documentation-only. Subsequent Motion 003 refinem
 ## Halloween clarification · 万圣节补充（2026-10-22）
 
 The creator requests an animated candy wish to Verdent, original Halloween BGM, homemade ghost costume and dialogue above the speaking cats. Preserve the exact oil/gouache kitten and room style in [the supplied reference](characters/style-anchors/halloween-approved-painting-2026-10-22.png). “More 3D” means the computer should have actual thickness, hinge, keys and motivated contact/reaction, not replacing the painted cats with 3D-rendered characters. / 糖果许愿、原创节日 BGM、白布幽灵装和头顶对白已确认；保留参考油画猫与环境；立体化只用于电脑厚度铰链键盘和接触反馈，不换三维猫。
+
+## Current creator direction · 创作者本轮方向（2026-10-22）
+
+The creator finds 003 and 005 acceptable as visual benchmarks and requests reworking all other existing films for consistency. 001/002/004 now share the exact 003 painted cast and room, whole connected poses, head-following speech and grounded scene props. Their current stage is 4:5; 005 keeps its 9:16 seasonal room/costumes. This does not approve publication. / 创作者认为 003、005 还行，要求其余全部重做并统一视觉；001、002、004 统一原水粉猫、房间、整猫姿势、头顶气泡和落地道具；三集用 4:5，005 保留节日竖屏装扮，均不代表批准发布。
+
+Current versions and exports are listed in [EPISODES.md](EPISODES.md). Earlier next-decision notes above describe prior production stages. / 当前版本与成片以总览为准，上方旧阶段建议仅作背景。

@@ -1,3 +1,13 @@
+# Current visual-unification batch · 当前统一画风批次（2026-10-22）
+
+Creator instruction: 003/005 are acceptable visual benchmarks; rework 001/002/004 consistently. New selected drafts: 001 v003 (10s, 2 child lines), 002 v002 (14s, 4 lines), 004 v005 (18s, existing 5-line mix). All three use exact 003 room/cast art, 4:5 stages, head bubbles, grounded props and embedded matching MP4 downloads. 003 v019 and 005 v012 films are untouched. / 以 003、005 为视觉基准重做其余三集；统一水粉、4:5 舞台、头顶对白与落地道具，均有匹配带声下载；003、005 成片未改。
+
+Shared editable source: [motion/_painted-series](motion/_painted-series/README.md); episode templates: `template-unified/`. Run the sync script, render matching movies, then build all changed episodes. All previous HTML and assets stay. Current factual status is [CONTENT_MAP.md](CONTENT_MAP.md). / 共用视觉源、独立本集模板；同步、渲染匹配视频后再构建，旧文件全保留。
+
+All films remain limited-animation, unpublished review drafts without phoneme lip sync. / 全部仍为有限动画未发布待审稿，无音素口型。
+
+Earlier handoff context follows / 下文保留先前交接背景。
+
 # Current batch · 当前批次（2026-10-22）
 
 Priority remains Halloween 005. [Library](docs/index.html) · [Episode list](EPISODES.md). Current: 005 v012 (3 verified child lines, original Halloween score, one-click sound and embedded matching MP4 download); 004 v004 (5 verified child lines); 003 v019 (retimed whole-cat contact/sleep and smooth camera). All have 18-second browser-rendered exports; all remain unpublished review drafts. / 万圣节优先；005 三句童声与直接下载、004 五句童声、003 整猫节奏均已完成本轮待审稿，均有浏览器导出，未发布。

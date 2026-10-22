@@ -61,3 +61,7 @@ Edit bilingual catalog data in `episodes.json`, then run `node scripts/build-epi
 Motion builds now syntax-check the template before archiving and embed `asset:*.mp4` downloads as well as images/audio. The baked video must match the current review export; a download does not re-render future edits. / 动态构建会先查脚本语法，并可内嵌 MP4 下载；须更新匹配视频，不能把下载当作实时导出。
 
 `voice-existing-score.py` preserves a chosen existing score while generating and measuring child lines, ducking music under speech. Use a new audio version and never relabel failed attempts as available. / 配音工具保留指定原配乐，实测童声并避让，声音另起版本，失败不标成功。
+
+## Unified painted episodes · 统一水粉剧集
+
+001/002/004 use `motion/_painted-series/` as the editable common scene/player, copied to each `template-unified/` by `node scripts/sync-painted-series.mjs`. `--review` prepares a temporary render without a stale download. After rendering the matching movie into `previews/unified-painted-review.mp4`, sync without `--review`, build each episode configuration and rebuild the library. / 三集统一源码复制到本集模板；中间渲染隐藏下载，配好匹配视频后再同步、构建与更新目录。See [source notes / 源码说明](../motion/_painted-series/README.md).
