@@ -72,3 +72,7 @@ Recommended, not a new production order / 以下是建议，不自动开始新�
 4. Review the requested 003 visual refinement first; 004 remains unchanged and still needs new child speech and browser verification / 先验本次要求优化的 003；004 不动，仍需童声和浏览器验证。
 
 The earlier reorganization was documentation-only. Subsequent Motion 003 refinement tried and rejected a cut-apart rig; the current repair adds complete-character key drawings, preserves original media/audio and leaves 004 unchanged. It is a local uncommitted review draft, not an upload or release / 上次整理只改说明；后续 003 拆分关节尝试因断爪被否决，当前补整猫关键稿，保留原媒体童声，004 不动；仍是未提交上传的本地待审稿。
+
+## Halloween clarification · 万圣节补充（2026-10-22）
+
+The creator requests an animated candy wish to Verdent, original Halloween BGM, homemade ghost costume and dialogue above the speaking cats. Preserve the exact oil/gouache kitten and room style in [the supplied reference](characters/style-anchors/halloween-approved-painting-2026-10-22.png). “More 3D” means the computer should have actual thickness, hinge, keys and motivated contact/reaction, not replacing the painted cats with 3D-rendered characters. / 糖果许愿、原创节日 BGM、白布幽灵装和头顶对白已确认；保留参考油画猫与环境；立体化只用于电脑厚度铰链键盘和接触反馈，不换三维猫。

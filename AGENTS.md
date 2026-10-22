@@ -1,3 +1,5 @@
+Latest Halloween clarification / 万圣节最新画风澄清（2026-10-22）：Keep the exact painted-cat feel in `characters/style-anchors/halloween-approved-painting-2026-10-22.png`. The creator explicitly rejected 3D-rendered cats and a 3D replacement room. “More 3D” means laptop thickness/perspective, paw-key contact and candy depth only. Retain ghost-sheet Lucky, painted environment and head-anchored dialogue bubbles. / 创作者明确不要三维渲染猫与替换房间；立体化只指电脑厚度透视、爪子按键与糖果远近。保留油画猫和环境、白布幽灵 Lucky、头顶气泡。
+
 # Content Lab Rules · 内容工作室协作规则
 
 Repository documentation must be bilingual (English + Chinese). All produced audience-facing content must be English only: comic dialogue, titles, motion text, subtitles, finished scripts, captions, and published image descriptions. Keep direct addresses as Mochi / Lucky, never sis / bro.

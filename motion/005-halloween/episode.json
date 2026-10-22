@@ -4,9 +4,9 @@
   "kicker": "MOCHI & LUCKY · HALLOWEEN SPECIAL",
   "footer": "Happy Halloween.",
   "duration": 18000,
-  "template": "motion/005-halloween/template-wish",
+  "template": "motion/005-halloween/template-interaction",
   "voicesAvailable": false,
-  "note": "Original Halloween fantasy: a wish to Verdent releases candy. Painted complete-cat key drawings, deterministic candy physics and original score. Fictional magic, not a real product capability. Limited-animation review draft, no speech or lip sync.",
+  "note": "Painted Halloween variant with a perspective-projected solid laptop, hinge/key contact, ghost Lucky, witch-hat Mochi, head-anchored speech bubbles and depth-aware candy arcs. Fictional magic. Limited whole-character key-pose animation, no speech or lip sync.",
   "beats": [
     {
       "at": 0,

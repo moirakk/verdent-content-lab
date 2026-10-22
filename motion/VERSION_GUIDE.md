@@ -73,3 +73,5 @@ HTML embeds art/audio and can be opened manually in a local browser. Latest brow
 ## 005 · Halloween / 万圣节
 
 v001: vacuum storyboard animatic. v002: first candy-wish build. v003: corrected crop registration and bounded candy pile. v004: larger cats for phone readability, current working draft. All unpublished; no child speech. / v001 吸尘器分镜；v002 许愿初版；v003 修整猫裁切和糖堆；v004 放大猫咪便于手机观看，为当前工作稿；均未发布，无童声。
+
+005 v005–v008: painted Halloween costumes, solid projected laptop, paw/key contact, head-following dialogue bubbles and candy front/back depth. v006 reduces the computer to keep faces clear; v007 refines complete-cat source windows and candy occlusion; v008 adds timed key taps and the current soundtrack. Current: v008. The room remains painted; 3D-rendered cat experiments were rejected and not used. / v005–v008 为油画装扮、电脑立体接触与头顶对白；v006 修电脑尺寸，v007 修整猫窗口和糖果遮挡，v008 加按键声与当前音轨；当前 v008，不采用三维渲染猫。

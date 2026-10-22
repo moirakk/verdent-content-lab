@@ -1,0 +1,27 @@
+{
+  "id": "005-halloween",
+  "title": "A Little More",
+  "kicker": "MOCHI & LUCKY · HALLOWEEN SPECIAL",
+  "footer": "Happy Halloween.",
+  "duration": 18000,
+  "template": "motion/005-halloween/template-interaction",
+  "voicesAvailable": false,
+  "note": "Painted Halloween variant with a perspective-projected solid laptop, hinge/key contact, ghost Lucky, witch-hat Mochi, head-anchored speech bubbles and depth-aware candy arcs. Fictional magic. Limited whole-character key-pose animation, no speech or lip sync.",
+  "beats": [
+    {
+      "at": 0,
+      "speaker": "Lucky",
+      "text": "Treats, please."
+    },
+    {
+      "at": 4800,
+      "speaker": "Lucky",
+      "text": "A little more."
+    },
+    {
+      "at": 14500,
+      "speaker": "Mochi",
+      "text": "Define “little”."
+    }
+  ]
+}
