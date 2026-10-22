@@ -41,3 +41,5 @@ Comic numbering is independent. [Publishing copy](captions/README.md) is version
 Repository: private [moirakk/verdent-content-lab](https://github.com/moirakk/verdent-content-lab). The current Git commit is the saved snapshot identity. Pages is disabled; built HTML and MP4s work locally. [History](motion/VERSION_GUIDE.md) preserves every saved film, including failed experiments / 仓库私有，当前 Git 提交标识保存状态；Pages 未启用，可本地看，所有旧片含失败实验保留。
 
 Actual release records require an approved version, channel, date and URL; missing facts stay TBD / 真实发布后补批准版、渠道、日期链接，未知不编造。
+
+004 now uses independent complete-cat paintings with continuous mesh in-betweens, pinned feet and visible tray contact; 001 prints the unmodified official Verdent mark onto the cardboard face. Both remain review drafts. / 004 新增独立整猫动作与连续中间变形，脚底固定、爪盘接触可见；001 纸箱加原版 Verdent 印字；两者仍待审。

@@ -1,0 +1,29 @@
+{
+  "sampleRate": 48000,
+  "duration": 20,
+  "seed": 407,
+  "cues": [
+    {
+      "at": 6.89,
+      "kind": "tap",
+      "gain": 0.065
+    },
+    {
+      "at": 12.85,
+      "kind": "scrape",
+      "gain": 0.075
+    },
+    {
+      "at": 16.38,
+      "kind": "tap",
+      "gain": 0.075
+    },
+    {
+      "at": 16.62,
+      "kind": "recoil",
+      "gain": 0.035
+    }
+  ],
+  "sourceMix": "../../template-story/assets/episode-score.m4a",
+  "note": "Original contact sounds over unchanged child dialogue/music; no new speech. / 原创接触声叠加既有童声配乐，无新增语音。"
+}

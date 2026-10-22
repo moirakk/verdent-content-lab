@@ -1,14 +1,14 @@
 # 004 · Soft Launch
 
-**v006 · 20s · 4:5 · Unpublished review draft / 未发布待审稿**
+**v007 · 20s · 4:5 · Unpublished review draft / 未发布待审稿**
 
-[Play / 播放](index.html) · [MP4 / 带声视频](previews/v006-soft-launch-review.mp4) · [All versions / 全部历史](versions/index.html) · [Caption / 发布草稿](../../captions/motion-004.md)
+[Play / 播放](index.html) · [MP4 / 带声视频](previews/v007-continuous-acting-review.mp4) · [All versions / 全部历史](versions/index.html) · [Caption / 发布草稿](../../captions/motion-004.md)
 
 Twelve missing samples. One very thorough tester.
 
 ## Edit · 修改
 
-[Configuration / 配置](episode.json) + [Shared story source / 共用剧情源](../_painted-story/README.md). Actual selected template: motion/004-that-was-a-sentence/template-story / 选用模板以配置为准。
+[Configuration / 配置](episode.json) + [Selected local template / 本集选用模板](template-acting). Actual selected template: motion/004-that-was-a-sentence/template-acting / 选用模板以配置为准。
 
 [Template roles / 模板状态](../TEMPLATE_MAP.md) · [Build tools / 构建工具](../../scripts/README.md)
 

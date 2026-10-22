@@ -4,7 +4,8 @@ Read [README](README.md) → [Project index](PROJECT_INDEX.md) → [Brief](PROJE
 
 ## Current sources · 当前修改源
 
-- 001/002/004: [motion/_painted-story](motion/_painted-story/README.md) + per-episode episode.json; prepare into template-story/ / 三集共用剧情源与本集配置，准备为本集模板。
+- 001/002: [motion/_painted-story](motion/_painted-story/README.md) + per-episode episode.json; prepare into template-story/ / 两集共用剧情源与本集配置，准备为本集模板。
+- 004: [template-acting](motion/004-that-was-a-sentence/template-acting/README.md), independent whole-cat acting, tray contact / 独立整猫连续动作与护盘。
 - 003: episode.json + template-blue-polish/; 005: episode.json + template-interaction/ / 两条基准片用独立源。
 - [Template map](motion/TEMPLATE_MAP.md) labels all earlier templates historical. Never edit a similarly named old template assuming it is current / 模板表标清历史，不按近似目录名猜当前源。
 

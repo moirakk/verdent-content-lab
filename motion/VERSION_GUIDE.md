@@ -8,14 +8,15 @@ Earlier detailed production notes are preserved in [documentation history / 说�
 
 ## 001 · The Corner Office
 
-Selected / 当前：[v004](001-have-an-idea/index.html) · [History / 历史入口](001-have-an-idea/versions/index.html)
+Selected / 当前：[v005](001-have-an-idea/index.html) · [History / 历史入口](001-have-an-idea/versions/index.html)
 
 | Version / 版本 | Role / 状态 | Saved title / 当时标题 |
 | --- | --- | --- |
 | [v001](001-have-an-idea/versions/v001/index.html) | Historical / 历史 | Have an idea |
 | [v002](001-have-an-idea/versions/v002/index.html) | Historical / 历史 | Have an idea |
 | [v003](001-have-an-idea/versions/v003/index.html) | Historical / 历史 | Have an idea |
-| [v004](001-have-an-idea/versions/v004/index.html) | Selected review draft / 当前待审 | The Corner Office |
+| [v004](001-have-an-idea/versions/v004/index.html) | Historical / 历史 | The Corner Office |
+| [v005](001-have-an-idea/versions/v005/index.html) | Selected review draft / 当前待审 | The Corner Office |
 
 ## 002 · One Tiny Feature
 
@@ -55,7 +56,7 @@ Selected / 当前：[v019](003-chief-nap-officer/index.html) · [History / 历�
 
 ## 004 · Soft Launch
 
-Selected / 当前：[v006](004-that-was-a-sentence/index.html) · [History / 历史入口](004-that-was-a-sentence/versions/index.html)
+Selected / 当前：[v007](004-that-was-a-sentence/index.html) · [History / 历史入口](004-that-was-a-sentence/versions/index.html)
 
 | Version / 版本 | Role / 状态 | Saved title / 当时标题 |
 | --- | --- | --- |
@@ -64,7 +65,8 @@ Selected / 当前：[v006](004-that-was-a-sentence/index.html) · [History / 历
 | [v003](004-that-was-a-sentence/versions/v003/index.html) | Intermediate audio wiring; use later selected film / 中间音轨接线稿 | That Was a Sentence |
 | [v004](004-that-was-a-sentence/versions/v004/index.html) | Historical / 历史 | That Was a Sentence |
 | [v005](004-that-was-a-sentence/versions/v005/index.html) | Historical / 历史 | That Was a Sentence |
-| [v006](004-that-was-a-sentence/versions/v006/index.html) | Selected review draft / 当前待审 | Soft Launch |
+| [v006](004-that-was-a-sentence/versions/v006/index.html) | Historical / 历史 | Soft Launch |
+| [v007](004-that-was-a-sentence/versions/v007/index.html) | Selected review draft / 当前待审 | Soft Launch |
 
 ## 005 · A Little More
 

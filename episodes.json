@@ -25,9 +25,9 @@
       "musicAvailable": true,
       "voicesAvailable": true,
       "aspect": "4:5",
-      "video": "motion/004-that-was-a-sentence/previews/v006-soft-launch-review.mp4",
-      "nextTask": "Review the new story, original score and complete-character acting.",
-      "nextTaskZh": "验看新剧情、独立配乐与整猫动作。",
+      "video": "motion/004-that-was-a-sentence/previews/v007-continuous-acting-review.mp4",
+      "nextTask": "Review independent reach/block/recoil acting, paw-to-tray contact and matched sounds.",
+      "nextTaskZh": "验看独立伸爪拦截收回动作、爪盘接触及对应声音。",
       "status": "Unpublished draft"
     },
     {
@@ -67,9 +67,9 @@
       "musicAvailable": true,
       "voicesAvailable": true,
       "aspect": "4:5",
-      "video": "motion/001-have-an-idea/previews/v004-corner-office-review.mp4",
-      "nextTask": "Review the new story, original score and complete-character acting.",
-      "nextTaskZh": "验看新剧情、独立配乐与整猫动作。",
+      "video": "motion/001-have-an-idea/previews/v005-verdent-box-review.mp4",
+      "nextTask": "Review the official Verdent print on the box through all painted poses.",
+      "nextTaskZh": "复查原版 Verdent 标识在纸箱各姿势中的位置。",
       "status": "Unpublished draft"
     }
   ]

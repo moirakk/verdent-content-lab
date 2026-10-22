@@ -21,7 +21,7 @@ Edit the template selected by episode.json, not an old similarly named directory
 
 ## Story films 001/002/004 · 生活短剧流程
 
-1. Edit [shared story source](../motion/_painted-story/README.md) and episode config / 修改共用剧情源与本集配置。
+1. Edit [shared story source](../motion/_painted-story/README.md) for 001/002, or [004 acting source](../motion/004-that-was-a-sentence/template-acting/README.md), plus episode config / 前两集改共用源，004 改独立整猫动作源与配置。
 2. Generate speech/score under NEW version names; verify real durations / 声音另起新版本并实测时长。
 3. Set a NEW videoExport path; prepare review templates / 设置新视频路径并准备。
 4. Render, prepare matching downloads, build changed episodes, refresh indexes and check / 渲染后准备匹配下载，再构建、更新索引检查。
@@ -35,7 +35,7 @@ npm run index
 npm run check
 ```
 
-The renderer currently processes all three story films. Preserve existing previews by choosing new videoExport filenames; --replace-preview is for deliberate replacement only after the previous movie is archived. Temporary PNG frames stay in OS temp / 渲染器处理三集；新稿选新文件名，替换参数只用于旧片已存档后的明确替换，帧图留临时目录。
+The renderer defaults to all three story films and follows each episode's selected template. Use `--episode 004-that-was-a-sentence` to render only 004. The preparation script skips independent templates and accepts the same `--episode` filter. / 渲染按配置选择源码，可单集处理；准备脚本跳过独立模板。 Preserve existing previews by choosing new videoExport filenames; --replace-preview is for deliberate replacement only after the previous movie is archived. Temporary PNG frames stay in OS temp / 渲染器默认处理三集；新稿选新文件名，替换参数只用于旧片已存档后的明确替换，帧图留临时目录。
 
 Install optional browser tooling with npm install then npx playwright install chromium. An external Playwright module can be supplied with RENDER_PLAYWRIGHT_MODULE / 可安装浏览器工具，或通过该变量使用外置模块。
 

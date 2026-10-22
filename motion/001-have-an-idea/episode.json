@@ -44,7 +44,7 @@
   "template": "motion/001-have-an-idea/template-story",
   "visualSystem": "painted-story-v002",
   "voicesAvailable": true,
-  "note": "Story-first redesign after creator feedback: new painted location, complete-character action drawings, visual cold open, camera changes and a distinct original score. Synthetic child dialogue; unpublished limited-animation review.",
+  "note": "Original Verdent mark printed on the cardboard face, registered for all eight connected-cat drawings; original painted story, child voices and score retained. Unpublished review draft.",
   "footerAt": 17000,
   "storyType": "box",
   "registration": {
@@ -135,5 +135,6 @@
       }
     ]
   },
-  "videoExport": "previews/v004-corner-office-review.mp4"
+  "videoExport": "previews/v005-verdent-box-review.mp4",
+  "boxBrand": true
 }

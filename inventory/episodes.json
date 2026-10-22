@@ -4,16 +4,16 @@
     {
       "id": "001-have-an-idea",
       "title": "The Corner Office",
-      "version": "v004",
+      "version": "v005",
       "durationMs": 18000,
       "aspect": "4:5",
       "config": "motion/001-have-an-idea/episode.json",
       "template": "motion/001-have-an-idea/template-story",
       "html": "motion/001-have-an-idea/index.html",
-      "video": "motion/001-have-an-idea/previews/v004-corner-office-review.mp4",
+      "video": "motion/001-have-an-idea/previews/v005-verdent-box-review.mp4",
       "history": "motion/001-have-an-idea/versions/index.html",
-      "archiveCount": 4,
-      "sha256": "5a4b96c354aa9522c2d2a8da2a1dc255810dfaa973c3893d03fa5552653bec5a",
+      "archiveCount": 5,
+      "sha256": "f257161bc0222523224df139ad47e234237118d3be6b0850526b98cea131d085",
       "status": "Unpublished draft"
     },
     {
@@ -49,16 +49,16 @@
     {
       "id": "004-that-was-a-sentence",
       "title": "Soft Launch",
-      "version": "v006",
+      "version": "v007",
       "durationMs": 20000,
       "aspect": "4:5",
       "config": "motion/004-that-was-a-sentence/episode.json",
-      "template": "motion/004-that-was-a-sentence/template-story",
+      "template": "motion/004-that-was-a-sentence/template-acting",
       "html": "motion/004-that-was-a-sentence/index.html",
-      "video": "motion/004-that-was-a-sentence/previews/v006-soft-launch-review.mp4",
+      "video": "motion/004-that-was-a-sentence/previews/v007-continuous-acting-review.mp4",
       "history": "motion/004-that-was-a-sentence/versions/index.html",
-      "archiveCount": 6,
-      "sha256": "d26b4f2e0e40e9d17f2896754292e4b68334c025d095fdaa7eb4f26946ac1d98",
+      "archiveCount": 7,
+      "sha256": "4bcc2d87a007843fa6d2140ca45a744c58aa4dd89523eaf50c119cbf01fb9b07",
       "status": "Unpublished draft"
     },
     {
@@ -140,9 +140,15 @@
     },
     {
       "episode": "004-that-was-a-sentence",
-      "path": "motion/004-that-was-a-sentence/template-story",
+      "path": "motion/004-that-was-a-sentence/template-acting",
       "role": "current",
-      "editableSource": "motion/_painted-story"
+      "editableSource": "motion/004-that-was-a-sentence/template-acting"
+    },
+    {
+      "episode": "004-that-was-a-sentence",
+      "path": "motion/004-that-was-a-sentence/template-story",
+      "role": "historical",
+      "editableSource": "motion/004-that-was-a-sentence/template-story"
     },
     {
       "episode": "004-that-was-a-sentence",
