@@ -30,5 +30,109 @@
     "source": "generated-with-template",
     "note": "Stronger character acting: raised paw, skeptical side-eye, yawn-to-nap, closer cameras and staggered workers. Audio v001 unchanged.",
     "title": "Chief Nap Officer"
+  },
+  {
+    "version": "v005",
+    "capturedAt": "2026-10-20T05:36:09.240Z",
+    "sha256": "5441bb86cec9ac06ac570e5f0f2be6ea7a2e70606a96df674bda09f486f0da7a",
+    "source": "generated-with-template",
+    "note": "Child-voice casting review: Mochi Maisie, Lucky Ana; audio v002. Picture and dialogue retained from v004; nap settles after the new final line. Pending creator confirmation.",
+    "title": "Chief Nap Officer"
+  },
+  {
+    "version": "v006",
+    "capturedAt": "2026-10-20T06:01:44.760Z",
+    "sha256": "a026cf2e480586466b3b73fc0fceb407d1962d8049771d9878b5eebf3a24320d",
+    "source": "generated-with-template",
+    "note": "Painted limited-animation upgrade: separate head acting, paired blink drawings, reaction poses, continuous staging and a clean one-shot recording view. Child audio v002 unchanged. Original characters and painted identity retained.",
+    "title": "Chief Nap Officer"
+  },
+  {
+    "version": "v007",
+    "capturedAt": "2026-10-20T06:06:50.253Z",
+    "sha256": "cfa1c08d66fedddf52e1dea939cc2f11493a76a7badfbe9e8b7d7e8fceedf51f",
+    "source": "generated-with-template",
+    "note": "Painted limited-animation upgrade: separate head acting, paired blink drawings, reaction poses, continuous staging and a clean one-shot recording view. Child audio v002 unchanged. Original characters and painted identity retained.",
+    "title": "Chief Nap Officer"
+  },
+  {
+    "version": "v008",
+    "capturedAt": "2026-10-20T06:57:48.734Z",
+    "sha256": "d5d6e1b0f143a754aea7bb32c698b862b7df5be10d483953f1e4ec12542416ef",
+    "source": "generated-with-template",
+    "note": "Visual polish: safe uncropped framing, larger cats during the compact team reveal, restrained speech emphasis, ghost-free expression cuts and yawn only after speech. Existing painted assets and child audio v002 unchanged. Draft for review.",
+    "title": "Chief Nap Officer"
+  },
+  {
+    "version": "v009",
+    "capturedAt": "2026-10-20T07:00:50.476Z",
+    "sha256": "0dc47c436d3b9d765679a4bbe1ca94d32341d5e43b4640ab1f36759eda7e179e",
+    "source": "generated-with-template",
+    "note": "Visual polish: safe uncropped framing, larger cats during the compact team reveal, restrained speech emphasis, ghost-free expression cuts and yawn only after speech. Existing painted assets and child audio v002 unchanged. Draft for review.",
+    "title": "Chief Nap Officer"
+  },
+  {
+    "version": "v010",
+    "capturedAt": "2026-10-20T07:16:15.170Z",
+    "sha256": "fbadd6e4867fcfba1023a054a0b61d20859e53fbb3ebf8e3eb4b88f61c6036ba",
+    "source": "generated-with-template",
+    "note": "Acting study, not final animation: articulated Lucky paw/tail, anatomical head masks with neck overlap, anticipation/contact/release triggering an illustrative Manager panel, deliberate speaker closeups and wide reaction. Existing artwork, dialogue and child audio v002 unchanged. Review the first eight seconds; later pose changes remain limited animation.",
+    "title": "Chief Nap Officer"
+  },
+  {
+    "version": "v011",
+    "capturedAt": "2026-10-20T07:37:26.902Z",
+    "sha256": "62f10fb6201cdb749218574f53e58c6f6b4cf210dbd4b724ee490eaf9c4f382a",
+    "source": "generated-with-template",
+    "note": "Whole-body redraw repair after creator rejected v010's detached paw. Removes all anatomical masks and separate limb/head rotations. Adds 8 complete Lucky reach/press drawings with reverse return and 4 complete Mochi deadpan-reaction drawings, registered at a stable foot baseline. Original art and child audio v002 remain unchanged. First-eight-second motion review, not release-approved final animation.",
+    "title": "Chief Nap Officer"
+  },
+  {
+    "version": "v012",
+    "capturedAt": "2026-10-20T07:58:28.839Z",
+    "sha256": "5621b6270ea78a2c671a49e153041ea40285d83ad813203ee4e05c44b7ac65dd",
+    "source": "generated-with-template",
+    "note": "Full-story polish: preserve the accepted whole-body action approach, add 8 complete sit-to-nap key drawings, a deliberate title-answer closeup, a post-speech pause and a silent Mochi reaction. Team progress remains visibly partial while the founder sleeps; no instant-completion claim. English dialogue and child audio v002 unchanged. Local 18-second review, not release-approved final animation.",
+    "title": "Chief Nap Officer"
+  },
+  {
+    "version": "v013",
+    "capturedAt": "2026-10-20T08:37:14.636Z",
+    "sha256": "dddf52792d7fa85c1bf6871dfc9ca41832b2154c2850fa44b126a9af0607a3db",
+    "source": "generated-with-template",
+    "note": "A: 18-second full-story draft using the creator-approved blue studio direction, eight complete cast drawings and existing English child speech/music v002. Illustrative Manager parallel work remains partial. New film/acting still needs creator and browser review; not release-approved.",
+    "title": "Chief Nap Officer · Blue Scene A"
+  },
+  {
+    "version": "v014",
+    "capturedAt": "2026-10-20T08:37:14.704Z",
+    "sha256": "673b895102db6458ae25bef397bb0277a8b04877eddbc0f3b60e497de3276dd5",
+    "source": "generated-with-template",
+    "note": "B: 12-second fast deadpan alternate cut, same blue scene and intact cast artwork. Four existing child voice clips are remixed at 100/2750/5050/7450 ms with the existing original score; no fresh speech synthesis. Illustrative parallel work, not an instant-completion claim. Local review draft only.",
+    "title": "Chief Nap Officer · Blue Scene B"
+  },
+  {
+    "version": "v015",
+    "capturedAt": "2026-10-20T08:39:43.325Z",
+    "sha256": "d6ee40ef6abec5679fa7d1bcb571924a631aa3654d0ba3898b0ed7e29f2d5285",
+    "source": "generated-with-template",
+    "note": "A: 18-second full-story draft using the creator-approved blue studio direction, eight complete cast drawings and existing English child speech/music v002. Illustrative Manager parallel work remains partial. New film/acting still needs creator and browser review; not release-approved.",
+    "title": "Chief Nap Officer · Blue Scene A"
+  },
+  {
+    "version": "v016",
+    "capturedAt": "2026-10-20T08:39:43.387Z",
+    "sha256": "42368a1dbd9ab8b72b63cfff7171098f0bab24c8f01ad2e5acba64539f3631ad",
+    "source": "generated-with-template",
+    "note": "B: 12-second fast deadpan alternate cut, same blue scene and intact cast artwork. Four existing child voice clips are remixed at 100/2750/5050/7450 ms with the existing original score; no fresh speech synthesis. Illustrative parallel work, not an instant-completion claim. Local review draft only.",
+    "title": "Chief Nap Officer · Blue Scene B"
+  },
+  {
+    "version": "v017",
+    "capturedAt": "2026-10-21T11:47:32.857Z",
+    "sha256": "b32ffcf6ef1f58f43d0f7d310e2adc3d46aa5286dfa242b58e5b61ba6ebcb912",
+    "source": "generated-with-template",
+    "note": "A-only acting polish: approved blue studio paint language retained. New eight-frame complete Lucky/laptop insert clarifies anticipation, contact and release without cut-apart limbs. Motivated speaker shots, caption-free working/reaction holds, unchanged child dialogue and a new original-score remix with quiet beats before the title answer and yawn. Limited animation review draft; B v016 and all prior archives retained. Offline preview is not browser capture or release approval.",
+    "title": "Chief Nap Officer · Blue A Acting Polish"
   }
 ]

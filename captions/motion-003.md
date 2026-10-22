@@ -4,11 +4,15 @@ Status / 状态：Draft, unpublished / 草稿，未发布。
 
 Internal note / 内部说明：All publishing copy below stays English / 下方发布内容全部英文。
 
-Caption: The team is working. The founder is recharging.
+Cover / 封面短句：I started a company.
+
+Caption: A very hands-off founder.
 
 Optional audience prompt: What's your unofficial job title?
 
-Alt text: Lucky announces that he started a company. Mochi points out that he has no employees. An illustrated Verdent Manager panel reveals three parallel workers building a cat café website's homepage, menu, and booking page. Mochi asks what Lucky does. Lucky says “Chief Nap Officer,” then curls up asleep while the team keeps working. The short uses painted cats, English character voices, and soft toy-bell music.
+Alt text: Lucky announces that he started a company. Mochi points out that he has no employees. Lucky presses a key and an illustrated Verdent Manager panel reveals three tasks working in parallel on a cat café website. Mochi asks what Lucky does. In closeup, he replies “Chief Nap Officer.” After a pause, he yawns, folds his legs and curls up asleep. The task bars keep advancing without reaching completion. Mochi finally smiles. The last line reads “Business as usual.” The short uses painted cats, English childlike character voices and soft toy-bell music.
+
+Internal note / 内部说明：The cover/caption should not reveal the nap punchline before viewing. UI and progress are illustrative, not a real product recording / 封面和 caption 不提前揭晓午睡反转；界面与进度是示意，不冒充录屏。
 
 Product focus / 产品重点：Verdent Manager task decomposition and parallel work / 拆任务与并行工作。
 

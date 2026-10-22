@@ -1,6 +1,9 @@
 # Editorial Strategy · 官媒长期内容策略
 
-Status / 状态：Proposed direction for creator review / 待创作者确认的长期方向。Updated / 更新：2026-10-20。
+Status / 状态：Strategy proposals, not confirmed identity or a publishing calendar / 策略提案，不是已确认人设或发布日历。
+
+Current direction / 当前总纲：[PROJECT_BRIEF](../PROJECT_BRIEF.md). Actual state / 实际状态：[CONTENT_MAP](../CONTENT_MAP.md). This document keeps strategic possibilities; it does not override them / 本文保留策略可能性，不覆盖已确认方向和实际状态。
+Updated / 更新：2026-10-20。
 
 ## Core Idea · 核心方向
 
@@ -14,7 +17,9 @@ The audience should remember the cats and gradually understand what Verdent help
 
 观众先记住角色，再逐渐理解 Verdent 能帮它们做什么。功能提供故事条件，每集仍要有角色欲望和结尾反转。
 
-## Starting Mix · 起步内容配比
+## Earlier Mix Proposal · 早期配比提案（未批准）
+
+Latest review / 本轮确认：The creator asked to build content feature by feature. Use the [40-entry feature map](VERDENT_FEATURE_MAP.md) and [first-batch review queue](FEATURE_CONTENT_QUEUE.md). The mix below is an earlier proposal, not an approved quota; do not let it override this feature-led review / 创作者本轮希望逐条围绕产品做内容，以功能表和首轮确认单选题；以下旧配比未批准，不覆盖本轮方向。
 
 Use this as a ten-post experiment, not a permanent quota or a performance promise / 先按十条测试，不作为永久配额或效果承诺。
 
@@ -64,7 +69,7 @@ Motion 003 is the pilot: founder claim → no employees → Manager's parallel w
 | Keep stable / 固定资产 | Vary per episode / 每集变化 |
 | --- | --- |
 | Cat identities, gouache texture, official logo / 角色身份、水粉笔触、官方 Logo | Desire, conflict, scene composition, payoff / 欲望、冲突、构图、反转 |
-| Calm Mochi and eager Lucky voice direction / 冷静 Mochi 与兴奋 Lucky 的声音方向 | Speaking rhythm and acting / 语速、情绪与表演 |
+| Child-voice direction: calm Mochi, eager Lucky / 童声方向：冷静 Mochi、兴奋 Lucky | Exact casting pending review, plus rhythm and acting / 具体音色待审，语速与表演随剧情变化 |
 | A small original instrumental palette / 少量原创配乐音色 | Melody, pauses, stings / 旋律、留白、短音效 |
 | Timeline, subtitles, audio controls, archive tooling / 时间轴、字幕、声音控制、归档工具 | Dialogue, shot timing, selected product moment / 对白、镜头节奏、产品片段 |
 
@@ -72,15 +77,9 @@ Keep finished content English, documentation bilingual, and every HTML version p
 
 成品英文，说明双语，每版 HTML 永久保留。Logo 使用创作者提供的原文件，不重画、不拉伸。配乐服务对白，关声音也能靠字幕看懂笑点。
 
-## Pilot Queue · 首轮候选
+## Story Queue · 选题入口
 
-| Hook / 开场 | Capability / 能力 | Payoff / 反转 | State / 状态 |
-| --- | --- | --- | --- |
-| “I started a company.” | Manager parallel workers / 并行团队 | “Chief Nap Officer.” | Motion 003 pilot draft / 试播样片 |
-| “That was my plan.” | Planning and task decomposition / 规划与拆任务 | “That was a sentence.” | Idea / 候选 |
-| “We're open.” | Cloud preview and sharing / 预览与分享 | Every visitor is Mochi / 访客全是 Mochi | Idea / 候选 |
-| “It remembers my stack.” | Memory / 记忆 | Lucky forgets Mochi's coffee / Lucky 忘记咖啡口味 | Idea / 候选 |
-| “One line changed.” | VS Code diff / 改动检查 | A very long definition of one line / 一行的定义变长 | Idea / 候选 |
+Use [FEATURE_CONTENT_QUEUE](FEATURE_CONTENT_QUEUE.md) for the single maintained list, and [CONTENT_MAP](../CONTENT_MAP.md) for actual production/release state. Do not maintain a second competing episode table here / 选题统一看确认单，制作发布看总表；本文件不另维护一张易过时的排期表。
 
 After the first batch, review observed watch-through, rewatches, sharing, character-specific comments, and product/profile interest where available. Compare within your own account and iterate; do not invent benchmarks or label drafts as published.
 

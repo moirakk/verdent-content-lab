@@ -1,4 +1,4 @@
 {
-  "Mochi": { "voice": "en-US-JennyNeural", "rate": "-3%", "pitch": "-4Hz", "direction": "Calm and dry; let the question do the joke. / 冷静平稳，让追问本身形成笑点。" },
-  "Lucky": { "voice": "en-US-EricNeural", "rate": "+8%", "pitch": "+14Hz", "direction": "Bright, eager, slightly playful; not a shouting announcer. / 轻快兴奋，带一点俏皮，不用播音腔。" }
+  "Mochi": { "voice": "en-GB-MaisieNeural", "rate": "+0%", "pitch": "+0Hz", "direction": "Child voice; calm, matter-of-fact delivery, not an adult voice pitched up. UK English. / 童声，平稳认真，不把成人声音强行升调；英式英语。" },
+  "Lucky": { "voice": "en-US-AnaNeural", "rate": "+5%", "pitch": "+0Hz", "direction": "Child voice; eager and playful, no chipmunk pitch effect. US English. / 童声，活泼有期待感，不用变调尖嗓；美式英语。" }
 }

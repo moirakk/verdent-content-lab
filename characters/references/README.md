@@ -27,6 +27,6 @@ Mochi 的冷静、理性、dry humor，以及 Lucky 的热情、活泼、容易�
 
 [Creator-provided painting / 创作者提供的绘画参考](painted-style-2026-10-20.png), received on 2026-10-20, adds chunky gouache brushstrokes, layered fur colors, and lively handmade edges. Motion 002 explores this style on warm paper with restrained blue accents. This is an episode experiment; earlier style directions and HTML archives remain available.
 
-新增参考强调粗水粉笔触、层叠毛色和手绘边缘。动态 002 将其用于米白纸面和少量蓝色点缀；这是本集探索，不覆盖既有画风方向和 HTML 存档。
+Latest confirmation / 最新确认：the creator explicitly requested returning to this painting, rather than recent detailed-fur/upright-mascot experiments. This is now the primary rendering/proportion reference; Motion 002's ivory layout is historical, not a rule for new scenes / 创作者明确要求按此原绘画走，不再沿近期精细毛发、直立拟人猫扩展；此图优先作为笔触、比例与场景参考，动态 002 米白版式只是历史实验。All old HTMLs remain / 旧 HTML 全部保留。
 
 先看本图辨认两只猫，再读 [Mochi](../mochi.md)、[Lucky](../lucky.md)、[IP Bible](../../brand/IP_BIBLE.md) 与 [视觉规范](../../brand/VISUAL_STYLE.md)。真猫照片负责外貌锚点；独立手绘漫画参考负责纸张、线条与留白方向。后续新画稿逐步吸收这些外貌特征，已有 HTML 版本按原样保留。

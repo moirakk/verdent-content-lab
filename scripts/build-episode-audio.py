@@ -21,7 +21,7 @@ def duration(probe, file):
     return float(run([probe, "-v", "error", "-show_entries", "format=duration", "-of", "default=nw=1:nk=1", str(file)]).strip())
 
 
-def compose_music(file, seconds, speech_windows):
+def compose_music(file, seconds, speech_windows, sound_effects=None):
     sample_rate = 32000
     samples = [0.0] * round(seconds * sample_rate)
     randomizer = random.Random(303)
@@ -50,6 +50,18 @@ def compose_music(file, seconds, speech_windows):
                 note(start + 0.04, pitch, 0.5, 0.047 + randomizer.random() * 0.006, bell=True)
     note(14.5, 79, 0.32, 0.07, bell=True)
     note(14.75, 76, 0.32, 0.06, bell=True)
+    for effect in sound_effects or []:
+        start = effect["at"] / 1000
+        gain = effect.get("gain", 0.04)
+        if effect["type"] == "chime":
+            note(start, 84, 0.35, gain, bell=True)
+        elif effect["type"] == "paper":
+            for offset in range(round(0.13 * sample_rate)):
+                position = round(start * sample_rate) + offset
+                if position >= len(samples):
+                    break
+                envelope = math.sin(math.pi * offset / (0.13 * sample_rate)) ** 2
+                samples[position] += randomizer.uniform(-1, 1) * gain * envelope
     payload = bytearray()
     for index, sample in enumerate(samples):
         clock = index / sample_rate
@@ -82,6 +94,7 @@ async def main():
         raise RuntimeError("Audio version already exists; select a new --version")
     audio_directory = root / "audio" / args.version
     audio_directory.mkdir(parents=True, exist_ok=False)
+    (audio_directory / "voice-profiles.json").write_text(json.dumps(profiles, indent=2, ensure_ascii=False) + "\n")
     assets.mkdir(parents=True, exist_ok=True)
     clips = []
     metadata = []
@@ -98,7 +111,7 @@ async def main():
         metadata.append({"speaker":beat["speaker"], "text":beat["text"], "start":start, "duration":length, "voice":profile["voice"]})
     seconds = episode["duration"] / 1000
     music = audio_directory / "original-music.wav"
-    compose_music(music, seconds, [(line["start"], line["start"] + line["duration"]) for line in metadata])
+    compose_music(music, seconds, [(line["start"], line["start"] + line["duration"]) for line in metadata], episode.get("soundEffects"))
     command = [ffmpeg, "-hide_banner", "-loglevel", "error", "-i", str(music)]
     for clip in clips:
         command.extend(["-i", str(clip)])
@@ -110,9 +123,10 @@ async def main():
     filters.append(f"{inputs}amix=inputs={len(clips) + 1}:duration=first:normalize=0,alimiter=limit=0.9,atrim=duration={seconds}[mix]")
     command.extend(["-filter_complex", ";".join(filters), "-map", "[mix]", "-c:a", "aac", "-b:a", "160k", "-ar", "48000", "-movflags", "+faststart", str(output)])
     run(command)
-    summary = {"version":args.version, "duration":duration(probe, output), "music":"Original deterministic plucked-bass and toy-bell score, ducked under dialogue", "lines":metadata}
+    summary = {"version":args.version, "duration":duration(probe, output), "music":"Original deterministic plucked-bass and toy-bell score, ducked under dialogue", "soundEffects":episode.get("soundEffects", []), "lines":metadata}
     (audio_directory / "mix.json").write_text(json.dumps(summary, indent=2) + "\n")
     print(json.dumps(summary, indent=2))
 
 
-asyncio.run(main())
+if __name__ == "__main__":
+    asyncio.run(main())

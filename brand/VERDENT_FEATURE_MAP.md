@@ -1,80 +1,96 @@
-# Verdent Feature Map · 产品功能与笑点表
+# Verdent Feature Map · 产品功能与内容选题库
 
-## How to Read · 阅读方式
+Status / 状态：**Working inventory; completed film drafts still need review / 工作清单，成片仍待审**。Checked / 核对：2026-10-20。
 
-Organized into Manager (Desktop), Cloud, and VS Code. Checked on 2026-10-20; recheck official documentation before publishing. Content status tracks Mochi & Lucky usage, not feature availability. All listed jokes are proposals, not approved scripts. EP.05's title does not prove which feature appeared in it. Documentation is bilingual; finished jokes, dialogue, and publishing copy are English only.
+## Read First · 使用方式
 
-按 Manager（桌面端）、Cloud 和 VS Code 整理。内容状态记录角色内容的使用进度，不代表功能是否上线。所有笑点均为内部提案；正式对白和发布文案全部使用英文。
+40 editorial feature entries: Manager/Desktop 18, Cloud 11, VS Code 11. This is a content-planning inventory, not an exhaustive product specification. Official documentation supports the limited factual scope below; no product UI was operated or independently tested in this review / 共 40 个内容功能条目：桌面端 18、Cloud 11、VS Code 11。不是完整规格书；本次核对官方文档，未实操验收产品。
 
-Column key / 表头：**Content status / 内容状态 · Possible jokes / 可能的笑点 · Best format / 适合形式**。`Idea / unassigned` = 候选、未分配；`Research needed` = 待核实。Other terms / 形式：comic = 漫画，motion = 动态 HTML，meme = 单图梗。
+**One episode, one primary capability. Character first. Joke second. Product third. / 每集一个核心能力：先人物，再笑点，最后产品。**
 
-核对日期：2026-10-20。按创作者要求保留 **Verdent Manager / Cloud / VS Code** 三条内容线；官方当前导航将 Manager 放在 Desktop 下。下列是选题工作表，不是完整规格承诺。功能会变化，发布前重查对应官方文档。
+Facts, creative proposals and approval are separate. A feature's presence in docs does not approve a joke or prove a particular subscription supports it. Check current UI, permissions, limits and source before production / 功能事实、创意和批准分开；文档有功能不代表笑点已确认，也不代表所有套餐都支持。制作前再查界面、权限、限制和来源。
 
-`Content status` 只记录 Mochi & Lucky 的使用进度；`Idea / unassigned` 表示未分配，不代表功能未上线。EP.05 的标题不足以确定曾展示哪项功能，不反向编造已使用记录。`Possible jokes` 均为创作提案。
+- **Content status / 内容状态**: Idea → Brief → Draft → Approved → Published. Only actual releases become Published / 只有实际发布后才记已发布。
+- **Possible jokes / 可能笑点**: proposals, never finished approved scripts / 均为提案，不是已批准脚本。
+- **Best format / 适合形式**: suggested production approach, not a performance promise / 制作建议，不承诺传播效果。
+- Stable IDs M/C/V survive edits; queue and episode briefs reference these IDs / 功能编号固定，后续选题和作品用同一编号关联。
+- Motion 003 is a draft of M02. Motion 001/002 are character samples, not verified product demonstrations. EP.05's title alone does not prove feature usage / 003 关联 M02；001/002 不算已验证的功能展示；不凭 EP.05 标题反推使用记录。
 
-## Verdent Manager（Desktop）
+[First-batch review queue / 首轮待确认选题](FEATURE_CONTENT_QUEUE.md) · [Content progress / 发布进度](../CONTENT_MAP.md)
 
-来源：[Overview](https://www.verdent.ai/docs/verdent-manager/getting-started/overview) · [Manager](https://www.verdent.ai/docs/verdent-manager/core-features/manager) · [Design Mode](https://www.verdent.ai/docs/verdent-manager/core-features/design-mode) · [Skills](https://www.verdent.ai/docs/verdent-manager/core-features/skills)。
+## Manager / Desktop · 桌面端
 
-| 功能 | 事实边界 | Content status | Possible jokes | Best format |
-| --- | --- | --- | --- | --- |
-| Outcome → task decomposition | Break goals into phases and tasks / 将目标拆成阶段与子任务 | Idea / unassigned | A “tiny idea” takes three pages; Mochi asks about lunch / 小点子展开三页，Mochi 只问午饭 | 4-panel comic / 4 格漫画 |
-| Parallel agents | Concurrent workers / 多 worker 并行推进 | Draft: Motion 003 / 已有未发布样片 | The team works; the founder naps / 团队工作，创始猫午睡 | Story motion / 剧情动效 |
-| Project board / review | Track status and review deliverables / 跟踪状态与复核交付 | Idea / unassigned | Everything is To Review, including Mochi's coffee / 咖啡也在待审 | 3-panel comic / 3 格漫画 |
-| Contextual replies | Decisions stay with their task / 决策关联具体任务 | Idea / unassigned | Lucky says “yes”; Mochi asks “Which idea?” / Lucky 答应了，但答应的是哪件事 | 4-panel comic / 4 格漫画 |
-| Memory | Carry preferences and decisions forward / 延续偏好与决策 | Idea / unassigned | The tool remembers less sugar; Lucky forgets / 工具记住少糖，Lucky 忘记 | 2-panel comic / 2 格漫画 |
-| Remote work / messaging | Start and receive work through connected channels / 通过已连接渠道发起和接收工作 | Idea / unassigned | Lucky leaves the desk; ideas stay in chat / Lucky 离桌，点子留在群聊 | Chat motion / 手机对白动效 |
-| Automations | Schedule recurring work in natural language / 自然语言安排重复任务 | Idea / unassigned | Lucky wants to automate drinking water, not the reminder / Lucky 想自动喝水 | 3-panel comic / 3 格漫画 |
-| Multiple Managers | Separate styles, memories, and tools / 不同风格、记忆与工具 | Idea / unassigned | A manager for every new idea / 每个新点子都招经理 | 4-panel comic / 4 格漫画 |
-| Design Mode | Choose direction before building / 先选方向再构建 | Idea / unassigned | Lucky's entire brief is “more meow” / Lucky 的需求只有更多喵 | Comparison comic / 对照漫画 |
-| Skills | Reusable working instructions / 复用工作方式 | Idea / unassigned | Mochi makes “sleep first” a reusable workflow / 把先睡觉写成流程 | 3-panel comic / 3 格漫画 |
-| Plugins / integrations | Connect services with configured permissions / 按权限连接服务 | Idea / unassigned | All tools connected; no goal chosen / 接好工具却忘记目标 | 4-panel comic / 4 格漫画 |
-| Image Tool / video generation | Visual assets and short video, not unlimited duration / 视觉素材与短视频，非无限时长 | Idea / unassigned | One ID photo becomes eighteen moods / 证件照变成十八种情绪 | Image / motion · 单图／动效 |
-| Plan / agent / review / isolation | Planning, execution, review, separate workspaces / 规划、执行、检查与独立工作区 | Idea / unassigned | A “quick change” gets its own little room / 小改动有自己的隔离房间 | 4-panel comic / 4 格漫画 |
+Manager is grouped under Desktop in official navigation. Do not confuse a Manager, a worker, and a Skill / 官方导航使用 Desktop；Manager、worker、Skill 不等同。
 
-## Verdent Cloud
+| ID | Feature / 功能 | Factual scope / 事实边界 | Content status / 内容状态 | Possible jokes / 可能笑点 | Best format / 适合形式 | Source / 官方来源 |
+| --- | --- | --- | --- | --- | --- | --- |
+| M01 | Task decomposition / 目标拆解 | Goal → stages, tasks and acceptance criteria / 目标拆成阶段、任务与验收点 | Draft: Motion 004 / 画面样片待审 | A one-sentence plan becomes a long checklist / 一句话计划展开长清单 | 4-panel or motion / 四格或动效 | [Docs / 文档](https://www.verdent.ai/docs/verdent-manager/core-features/manager) |
+| M02 | Parallel workers / 并行工作 | Agents work concurrently; not a speed guarantee / 多 agent 并行，不承诺固定提速 | Draft: Motion 003 / 样片待审 | The team works; the founder naps / 团队工作，创始猫午睡 | Story motion / 剧情动效 | [Docs / 文档](https://www.verdent.ai/docs/verdent-manager/core-features/manager) |
+| M03 | Board & handoff / 看板与待审交付 | Status and To Review outputs / 状态与待审成果；仍需复核 | Idea / 候选 | Mochi's coffee also lands in To Review / 咖啡也进待审栏 | 3-panel / 三格 | [Docs / 文档](https://www.verdent.ai/docs/verdent-manager/core-features/manager) |
+| M04 | Contextual replies / 任务内回复 | Questions and decisions stay with a task / 问题与决定关联对应任务 | Idea / 候选 | Yes. To which of my five ideas? / 答应了，答应的是五个点子中的哪个 | Chat motion / 对话动效 | [Docs / 文档](https://www.verdent.ai/docs/verdent-manager/core-features/manager) |
+| M05 | Memory / 长期记忆 | Project preferences and prior decisions / 项目偏好与历史决策，非完美记忆保证 | Idea / 候选 | The tool remembers the stack; Lucky forgets the coffee / 工具记得技术栈，Lucky 忘了咖啡 | 3-panel or motion / 三格或动效 | [Docs / 文档](https://www.verdent.ai/docs/verdent-manager/core-features/manager) |
+| M06 | Messaging / 消息触发 | Use connected channels; setup required / 已连接的消息渠道发起工作，需先配置 | Idea / 候选 | Lucky's best idea arrives away from the desk / 最佳点子出现在离桌后 | Phone-to-desk motion / 手机到桌边动效 | [Docs / 文档](https://www.verdent.ai/docs/verdent-manager/core-features/manager) |
+| M07 | Automations / 定时重复任务 | Natural-language schedule; runs can fail or be missed / 自然语言设重复任务，可能失败或错过 | Idea / 候选 | Automate the reminder, not the act of drinking / 能自动提醒，不能代喝水 | Loop motion / 循环动效 | [Docs / 文档](https://www.verdent.ai/docs/verdent-manager/core-features/automation) |
+| M08 | Multiple Managers / 多 Manager | Separate identity, memory and tools / 独立身份、记忆与工具配置 | Idea / 候选 | A manager for every idea, no one for lunch / 点子各有经理，午饭没人管 | 4-panel / 四格 | [Docs / 文档](https://www.verdent.ai/docs/verdent-manager/core-features/multi-manager) |
+| M09 | Design Mode / 设计方向先行 | Choose a direction before building / 先选视觉方向，再构建 | Idea / 候选 | Lucky asks for more meow, then picks the simplest draft / 要更多喵，最后选最简稿 | Comparison motion / 对照动效 | [Docs / 文档](https://www.verdent.ai/docs/verdent-manager/core-features/design-mode) |
+| M10 | Skills / 可复用工作方法 | Reusable knowledge and workflows, not standalone workers / 知识与流程复用，不等同独立 worker | Idea / 候选 | Mochi saves a process; Lucky saves a nap ritual / 一个存流程，一个存午睡仪式 | 3-panel / 三格 | [Docs / 文档](https://www.verdent.ai/docs/verdent-manager/core-features/skills) |
+| M11 | Integrations / 插件与外部工具 | Install and authorize services before use / 安装并授权外部服务后使用 | Idea / 候选 | Everything is connected except the goal / 工具全接好，目标没想好 | 4-panel / 四格 | [Docs / 文档](https://www.verdent.ai/docs/verdent-manager/core-features/integration) |
+| M12 | Image Tool / 图片创作 | Generate variations and save project assets / 创作变体并保存项目素材 | Idea / 候选 | One profile photo becomes eighteen moods / 一张头像变十八种情绪 | Art carousel or motion / 图集或动效 | [Docs / 文档](https://www.verdent.ai/docs/verdent-manager/core-features/image-tool) |
+| M13 | Video generation / 视频生成 | Short video from text or image; model limits apply / 文字或图像生成短片，受模型限制 | Idea / 候选 | Lucky's epic trailer is mostly a yawn / 史诗预告片大半在打哈欠 | Short motion / 短动效 | [Docs / 文档](https://www.verdent.ai/docs/verdent-manager/core-features/video-generation) |
+| M14 | Cloud publishing from Desktop / 桌面端云项目发布 | Cloud project + working preview; not direct local-folder publishing / 需云项目与可用预览，非直接发布本地文件夹 | Idea / 候选 | A tiny snack page gets a grand opening / 零食小页举行盛大开业 | Story + real output / 剧情加真实成果 | [Docs / 文档](https://www.verdent.ai/docs/verdent-manager/core-features/cloud-projects-and-publishing) |
+| M15 | Agent Mode / 执行模式 | Act on a clear task, with permissions / 执行明确任务，仍受权限控制 | Idea / 候选 | Ready to start; Lucky is still naming the project / 已能开工，Lucky 还在取名 | 3-panel / 三格 | [Docs / 文档](https://www.verdent.ai/docs/verdent-manager/advanced-features/agent-mode) |
+| M16 | Plan Mode / 规划模式 | Align on a plan before implementation / 实施前对齐方案 | Idea / 候选 | Lucky mistakes a sentence for a plan / Lucky 把一句话当计划 | 4-panel / 四格 | [Docs / 文档](https://www.verdent.ai/docs/verdent-manager/advanced-features/plan-mode) |
+| M17 | Code Review / 代码检查 | Review proposed changes, not a zero-bug guarantee / 检查改动，不保证零缺陷 | Idea / 候选 | Lucky wants a stamp; Mochi wants to read / 一个要盖章，一个要先看 | 3-panel / 三格 | [Docs / 文档](https://www.verdent.ai/docs/verdent-manager/advanced-features/code-review) |
+| M18 | Workspace isolation / 工作区隔离 | Separate Git workspaces, not a security sandbox claim / 分离 Git 工作区，不宣称安全沙箱 | Idea / 候选 | A tiny experiment needs its own little room / 小实验也有自己的房间 | Split-scene motion / 分屏动效 | [Docs / 文档](https://www.verdent.ai/docs/verdent-manager/advanced-features/workspace-isolation) |
 
-来源：[Cloud Overview](https://www.verdent.ai/docs/verdent-cloud/getting-started/overview)。浏览器是控制界面；项目在云端运行。不要把 Desktop 的本地能力自动写成 Cloud 能力。
+## Verdent Cloud · 云端
 
-| 功能 | 事实边界 | Content status | Possible jokes | Best format |
-| --- | --- | --- | --- | --- |
-| Generate a project | Build from an idea or reference / 从想法或参考创建 | Idea / unassigned | A website for collecting cardboard boxes / 给猫收藏纸箱的网站 | 4-panel comic / 4 格漫画 |
-| Templates | Start from a template / 从模板开始 | Idea / unassigned | A minimal template gains 47 paw prints / 极简模板加了 47 个猫爪 | Meme / 单图梗 |
-| Design Mode | Explore visual direction first / 先探索视觉方向 | Idea / unassigned | Can empty space be filled with cats? / 留白能不能填猫 | 3-panel comic / 3 格漫画 |
-| AI editing | Multi-turn project changes / 多轮修改项目 | Idea / unassigned | “Tiny change” knocks again / 小改动再次敲门 | Comic series / 连载漫画 |
-| Live Preview | Test the actual app in preview / 预览中检查应用 | Idea / unassigned | Lucky sees his name and declares tests passed / 看见名字就宣布通过 | 3-panel comic / 3 格漫画 |
-| Publish / unpublish / visibility | Manage release and visibility / 管理发布与可见性 | Idea / unassigned | A private snack list gets a launch ceremony / 私人零食清单办上线仪式 | 4-panel comic / 4 格漫画 |
-| Share published app | Share a live link / 分享已发布链接 | Idea / unassigned | The first visitor is Mochi; so is the second / 两个访客都是 Mochi | Meme / 单图梗 |
-| Analytics | Inspect visits / 查看访问数据 | Idea / unassigned | Three visits, one refresh button / 庆祝三次访问，却是自己刷新 | 3-panel comic / 3 格漫画 |
-| Logs / publish checks / Auto fix | Inspect publishing and repair / 检查发布与修复 | Idea / unassigned | Lucky writes comforting notes to error logs / 给错误日志写安慰话 | 4-panel comic / 4 格漫画 |
-| Iterate / My Creations | Manage and improve work / 管理作品并持续更新 | Idea / unassigned | The v1 box is unfinished; v9 is already planned / 第一版未完，已计划第九版 | Subtle motion / 轻动效 |
-| Workspaces / tasks / parallel work | Projects, tasks, concurrent work / 项目、任务与并行工作 | Idea / unassigned | A new idea in every tab / 每个标签页都有新点子 | Image / comic · 单图／漫画 |
+Browser control surface, Cloud execution. C11 is not Desktop worktree management; C06 is not a VS Code publishing claim / 浏览器操作、云端执行；云端并行不等于桌面 worktree，发布能力不自动归到 VS Code。
 
-## Verdent for VS Code
+| ID | Feature / 功能 | Factual scope / 事实边界 | Content status / 内容状态 | Possible jokes / 可能笑点 | Best format / 适合形式 | Source / 官方来源 |
+| --- | --- | --- | --- | --- | --- | --- |
+| C01 | Project generation / 创建项目 | Idea or reference → project / 想法或参考转成项目 | Idea / 候选 | A website for collecting cardboard boxes / 给收藏纸箱做网站 | Story motion / 剧情动效 | [Docs / 文档](https://www.verdent.ai/docs/verdent-cloud/getting-started/overview) |
+| C02 | Templates / 模板起步 | Start from a template / 使用模板作为起点 | Idea / 候选 | Minimal design, forty-seven paw prints / 极简模板添了四十七个猫爪 | Meme / 单图梗 | [Docs / 文档](https://www.verdent.ai/docs/verdent-cloud/getting-started/overview) |
+| C03 | Design Mode / 设计探索 | Explore an app's direction first / 先探索应用视觉方向 | Idea / 候选 | Does negative space need more cats? / 留白要不要再填猫 | Comparison comic / 对照漫画 | [Docs / 文档](https://www.verdent.ai/docs/verdent-cloud/getting-started/overview) |
+| C04 | AI editing / 多轮修改 | Iterate on the project through requests / 通过多轮需求调整项目 | Idea / 候选 | One last tiny change returns again / 最后一个小改动又回来了 | Comic series / 连载漫画 | [Docs / 文档](https://www.verdent.ai/docs/verdent-cloud/getting-started/overview) |
+| C05 | Live Preview / 实时预览 | Test a runnable app before launch / 发布前测试可运行应用 | Idea / 候选 | Lucky tests the logo; Mochi tests the button / 一个看标志，一个真点按钮 | Interaction motion / 交互动效 | [Docs / 文档](https://www.verdent.ai/docs/verdent-cloud/getting-started/overview) |
+| C06 | Publish & visibility / 发布与可见性 | Cloud URL, Public/Private, checks and limits / 云端链接、公开私密、检查与资源限制 | Idea / 候选 | A private snack list gets a public launch speech / 私人零食清单也要开发布会 | Story + output / 剧情加成果 | [Docs / 文档](https://www.verdent.ai/docs/verdent-cloud/publish/go-live) |
+| C07 | Share a published app / 分享上线链接 | Share a live app, not just a preview screenshot / 分享上线应用，不是只发截图 | Idea / 候选 | The first visitor is Mochi / 第一位访客是 Mochi | 3-panel / 三格 | [Docs / 文档](https://www.verdent.ai/docs/verdent-cloud/getting-started/overview) |
+| C08 | Analytics / 访问分析 | Inspect observed traffic, not guaranteed growth / 查看实际访问，不承诺增长 | Idea / 候选 | Three visits and one very busy refresh button / 三次访问与一个忙碌的刷新键 | 3-panel or motion / 三格或动效 | [Docs / 文档](https://www.verdent.ai/docs/verdent-cloud/getting-started/overview) |
+| C09 | Logs & publish repair / 日志与发布修复 | Inspect failed checks and request AI repair / 看失败检查并请求 AI 修复 | Idea / 候选 | Lucky comforts the error log / Lucky 安慰错误日志 | 4-panel / 四格 | [Docs / 文档](https://www.verdent.ai/docs/verdent-cloud/publish/go-live) |
+| C10 | Iteration & creations / 上线迭代与作品管理 | Reopen work and publish changes / 重新打开作品并发布更新 | Idea / 候选 | Version one is live; version nine is already planned / 一版刚上线，九版已计划 | Subtle motion / 轻动效 | [Docs / 文档](https://www.verdent.ai/docs/verdent-cloud/getting-started/overview) |
+| C11 | Parallel Cloud tasks / 云端并行任务 | Independent task sessions in Cloud, not local worktrees / 云端独立任务会话，不是本地 worktree | Idea / 候选 | One task fixes the site; another names the boxes / 一路修网站，一路给纸箱取名 | Split-scene motion / 分屏动效 | [Docs / 文档](https://www.verdent.ai/docs/verdent-cloud/workspace-and-tasks/parallel-work) |
 
-来源：[VS Code Overview](https://www.verdent.ai/docs/verdent-for-vscode/getting-started/overview)。编辑器内工作流；不将 Cloud 发布能力自动归到扩展。
+## Verdent for VS Code · 编辑器扩展
 
-| 功能 | 事实边界 | Content status | Possible jokes | Best format |
-| --- | --- | --- | --- | --- |
-| Plan-Code-Verify | Plan, implement, verify / 规划、编码、验证 | Idea / unassigned | Lucky puts celebration first / Lucky 把庆祝写在第一步 | 4-panel comic / 4 格漫画 |
-| Professional Plan / clarification | Clarify needs and form a plan / 澄清需求与规划 | Idea / unassigned | “What does done mean?” “Snacks.” / 完成的定义是零食 | 3-panel comic / 3 格漫画 |
-| Plan Rules | Guide planning / 约束规划方式 | Idea / unassigned | One rule: no more tiny additions / 唯一规则是不再加一件小事 | Meme / 单图梗 |
-| Code Diff | Inspect changes / 查看代码改动 | Idea / unassigned | “One line” turns a whole wall green / 一行改动让整面墙变绿 | 3-panel comic / 3 格漫画 |
-| Verify Loop / verifier | Check and iterate / 检查与迭代 | Idea / unassigned | “It runs.” “On which machine?” / 能跑，但在哪台机器 | Comic; check EP.05 for repetition / 漫画，先查 EP.05 避免重复 |
-| Browser Tool | Verify interactions in a browser / 浏览器验证交互 | Idea / unassigned | The first tester walks on the keyboard / 第一位测试用户踩键盘 | Subtle motion / 轻动效 |
-| Debugging / testing | Diagnose, fix, test / 定位、修复、测试 | Idea / unassigned | The bug is fixed; Lucky misses it / 修好 bug 后开始想念它 | 3-panel comic / 3 格漫画 |
-| Code understanding / refactoring | Read and restructure existing code / 阅读与重构已有代码 | Idea / unassigned | Code is easier to organize than Lucky's boxes / 整理代码比整理纸箱容易 | 4-panel comic / 4 格漫画 |
-| Subagents | Specialized collaboration / 专门化协作 | Idea / unassigned | Lucky delegates his nap / Lucky 想把午睡也分出去 | 3-panel comic / 3 格漫画 |
-| Rules / MCP / customization | Extend behavior and tools / 扩展规则与工具 | Idea / unassigned | All tools ready; the task is “feed the cats” / 工具就绪，待办是喂猫 | 4-panel comic / 4 格漫画 |
+Developer workflows inside VS Code. Avoid reusing EP.05's machine joke before its artwork is checked / 编辑器内的开发工作流；未查 EP.05 原稿前，不重复 machine 笑点。
 
-## 保留选题，暂不写产品承诺
+| ID | Feature / 功能 | Factual scope / 事实边界 | Content status / 内容状态 | Possible jokes / 可能笑点 | Best format / 适合形式 | Source / 官方来源 |
+| --- | --- | --- | --- | --- | --- | --- |
+| V01 | Plan-Code-Verify / 规划编码验证 | Workflow with separate planning and verification / 规划、实施与验证工作流 | Idea / 候选 | Lucky puts celebration first / Lucky 把庆祝写在第一步 | 4-panel / 四格 | [Docs / 文档](https://www.verdent.ai/docs/verdent-for-vscode/getting-started/overview) |
+| V02 | Professional Plan / 专业规划 | Translate an idea into an implementation plan / 想法转成实施计划 | Idea / 候选 | A launch plan is more than confetti / 上线计划不只是彩纸 | 4-panel / 四格 | [Docs / 文档](https://www.verdent.ai/docs/verdent-for-vscode/core-features/overview) |
+| V03 | Clarification Loop / 需求澄清 | Resolve ambiguities before implementation / 实施前澄清模糊需求 | Idea / 候选 | Define done. Snacks. / 完成的定义是零食 | Dialogue motion / 对话动效 | [Docs / 文档](https://www.verdent.ai/docs/verdent-for-vscode/core-features/clarification-loop) |
+| V04 | Plan Rules / 规划规则 | Customize planning and clarification guidance / 自定义规划与澄清方式 | Idea / 候选 | One rule: no more tiny additions / 唯一规则是不再加小需求 | Meme / 单图梗 | [Docs / 文档](https://www.verdent.ai/docs/verdent-for-vscode/core-features/plan-rules) |
+| V05 | Code Diff / 改动对比 | Inspect code changes / 查看代码变化，不证明自动正确 | Idea / 候选 | One line becomes a very long scroll / 一行改动变成长卷轴 | Scroll motion / 卷轴动效 | [Docs / 文档](https://www.verdent.ai/docs/verdent-for-vscode/core-features/code-diff) |
+| V06 | Verify Loop / 验证迭代 | Check results and iterate on failures / 检查结果并针对失败迭代 | Idea / 候选 | It runs. On which machine? / 能跑，但在哪台机器 | Hold: check EP.05 overlap / 先核对 EP.05 | [Docs / 文档](https://www.verdent.ai/docs/verdent-for-vscode/getting-started/overview) |
+| V07 | Browser Tool / 浏览器验证 | Check app interactions in a browser / 浏览器里验证应用交互 | Idea / 候选 | The first tester walks on the keyboard / 第一位测试用户踩键盘 | Interaction motion / 交互动效 | [Docs / 文档](https://www.verdent.ai/docs/verdent-for-vscode/core-features/browser-tool) |
+| V08 | Testing & debugging / 测试排错 | Diagnose an error and test a repair / 定位错误、修复并测试 | Idea / 候选 | The bug is gone; Lucky misses it / Bug 修好了，Lucky 开始想它 | 3-panel / 三格 | [Docs / 文档](https://www.verdent.ai/docs/verdent-for-vscode/getting-started/overview) |
+| V09 | Code understanding & refactoring / 理解与重构 | Understand existing structure before changes / 理解现有结构再修改 | Idea / 候选 | Code is easier to organize than Lucky's boxes / 代码比 Lucky 的纸箱好整理 | 4-panel / 四格 | [Docs / 文档](https://www.verdent.ai/docs/verdent-for-vscode/getting-started/overview) |
+| V10 | Subagents / 专门化协作 | Specialized tasks with isolated context / 专门化任务与分离上下文 | Idea / 候选 | Lucky tries to delegate his nap / Lucky 想把午睡也委派出去 | 3-panel / 三格 | [Docs / 文档](https://www.verdent.ai/docs/verdent-for-vscode/core-features/overview) |
+| V11 | Rules & MCP / 规则与工具扩展 | Configured behavior and external tool access / 配置行为与外部工具访问；正式制作只选一个子点 | Idea / 候选 | All tools ready; the task is feed the cats / 工具就绪，任务是喂猫 | 4-panel / 四格 | [Docs / 文档](https://www.verdent.ai/docs/verdent-for-vscode/getting-started/overview) |
 
-| 选题 | 待核实边界 | Content status | Possible jokes | Best format |
-| --- | --- | --- | --- | --- |
-| Slides / document analysis / data analysis / deep research | Earlier content plans mention these outputs; verify product line, entry point, and supported files before making claims / 旧计划提过这些成果形态，产品线、入口与文件支持须查实 | Research needed | Forty report pages just to pick lunch / 四十页报告只为决定午饭 | Comic / artifact showcase · 漫画／成果展示 |
+## Research Backlog · 待细分核实
 
-## 每次增加功能
+Slides, document/data analysis and deep research stay unassigned until product line, entry point, supported files and an actual demo are confirmed. The Skills docs mention document workflows, but that is not evidence for every product line / 幻灯片、文档、数据分析与深度研究暂不独立做承诺。Skills 文档提及文档流程，但不能据此推广为三条产品线通用能力。
 
-Add feature, factual scope, content status, possible jokes, best format, and official source. Use Idea, Draft (content ID), Used (content ID + link), or Hold. Product inclusion follows the joke; never force an advertisement to fill this table.
+Database, users/auth, custom domains, response feedback, BYOA/BYOK, Smart Suggestions and detailed Cloud configuration have documentation entries but are not yet split into individual story cards here. Add them after a focused source/demo check / 数据库、用户认证、自定义域名、反馈、BYOA/BYOK、智能建议及 Cloud 详细配置另待逐项查证后补卡，不把本表当成全部功能。
 
-复制一行并填写 `功能 / 事实边界 / Content status / Possible jokes / Best format / 官方来源`。状态可以用 `Idea / Draft (content ID) / Used (content ID + link) / Hold`。笑点成立后才考虑产品入镜；不为填满此表强行排广告。
+## Production Gate · 单集确认流程
+
+1. Choose one ID and a character desire / 选一个编号及人物欲望。
+2. Write an English hook, conflict, payoff, and one visible capability moment / 写英文开场、冲突、反转与一个可见的功能动作。
+3. Check exact product source and label real footage versus illustration / 查产品来源，区分真实录屏与示意。
+4. Get creator approval for feature, story and voices before producing the next full episode / 下一集完整制作前确认功能、故事与声线。
+5. Archive every HTML/audio version; update status and release evidence only when it changes / 每版 HTML 与声音留档，按事实更新状态。
+
+No automatic publishing schedule, new automation, or approval is created by this plan / 本方案不创建自动发布排期、不新建自动化，也不等同批准。

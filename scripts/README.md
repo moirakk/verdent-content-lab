@@ -48,6 +48,8 @@ For voiced episodes, install `scripts/requirements-audio.txt` in a Python enviro
 
 配音集需 Python 声音依赖与 ffmpeg/ffprobe。用新版本名生成声音，再更新模板中的音轨文件名并生成 HTML；已有声音版本不覆盖。生成语音需要联网，成片声音已内嵌，播放无需联网。原始对白分轨和原创配乐也会保留。
 
+New audio runs also save a frozen `voice-profiles.json` beside the raw lines and mix timings. Compare each voice's measured duration against the next beat and sleep transition before building / 新声音版本会另存当次声线配置；构建前按真实音轨长度检查下一句和入睡动作的时间，不能只替换音色而不核对节奏。
+
 Check dialogue, phone-size readability, pause, replay, and version links in a browser. Commit source, generated HTML, archives, and indexes together. Documentation-only edits do not require rebuilding episodes.
 
 用浏览器检查对白、手机尺寸可读性、暂停重播和版本链接。提交时一起保存源码、生成 HTML、存档和索引。只改说明时无需重新生成作品。

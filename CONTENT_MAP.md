@@ -1,49 +1,67 @@
-# Content Map · 内容进度表
+# Content Map · 内容与实际状态总表
 
-This is the publication-status source of truth. Documentation is bilingual; all finished creative content is English only. Creator-confirmed history is distinguished from proposals and missing assets.
+Updated / 更新：2026-10-21（Asia/Shanghai）。This file is the actual-artifact/publication source of truth / 本文件统一记录实际文件与发布状态。
 
-这是发布状态的统一记录；说明双语，成品全英文。已确认历史、创作提案与缺失素材分开标记。
+## State Labels · 先分清状态
 
-维护日期：2026-10-20（Asia/Shanghai）。历史进度来自创作者本次确认；不根据系统日期推断节日篇已发布。
+- Confirmed direction: identity/style/voice preference, not a finished film / 已确认方向，不等于已确认成片。
+- Working draft: current editable/output file, not necessarily preferred / 当前工作稿，不一定最满意。
+- Review render: a viewing aid, not proof of browser playback / 审片渲染，不证明浏览器验收。
+- Approved/Scheduled/Published require explicit evidence; do not infer them / 已确认、已排期、已发布须有明确证据。
 
-## Comics · 漫画发布顺序
+## Motion · 动态作品
 
-| Order / 顺序 | ID / 编号 | Title / 标题 | Status / 状态 | Files & next steps / 文件与下一步 |
-| --- | --- | --- | --- | --- |
-| 1 | EP.05 | It Works on My Machine. | Published, creator-confirmed / 已发布，创作者确认 | Artwork and release link pending / 原稿与链接待归档 |
-| 2 | Special | Mid-Autumn Special | Planned; release unverified / 已安排，发布待核实 | [Brief / 节日篇说明](comics/ideas/mid-autumn-special.md); follows EP.05 / 接续 EP.05 |
-| 3 | EP.06 | TBD / 待定 | Brief / 选题说明 | [Brief / 正篇说明](comics/ep06/README.md); next regular episode / 下一篇正篇 |
-| 4 | EP.07 | TBD / 待定 | Idea / 选题 | [Brief / 占位说明](comics/ep07/README.md) |
+| ID / 标题 | Current local working file / 本地工作文件 | What exists / 实际完成 | Missing/review / 缺失或待审 |
+| --- | --- | --- | --- |
+| 001 · Have an Idea | [v001 HTML](motion/001-have-an-idea/index.html), 8s / 8 秒 | Silent reconstructed sample; 2 archived HTMLs / 无声重建样片，2 版存档 | Original old-environment HTML not recovered; not published / 未取回旧环境原稿，未发布 |
+| 002 · One Tiny Feature | [v001 HTML](motion/002-tiny-feature/index.html), 12s / 12 秒 | Original painted cats and growing cup; 1 archive / 原创水粉猫与咖啡杯动效，1 版 | Visual direction liked; no final release approval / 画风获认可，成片未获发布确认 |
+| 003 · Chief Nap Officer | [A polish · v017 · 18s](motion/003-chief-nap-officer/versions/v017/index.html), [B · v016 · 12s](motion/003-chief-nap-officer/versions/v016/index.html) | Eight additional complete contact drawings, speaker shots, silent reaction hold and remixed original score; 17 archives / 新增八幅完整接触稿、说话镜头、无字幕反应停顿及原配乐重混，17 版 | [18s review MP4](motion/003-chief-nap-officer/previews/v017-blue-acting-review.mp4); A selected, B unchanged; limited animation, creator/browser review pending / 默认 A，B 不动；有限动画待创作者与实录验收 |
+| 004 · That Was a Sentence | [v002 HTML](motion/004-that-was-a-sentence/index.html), 18s / 18 秒 | English captions, original score, animated task-plan scene, [MP4](motion/004-that-was-a-sentence/previews/v002-native-preview.mp4); 2 archives / 字幕配乐与任务展开画面、2 版 | No usable new child speech; browser recording/film review pending / 缺新童声，待浏览器录屏与成片确认 |
 
-## Motion · 动态内容
+**All four motion episodes remain unpublished drafts. 22 episode HTML archives total / 四条动态作品均未发布，共 22 个 HTML 存档。**
 
-| ID / 编号 | Title / 标题 | Status / 状态 | Format / 规格 | Source / 来源 |
-| --- | --- | --- | --- | --- |
-| 001 | Have an idea | Draft, unpublished / 待审样片，未发布 | 4:5, 8s, silent, 2 lines / 8 秒无声、2 句对白 | [HTML](motion/001-have-an-idea/index.html) · [Dialogue / 对白](motion/001-have-an-idea/episode.json); rebuilt from context / 根据对话重建 |
-| 002 | One Tiny Feature | Draft, unpublished / 待审样片，未发布 | 4:5, 12s, silent, 4 lines / 12 秒无声、4 句对白 | [HTML](motion/002-tiny-feature/index.html) · [Brief / 说明](motion/002-tiny-feature/README.md); original painted art, growing coffee / 原创水粉角色与变大的咖啡杯 |
-| 003 | Chief Nap Officer | Pilot draft, unpublished / 待审试播，未发布 | 18s, voiced + music, 9:16 / 4:5 / 18 秒配音配乐、双比例 | [HTML](motion/003-chief-nap-officer/index.html) · [Brief / 说明](motion/003-chief-nap-officer/README.md); Manager parallel team / Manager 并行团队；当前 v004 |
-| — | Reusable template / 共用模板 | Ready for reuse / 可复用 | Original SVG, paper, subtle motion / 原创 SVG、纸纹、轻动效 | [Template / 模板](motion/_template/README.md) |
+Current production stage / 当前所处阶段：**2 of 4 — character acting and short-scene validation / 四阶段中的第 2 阶段：角色动作与短段验证**. This is not 50% completion; full-episode approval, actual recording and publication remain pending. [Stage definitions / 阶段说明](PRODUCTION_GUIDE.md) / 不按阶段数推算百分比；整集验收、实录与发布仍待完成。
+Details / 逐版解释：[Version Guide](motion/VERSION_GUIDE.md). Working paths were not changed by this reorganization / 本次整理没有切换当前作品文件。
 
-Motion 001 uses v001 (8s); v002 is a reconstructed 12s alternative, archived later. Both remain unpublished. Version numbers follow archive order, not selection priority.
+Immediate priority / 当前优先：review v017's contact action and deadpan hold against the accepted blue-scene direction; do not change character design or expand the queue / 对照获认可蓝地板方向验看接触动作与冷幽默停顿，不换造型、不扩量。
 
-001 的 [版本列表](motion/001-have-an-idea/versions/index.html)：`v001` 是当前选用的 8 秒对白版；`v002` 是依据本次会话早期配置重建并补存的 12 秒自动化备选版。编号按归档顺序，两版均未发布；以后每次生成不同 HTML 都保留独立版本。
+003 maps to M02 parallel work; 004 maps to M01 goal decomposition. 001/002 are not verified product demonstrations. UI in 003/004 is illustrative / 功能关联明确，界面是剧情示意，不冒充实测。
 
-Motion 002 explores the creator's new gouache reference; its selected version is v001. It adapts the “tiny feature / bigger coffee” candidate joke, so check it before revisiting that idea in comic EP.06. EP.06 remains unconfirmed.
+## Art & Sound · 素材与声音
 
-动态 002 当前选用 v001，探索新增水粉参考的效果。已使用“小功能／大咖啡”的候选笑点，之后制作漫画 EP.06 时先查看本集，避免原样重复；EP.06 仍未定稿。
+| Group / 分类 | What exists / 现有 | Approval/limit / 状态与边界 |
+| --- | --- | --- |
+| References / 参考 | [Private photo/style references](characters/references/README.md) / 真猫与画风参考 | Appearance anchors, not permission to copy compositions / 外貌参考，不复制构图 |
+| Shared poses / 共享姿势 | [8 PNGs](characters/poses/README.md) with prompt records / 8 张 PNG 与提示词 | Reusable candidate assets, not a complete approved model sheet / 候选素材，不是完整获批角色设定表 |
+| Additional episode art / 本集补充素材 | Paired seated cats and sleeping Lucky in episode assets / 成对坐姿与睡姿 | Do not imply all episode art is centralized in shared library / 尚非所有素材都集中共享库 |
+| 003 audio v001 / 旧声音 | Adult Jenny/Eric voices + original score / 成人声与配乐 | Retained for history; current voice direction rejects adult narration / 仅历史保留，不作为当前声线方向 |
+| 003 audio v002 / 当前童声 | Maisie UK + Ana US, 5 synthetic English lines, 18s mix / 两种英语口音、五句合成童声 | Existing usable pilot audio; not real child recordings or permanent casting approval / 可用试播音轨，非真人儿童录音或永久定音 |
+| 004 sound / 新集声音 | Original instrumental track and failed speech-attempt record / 原创配乐与语音失败记录 | Music only; no claim of completed child speech / 不能标成已配童声 |
+| Official logo / 标志 | [Unmodified original](brand/assets/verdent-logo-original.png) / 原文件 | Use without redrawing/stretching / 不重画不拉伸 |
 
-Motion 003 is the proposed Tiny Company series pilot: founder claim → parallel workers → founder nap. Selected HTML: v004, adding three original poses, stronger acting and closer cameras to v003's compact 4:5 layout. Earlier versions are retained. Audio v001 is shared by all four HTML versions. The official logo is archived unchanged. See [editorial strategy](brand/CONTENT_STRATEGY.md) for proposals, not a confirmed schedule.
+Both MP4s are 18s, 432×768, 12 unique frames/sec encoded at 24fps, H.264/AAC. Offline timeline renders only / 两个视频仅为低清离线审片渲染。
 
-动态 003 为“小公司”方向试播，当前 HTML 为 v004，在 v003 的紧凑 4:5 布局上新增三张原创姿势、角色表演和近景镜头；四版 HTML 全保留，共用声音 v001。官方 Logo 原文件已归档。长期栏目是方向提案，不是已确认排期。
+## Comics · 漫画连续性
 
-## Status Rules · 状态约定
+| Order / 顺序 | Item / 内容 | Known state / 已知状态 | Next / 待补 |
+| --- | --- | --- | --- |
+| 1 | EP.05 · It Works on My Machine. | Published, creator-confirmed / 创作者确认已发布 | Original artwork, channel/date/link not archived / 原稿与渠道日期链接待归档 |
+| 2 | Mid-Autumn Special | Follows EP.05; release unverified / 接续 EP.05，发布待核实 | [Brief](comics/ideas/mid-autumn-special.md) is a proposal / 现有说明为提案 |
+| 3 | EP.06 | Next regular comic; brief only / 下一篇正篇，只有选题说明 | [Confirm story](comics/ep06/README.md) / 确认故事 |
+| 4 | EP.07 | Unconfirmed idea / 未确认选题 | [Brief](comics/ep07/README.md) / 待推进 |
 
-Idea → Brief → Script → Art / Motion → Review → Approved → Scheduled → Published.
+Comic numbering is separate from motion. Do not reuse the tiny-feature/coffee or machine joke without checking existing work / 两套编号独立，复用小功能咖啡或 machine 笑点前查旧作。
 
-选题 → 创作说明 → 脚本 → 画稿／动效 → 待审 → 已确认 → 已排期 → 已发布。
+## Product & Queue · 功能与选题
 
-Only actual releases become Published. Record channel, date, URL, and final asset path; unknown values stay TBD. A draft is not approval. Specials do not take regular episode numbers. Track each content ID, hook, character beat, joke, optional product feature, format, and status; link adaptations to their original content.
+[40 entries](brand/VERDENT_FEATURE_MAP.md): Manager/Desktop 18, Cloud 11, VS Code 11. [Eight story cards](brand/FEATURE_CONTENT_QUEUE.md): R01/R02 have the above drafts; R03–R08 remain proposals, with no dates / 40 项功能工作条目，八张选题卡；只有前两张有样片，其他未排期。
+This is not a full product specification or an approved 40-episode schedule / 不是完整规格或已批准的 40 集排期。
 
-Idea → Brief → Script → Art / Motion → Review → Approved → Scheduled → Published。Draft sample 不等于 Approved。记录 Published 时补充渠道、日期、链接、最终素材路径；未知值写 TBD，不补造历史。
+## Git & Access · 保存与访问
 
-每条内容登记：`ID / title / hook / character beat / joke / optional product line + feature / format / status / publish date / channel / link / asset path`。同一笑点跨格式改编须标注来源；功能状态见 [Feature Map](brand/VERDENT_FEATURE_MAP.md)。
+- Private repo / 私有仓库：[moirakk/verdent-content-lab](https://github.com/moirakk/verdent-content-lab).
+- Local HEAD and stored origin/main record: `20978fa` (003 v004-era commit). This is the last local sync record, not a fresh remote check / 本地提交和远端跟踪记录，不冒充最新远端查询。
+- v005 onward, Motion 004 and the current documentation/art changes are local/uncommitted / 之后的版本与新片、说明及素材仍为本地未提交改动。
+- Public Pages not enabled after earlier private-plan rejection. Current HTML works as a standalone file; latest local-server/browser-recording check was blocked / Pages 未启用，可手动离线打开 HTML；上次本地服务与实录检查受阻。
+
+For a real release, add approved asset/version, channel, date and URL. Unknown fields stay TBD / 真正发布后补最终版本、渠道、日期、链接，未知不编造。

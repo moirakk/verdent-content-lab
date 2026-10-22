@@ -1,46 +1,66 @@
-# Visual Style · 视觉规范 / Mochi & Lucky
+# Visual Style · 画风与动画标准
 
-## English Guide · 英文说明
+Status / 状态：Creator-confirmed direction; individual new drawings/films still need review / 方向已确认，具体新画稿与成片仍待审。2026-10-20。
 
-Use warm aged ivory paper, controlled rough black linework, muted color blocks, generous empty space, and restrained but cute expressions. Character designs, poses, and compositions must be original. Avoid copying the reference account, rigid component-like cartoon shapes, plastic gradients, glossy 3D highlights, or crowded overlays.
+**Locked reference / 已锁定参考：the creator explicitly requested returning to the original blue-floor painting. It takes priority over recent v005–v012 rendering choices. Keep the original natural kittens, broad gouache color masses and coherent painted environment; no fine-fur mascot redesign / 创作者明确要求按原蓝底绘画走，优先于近期 HTML 的渲染取舍；保留自然幼猫、粗水粉色块与统一绘画环境，不再精细毛发吉祥物化。**
 
-The palette below is shared across episodes. Paper grain stays static and subtle. Use rounded, intentionally asymmetric contours, about 4–6 units at 800-unit width; do not simulate drawing with constant jitter. Mochi keeps fluffy orange-gold fur, cream muzzle/chest, light tabby marks, and a pink nose. Lucky keeps dark short fur, large triangular ears, yellow-green round eyes, and a slim tail. Existing simplified SVG versions remain intact; refine future versions from the original photo.
+## One Sentence · 一句话标准
 
-Default motion is 4:5 at 1080 × 1350, with an 800 × 1000 internal canvas and at least 5% safe margins. Dialogue sits above the characters. Motion 001 loops for 8 seconds; other durations follow the story. Use only gentle blinking, breathing, tails, coffee steam, and screen flicker. Offset character rhythms, support reduced motion and pause/replay, use offline font fallbacks, and keep all finished text English. Allow time for the punchline.
+**The original painted cats, acting more vividly—not redesigned cats, not moving slides / 原来的水粉小猫，演得更生动；不是换一套猫，也不是动态幻灯片。**
 
-For comics, determine pauses before panel count. Give each panel one action or reaction, including silent reaction panels. Show only product details relevant to the joke. Seasonal accents keep the same paper and line system.
+## Reference Hierarchy · 参考优先级
 
-## 方向
+1. [Original cat photo](../characters/references/README.md) anchors Mochi/Lucky identity / 真猫照片锚定外貌身份。
+2. [Original blue-floor painting](../characters/references/painted-style-2026-10-20.png) is the primary rendering/proportion reference / 原蓝底绘画为笔触、猫体态比例及绘画场景的首要参考。
+3. Existing HTMLs, including v005, are historical experiments, not authority to override the original painting. New poses must match the original reference at comparable scale/angle / 包括 v005 在内的 HTML 均不能压过原绘画；新姿势按原图同尺度同角度校验。
+4. The Legend of Hei can inspire clear silhouettes, restrained 2D acting, reaction pauses and staging, not its characters/model sheets/scenes / 《罗小黑》只借鉴二维表演和分镜，不复制角色设定或画面。
 
-参考独立手绘猫漫画的视觉语言：**米白旧纸质感、粗糙但受控的黑色手绘线、低饱和色块、留白多、角色表情克制但萌**。本次已查看历史对话附带的参考账号截图与 Mochi / Lucky 真猫照片；仅吸收纸张、线条和表情克制的方向，不复制截图内容，也不将其作为仓库素材发布。
+Older SVG studies remain valid archives, not a requirement to mix two incompatible character styles in one new film / 老 SVG 样片保留，不要求在新片混用不同造型。
 
-角色、轮廓、配色组合、道具关系与构图都要原创；不能复制参考账号角色、标志姿势或构图。避免规整的网页组件式卡通、塑料渐变、夸张 3D 高光、满屏装饰和信息卡。
+## Keep Fixed · 什么不能漂移
 
-## 基础参数
-
-| Token | 值 | 用途 |
+| Element / 项目 | Keep / 保留 | Reject / 避免 |
 | --- | --- | --- |
-| Paper | `#F3EDDF` | 米白旧纸，大面积背景 |
-| Ink | `#302E2A` | 温黑轮廓与对白 |
-| Mochi | `#D5AE6C` | 黄猫的低饱和赭黄 |
-| Lucky | `#363633` | 黑猫，避免纯黑死块 |
-| Blush | `#C78F7E` | 少量鼻子与面颊色 |
-| Sage | `#8C9B82` | 植物和低调屏幕点缀 |
+| Identity / 造型 | Established face, head/body ratio, ears, coat, nose and tail / 原脸型、头身、耳朵、毛色鼻尾 | Different face or age per pose; copied franchise design / 每姿势换脸变年龄、套别的 IP |
+| Mochi | Fluffy orange-gold, cream muzzle/chest, pink nose / 橘金蓬松、浅口鼻胸毛、粉鼻 | Only recoloring Lucky / 只给 Lucky 换色 |
+| Lucky | Warm charcoal black, large ears, yellow-green eyes; distinct silhouette / 温黑、大耳黄绿眼、独立轮廓 | A second long-haired Mochi / 另一只长毛 Mochi |
+| Medium / 材质 | Broad broken matte gouache strokes, simplified fur-color masses / 大块、断续的哑光水粉笔触，概括毛色 | Fine individual-hair rendering, polished shading, glossy 3D or vector mascot / 逐根精细毛发、抛光明暗、亮面 3D 或矢量吉祥物 |
+| Color / 配色 | Warm, coherent, restrained accents; keep orange readable / 温暖统一、点缀克制，橘色有辨识度 | Neon/glow, whole-frame oversaturation or muddy gray / 霓虹光晕、全图过饱和或压成灰 |
+| Frame / 画面 | Cats dominate a coherent painted environment; background and characters share brush language / 猫主导统一绘画环境，背景与角色使用同一笔触语言 | Beige slide-deck layouts, pasted cutouts, persistent headline/card dominance / 米白幻灯片版式、贴图感、标题卡长期抢主角 |
 
-纸纹静止、细且淡，不影响文字。轮廓以有控制的非对称曲线为主，端点圆润；主要轮廓约 4–6 / 800 单位。不要通过连续抖动模拟手绘。大面积留白留给对白与停顿。
+Historical paper color / 历史纸色：`#F3EDDF`; not mandatory for new scenes / 不再强制新场景米白底。Use a coherent painted palette derived from the original reference, not a simple background-color swap / 从原参考提取统一绘画色彩，不只是换背景色。Do not enforce old SVG outlines or recent detailed fur on the reference style / 不套旧 SVG 轮廓或近期精细毛发。
 
-真猫外貌以 [参考照片与说明](../characters/references/README.md) 为锚点。Mochi 保留橘金蓬松毛、浅虎斑、浅奶油口鼻与胸毛、小粉鼻；Lucky 保留温黑短毛、大三角耳、黄绿圆眼与细长尾巴。插画可以简化，但不要把两只都画成只换填色的同一只猫。
+## Acting · 神态与动作
 
-表情用眼睑、瞳孔与头部倾角变化，不靠大张嘴。Mochi 可用微垂眼睑表现淡定，Lucky 可用圆眼与歪头表现好奇；这是剧情表演，不是照片推断。已有 SVG 是初始原创造型（包括 Lucky 的奶油色简化眼睛）；后续新版本逐步精修，已有 HTML 存档完整保留。
+- Expressions are motivated by the other cat or an object: confidence → doubt → a held realization → a deliberate response / 神态由对方和道具触发，得意、疑惑、愣住与回应有因果。
+- Use eyelids, gaze, ear angle, small mouth changes, head/body turn and posture; give both cats agency / 用眼睑眼神、耳角、嘴角、头身和姿态，两只都有主见。
+- Anticipation → action/contact → reaction → settle. A pause can be funnier than more motion / 准备、动作接触、反应、落稳；留停顿，不为动而动。
+- Independent rhythms, eye contact and clear screen direction; a character should respond, not idle while a UI card takes over / 节奏错开、目光与方位清楚，不让猫闲置等界面讲课。
+- No constant whole-image rocking, random expression changes, oversized human mouths or endless bounces / 不持续摇整图、不随机换脸、不用巨大人嘴或全程弹跳。
+- Deadpan humor needs visible listening and a held reaction; the last small action or short line should earn the laugh without an explanatory effect / 冷幽默要有听对方说话和停半拍，靠最后的小动作或短句出笑点，不用解释性特效。
+- A still cat with camera zooms, UI fades and occasional blinks is not sufficient. Review a continuous reach/contact/release sequence before expanding production / 静态猫加推拉镜头、界面淡入和眨眼不足以达标；先验一段连续伸爪接触收回，再扩产。
+- Do not cut limbs or necks out of a flattened painting and pivot them without proper joint underpainting. v010 visibly detached a paw and was rejected. Use complete-character redraws for the current action repair; inspect every shoulder/elbow/paw connection before showing a preview / 不从扁平画稿硬抠肢体头颈旋转；v010 因断爪被否决。当前用整猫重画修动作，展示前逐帧检查肩肘爪连接。
 
-## Motion
+Current implementation is painted cutout/limited animation. It is **not** a complete model sheet, fully hand-drawn frame animation, phoneme lip sync or proof that the final acting goal is met / 当前只是分层有限动画，不是完整设定表、全逐帧手绘、音素口型，也不等于目标已验收。
 
-默认 4:5（1080 × 1350），模板内部坐标 800 × 1000。外框留至少 5% 安全区；对白放上部，角色与桌面在下部。英文每次一两行，成片不得出现调试标签。
+## Composition & Recording · 构图与录屏
 
-首条为 8 秒循环，两句对白；其他片可按内容配置时长，末句留停顿。轻动效仅含眨眼、呼吸、尾巴摆动、咖啡蒸汽、屏幕微闪。不同角色错开节奏。避免弹跳字幕、闪屏和持续缩放；遵循 `prefers-reduced-motion`，提供暂停、重播与固定时间预览。
+- Default current story format: 9:16; 4:5 has its own layout. Historical 001/002 keep original proportions / 当前剧情以竖屏为主，另设 4:5；历史作品保持原比例。
+- At least 5% safe margins; readable English dialogue; one visual focus at a time / 安全边距、手机可读英文、每拍一个视觉重点。
+- Product details serve one capability and remain secondary to the cats / 界面只服务一个能力，不压过人物。
+- Match speech, gesture, pauses and quiet score. Sound off must still work / 对白动作停顿配合、配乐轻，静音也看得懂。
+- Embed art/audio, use offline font fallbacks, respect reduced motion and offer pause/replay / 素材声音内嵌、离线字体、减少动态与暂停重播。
+- Controls stay outside the frame; one-shot recording should hold the final frame / 控制区在画面外，一次录屏尾帧停住。
 
-用系统圆润手写感字体回退，不依赖远程字体。标题与对白优先清楚可读；字体不是角色识别的唯一来源。素材必须可离线打开。
+Do not promise final video quality from a low-resolution MP4. Test the actual browser capture at target size before approval / 低清预览不代表正式画质；批准前实测目标尺寸浏览器录屏。
 
-## 漫画
+## Review Gate · 逐项验收
 
-先确定对话停顿，再定格数；一格只承载一个动作或反应。保留无对白的反应格。产品界面只画对笑点有用的局部，真实功能核对后使用。节日篇可加少量月亮或月饼色，保持纸色与线条一致。
+1. Same cat at the start and end, identifiable without a name label / 首尾是同一只猫，不看名字也认得。
+2. Understand the emotion with dialogue hidden / 遮住对白仍能读懂神态。
+3. Action has a reason and a clear reaction, not just a transform / 动作有原因和反应，不只是变换图片。
+4. Text/product moment is legible without pausing / 不暂停也能读懂重点。
+5. Child voices are actually present if advertised; music never masks words / 宣称童声就有真实音轨，配乐不盖词。
+6. Real browser recording and creator review, not only code/render checks / 实际录屏与创作者验看，不只看代码或离线渲染。
+
+For comic panels use the same identity, material and reaction logic; do not force a motion shot list into every comic / 漫画沿用相同造型材质与反应逻辑，不机械套动态分镜。

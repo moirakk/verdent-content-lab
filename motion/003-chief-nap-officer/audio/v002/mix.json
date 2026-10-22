@@ -1,0 +1,42 @@
+{
+  "version": "v002",
+  "duration": 18.0,
+  "music": "Original deterministic plucked-bass and toy-bell score, ducked under dialogue",
+  "lines": [
+    {
+      "speaker": "Lucky",
+      "text": "I started a company.",
+      "start": 0.25,
+      "duration": 2.208,
+      "voice": "en-US-AnaNeural"
+    },
+    {
+      "speaker": "Mochi",
+      "text": "You have no employees.",
+      "start": 2.8,
+      "duration": 2.448,
+      "voice": "en-GB-MaisieNeural"
+    },
+    {
+      "speaker": "Lucky",
+      "text": "About that.",
+      "start": 5.8,
+      "duration": 1.872,
+      "voice": "en-US-AnaNeural"
+    },
+    {
+      "speaker": "Mochi",
+      "text": "Then what do you do?",
+      "start": 9.8,
+      "duration": 2.088,
+      "voice": "en-GB-MaisieNeural"
+    },
+    {
+      "speaker": "Lucky",
+      "text": "Chief Nap Officer.",
+      "start": 12.5,
+      "duration": 2.28,
+      "voice": "en-US-AnaNeural"
+    }
+  ]
+}

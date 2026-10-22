@@ -12,6 +12,8 @@ Preserve identities, original designs, and compositions. Borrow reference textur
 
 ## 核心
 
+Voice direction / 声音方向：The creator wants childlike voices, not adult narrators. Mochi stays calm and dry; Lucky stays bright and eager. Exact synthetic casting and accent are reviewed separately / 创作者要求小孩子的声音，不用成人旁白感；Mochi 仍冷静克制，Lucky 仍活泼兴奋。具体合成音色与口音另行试听确认。
+
 **Character first. Joke second. Product third.**
 
 两只一起生活、一起折腾项目的猫。观众先记住它们的关系、习惯和反应，再注意到电脑上的工具。笑点来自热情与克制之间的节奏差，也来自每个人都懂的工作小事。

@@ -1,0 +1,4 @@
+{
+  "Mochi": { "voice": "en-GB-MaisieNeural", "rate": "+0%", "pitch": "+0Hz", "direction": "Child voice; calm, matter-of-fact delivery, not an adult voice pitched up. UK English. / 童声，平稳认真，不把成人声音强行升调；英式英语。" },
+  "Lucky": { "voice": "en-US-AnaNeural", "rate": "+5%", "pitch": "+0Hz", "direction": "Child voice; eager and playful, no chipmunk pitch effect. US English. / 童声，活泼有期待感，不用变调尖嗓；美式英语。" }
+}

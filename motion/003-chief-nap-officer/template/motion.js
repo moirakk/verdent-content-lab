@@ -1,158 +1,331 @@
 (() => {
   "use strict";
   const episode = JSON.parse(document.getElementById("episode-config").textContent);
+  const element = id => document.getElementById(id);
   const paper = document.querySelector(".paper");
-  const speaker = document.getElementById("speaker");
-  const line = document.getElementById("line");
-  const playButton = document.getElementById("play");
-  const soundButton = document.getElementById("sound");
-  const status = document.getElementById("audio-status");
-  const audio = document.getElementById("soundtrack");
-  const seek = document.getElementById("seek");
-  const clock = document.getElementById("time");
-  const manager = document.getElementById("manager");
+  const audio = element("soundtrack");
   const params = new URLSearchParams(location.search);
   const reduced = matchMedia("(prefers-reduced-motion: reduce)");
-  const fixedTime = Number(params.get("t"));
-  const fixed = params.has("t") && Number.isFinite(fixedTime);
-  let elapsed = fixed ? Math.max(0, fixedTime) % episode.duration : 0;
+  const parallel = episode.storyType === "parallel";
+  const fixed = params.has("t") && Number.isFinite(Number(params.get("t")));
+  const clamp = value => Math.max(0, Math.min(1, value));
+  const smooth = value => { const bounded = clamp(value); return bounded * bounded * (3 - 2 * bounded); };
+  const easeOut = value => 1 - (1 - clamp(value)) ** 3;
+  const range = (time, start, duration = 350) => smooth((time - start) / duration);
+  const set = (id, name, value) => element(id).setAttribute(name, String(value));
+  const show = (id, value) => set(id, "opacity", value);
+  const format = value => "0:" + String(Math.floor(value / 1000)).padStart(2, "0");
+  let elapsed = fixed ? Math.max(0, Number(params.get("t"))) % episode.duration : 0;
   let paused = fixed || reduced.matches;
   let sound = false;
+  let looping = params.get("once") !== "1";
   let frame = null;
   let previous = performance.now();
-  let activeBeat = -1;
   let requestId = 0;
-  const smooth = value => { const bounded = Math.min(1, Math.max(0, value)); return bounded * bounded * (3 - 2 * bounded); };
-  const format = value => `0:${String(Math.floor(value / 1000)).padStart(2, "0")}`;
-  const shots = { hook:{x:-23,scale:1.26,mochi:.6}, doubt:{x:0,scale:1,mochi:1}, team:{x:0,scale:.96,mochi:1}, question:{x:9,scale:1.06,mochi:1}, nap:{x:0,scale:1,mochi:1} };
-  const actors = Object.fromEntries(["mochi-neutral","mochi-skeptic","lucky-proud","lucky-yawn","lucky-sleep"].map(id => [id,document.getElementById(id)]));
-  document.title = `Mochi & Lucky · ${episode.title}`;
-  document.getElementById("kicker").textContent = episode.kicker;
-  document.getElementById("footer").textContent = episode.footer;
-  document.getElementById("transcript").textContent = episode.beats.map(beat => `${beat.speaker}: ${beat.text}`).join("\n") + "\nVerdent Manager divides a cat café website into three illustrated parallel worker tasks. Lucky curls up asleep after naming himself Chief Nap Officer.";
-  document.body.classList.toggle("capture", params.get("capture") === "1");
-  seek.max = episode.duration - 1;
+  let activeBeat = -1;
+
+  document.title = "Mochi & Lucky · " + episode.title;
+  paper.dataset.story = parallel ? "parallel" : "decompose";
+  element("film-title").textContent = episode.title;
+  element("film-description").textContent = parallel ? "Lucky starts a company, reveals a parallel team and becomes Chief Nap Officer." : "Lucky's one-sentence idea becomes a task plan. He volunteers for taste testing.";
+  element("kicker").textContent = episode.kicker;
+  element("episode-mark").textContent = episode.id.slice(1, 3);
+  element("footer").textContent = episode.footer;
+  element("transcript").textContent = episode.beats.map(beat => beat.speaker + ": " + beat.text).join("\n") + "\n" + element("film-description").textContent;
+  element("seek").max = episode.duration - 1;
   audio.volume = .85;
+  document.body.classList.toggle("capture", params.get("capture") === "1");
+  if (!episode.voicesAvailable) element("audio-status").textContent = "Original music only. Child voices pending connection.";
+  if (parallel) {
+    element("goal").textContent = "Build our cat café site.";
+    ["Homepage", "Menu", "Booking"].forEach((title, index) => {
+      const name = ["one", "two", "three"][index];
+      element("task-title-" + name).textContent = title;
+      element("task-detail-" + name).textContent = "Working";
+    });
+    element("plan-summary-text").textContent = "Working in parallel.";
+  }
 
   function setFormat(value) {
+    const feed = value === "feed";
     paper.dataset.format = value;
-    document.getElementById("reel").setAttribute("aria-pressed", String(value === "reel"));
-    document.getElementById("feed").setAttribute("aria-pressed", String(value === "feed"));
+    set("film", "viewBox", feed ? "0 0 800 1000" : "0 0 800 1422");
+    set("stage-layout", "transform", feed ? "translate(96 185) scale(.76)" : "translate(0 280)");
+    set("dialogue-layout", "transform", feed ? "translate(0 -32)" : "translate(0 0)");
+    set("footer-layout", "transform", feed ? "translate(0 -430)" : "translate(0 0)");
+    set("reel", "aria-pressed", !feed);
+    set("feed", "aria-pressed", feed);
   }
-  setFormat(params.get("format") === "feed" ? "feed" : "reel");
+
+  function blink(time, moments) {
+    if (reduced.matches) return 0;
+    return moments.some(start => time >= start && time < start + 125) ? 1 : 0;
+  }
 
   function render() {
     let index = 0;
     episode.beats.forEach((beat, position) => { if (elapsed >= beat.at) index = position; });
     const beat = episode.beats[index];
     if (index !== activeBeat) {
-      speaker.textContent = beat.speaker;
-      line.textContent = beat.text;
+      element("speaker").textContent = beat.speaker;
+      element("line").textContent = beat.text;
       paper.dataset.shot = beat.shot;
       activeBeat = index;
     }
-    const blend = reduced.matches ? 1 : smooth((elapsed - beat.at) / 480);
-    const before = shots[episode.beats[Math.max(0,index - 1)].shot];
-    const after = shots[beat.shot];
-    const panel = beat.shot === "team" ? smooth((elapsed - beat.at) / 450) : beat.shot === "question" ? 1 - smooth((elapsed - beat.at) / 450) : 0;
-    const nap = smooth((elapsed - 14700) / 650);
-    const skeptical = smooth((elapsed - 2600) / 320);
-    const yawn = smooth((elapsed - 12300) / 420);
     const acting = reduced.matches ? 0 : 1;
-    const speech = smooth((elapsed - beat.voiceAt) / 180) * (1 - smooth((elapsed - beat.voiceAt - 1450) / 300));
-    const nod = Math.sin((elapsed - beat.voiceAt) / 190) * speech * acting;
-    const hop = Math.sin(Math.PI * Math.min(1, elapsed / 700)) * 16 * acting;
-    const stretch = Math.sin(Math.PI * Math.min(1,Math.max(0,(elapsed - 12300) / 2000))) * acting;
-    const breathing = Math.sin(elapsed / 650) * .008 * acting;
-    actors["mochi-neutral"].setAttribute("opacity", String(1 - skeptical));
-    actors["mochi-skeptic"].setAttribute("opacity", String(skeptical));
-    actors["mochi-skeptic"].setAttribute("transform", `rotate(${beat.speaker === "Mochi" ? nod * 1.8 : 0} 200 610)`);
-    actors["lucky-proud"].setAttribute("opacity", String(1 - yawn));
-    actors["lucky-proud"].setAttribute("transform", `translate(0 ${-hop - (beat.speaker === "Lucky" ? nod * 5 : 0)}) rotate(${beat.speaker === "Lucky" ? nod * 1.4 : 0} 600 610)`);
-    actors["lucky-yawn"].setAttribute("opacity", String(yawn * (1 - nap)));
-    actors["lucky-yawn"].setAttribute("transform", `translate(600 610) scale(${1 + stretch * .045} ${1 - stretch * .035}) translate(-600 -610)`);
-    actors["lucky-sleep"].setAttribute("opacity", String(nap));
-    actors["lucky-sleep"].setAttribute("transform", `translate(600 610) scale(1 ${1 + breathing}) translate(-600 -610)`);
-    const style = paper.style;
-    style.setProperty("--cast-x", `${before.x + (after.x - before.x) * blend}%`);
-    style.setProperty("--cast-scale", String(before.scale + (after.scale - before.scale) * blend));
-    style.setProperty("--mochi-opacity", String(before.mochi + (after.mochi - before.mochi) * blend));
-    style.setProperty("--cast-opacity", String(1 - panel * .85));
-    style.setProperty("--panel-opacity", String(panel));
-    style.setProperty("--nap-opacity", String(nap));
-    style.setProperty("--awake-opacity", String(1 - nap));
-    style.setProperty("--spark-opacity", String((1 - nap) * (1 - panel)));
-    style.setProperty("--footer-opacity", String(smooth((elapsed - episode.footerAt) / 600)));
-    manager.setAttribute("aria-hidden", String(panel < .05));
-    const work = smooth((elapsed - 5750) / 5000);
-    ["work-one","work-two","work-three"].forEach((id,position) => { document.getElementById(id).style.width = `${18 + work * (52 - position * 5)}%`; });
-    ["worker-one","worker-two","worker-three"].forEach((id,position) => { document.getElementById(id).style.setProperty("--arrival", String(reduced.matches ? 1 : smooth((elapsed - 5850 - position * 140) / 350))); });
-    seek.value = String(Math.round(elapsed));
-    seek.setAttribute("aria-valuetext", `${(elapsed / 1000).toFixed(1)} seconds`);
-    clock.textContent = `${format(elapsed)} / ${format(episode.duration)}`;
+    const poseTime = elapsed;
+    const voiceLength = episode.voiceDurations?.[index] || 1800;
+    const speech = range(elapsed, beat.voiceAt, 140) * (1 - range(elapsed, beat.voiceAt + voiceLength - 150, 180));
+    const emphasis = Math.sin(Math.PI * clamp((poseTime - beat.voiceAt) / 700)) + .35 * Math.sin(Math.PI * clamp((poseTime - beat.voiceAt - 1150) / 500));
+    const nod = emphasis * speech * acting;
+    const breath = Math.sin(elapsed / 720) * .004 * acting;
+    const startHop = 0;
+    const reactionAt = parallel ? 9850 : 8250;
+    const surprise = Math.sin(Math.PI * clamp((elapsed - reactionAt) / 620)) * acting;
+    const proudBlink = blink(elapsed, [1120, 3550, 6020, 11400]);
+    const mochiBlink = blink(elapsed, [1800, 5120, 7080, 10150, 14820]);
+    let proud = 1;
+    let sheepish = 0;
+    let taste = 0;
+    let yawn = 0;
+    let sleep = 0;
+    let amused = 0;
+    let panel = 0;
+    let paperVisible = 0;
+    let paperOpen = 0;
+    let cameraX = 0;
+    let cameraScale = 1;
+    let cameraFocus = 400;
+    let characterShot = "wide";
+    let luckyReach = 0;
+    let callout = 0;
+    if (parallel) {
+      characterShot = elapsed < 2550 || elapsed >= 12300 && elapsed < 14950 ? "Lucky" : elapsed < 4800 ? "Mochi" : "wide";
+      const feed = paper.dataset.format === "feed";
+      cameraScale = characterShot === "wide" ? .92 : feed ? 1.18 : 1.48;
+      cameraFocus = characterShot === "Lucky" ? 580 : characterShot === "Mochi" ? 250 : 400;
+      panel = range(elapsed, 5740, 650) * (1 - range(elapsed, 9600, 360));
+      paperVisible = panel;
+      paperOpen = panel;
+      const toSheepish = Number(elapsed >= 9935);
+      const toConfident = Number(elapsed >= 12385);
+      const toSleep = Number(elapsed >= (reduced.matches ? 16010 : 14950));
+      proud = 1 - toSheepish + toConfident * (1 - toSleep);
+      sheepish = toSheepish * (1 - toConfident);
+      taste = 0;
+      sleep = toSleep;
+      amused = Number(elapsed >= 16550);
+    } else {
+      const zoom = 1 - range(elapsed, 2400, 500);
+      cameraX = -50 * zoom;
+      cameraScale = 1 + zoom * .1;
+      paperVisible = range(elapsed, 4600, 300);
+      paperOpen = range(elapsed, 10100, 450);
+      panel = paperOpen;
+      const toSheepish = range(elapsed, 8250, 140);
+      const toTaste = range(elapsed, 12600, 140);
+      proud = 1 - toSheepish;
+      sheepish = toSheepish * (1 - toTaste);
+      taste = toTaste;
+      amused = range(elapsed, 15300, 150);
+      const reachProgress = clamp((elapsed - 12700) / 700);
+      luckyReach = (Math.sin(Math.PI * reachProgress) * 28 + easeOut(reachProgress) * 20) * acting;
+      callout = range(elapsed, 14300, 280);
+    }
+    if (reduced.matches) {
+      cameraX = 0;
+      cameraScale = 1;
+      cameraFocus = 400;
+    }
+    show("mochi-motion", reduced.matches || characterShot !== "Lucky" ? 1 : 0);
+    show("lucky-motion", reduced.matches || characterShot !== "Mochi" ? 1 : 0);
+    set("camera", "transform", "translate(" + cameraX + " 0) translate(400 780) scale(" + cameraScale + ") translate(" + (-cameraFocus) + " -780)");
+    const catScale = 1 - (reduced.matches ? Number(panel > .5) : panel) * .22;
+    const luckyNod = beat.speaker === "Lucky" ? nod : 0;
+    set("mochi-motion", "transform", "translate(200 780) scale(" + catScale + " " + (catScale * (1 + breath)) + ") translate(-200 -780)");
+    set("lucky-motion", "transform", "translate(" + (-luckyReach) + " " + (-startHop - surprise * 9) + ") translate(600 780) rotate(" + (surprise * 2.3 - luckyNod * .7) + ") scale(" + catScale + " " + (catScale * (1 - breath)) + ") translate(-600 -780)");
+    const drawn = elapsed >= 4800 && elapsed < 9935 && !reduced.matches;
+    let drawnFrame = Math.max(0, Math.min(7, Math.floor((elapsed - 5000) / 80)));
+    if (elapsed >= 5840) drawnFrame = Math.max(0, 7 - Math.floor((elapsed - 5840) / 80));
+    const baselines = [450, 450, 451, 451, 849, 849, 850, 851];
+    const sourceLeft = (drawnFrame % 4) * 443.5;
+    set("lucky-drawn-crop", "clip-path", "url(#lucky-reach-cell-" + drawnFrame + ")");
+    set("lucky-drawn-placement", "transform", "translate(" + (331.2 - sourceLeft * 1.08) + " " + (780 - baselines[drawnFrame] * 1.08) + ") scale(1.08)");
+    show("lucky-original", drawn ? 0 : 1);
+    show("lucky-drawn", drawn ? 1 : 0);
+    const mochiDrawn = elapsed >= 2550 && elapsed < 4800 && !reduced.matches;
+    let mochiFrame = 0;
+    if (elapsed >= 3450 && elapsed < 3533 || elapsed >= 3667 && elapsed < 3750) mochiFrame = 1;
+    if (elapsed >= 3533 && elapsed < 3667) mochiFrame = 2;
+    if (elapsed >= 4460) mochiFrame = 3;
+    const mochiBaselines = [611, 611, 1205, 1204];
+    set("mochi-drawn-crop", "clip-path", "url(#mochi-reaction-cell-" + mochiFrame + ")");
+    set("mochi-drawn-placement", "transform", "translate(" + (-60 - (mochiFrame % 2) * 627 * .85) + " " + (780 - mochiBaselines[mochiFrame] * .85) + ") scale(.85)");
+    show("mochi-original", mochiDrawn ? 0 : 1);
+    show("mochi-drawn", mochiDrawn ? 1 : 0);
+    const keyPress = (range(elapsed, 5560, 90) - range(elapsed, 5800, 100)) * acting;
+    show("launch-pad", range(elapsed, 4680, 250) * (1 - range(elapsed, 7900, 250)));
+    set("launch-key", "transform", "translate(0 " + (keyPress * 9) + ")");
+    const napTimes = [14950, 15150, 15310, 15450, 15590, 15730, 15870, 16010];
+    const napBaselines = [525, 526, 523, 526, 819, 813, 818, 819];
+    let napFrame = 0;
+    napTimes.forEach((time, position) => { if (elapsed >= time) napFrame = position; });
+    if (reduced.matches) napFrame = 7;
+    set("lucky-nap-crop", "clip-path", "url(#lucky-nap-cell-" + napFrame + ")");
+    set("lucky-nap-placement", "transform", "translate(" + (309.9 - napFrame % 4 * 443.5 * 1.14) + " " + (780 - napBaselines[napFrame] * 1.14) + ") scale(1.14)");
+    show("mochi-eyes-open", 1 - mochiBlink);
+    show("mochi-eyes-closed", mochiBlink);
+    show("lucky-eyes-open", 1 - proudBlink);
+    show("lucky-eyes-closed", proudBlink);
+    show("mochi-skeptic", 1 - amused);
+    show("mochi-amused", amused);
+    show("lucky-proud", proud);
+    show("lucky-sheepish", sheepish);
+    show("lucky-taste", taste);
+    show("lucky-yawn", yawn);
+    show("lucky-sleep", sleep);
+    show("idea-lines", acting * (1 - range(elapsed, 1400, 220)));
+    show("reaction-lines", surprise);
+    show("sleep-letters", sleep * range(elapsed, 16120, 300));
+    ["one", "two", "three"].forEach((name, position) => {
+      set("sleep-" + name, "transform", "translate(0 " + (-Math.sin(elapsed / 650 + position) * 7 * acting) + ")");
+    });
+    show("plan", paperVisible);
+    set("plan", "aria-hidden", paperVisible < .05);
+    const arrival = reduced.matches ? 1 : easeOut((elapsed - (parallel ? 5740 : 4600)) / 650);
+    const planScale = .08 + arrival * .92;
+    set("plan", "transform", parallel && !reduced.matches ? "translate(" + (652 * (1 - arrival)) + " " + (770 * (1 - arrival)) + ") scale(" + planScale + ") translate(" + (-700 * (1 - arrival)) + " " + (-365 * (1 - arrival)) + ")" : "translate(0 0)");
+    show("manager-label", paperOpen);
+    show("note-label", parallel ? 0 : 1);
+    element("note-label").textContent = paperOpen > .5 ? "THE GOAL" : "THE ENTIRE PLAN";
+    set("note-label", "x", 130 + paperOpen * 395);
+    set("note-label", "y", 81 - paperOpen * 3);
+    ["one", "two", "three"].forEach((name, position) => {
+      const start = parallel ? 6200 + position * 130 : 10400 + position * 450;
+      const reveal = range(elapsed, start, 300) * (parallel ? panel : 1);
+      show("task-" + name, reveal);
+      set("task-" + name, "transform", "translate(0 " + ((1 - reveal) * -14 * acting) + ") scale(1 " + (reduced.matches ? 1 : .85 + reveal * .15) + ")");
+      const progress = parallel ? 80 + range(elapsed, 5900, 5000) * (200 - position * 35) : 0;
+      set("work-" + name, "d", "M180 " + (203 + position * 72) + " h" + progress);
+      show("work-" + name, parallel ? 1 : 0);
+    });
+    show("plan-summary", parallel ? panel : range(elapsed, 11750, 300));
+    show("work-strip", parallel && (reduced.matches || characterShot === "wide") ? range(elapsed, 9900, 250) : 0);
+    ["one", "two", "three"].forEach((name, position) => {
+      const starts = [136, 323, 504];
+      const width = 65 - position * 10 + range(elapsed, 9900 + position * 270, 8000) * (45 - position * 4);
+      set("strip-work-" + name, "d", "M" + starts[position] + " 132 h" + width);
+    });
+    show("taste-card", callout);
+    const cardPop = Math.sin(Math.PI * clamp((elapsed - 14300) / 500)) * 5 * acting;
+    set("taste-card", "transform", "translate(0 " + ((1 - callout) * 45) + ") rotate(" + (-cardPop) + " 550 548)");
+    show("footer", range(elapsed, episode.footerAt, 500));
+    element("seek").value = String(Math.round(elapsed));
+    set("seek", "aria-valuetext", (elapsed / 1000).toFixed(1) + " seconds");
+    element("time").textContent = format(elapsed) + " / " + format(episode.duration);
   }
 
   function tick(now) {
     frame = null;
     if (paused || document.hidden) return;
-    elapsed = sound && !audio.paused ? audio.currentTime * 1000 % episode.duration : (elapsed + now - previous) % episode.duration;
+    let next = sound && !audio.paused ? audio.currentTime * 1000 : elapsed + now - previous;
+    if (sound && audio.ended) next = episode.duration;
+    if (next >= episode.duration) {
+      if (looping) {
+        elapsed = next % episode.duration;
+        if (sound) {
+          audio.currentTime = elapsed / 1000;
+          if (audio.paused) audio.play().catch(() => { sound = false; });
+        }
+      } else {
+        elapsed = episode.duration - 1;
+        paused = true;
+        render();
+        sync();
+        return;
+      }
+    } else elapsed = next;
     previous = now;
     render();
     frame = requestAnimationFrame(tick);
   }
 
   async function sync() {
-    const currentRequest = ++requestId;
+    const request = ++requestId;
     if (frame !== null) cancelAnimationFrame(frame);
     frame = null;
-    paper.classList.toggle("paused", paused || document.hidden);
-    playButton.textContent = paused ? "Play" : "Pause";
-    playButton.setAttribute("aria-pressed", String(paused));
+    element("play").textContent = paused ? "Play" : "Pause";
+    set("play", "aria-pressed", paused);
     if (sound && !paused && !document.hidden) {
       try { audio.currentTime = elapsed / 1000; await audio.play(); }
-      catch { if (currentRequest === requestId) { sound = false; audio.pause(); status.textContent = "Sound unavailable. Tap to try again."; } }
+      catch {
+        if (request === requestId) {
+          sound = false;
+          audio.pause();
+          element("audio-status").textContent = "Sound unavailable. Tap to try again.";
+        }
+      }
     } else audio.pause();
-    if (currentRequest !== requestId) { if (!sound || paused || document.hidden) audio.pause(); return; }
-    soundButton.textContent = sound ? "Sound on" : "Watch with sound";
-    soundButton.setAttribute("aria-pressed", String(sound));
+    if (request !== requestId) {
+      if (!sound || paused || document.hidden) audio.pause();
+      return;
+    }
+    element("sound").textContent = sound ? "Sound on" : "Watch with sound";
+    set("sound", "aria-pressed", sound);
     previous = performance.now();
     if (!paused && !document.hidden) frame = requestAnimationFrame(tick);
   }
 
-  function resetAnimationTime() { paper.getAnimations({ subtree:true }).forEach(animation => { animation.currentTime = elapsed; }); }
   function setTime(value) {
-    elapsed = Math.max(0,Math.min(episode.duration - 1,value));
+    elapsed = Math.max(0, Math.min(episode.duration - 1, value));
     try { audio.currentTime = elapsed / 1000; } catch {}
-    resetAnimationTime();
     render();
     return sync();
   }
+
   async function toggleSound() {
     sound = !sound;
-    if (sound) { paused = false; status.textContent = "English voices + original music."; await setTime(0); }
-    else { status.textContent = "Sound off. Captions stay on."; await sync(); }
+    if (sound) {
+      paused = false;
+      element("audio-status").textContent = episode.voicesAvailable ? "Child voices + original music." : "Original music only. Child voices pending connection.";
+      await setTime(0);
+    } else {
+      element("audio-status").textContent = "Sound off. Captions stay on.";
+      await sync();
+    }
   }
-  async function fullscreen() {
-    try { if (document.fullscreenElement) await document.exitFullscreen(); else if (paper.requestFullscreen) await paper.requestFullscreen(); }
-    catch { document.getElementById("fullscreen").textContent = "Use browser full screen"; }
+
+  async function recordingView() {
+    looping = false;
+    sound = true;
+    paused = false;
+    document.body.classList.toggle("capture", true);
+    try { if (paper.requestFullscreen) await paper.requestFullscreen(); } catch {}
+    await setTime(0);
   }
-  soundButton.addEventListener("click", toggleSound);
-  playButton.addEventListener("click", () => { paused = !paused; sync(); });
-  document.getElementById("restart").addEventListener("click", () => { paused = false; setTime(0); });
-  document.getElementById("fullscreen").addEventListener("click", fullscreen);
-  document.getElementById("reel").addEventListener("click", () => setFormat("reel"));
-  document.getElementById("feed").addEventListener("click", () => setFormat("feed"));
-  seek.addEventListener("input", () => { paused = true; setTime(Number(seek.value)); });
+
+  element("sound").addEventListener("click", toggleSound);
+  element("play").addEventListener("click", () => { paused = !paused; sync(); });
+  element("restart").addEventListener("click", () => { paused = false; looping = true; setTime(0); });
+  element("once").addEventListener("click", () => { paused = false; looping = false; setTime(0); });
+  element("recording").addEventListener("click", recordingView);
+  element("reel").addEventListener("click", () => { setFormat("reel"); render(); });
+  element("feed").addEventListener("click", () => { setFormat("feed"); render(); });
+  element("seek").addEventListener("input", () => { paused = true; setTime(Number(element("seek").value)); });
   document.addEventListener("keydown", event => {
+    if (event.key === "Escape") {
+      document.body.classList.toggle("capture", false);
+      return;
+    }
     if (event.target.closest("button,input,textarea,select,a") || event.ctrlKey || event.altKey || event.metaKey) return;
     if (event.code === "Space") { event.preventDefault(); paused = !paused; sync(); }
     if (event.key.toLowerCase() === "r") { paused = false; setTime(0); }
     if (event.key.toLowerCase() === "m") toggleSound();
-    if (event.key.toLowerCase() === "f") fullscreen();
   });
   document.addEventListener("visibilitychange", sync);
+  document.addEventListener("fullscreenchange", () => { if (!document.fullscreenElement && params.get("capture") !== "1") document.body.classList.toggle("capture", false); });
   reduced.addEventListener("change", () => { if (reduced.matches) { paused = true; render(); sync(); } });
+  setFormat(params.get("format") === "feed" ? "feed" : "reel");
   render();
   sync();
-  if (fixed) resetAnimationTime();
 })();

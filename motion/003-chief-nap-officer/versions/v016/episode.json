@@ -1,0 +1,92 @@
+{
+  "id": "003-chief-nap-officer",
+  "kicker": "MOCHI & LUCKY",
+  "footer": "Business as usual.",
+  "template": "motion/003-chief-nap-officer/template-blue",
+  "storyType": "parallel",
+  "voicesAvailable": true,
+  "variant": "B",
+  "title": "Chief Nap Officer · Blue Scene B",
+  "duration": 12000,
+  "footerAt": 11300,
+  "launchAt": 3200,
+  "detail": [
+    3400,
+    4900
+  ],
+  "voiceDurations": [
+    2448,
+    1872,
+    2088,
+    2280
+  ],
+  "note": "B: 12-second fast deadpan alternate cut, same blue scene and intact cast artwork. Four existing child voice clips are remixed at 100/2750/5050/7450 ms with the existing original score; no fresh speech synthesis. Illustrative parallel work, not an instant-completion claim. Local review draft only.",
+  "beats": [
+    {
+      "at": 0,
+      "speaker": "Mochi",
+      "text": "You have no employees.",
+      "voiceAt": 100
+    },
+    {
+      "at": 2600,
+      "speaker": "Lucky",
+      "text": "About that.",
+      "voiceAt": 2750
+    },
+    {
+      "at": 4900,
+      "speaker": "Mochi",
+      "text": "Then what do you do?",
+      "voiceAt": 5050
+    },
+    {
+      "at": 7300,
+      "speaker": "Lucky",
+      "text": "Chief Nap Officer.",
+      "voiceAt": 7450
+    }
+  ],
+  "frames": [
+    {
+      "at": 0,
+      "pose": 1
+    },
+    {
+      "at": 250,
+      "pose": 0
+    },
+    {
+      "at": 2600,
+      "pose": 2
+    },
+    {
+      "at": 2850,
+      "pose": 3
+    },
+    {
+      "at": 3300,
+      "pose": 4
+    },
+    {
+      "at": 5050,
+      "pose": 0
+    },
+    {
+      "at": 7450,
+      "pose": 4
+    },
+    {
+      "at": 10050,
+      "pose": 5
+    },
+    {
+      "at": 10450,
+      "pose": 6
+    },
+    {
+      "at": 10900,
+      "pose": 7
+    }
+  ]
+}

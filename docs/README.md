@@ -1,5 +1,9 @@
 # Preview Copies · 预览副本
 
+[Project direction / 总方向](../PROJECT_BRIEF.md) · [Actual status / 实际状态](../CONTENT_MAP.md) · [Version meanings / 版本说明](../motion/VERSION_GUIDE.md)
+
+These are generated viewing copies, not editable source, approval evidence or proof that Pages is live / 本目录是生成副本，不是编辑源码、批准证据或已上线 Pages 的证明。
+
 Open [index.html](index.html) in a browser after downloading the repository. This section contains the English preview homepage, selected motion HTML, and saved-version preview copies. It is prepared for optional GitHub Pages publishing from `main` → `/docs`, but Pages is not currently enabled because the account plan rejected this private repository.
 
 下载仓库后，用浏览器打开首页。这里保存英文预览页、当前动态片和历史版本预览副本，可用于未来从 main 分支的 /docs 发布 Pages；目前套餐不支持该私有仓库的 Pages，尚未启用。

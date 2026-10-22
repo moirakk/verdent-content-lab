@@ -2,6 +2,12 @@
 
 ## Artwork · 画面
 
+HTML v006/v007 add five original expression/blink frames, paired-eye changes and runtime head/body layers while retaining the approved v005 identity. Shared sources and exact prompts: [pose library](../../characters/poses/README.md), [animation generation record](../../characters/poses/PROMPTS-ANIMATION-V001.md). New image generation used the built-in tool; no outside franchise art was imported / 新增五张原创表情与眨眼帧，保留原版造型；源图与提示词见共享库，未引入其他动画 IP 素材。
+
+Historical v008/v009 changed layout/timing; v010 attempted anatomical masks, but its detached-paw result was rejected. v011 removes that rig entirely. Existing media remain unchanged, while two new complete-character sheets are embedded and frozen: [Lucky eight frames](template/assets/lucky-reach-sheet-v002.png), [Mochi four frames](template/assets/mochi-reaction-sheet-v002.png). [Shared originals and exact prompts](../../characters/poses/sequences/README.md) / 历史 v010 拆关节导致断爪被否决；v011 全部移除该结构，原媒体不改，另内嵌归档两套十二帧完整角色稿，源图与提示词见共享库。
+
+The current player combines full-character key-drawing playback and existing complete poses, not phoneme lip sync or fully hand-drawn animation. [Current 8s repair test](previews/v011-acting-study.mp4) is an offline review, not a browser recording. The GO key is a fictional story prop, not a claimed real Manager control / 当前播放完整角色关键画稿与旧完整姿势，不宣称音素口型或全手绘动画；视频仅前 8 秒离线审片；GO 是剧情道具，不宣称真实产品有该按钮。
+
 - [`template/assets/lucky-proud-v001.png`](template/assets/lucky-proud-v001.png): raised-paw announcement / 举爪宣布。
 - [`template/assets/mochi-side-eye-v001.png`](template/assets/mochi-side-eye-v001.png): crossed-paw skeptical reaction / 抱爪怀疑反应。
 - [`template/assets/lucky-yawn-v001.png`](template/assets/lucky-yawn-v001.png): stretch/yawn before the sleeping pose / 睡前伸展打哈欠。
@@ -26,15 +32,15 @@ References / 参考：Motion 002's original character art and the creator-provid
 
 ## Voices & Music · 配音与配乐
 
-English synthetic voice preview, not human voice acting. Mochi uses JennyNeural at a calmer pace; Lucky uses EricNeural with a lighter pitch and faster delivery. These are the pilot's voice choices, not permanently approved casting. Voice files were generated through [edge-tts](https://github.com/rany2/edge-tts), an external speech client; only the five English lines were submitted.
+English synthetic voice preview, not recordings of real children. Audio v002 / HTML v005 is a **pending child-voice casting review**: Mochi uses en-GB-MaisieNeural (UK English), Lucky uses en-US-AnaNeural (US English). Both are listed as child voices in [Microsoft's official voice catalogue](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/language-support?tabs=tts). No pitch shifting is applied; Lucky's delivery rate is +5%. The accent difference is explicitly part of the review, not permanently approved casting. Audio v001 / HTML v001–v004 retain the earlier Jenny/Eric adult voices.
 
-英文合成配音样片，非真人表演。Mochi 语气较稳，Lucky 轻快一些；属于试播声音方向，尚非永久定音。外部语音服务仅用于五句英文台词。
+新版是英文合成童声，不是真实儿童录音。Mochi 用 Maisie 英式英语、Lucky 用 Ana 美式英语，两者均为官方目录中的童声音色，未用成人声强行变调。Lucky 仅加快 5%。口音差别与具体音色待创作者试听确认；旧声音 v001 与 HTML v001–v004 不动。通过 [edge-tts](https://github.com/rany2/edge-tts) 生成，只提交五句英文对白。
 
 The backing score is an original deterministic instrumental composition made by `scripts/build-episode-audio.py`: soft plucked bass, toy-bell melody, short nap stings. It uses no downloaded or commercial song. Music is ducked under the measured speech windows. The final mixed AAC track is exactly 18 seconds and is embedded in the HTML, so playback needs no speech network connection.
 
 背景音乐由仓库代码原创合成，使用轻拨弦、玩具琴和午睡小音符，不下载商业歌曲。按实际对白区间压低配乐。18 秒混音完整内嵌，播放不需要再连语音服务。
 
-Sources / 源文件：[Audio configuration / 声音配置](audio-config.json) · [Mix timings / 混音时间记录](audio/v001/mix.json) · [Mixed track / 完整音轨](template/assets/episode-audio-v001.m4a).
+Sources / 源文件：[Current voice configuration / 当前声音配置](audio-config.json) · [Frozen v002 voice profiles / v002 声线留档](audio/v002/voice-profiles.json) · [v002 mix timings / v002 混音记录](audio/v002/mix.json) · [Child-voice mix / 童声混音](template/assets/episode-audio-v002.m4a) · [v001 original mix / v001 原混音](template/assets/episode-audio-v001.m4a).
 
 Reproduction / 重新生成：install `scripts/requirements-audio.txt`, provide ffmpeg/ffprobe on PATH, then run the audio tool with a new version label. The player asset reference must be updated to the new audio filename before building a new HTML version.
 

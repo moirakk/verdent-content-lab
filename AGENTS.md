@@ -4,9 +4,9 @@ Repository documentation must be bilingual (English + Chinese). All produced aud
 
 仓库说明、导航和交接资料必须中英双语；面向观众的成品文字全部使用英文，包括漫画对白、标题、动态片文字、字幕、成品脚本、社媒文案和发布用图片描述。内部解释可双语。英文对白直接叫 Mochi / Lucky，不使用 sis / bro。
 
-Read README.md → HANDOFF.md → CONTENT_MAP.md, then the relevant section README. Preserve stable paths, original reference photos, and every HTML archive. Never modify or delete `versions/vNNN/`. Build edited motion through the working template and episode configuration; commit sources, outputs, archives, and indexes together. Preview copies belong in docs; private reference photos do not. Mark content as published only after an actual release. Keep the repository private.
+Read README.md → PROJECT_BRIEF.md → CONTENT_MAP.md → motion/VERSION_GUIDE.md → HANDOFF.md, then the relevant section README. PROJECT_BRIEF holds confirmed direction; CONTENT_MAP holds actual state; the feature queue and strategy contain proposals. A current/highest-numbered HTML is not automatically the preferred/approved style or film. Preserve stable paths, original reference photos, and every HTML archive. Never modify or delete `versions/vNNN/`. Build edited motion through the working template and episode configuration; when authorized, commit sources, outputs, archives, and indexes together. Preview copies belong in docs; private reference photos do not. Mark content as published only after an actual release. Keep the repository private.
 
-接手顺序：README.md → HANDOFF.md → CONTENT_MAP.md → 对应分区 README。已有路径和存档保持稳定，发布状态以实际发布为准。
+接手顺序：首页 → 项目总纲 → 实际状态总表 → 版本指南 → 交接说明 → 对应分区。总纲管方向，总表管状态；选题与策略不当作批准。最新工作稿不自动等于最好或已确认；已有路径、全部存档保持稳定，发布状态以实际发布为准。
 
 Official-media planning follows `brand/CONTENT_STRATEGY.md`, whose new recurring-world ideas remain proposals until approved. Use `brand/assets/verdent-logo-original.png` for the official mark; never redraw or distort it. Keep captions readable without sound and give users an explicit sound control.
 

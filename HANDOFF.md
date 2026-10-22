@@ -1,81 +1,53 @@
 # Handoff · 交接说明
 
-Updated / 更新：2026-10-20. Access to this private repository is required / 接手者需要此私有仓库的访问权限。
+Updated / 更新：2026-10-21（Asia/Shanghai）。
 
-## 1. Language & Principles · 语言与原则
+## Reading Order · 接手顺序
 
-Repository documentation is English + Chinese. All produced content is English only: comic dialogue, motion text, titles, subtitles, finished scripts, captions, and published image descriptions. Internal creative explanations may be bilingual.
+[Project Brief](PROJECT_BRIEF.md) → [Content Map](CONTENT_MAP.md) → [Version Guide](motion/VERSION_GUIDE.md) → relevant episode README / 先目标、再状态、再版本，最后看本集说明。
 
-仓库说明中英双语；所有面向观众的内容用英文，包括漫画对白、动态片文字、标题、字幕、成品脚本、社媒文案和发布用图片描述。内部创作说明可以双语。
+## Authority · 信息以哪里为准
 
-Character first. Joke second. Product third. Verdent is a tool in their world; a story does not need a product demonstration.
+| Topic / 问题 | Source / 唯一职责 |
+| --- | --- |
+| Creator-confirmed direction / 已确认方向 | [PROJECT_BRIEF.md](PROJECT_BRIEF.md) |
+| Identity and style details / 人设与画风细则 | [IP Bible](brand/IP_BIBLE.md) · [Visual Style](brand/VISUAL_STYLE.md) |
+| Actual artifacts and release status / 实际文件与发布状态 | [CONTENT_MAP.md](CONTENT_MAP.md) |
+| Historical HTML meaning / 旧版用途 | [VERSION_GUIDE.md](motion/VERSION_GUIDE.md) |
+| Product factual scope / 产品事实 | [Feature Map](brand/VERDENT_FEATURE_MAP.md), with linked official sources / 附官方来源 |
+| Unapproved story/strategy ideas / 未批准选题与策略 | [Queue](brand/FEATURE_CONTENT_QUEUE.md) · [Strategy](brand/CONTENT_STRATEGY.md) |
 
-先有人物，再有笑点，最后才是产品。Verdent 自然存在于角色世界中，每集不必展示产品解决问题。
+Do not treat an assistant's generated proposal, a high version number, or a successful render as creator approval / 不把助手提案、大版本号或渲染成功当成创作者批准。
 
-| Character / 角色 | Identity & voice / 身份与性格 | Visual anchors / 外貌锚点 |
-| --- | --- | --- |
-| Mochi | Yellow older sister; calm, rational, dry humor / 黄猫姐姐，冷静、理性、冷面幽默 | Fluffy golden-orange coat, cream muzzle and chest, pink nose / 橘金蓬松毛、浅色口鼻与胸毛、粉鼻 |
-| Lucky | Black younger brother; eager, lively, easily carried away / 黑猫弟弟，热情、活泼、容易上头 | Dark short coat, large ears, yellow-green round eyes, long slim tail / 温黑短毛、大耳朵、黄绿圆眼、细长尾巴 |
+## Current Review Question · 当前最需要解决的问题
 
-Use Mochi / Lucky as direct addresses, never sis / bro. Personality is creator-defined, not inferred from the photo.
+**Latest priority / 最新优先：review [A v017 · 18s](motion/003-chief-nap-officer/versions/v017/index.html) and its [review MP4](motion/003-chief-nap-officer/previews/v017-blue-acting-review.mp4). Eight complete contact drawings, bounded speaker shots, caption-free deadpan hold, original child dialogue and remixed score. Source template-blue-polish; config episode.json or variants/blue-a-polish.json. Original A v015/B v016 and their template remain unchanged / 当前验新 A：八幅完整接触稿、人物镜头、无字幕冷反应、原童声与配乐重混；独立模板和配置，原 A/B 不动。**
 
-英文对白直接叫 Mochi / Lucky，不用 sis / bro。性格来自创作者设定，不从照片推断。
+Do these two cuts preserve the accepted blue-scene cats, read clearly and land the deadpan joke? Ask which timing to refine before expanding / 两版是否保住蓝地板造型、看得清、冷笑话成立？先选节奏再深化，不用扩量替代验收。
 
-Read / 阅读：[Photo / 真猫照片](characters/references/README.md) → [IP Bible / 人物设定](brand/IP_BIBLE.md) → [Visual Style / 视觉规范](brand/VISUAL_STYLE.md).
+Suggested next step only: finish one benchmark scene, then one complete pilot. Do not silently roll back a working file or adopt every new drawing / 建议先验一个标杆片段，再磨完一条试播；不擅自回退当前文件，也不把新画稿全部自动收编。
 
-## 2. Current Work · 当前内容
+Previous refinement: 003 v009 kept the original paintings/child audio and fixed framing, face crossfades and yawn timing, but was subsequently judged too slide-like. Its [18s video](motion/003-chief-nap-officer/previews/v009-native-preview.mp4) is preserved as a comparison, not the current acting standard. 004 is untouched / 上一轮 v009 修构图重影与哈欠时机，但后续仍被指出像 PPT；18 秒视频保留作对照，不当作当前表演标准。004 不动。
 
-| Item / 内容 | Status / 状态 | Next step / 下一步 |
-| --- | --- | --- |
-| EP.05 · It Works on My Machine. | Published, creator-confirmed / 已发布，创作者确认 | Archive artwork and publishing link / 归档原稿与发布链接 |
-| Mid-Autumn Special | Follows EP.05; publication unverified / 接续 EP.05，发布状态待核实 | Confirm progress; existing brief is a proposal / 核实进度，现有说明是提案 |
-| EP.06 | Next regular comic, brief only / 下一篇正篇，目前只有选题说明 | Confirm story and storyboard / 确定故事与分镜 |
-| EP.07 | Unconfirmed idea / 未确认选题 | Continue after EP.06 direction is clear / 待 EP.06 方向明确后推进 |
-| Motion 001 | Two unpublished draft versions / 两版未发布样片 | Use v001 as the working baseline / 以 v001 为当前基准继续完善 |
-| [Motion 002](motion/002-tiny-feature/README.md) | New 12s painted draft, selected v001 / 新增 12 秒水粉样片，当前 v001 | Review art and cup-growth timing / 验看角色和杯子变大的节奏 |
-| [Motion 003](motion/003-chief-nap-officer/README.md) | 18s story pilot, selected v004, audio v001 / 18 秒剧情试播，HTML v004、声音 v001 | Review new poses, acting and cameras / 验看新姿势、表演与镜头 |
+## Resume Production · 恢复制作流程
 
-[CONTENT_MAP.md](CONTENT_MAP.md) is the publication-status source of truth / 发布状态统一维护在内容进度表中。
+Subsequent feedback rejected both v009's slide-deck feel and v010's detached paw. Do not reuse the v010 anatomical rig. Current v011 uses 8 full Lucky drawings and 4 full Mochi reactions, with [8s repair review](motion/003-chief-nap-officer/previews/v011-acting-study.mp4), [source sheets/prompts](characters/poses/sequences/README.md) and [remaining gaps](motion/003-chief-nap-officer/ACTING_STUDY.md). The task is in stage 2, not film delivery. Cold/deadpan visual humor is confirmed / 后续先指出像 PPT，再指出 v010 断爪；不复用该拆分结构。v011 改为十二帧完整角色稿，仍是第 2 阶段动作验证，不称成片；冷幽默方向已确认。
 
-## 3. Motion 001 Versions · 动态 001 用哪一版
+1. Confirm story/capability and what is being reviewed / 确认本次功能、故事与验收目标。
+2. Use established original references; review expression drawings together at the same scale/angle / 以原造型为基准，同尺度同角度审表情。
+3. Edit the episode's own `template/` and `episode.json`; shared baseline only for episodes actually using it / 改本集工作模板与配置，不误改共用基准。
+4. Build through `scripts/build-motion.mjs`; never change `versions/vNNN/` / 用工具生成新版本，历史不动。
+5. Generate new speech under a new audio version; verify actual clips, duration, overlap and sound status / 新配音另起版本，核查真实文件、长度、重叠与状态。
+6. Review actual browser playback/recording at phone size, then get creator film approval / 实测手机尺寸浏览器播放录屏，再确认成片。
+7. Sync source/output/archives together only when authorized; record publication only after release / 授权后再一起同步源码成片历史，真实发布后记状态。
 
-- [Selected / 当前选用](motion/001-have-an-idea/index.html)：v001, 8 seconds / 8 秒。Dialogue / 对白：“Mochi, I have an idea.” / “How tiny?”
-- [v001 archive / v001 存档](motion/001-have-an-idea/versions/v001/index.html)：Captured standalone HTML; no separate frozen template / 初次捕获的独立 HTML，未分离保存当时模板。
-- [v002 archive / v002 存档](motion/001-have-an-idea/versions/v002/index.html)：12-second alternative, with dialogue and template source / 12 秒备选，附对白与模板源码。
-- [History / 全部版本](motion/001-have-an-idea/versions/index.html)：Open locally in a browser / 下载后用浏览器打开。
+## Limits & Provenance · 限制与事实边界
 
-Both versions were rebuilt from conversation context. The old `/mnt/data/verdent_motion_001.html` was unavailable. v002 was reconstructed from an earlier draft configuration and archived later; version numbers follow archive order, not original creation dates.
+- Prior checks covered timelines, normalized pose states, blink/head layers, controls, archive hashes and file links. They do not replace actual browser QA / 已查时间轴、姿势、分层、控制、旧版哈希与链接，不代替浏览器验收。
+- The last attempt could not bind a local preview server or generate new remote speech under current restrictions. No fresh availability check is implied here / 上次权限限制阻止本地预览服务与新语音生成，本次未重试，不宣称当前仍永久不可用。
+- In-app browser blocks local file URLs. Do not bypass that policy; user can manually open the standalone HTML, or inspect the offline MP4 / 应用浏览器阻止 file URL，不绕过；可由用户手动离线打开 HTML，或先看视频。
+- Earlier MP4s are 432×768; v017 is 800×1000 with 12 timeline samples/sec encoded at 24fps. All are offline SVG renders, not browser recordings or final exports / 新版为 800×1000，12 次时间轴采样编码 24fps；均非浏览器实录或最终交付。
+- No public Pages URL was enabled after the earlier private-plan rejection; do not make the repo public / 上次私有套餐拒绝 Pages，未启用公开链接；不改公有。
+- Last local commit/tracking record is `20978fa`; working changes remain uncommitted. Remote state was not freshly fetched / 本地提交与跟踪记录止于该提交；当前改动未提交，本次未联网拉取远端。
 
-两版均根据对话重建，旧环境中的原 HTML 未能取回。v002 根据早期配置补存，版本编号按归档顺序，不冒充原始创作日期。
-
-Motion 002 is a separate original episode with its own local template and [version history](motion/002-tiny-feature/versions/index.html). Its painterly appearance is an experiment based on the newest reference, not a replacement of Motion 001.
-
-动态 002 是独立新作，使用本集模板和历史目录；新水粉画风是依据最新参考进行的本集试验，不替换动态 001。
-
-The creator liked Motion 002's painted style. Motion 003 continues that direction with an additional sleeping Lucky pose, original official logo, two synthetic English voices, and original music. [Editorial strategy](brand/CONTENT_STRATEGY.md) proposes a Tiny Company series; its wider premise and content mix remain proposals for creator review.
-
-创作者认可了动态 002 的画风。003 延续该方向，增加 Lucky 睡姿、官方原 Logo、双角色英文合成配音和原创配乐。长期“小公司”系列及内容配比仍为待确认提案。
-
-## 4. How to Continue · 接下来怎么做
-
-Motion 003 v004 adds three original poses and stronger timeline-driven acting. Shared originals and generation prompts are in [characters/poses/](characters/poses/README.md); frozen v001–v003 are unchanged. Edit this episode's own `template/`, not the shared baseline / 003 v004 新增三姿势及时间轴表演；共享原图与提示词在姿势库，旧版本不动。本集改自己的模板，不改共用基准。
-
-| Task / 工作 | Edit / 修改位置 | Finish / 完成后 |
-| --- | --- | --- |
-| Dialogue or timing / 对白与节奏 | The episode's `episode.json` / 对应作品配置 | Build, review, save all outputs / 生成、检查、保存全部输出 |
-| Character art or motion / 角色画面与动作 | The episode's `template/`, or `motion/_template/` for shared-baseline episodes / 本集模板；使用共用基准的作品才改共用模板 | Rebuild only intended episodes / 只重新生成本次要更新的作品 |
-| Reuse a past version / 复用旧版 | Copy archived HTML into a new working folder / 把旧版复制到新工作目录 | Keep the original archive unchanged / 原存档不动 |
-| Continue the comic / 继续漫画 | `comics/ep06/` | Write the story, then storyboard and artwork / 先故事，再分镜和画稿 |
-| Publish content / 准备发布 | `captions/` | English copy; update the content map after publishing / 英文文案，实际发布后更新总表 |
-
-Instructions / 操作说明：[Tools / 制作工具](scripts/README.md). A browser can play downloaded HTML; GitHub's file viewer only shows source / 下载后用浏览器播放，GitHub 文件页只看源码。
-
-## 5. Preserve & Verify · 保存与核验
-
-Every version is permanent. Never overwrite or delete `versions/vNNN/`. The selected version may have a lower number. Preview copies in `docs/` are generated outputs; edit the source, not the copies. Keep reference photos outside previews.
-
-所有版本永久保留，不覆盖、不删除。当前选用版可能不是最大编号。`docs/` 是预览副本，修改应从源码进行；参考照片不进入预览目录。
-
-Existing samples passed generation, timeline, and version-integrity checks. Browser screenshot checks were blocked by the local sandbox, so browser visual review remains necessary. Pages is not enabled because the current GitHub plan rejected private-repository Pages; keep the repository private.
-
-现有样片已通过生成、时间轴和版本完整性检查；本机沙箱阻止了浏览器截图检查，仍需人工验看。GitHub 当前套餐不支持该私有仓库的 Pages；保持仓库私有。
+Do not change synced project `sources/`, delete experiments, rewrite archived notes or overwrite the supplied photo/logo / 不改同步参考、不删实验、不重写归档说明、不覆盖原照片和 Logo。

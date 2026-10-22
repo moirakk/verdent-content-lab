@@ -1,0 +1,174 @@
+{
+  "id": "003-chief-nap-officer",
+  "kicker": "MOCHI & LUCKY",
+  "footer": "Business as usual.",
+  "template": "motion/003-chief-nap-officer/template-blue-polish",
+  "storyType": "parallel",
+  "voicesAvailable": true,
+  "variant": "A",
+  "title": "Chief Nap Officer · Blue A Acting Polish",
+  "duration": 18000,
+  "footerAt": 17100,
+  "launchAt": 5300,
+  "detail": [
+    6300,
+    8900
+  ],
+  "voiceDurations": [
+    2208,
+    2448,
+    1872,
+    2088,
+    2280
+  ],
+  "note": "A-only acting polish: approved blue studio paint language retained. New eight-frame complete Lucky/laptop insert clarifies anticipation, contact and release without cut-apart limbs. Motivated speaker shots, caption-free working/reaction holds, unchanged child dialogue and a new original-score remix with quiet beats before the title answer and yawn. Limited animation review draft; B v016 and all prior archives retained. Offline preview is not browser capture or release approval.",
+  "beats": [
+    {
+      "at": 0,
+      "speaker": "Lucky",
+      "text": "I started a company.",
+      "voiceAt": 250,
+      "captionUntil": 2500
+    },
+    {
+      "at": 2600,
+      "speaker": "Mochi",
+      "text": "You have no employees.",
+      "voiceAt": 2800,
+      "captionUntil": 5500
+    },
+    {
+      "at": 5600,
+      "speaker": "Lucky",
+      "text": "About that.",
+      "voiceAt": 5800,
+      "captionUntil": 8050
+    },
+    {
+      "at": 9600,
+      "speaker": "Mochi",
+      "text": "Then what do you do?",
+      "voiceAt": 9800,
+      "captionUntil": 12200
+    },
+    {
+      "at": 12300,
+      "speaker": "Lucky",
+      "text": "Chief Nap Officer.",
+      "voiceAt": 12500,
+      "captionUntil": 15400
+    }
+  ],
+  "frames": [
+    {
+      "at": 0,
+      "pose": 0
+    },
+    {
+      "at": 2630,
+      "pose": 1
+    },
+    {
+      "at": 2770,
+      "pose": 0
+    },
+    {
+      "at": 4750,
+      "pose": 2
+    },
+    {
+      "at": 6300,
+      "pose": 4
+    },
+    {
+      "at": 9600,
+      "pose": 1
+    },
+    {
+      "at": 9780,
+      "pose": 0
+    },
+    {
+      "at": 12300,
+      "pose": 4
+    },
+    {
+      "at": 15050,
+      "pose": 5
+    },
+    {
+      "at": 15400,
+      "pose": 6
+    },
+    {
+      "at": 15850,
+      "pose": 7
+    }
+  ],
+  "revision": "blue-acting-polish-01",
+  "action": {
+    "start": 4850,
+    "end": 6300,
+    "pressAt": 5300,
+    "frames": [
+      0,
+      170,
+      310,
+      450,
+      600,
+      750,
+      940,
+      1170
+    ]
+  },
+  "shots": [
+    {
+      "at": 0,
+      "scale": 1,
+      "focus": [
+        400,
+        600
+      ]
+    },
+    {
+      "at": 2600,
+      "scale": 1.1,
+      "focus": [
+        280,
+        570
+      ]
+    },
+    {
+      "at": 4750,
+      "scale": 1,
+      "focus": [
+        400,
+        600
+      ]
+    },
+    {
+      "at": 9600,
+      "scale": 1.1,
+      "focus": [
+        280,
+        570
+      ]
+    },
+    {
+      "at": 12300,
+      "scale": 1.14,
+      "focus": [
+        440,
+        600
+      ]
+    },
+    {
+      "at": 14850,
+      "scale": 1,
+      "focus": [
+        400,
+        600
+      ]
+    }
+  ]
+}
