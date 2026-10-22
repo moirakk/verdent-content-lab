@@ -1,0 +1,27 @@
+{
+  "id": "005-halloween",
+  "title": "A Little More",
+  "kicker": "MOCHI & LUCKY · HALLOWEEN SPECIAL",
+  "footer": "Happy Halloween.",
+  "duration": 18000,
+  "template": "motion/005-halloween/template-wish",
+  "voicesAvailable": false,
+  "note": "Original Halloween fantasy: a wish to Verdent releases candy. Painted complete-cat key drawings, deterministic candy physics and original score. Fictional magic, not a real product capability. Limited-animation review draft, no speech or lip sync.",
+  "beats": [
+    {
+      "at": 0,
+      "speaker": "Lucky",
+      "text": "Treats, please."
+    },
+    {
+      "at": 4800,
+      "speaker": "Lucky",
+      "text": "A little more."
+    },
+    {
+      "at": 14500,
+      "speaker": "Mochi",
+      "text": "Define “little”."
+    }
+  ]
+}

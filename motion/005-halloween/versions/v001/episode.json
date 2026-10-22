@@ -1,0 +1,36 @@
+{
+  "id": "005-halloween",
+  "title": "Try Harder",
+  "kicker": "MOCHI & LUCKY · HALLOWEEN SPECIAL",
+  "footer": "Still unplugged.",
+  "duration": 16000,
+  "template": "motion/005-halloween/template",
+  "voicesAvailable": false,
+  "note": "Halloween four-shot storyboard animatic with original 108 BPM minor-key celesta/pluck score. No speech or continuous character animation. Unpublished review draft.",
+  "beats": [
+    {
+      "at": 0,
+      "speaker": "Lucky",
+      "text": "Boo.",
+      "panel": 0
+    },
+    {
+      "at": 2800,
+      "speaker": "Mochi",
+      "text": "Try harder.",
+      "panel": 1
+    },
+    {
+      "at": 8200,
+      "speaker": "Lucky",
+      "text": "…",
+      "panel": 2
+    },
+    {
+      "at": 10000,
+      "speaker": "Mochi",
+      "text": "…",
+      "panel": 3
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "005-halloween",
+  "title": "Now That’s Scary",
+  "kicker": "MOCHI & LUCKY · HALLOWEEN SPECIAL",
+  "footer": "the real horror: no treats.",
+  "duration": 16000,
+  "template": "motion/005-halloween/template",
+  "voicesAvailable": false,
+  "note": "Halloween storyboard animatic v001. Four illustrated keyframes, captions and optional synthesized chimes; no speech or completed character animation. Unpublished review draft.",
+  "beats": [
+    {
+      "at": 0,
+      "speaker": "Lucky",
+      "text": "Boo."
+    },
+    {
+      "at": 3500,
+      "speaker": "Mochi",
+      "text": "Terrifying."
+    },
+    {
+      "at": 7000,
+      "speaker": "Lucky",
+      "text": "I ate the treats."
+    },
+    {
+      "at": 11500,
+      "speaker": "Mochi",
+      "text": "Now that’s scary."
+    }
+  ]
+}

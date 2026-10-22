@@ -1,6 +1,6 @@
 # Handoff · 交接说明
 
-Updated / 更新：2026-10-21（Asia/Shanghai）。
+Updated / 更新：2026-10-22（Asia/Shanghai）。
 
 ## Reading Order · 接手顺序
 
@@ -19,7 +19,13 @@ Updated / 更新：2026-10-21（Asia/Shanghai）。
 
 Do not treat an assistant's generated proposal, a high version number, or a successful render as creator approval / 不把助手提案、大版本号或渲染成功当成创作者批准。
 
-## Current Review Question · 当前最需要解决的问题
+## Halloween update · 万圣节新任务
+
+Creator selected a new candy-wish story on 2026-10-22. Current [005 v004](motion/005-halloween/index.html) is an 18-second limited-animation draft with original Halloween BGM and the exact supplied logo. [Review video](motion/005-halloween/previews/halloween-wish-v004-review.mp4). Browser playback, sound, pause/replay and end hold were checked. No child speech or final approval. Previous vacuum concept remains in v001. / 创作者改为向 Verdent 许愿出糖，当前 005 v004 含原创 BGM 与新供原 Logo，播放声音控制已查；无童声，未获最终确认，吸尘器分镜保留于 v001。
+
+Earlier assets/animation/docs were successfully pushed in a6ed89c; the old access block is resolved. / 旧稿已通过 a6ed89c 推送，此前仓库访问障碍已解决。
+
+## Earlier 003 Review Question · 先前 003 验收问题
 
 **Latest priority / 最新优先：review [A v017 · 18s](motion/003-chief-nap-officer/versions/v017/index.html) and its [review MP4](motion/003-chief-nap-officer/previews/v017-blue-acting-review.mp4). Eight complete contact drawings, bounded speaker shots, caption-free deadpan hold, original child dialogue and remixed score. Source template-blue-polish; config episode.json or variants/blue-a-polish.json. Original A v015/B v016 and their template remain unchanged / 当前验新 A：八幅完整接触稿、人物镜头、无字幕冷反应、原童声与配乐重混；独立模板和配置，原 A/B 不动。**
 
@@ -48,6 +54,6 @@ Subsequent feedback rejected both v009's slide-deck feel and v010's detached paw
 - In-app browser blocks local file URLs. Do not bypass that policy; user can manually open the standalone HTML, or inspect the offline MP4 / 应用浏览器阻止 file URL，不绕过；可由用户手动离线打开 HTML，或先看视频。
 - Earlier MP4s are 432×768; v017 is 800×1000 with 12 timeline samples/sec encoded at 24fps. All are offline SVG renders, not browser recordings or final exports / 新版为 800×1000，12 次时间轴采样编码 24fps；均非浏览器实录或最终交付。
 - No public Pages URL was enabled after the earlier private-plan rejection; do not make the repo public / 上次私有套餐拒绝 Pages，未启用公开链接；不改公有。
-- Last local commit/tracking record is `20978fa`; working changes remain uncommitted. Remote state was not freshly fetched / 本地提交与跟踪记录止于该提交；当前改动未提交，本次未联网拉取远端。
+- Complete pre-Halloween sync was pushed as `a6ed89c`; do not repeat the old unsynced-status claim / 万圣节前旧稿已推送，不再沿用未同步状态。
 
 Do not change synced project `sources/`, delete experiments, rewrite archived notes or overwrite the supplied photo/logo / 不改同步参考、不删实验、不重写归档说明、不覆盖原照片和 Logo。

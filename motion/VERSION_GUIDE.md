@@ -69,3 +69,7 @@ v010/v011 action-test MP4s cover only the first 8s, 432×768, 24 timeline sample
 HTML embeds art/audio and can be opened manually in a local browser. Latest browser recording is unverified because the last attempt was blocked by local server/browser restrictions; an old localhost tab is not proof that a new build was loaded / HTML 可手动离线打开；最新浏览器录屏仍待验证，旧 localhost 标签页不证明新版已载入。
 
 [Current progress](../CONTENT_MAP.md) · [Current direction](../PROJECT_BRIEF.md) · [Build and preserve](../scripts/README.md)
+
+## 005 · Halloween / 万圣节
+
+v001: vacuum storyboard animatic. v002: first candy-wish build. v003: corrected crop registration and bounded candy pile. v004: larger cats for phone readability, current working draft. All unpublished; no child speech. / v001 吸尘器分镜；v002 许愿初版；v003 修整猫裁切和糖堆；v004 放大猫咪便于手机观看，为当前工作稿；均未发布，无童声。

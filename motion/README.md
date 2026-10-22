@@ -17,6 +17,8 @@ Current here means the working file, not a release-approved film. The original p
 | 003 | Chief Nap Officer | Blue A acting polish / 蓝地板 A 版表演打磨 | A v017 · 18s; B v016 · 12s / 默认新 A，B 保留 | [A HTML](003-chief-nap-officer/versions/v017/index.html) · [Review MP4](003-chief-nap-officer/previews/v017-blue-acting-review.mp4) · [B HTML](003-chief-nap-officer/versions/v016/index.html) |
 | 004 | That Was a Sentence | Visual draft, speech pending / 画面样片、童声待补 | v002 · 18s · captions + music / 字幕配乐 | [Brief / 说明](004-that-was-a-sentence/README.md) · [HTML](004-that-was-a-sentence/index.html) · [Video / 视频](004-that-was-a-sentence/previews/v002-native-preview.mp4) |
 
+| 005 | A Little More | Halloween limited-animation draft / 万圣节有限动画待审 | v004 · 18s · original score / 原创配乐 | [HTML](005-halloween/index.html) · [Review MP4](005-halloween/previews/halloween-wish-v004-review.mp4) · [Brief / 说明](005-halloween/README.md) |
+
 ## Per-Episode Layout · 每条作品结构
 
 ```text

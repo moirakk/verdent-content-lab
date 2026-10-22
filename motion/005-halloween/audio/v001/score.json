@@ -1,0 +1,335 @@
+{
+  "title": "A Very Unplugged Halloween",
+  "duration": 16.0,
+  "bpm": 108,
+  "tonality": "D harmonic minor",
+  "instruments": [
+    "synthetic celesta",
+    "pizzicato-like plucks",
+    "soft bass",
+    "woodblock paw-scuttle"
+  ],
+  "silence": [
+    7.2,
+    8.2
+  ],
+  "voice": false,
+  "samples": false,
+  "events": [
+    {
+      "at": 0.18,
+      "midi": 74,
+      "duration": 0.65,
+      "instrument": "bell",
+      "gain": 0.11
+    },
+    {
+      "at": 0.4577777777777778,
+      "midi": 77,
+      "duration": 0.65,
+      "instrument": "bell",
+      "gain": 0.11
+    },
+    {
+      "at": 0.7355555555555555,
+      "midi": 76,
+      "duration": 0.65,
+      "instrument": "bell",
+      "gain": 0.11
+    },
+    {
+      "at": 1.0133333333333334,
+      "midi": 73,
+      "duration": 0.65,
+      "instrument": "bell",
+      "gain": 0.11
+    },
+    {
+      "at": 1.291111111111111,
+      "midi": 74,
+      "duration": 0.65,
+      "instrument": "bell",
+      "gain": 0.11
+    },
+    {
+      "at": 0.1,
+      "midi": 50,
+      "duration": 0.4,
+      "instrument": "bass",
+      "gain": 0.085
+    },
+    {
+      "at": 0.6555555555555556,
+      "midi": 57,
+      "duration": 0.4,
+      "instrument": "bass",
+      "gain": 0.085
+    },
+    {
+      "at": 1.2111111111111112,
+      "midi": 53,
+      "duration": 0.4,
+      "instrument": "bass",
+      "gain": 0.085
+    },
+    {
+      "at": 1.7666666666666668,
+      "midi": 57,
+      "duration": 0.4,
+      "instrument": "bass",
+      "gain": 0.085
+    },
+    {
+      "at": 2.3222222222222224,
+      "midi": 50,
+      "duration": 0.4,
+      "instrument": "bass",
+      "gain": 0.085
+    },
+    {
+      "at": 2.8777777777777778,
+      "midi": 57,
+      "duration": 0.4,
+      "instrument": "bass",
+      "gain": 0.085
+    },
+    {
+      "at": 3.0,
+      "midi": 65,
+      "duration": 0.36,
+      "instrument": "pluck",
+      "gain": 0.085
+    },
+    {
+      "at": 3.28,
+      "midi": 62,
+      "duration": 0.36,
+      "instrument": "pluck",
+      "gain": 0.085
+    },
+    {
+      "at": 4.5,
+      "midi": 62,
+      "duration": 0.36,
+      "instrument": "pluck",
+      "gain": 0.085
+    },
+    {
+      "at": 4.78,
+      "midi": 65,
+      "duration": 0.36,
+      "instrument": "pluck",
+      "gain": 0.085
+    },
+    {
+      "at": 5.06,
+      "midi": 68,
+      "duration": 0.36,
+      "instrument": "pluck",
+      "gain": 0.085
+    },
+    {
+      "at": 5.34,
+      "midi": 69,
+      "duration": 0.36,
+      "instrument": "pluck",
+      "gain": 0.085
+    },
+    {
+      "at": 5.62,
+      "midi": 74,
+      "duration": 0.36,
+      "instrument": "pluck",
+      "gain": 0.085
+    },
+    {
+      "at": 5.9,
+      "midi": 73,
+      "duration": 0.36,
+      "instrument": "pluck",
+      "gain": 0.085
+    },
+    {
+      "at": 6.18,
+      "midi": 74,
+      "duration": 0.36,
+      "instrument": "pluck",
+      "gain": 0.085
+    },
+    {
+      "at": 6.46,
+      "midi": 77,
+      "duration": 0.36,
+      "instrument": "pluck",
+      "gain": 0.085
+    },
+    {
+      "at": 6.74,
+      "midi": 76,
+      "duration": 0.36,
+      "instrument": "pluck",
+      "gain": 0.085
+    },
+    {
+      "at": 4.5,
+      "midi": 50,
+      "duration": 0.35,
+      "instrument": "bass",
+      "gain": 0.08
+    },
+    {
+      "at": 5.06,
+      "midi": 50,
+      "duration": 0.35,
+      "instrument": "bass",
+      "gain": 0.08
+    },
+    {
+      "at": 5.62,
+      "midi": 50,
+      "duration": 0.35,
+      "instrument": "bass",
+      "gain": 0.08
+    },
+    {
+      "at": 6.18,
+      "midi": 50,
+      "duration": 0.35,
+      "instrument": "bass",
+      "gain": 0.08
+    },
+    {
+      "at": 6.74,
+      "midi": 50,
+      "duration": 0.35,
+      "instrument": "bass",
+      "gain": 0.08
+    },
+    {
+      "at": 8.2,
+      "midi": 50,
+      "duration": 0.52,
+      "instrument": "bass",
+      "gain": 0.15
+    },
+    {
+      "at": 8.2,
+      "midi": 68,
+      "duration": 0.45,
+      "instrument": "bell",
+      "gain": 0.09
+    },
+    {
+      "at": 8.2,
+      "midi": 74,
+      "duration": 0.5,
+      "instrument": "bell",
+      "gain": 0.09
+    },
+    {
+      "at": 9.12,
+      "midi": 65,
+      "duration": 0.09,
+      "instrument": "wood",
+      "gain": 0.09
+    },
+    {
+      "at": 9.184999999999999,
+      "midi": 69,
+      "duration": 0.09,
+      "instrument": "wood",
+      "gain": 0.09
+    },
+    {
+      "at": 9.25,
+      "midi": 73,
+      "duration": 0.09,
+      "instrument": "wood",
+      "gain": 0.09
+    },
+    {
+      "at": 9.315,
+      "midi": 65,
+      "duration": 0.09,
+      "instrument": "wood",
+      "gain": 0.09
+    },
+    {
+      "at": 9.379999999999999,
+      "midi": 69,
+      "duration": 0.09,
+      "instrument": "wood",
+      "gain": 0.09
+    },
+    {
+      "at": 9.444999999999999,
+      "midi": 73,
+      "duration": 0.09,
+      "instrument": "wood",
+      "gain": 0.09
+    },
+    {
+      "at": 9.51,
+      "midi": 65,
+      "duration": 0.09,
+      "instrument": "wood",
+      "gain": 0.09
+    },
+    {
+      "at": 9.575,
+      "midi": 69,
+      "duration": 0.09,
+      "instrument": "wood",
+      "gain": 0.09
+    },
+    {
+      "at": 9.12,
+      "midi": 74,
+      "duration": 0.28,
+      "instrument": "pluck",
+      "gain": 0.08
+    },
+    {
+      "at": 9.219999999999999,
+      "midi": 77,
+      "duration": 0.28,
+      "instrument": "pluck",
+      "gain": 0.08
+    },
+    {
+      "at": 9.319999999999999,
+      "midi": 81,
+      "duration": 0.28,
+      "instrument": "pluck",
+      "gain": 0.08
+    },
+    {
+      "at": 9.42,
+      "midi": 86,
+      "duration": 0.28,
+      "instrument": "pluck",
+      "gain": 0.08
+    },
+    {
+      "at": 12.3,
+      "midi": 62,
+      "duration": 0.6,
+      "instrument": "pluck",
+      "gain": 0.1
+    },
+    {
+      "at": 12.85,
+      "midi": 50,
+      "duration": 1.0,
+      "instrument": "bass",
+      "gain": 0.12
+    },
+    {
+      "at": 13.4,
+      "midi": 74,
+      "duration": 1.2,
+      "instrument": "bell",
+      "gain": 0.065
+    }
+  ]
+}

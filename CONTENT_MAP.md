@@ -1,6 +1,6 @@
 # Content Map · 内容与实际状态总表
 
-Updated / 更新：2026-10-21（Asia/Shanghai）。This file is the actual-artifact/publication source of truth / 本文件统一记录实际文件与发布状态。
+Updated / 更新：2026-10-22（Asia/Shanghai）。This file is the actual-artifact/publication source of truth / 本文件统一记录实际文件与发布状态。
 
 ## State Labels · 先分清状态
 
@@ -18,12 +18,14 @@ Updated / 更新：2026-10-21（Asia/Shanghai）。This file is the actual-artif
 | 003 · Chief Nap Officer | [A polish · v017 · 18s](motion/003-chief-nap-officer/versions/v017/index.html), [B · v016 · 12s](motion/003-chief-nap-officer/versions/v016/index.html) | Eight additional complete contact drawings, speaker shots, silent reaction hold and remixed original score; 17 archives / 新增八幅完整接触稿、说话镜头、无字幕反应停顿及原配乐重混，17 版 | [18s review MP4](motion/003-chief-nap-officer/previews/v017-blue-acting-review.mp4); A selected, B unchanged; limited animation, creator/browser review pending / 默认 A，B 不动；有限动画待创作者与实录验收 |
 | 004 · That Was a Sentence | [v002 HTML](motion/004-that-was-a-sentence/index.html), 18s / 18 秒 | English captions, original score, animated task-plan scene, [MP4](motion/004-that-was-a-sentence/previews/v002-native-preview.mp4); 2 archives / 字幕配乐与任务展开画面、2 版 | No usable new child speech; browser recording/film review pending / 缺新童声，待浏览器录屏与成片确认 |
 
-**All four motion episodes remain unpublished drafts. 22 episode HTML archives total / 四条动态作品均未发布，共 22 个 HTML 存档。**
+| 005 · A Little More | [v004 HTML](motion/005-halloween/index.html), 18s / 18 秒 | Twelve complete-cat key drawings, wishing action, candy trajectories/pile, original Halloween score, [review MP4](motion/005-halloween/previews/halloween-wish-v004-review.mp4); 4 archives / 十二幅整猫关键稿、许愿糖雨与原创节日配乐，4 版 | Chromium playback/controls checked; no child speech, creator film review pending / 浏览器播放控制已查，无童声，待创作者成片验收 |
+
+**All five motion episodes remain unpublished drafts. 26 episode HTML archives total / 五条动态作品均未发布，共 26 个 HTML 存档。**
 
 Current production stage / 当前所处阶段：**2 of 4 — character acting and short-scene validation / 四阶段中的第 2 阶段：角色动作与短段验证**. This is not 50% completion; full-episode approval, actual recording and publication remain pending. [Stage definitions / 阶段说明](PRODUCTION_GUIDE.md) / 不按阶段数推算百分比；整集验收、实录与发布仍待完成。
 Details / 逐版解释：[Version Guide](motion/VERSION_GUIDE.md). Working paths were not changed by this reorganization / 本次整理没有切换当前作品文件。
 
-Immediate priority / 当前优先：review v017's contact action and deadpan hold against the accepted blue-scene direction; do not change character design or expand the queue / 对照获认可蓝地板方向验看接触动作与冷幽默停顿，不换造型、不扩量。
+Immediate priority / 当前优先：review the creator-requested Halloween candy-wish episode 005; 003 v017 remains preserved / 验看创作者新要求的 005 万圣节许愿糖雨，003 v017 保留不动。
 
 003 maps to M02 parallel work; 004 maps to M01 goal decomposition. 001/002 are not verified product demonstrations. UI in 003/004 is illustrative / 功能关联明确，界面是剧情示意，不冒充实测。
 
@@ -60,8 +62,8 @@ This is not a full product specification or an approved 40-episode schedule / �
 ## Git & Access · 保存与访问
 
 - Private repo / 私有仓库：[moirakk/verdent-content-lab](https://github.com/moirakk/verdent-content-lab).
-- Local HEAD and stored origin/main record: `20978fa` (003 v004-era commit). This is the last local sync record, not a fresh remote check / 本地提交和远端跟踪记录，不冒充最新远端查询。
-- v005 onward, Motion 004 and the current documentation/art changes are local/uncommitted / 之后的版本与新片、说明及素材仍为本地未提交改动。
+- Previous complete project sync confirmed by push: `a6ed89c`, after cat-scene sync `42f7483` / 上一批全部旧稿已推送，新场景素材先由 42f7483 保存。
+- The Halloween source, outputs, archives, music and user-supplied logo are saved together in the next commit; consult GitHub for the current remote SHA / 本次万圣节源码、输出、历史、配乐和用户 Logo 一起提交；当前远端以 GitHub 提交号为准。
 - Public Pages not enabled after earlier private-plan rejection. Current HTML works as a standalone file; latest local-server/browser-recording check was blocked / Pages 未启用，可手动离线打开 HTML；上次本地服务与实录检查受阻。
 
 For a real release, add approved asset/version, channel, date and URL. Unknown fields stay TBD / 真正发布后补最终版本、渠道、日期、链接，未知不编造。
