@@ -1,11 +1,11 @@
-# Accepted Scene Direction · 获认可的场景方向
+# Painting Anchors · 画风锚点
 
-[Blue studio keyframe v001](blue-studio-keyframe-v001.png) was accepted with “这个版不错 继续做内容” / 创作者认可该关键帧并要求继续内容。
+| Reference / 参考 | Meaning / 作用 |
+| --- | --- |
+| [Blue studio keyframe](blue-studio-keyframe-v001.png) | Creator accepted the painted scene direction; basis for ordinary-life characters / 创作者认可的蓝底水粉场景与日常造型参考 |
+| [Supplied Halloween painting](halloween-approved-painting-2026-10-22.png) | Exact painted ghost-sheet Lucky and orange Mochi feel requested by creator / 用户要求的白布幽灵 Lucky 与橘猫笔触 |
+| [Original blue-floor painting](../references/painted-style-2026-10-20.png) | Original proportion/brush-language source / 原始比例和粗笔触来源 |
 
-Its source is the creator's [original blue-floor painting](../references/painted-style-2026-10-20.png), not recent fine-fur/upright mascot experiments / 来源是原蓝底绘画，而非近期精细毛发拟人实验。
+Keep coarse broken matte oil/gouache planes and natural kitten anatomy. The creator rejected glossy/3D-rendered cats. Laptop thickness, keys and candy depth may be spatial without redesigning the painted characters / 保留粗而断续的哑光油画水粉与自然幼猫，创作者拒绝亮面三维猫；电脑与糖果可有立体空间，不换角色材质。
 
-Broad broken gouache planes, natural kitten anatomy, unified painted floor/wall, restrained faces / 大块粗水粉笔触、自然幼猫体态、统一绘画环境与克制神态。
-
-This approves scene direction only. Derived cast sheets and A/B film timing still need review / 仅确认场景方向；派生角色稿与两版节奏仍需验收。
-
-[Generation record / 生成记录](../../motion/003-chief-nap-officer/template-blue/PROMPTS.md).
+Scene/style acceptance does not approve every derived pose, timing or finished film. [Visual rules](../../brand/VISUAL_STYLE.md) apply across different rooms / 场景画风认可不等于所有派生画稿节奏与成片获批，规范适用于不同房间。

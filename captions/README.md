@@ -1,9 +1,13 @@
-# Captions · 社媒文案
+# Publishing Drafts · 发布文案
 
-Store copy, image descriptions, channels, and release links by content ID. Captions and published image descriptions are English only; documentation labels and internal notes are bilingual. Use character names directly, keep the voice brief and natural, and avoid forced product names or sales calls. Mark unconfirmed copy Draft; record dates and URLs only after actual release.
+Version-labelled English captions and alt text for review. These files do not prove publication. Record actual channel, date, URL and approval only after release / 按版本标记的英文文案与画面描述，均为待审草稿，不代表发布；真实上线后再补渠道日期链接和批准。
 
-发布用 caption 和图片描述全部英文；文档标签与内部备注双语。现有文案见 [Motion 001 / 动态 001](motion-001.md)。
+| Episode / 剧集 | Copy / 文案 |
+| --- | --- |
+| 001 · The Corner Office · v004 | [Caption / 发布草稿](motion-001.md) |
+| 002 · One Tiny Feature · v003 | [Caption / 发布草稿](motion-002.md) |
+| 003 · Chief Nap Officer · v019 | [Caption / 发布草稿](motion-003.md) |
+| 004 · Soft Launch · v006 | [Caption / 发布草稿](motion-004.md) |
+| 005 · A Little More · v012 | [Caption / 发布草稿](motion-005-halloween.md) |
 
-按内容 ID 保存 caption、替代文字、渠道与最终发布链接。英文对白直接用 Mochi / Lucky。短、有人物语气、不堆产品名；默认无需销售 CTA。
-
-未确认的文案写 Draft，只有真实发布后才记录日期与 URL。
+Finished captions/alt text are English only; internal notes are bilingual. Check the film after every story change before reusing copy. [Actual release state](../CONTENT_MAP.md) and [current film versions](../EPISODES.md) take precedence / 成品文案英文、内部说明双语；剧情改动后先对片再复用，实际发布与选用版本以总表为准。

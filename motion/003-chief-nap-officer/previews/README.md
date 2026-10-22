@@ -1,3 +1,5 @@
+> Historical production notes / 历史制作记录: the versions, source selection and limitations below describe that earlier experiment. Current selections: [EPISODES.md](../../../EPISODES.md). / 下文属当时批次，当前以总览为准。
+
 # Video Previews · 视频预览
 
 [v012 full-story experiment / 全长剧情实验](v012-full-story-review.mp4): 18s, 432×768, 24 timeline samples/sec, original child audio. **Style review reopened; not an approved visual standard** / 全长实验保留，画风已重新回校，不作获批新标准。[Style priority / 回校优先](../../../brand/STYLE_REVIEW.md).

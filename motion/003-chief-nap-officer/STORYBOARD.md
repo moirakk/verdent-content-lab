@@ -1,3 +1,5 @@
+> Historical production notes / 历史制作记录: the versions, source selection and limitations below describe that earlier experiment. Current selections: [EPISODES.md](../../EPISODES.md). / 下文属当时批次，当前以总览为准。
+
 # Full-Story Polish v012 · 全长剧情节奏稿
 
 Status / 状态：Local review draft, not approved for release / 本地待审，未获发布确认。18 seconds; keep the existing five English lines and child audio v002 / 保留五句英文对白与现有童声。

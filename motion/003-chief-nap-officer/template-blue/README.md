@@ -1,3 +1,5 @@
+> Historical production notes / 历史制作记录: the versions, source selection and limitations below describe that earlier experiment. Current selections: [EPISODES.md](../../../EPISODES.md). / 下文属当时批次，当前以总览为准。
+
 # Blue Studio Template · 蓝地板场景模板
 
 Two timing cuts share one painted world, eight complete cast drawings and embedded original-logo/audio assets / 两版节奏共用统一水粉场景、八幅完整双猫稿及内嵌原 Logo 和声音。

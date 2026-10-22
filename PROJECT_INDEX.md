@@ -1,40 +1,41 @@
-# Project Index · 项目整理入口
+# Project Index · 项目总索引
 
-Updated / 更新：2026-10-22（Asia/Shanghai）。Private original-content workspace / 私有原创内容工作室。
+## Watch and continue · 观看与接手
 
-**Watch / 观看：[Episode Library / 剧集总览](docs/index.html)** · [Current status / 实际状态](CONTENT_MAP.md) · [Episode table / 剧集表](EPISODES.md)
+[Episode library / 剧集总览](docs/index.html) · [Selected versions / 当前版本](EPISODES.md) · [Actual state / 实际状态](CONTENT_MAP.md) · [Tasks / 待办](TASKS.md) · [Handoff / 接手](HANDOFF.md)
 
-## Current films · 当前剧集
+## Find assets · 查找素材
 
-| ID | Title / 标题 | Selected / 当前 | Editable source / 修改入口 |
-| --- | --- | --- | --- |
-| 001 | The Corner Office | v004 · 18s | [Painted story system / 生活短剧源](motion/_painted-story/README.md) + [config / 配置](motion/001-have-an-idea/episode.json) |
-| 002 | One Tiny Feature | v003 · 18s | [Painted story system / 生活短剧源](motion/_painted-story/README.md) + [config / 配置](motion/002-tiny-feature/episode.json) |
-| 003 | Chief Nap Officer | v019 · 18s | [Episode / 本集](motion/003-chief-nap-officer/README.md), template-blue-polish |
-| 004 | Soft Launch | v006 · 20s | [Painted story system / 生活短剧源](motion/_painted-story/README.md) + [config / 配置](motion/004-that-was-a-sentence/episode.json) |
-| 005 | A Little More · Halloween | v012 · 18s | [Episode / 本集](motion/005-halloween/README.md), template-interaction |
+| Need / 用途 | Entry / 入口 |
+| --- | --- |
+| Character identities / 人物身份 | [Profiles / 档案](characters/README.md), [IP Bible / 人设](brand/IP_BIBLE.md) |
+| Style anchors / 画风锚点 | [Accepted references / 认可参考](characters/style-anchors/README.md), [Visual rules / 视觉规范](brand/VISUAL_STYLE.md) |
+| Lifestyle locations / 生活布景 | [Scene gallery index / 场景目录](scenes/README.md) |
+| Expression sheets / 表情稿 | [Expression index / 表情目录](characters/expressions/README.md) |
+| Shared pose studies / 共享动作实验 | [Pose library / 姿势库](characters/poses/README.md) |
+| New story art / 新生活短剧画稿 | [Painted story source / 生活短剧源](motion/_painted-story/README.md), [Prompts / 提示词](motion/_painted-story/PROMPTS.md) |
+| Halloween art and laptop / 节日画稿与电脑 | [005 / 万圣节集](motion/005-halloween/README.md) |
+| Official supplied logos / 用户原 Logo | [Brand assets / 品牌原件](brand/assets/README.md) |
+| Audio sources / 声音原件 | Each episode's audio/ and selected template/assets/; see [template map / 模板表](motion/TEMPLATE_MAP.md) / 本集音频目录及选用模板 |
+| Media fingerprints and copies / 素材指纹与副本 | [Unified inventory / 统一素材目录](inventory/README.md) |
 
-All five have child voices, original music and downloadable MP4s. All are unpublished review drafts. 44 permanent HTML versions remain; 003/005 films are retained benchmarks. / 五集均有童声、原创配乐与视频下载，均为未发布待审稿；44 个 HTML 历史保留，003、005 成片保留作基准。
+## Find editable work · 查找修改源
 
-## Assets and documents · 素材与文档
+[Current episode/template data / 当前配置与模板](inventory/episodes.json) is generated from episode.json and the selected HTML hash. [Template map / 模板状态表](motion/TEMPLATE_MAP.md) distinguishes current and historical directories / 当前表根据实际配置生成，明确当前和历史模板。
 
-| Need / 用途 | Location / 位置 | Contents / 内容 |
-| --- | --- | --- |
-| Character identity / 人设外貌 | [Characters / 角色](characters/README.md), [IP Bible / 设定](brand/IP_BIBLE.md) | Original profiles, private references / 原始人设与私有参考 |
-| Accepted painting / 认可画风 | [Style anchors / 参考](characters/style-anchors/README.md), [Visual rules / 规范](brand/VISUAL_STYLE.md) | Blue-room and Halloween anchors / 蓝底与节日参考 |
-| Lifestyle scenes / 生活场景 | [Scene catalog / 场景目录](scenes/ASSET_CATALOG.json) | 12 scene keyframes / 十二处生活关键帧 |
-| Expressions / 表情 | [Expression metadata / 表情记录](characters/expressions/batch-ip-everyday-v001.json) | Four PNG sheets; other batch metadata alongside / 四张表情稿及同目录批次资料 |
-| Shared pose experiments / 共享姿势 | [Poses / 姿势库](characters/poses/README.md) | Eight single-pose PNGs and sequence experiments / 八张单姿势及动作实验 |
-| New story art / 新剧情画稿 | [Story assets / 新剧情素材](motion/_painted-story/README.md), [Prompts / 提示词](motion/_painted-story/PROMPTS.md) | Three rooms, three whole-cat action sheets, mug and registration / 三套房间、三套整猫动作、杯子及对位数据 |
-| Voices, BGM, SFX / 声音 | motion/集数/audio/ and template-story/assets/ | Raw clips, profiles, measured timings, original scores, mixed audio; incomplete attempts labelled / 分轨声线时长、原谱混音，未完成尝试有标记 |
-| Official logo / 官方标志 | [Brand assets / 品牌原件](brand/assets/README.md) | Original supplied logos preserved / 用户原 Logo 保留 |
-| Comics and copy / 漫画文案 | [Comics / 漫画](comics/README.md), [Captions / 文案](captions/README.md) | Separate numbering and release status / 独立编号与发布状态 |
-| Future stories / 后续故事 | [Story cards / 故事卡](motion/ideas/next-stories-2026-10-22.md) | Office idea adapted into 001; two ideas remain proposals / 纸箱选题已用于 001，其余两条仍为提案 |
-| Editing and exporting / 修改导出 | [Tools / 工具](scripts/README.md) | Build, archive, render, voice and music tools / 构建归档、渲染、配音配乐 |
-| Continue work / 接手 | [Handoff / 交接](HANDOFF.md) | Latest source selection and limitations / 当前源与边界 |
+001/002/004 share [the painted story system / 新剧情系统](motion/_painted-story/README.md); their template-story directories are prepared local copies. 003 uses template-blue-polish; 005 uses template-interaction. Earlier templates stay available for historical reuse / 三集共用新剧情系统，本集模板为准备后的副本；003、005 各用独立模板，旧模板保留复用。
 
-## Preservation · 保留方式
+[Tools / 工具](scripts/README.md) · [Production stages / 制作阶段](PRODUCTION_GUIDE.md) · [Every HTML version / 全部 HTML 历史](motion/VERSION_GUIDE.md)
 
-Each episode keeps episode.json, editable templates, audio sources, exported previews and versions/index.html. Every versions/vNNN directory is immutable, including rejected experiments. docs/ contains generated viewing copies and video downloads; source edits happen in motion/. Earlier template-unified and _painted-series sources remain historical rather than being deleted. / 每集保留配置、模板、声音原件、视频及历史索引；永久历史含失败实验；docs 为观看副本，motion 为修改源；旧模板不删除。
+## Editorial material · 内容资料
 
-The repository contains the selected artwork, original prompts, voices, scores, finished mixes, current videos and all archived HTML. Temporary browser frame dumps remain outside Git; the reproducible renderer is saved in scripts/render-story-previews.cjs. Local runtime dependencies and caches are not production assets. / 已保存选中画稿、提示词、分轨、配乐、混音、视频及全部 HTML；临时帧图不进 Git，复现渲染脚本已入库，运行依赖缓存不是内容素材。
+[Comic continuity / 漫画连续性](comics/README.md) · [Publishing drafts / 发布草稿](captions/README.md) · [Story proposals / 故事提案](motion/ideas/README.md) · [Product research / 产品资料](brand/VERDENT_FEATURE_MAP.md)
+
+Comic numbers are independent of motion IDs. A proposal, selected draft, Git sync and published post are different states / 漫画和动态编号独立；提案、选用稿、Git 同步与真实发布是不同状态。
+
+## History and preservation · 历史与保留
+
+- Each episode's versions/index.html browses permanent HTML/source snapshots / 本集版本入口保存永久 HTML 和源码快照。
+- [Documentation archive / 说明历史](archive/README.md) preserves the earlier accumulated notes; current instructions live at stable root paths / 旧批次说明另存，当前指引仍在稳定路径。
+- Identical media copies support standalone HTML, frozen sources and viewing copies. The inventory groups their fingerprints; it does not authorize deleting required copies / 同素材副本服务于单文件、永久源码和观看副本，目录只做归并查找，不据此删除。
+- Temporary browser frame dumps, runtime dependencies and caches stay outside production assets. The render procedure is saved in scripts/ / 临时帧图、依赖缓存不作为生产素材，复现渲染流程已保存。

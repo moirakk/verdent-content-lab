@@ -1,3 +1,5 @@
+> Historical production notes / 历史制作记录: the versions, source selection and limitations below describe that earlier experiment. Current selections: [EPISODES.md](../../EPISODES.md). / 下文属当时批次，当前以总览为准。
+
 # Assets & Animation · 素材与动画
 
 The original gouache identity stays anchored to Motion 003 v005. The creator approved richer expressions and suggested The Legend of Hei as a 2D acting/staging reference; no franchise characters, model sheets, logos, scenes or animation frames were copied / 以 003 v005 为造型锚点；创作者认可更多表演，并提出参考《罗小黑》的二维节奏。不复制其角色、设定稿、标志、场景或动画帧。

@@ -1,0 +1,3864 @@
+{
+  "schemaVersion": 1,
+  "summary": {
+    "mediaFiles": 581,
+    "uniqueContents": 191,
+    "totalBytes": 813181321,
+    "uniqueBytes": 212904938
+  },
+  "note": "Identical copies are intentional for standalone films, frozen source and docs previews. Never delete a copy using this catalog alone. / 单文件成片、永久源码和预览需要同内容副本，不可仅凭此表删除。",
+  "assets": [
+    {
+      "canonicalPath": "brand/assets/verdent-logo-original.png",
+      "sha256": "7c1b805626676bdec86e81c7301d55cbc36ed82da3011a2640410632fe99e054",
+      "bytes": 25207,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "brand/assets/verdent-logo-original.png",
+          "role": "shared-original"
+        },
+        {
+          "path": "brand/assets/verdent-logo-supplied-2026-10-22.png",
+          "role": "shared-original"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/template-blue-polish/assets/verdent-logo-original.png",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/005-halloween/template-interaction/assets/verdent-logo-original.png",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/005-halloween/template-interaction/assets/verdent-logo-supplied-2026-10-22.png",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/_painted-series/assets/verdent-logo.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/001-have-an-idea/template-unified/assets/verdent-logo.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/002-tiny-feature/template-unified/assets/verdent-logo.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/template-blue/assets/verdent-logo-original.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/template/assets/verdent-logo-original.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/template-unified/assets/verdent-logo.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/template/assets/verdent-logo-original.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/005-halloween/template-wish/assets/verdent-logo-original.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/005-halloween/template-wish/assets/verdent-logo-supplied-2026-10-22.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/001-have-an-idea/versions/v003/template/assets/verdent-logo.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/002-tiny-feature/versions/v002/template/assets/verdent-logo.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v001/template/assets/verdent-logo-original.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v002/template/assets/verdent-logo-original.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v003/template/assets/verdent-logo-original.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v004/template/assets/verdent-logo-original.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v005/template/assets/verdent-logo-original.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v006/template/assets/verdent-logo-original.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v007/template/assets/verdent-logo-original.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v008/template/assets/verdent-logo-original.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v009/template/assets/verdent-logo-original.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v010/template/assets/verdent-logo-original.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v011/template/assets/verdent-logo-original.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v012/template/assets/verdent-logo-original.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v013/template/assets/verdent-logo-original.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v014/template/assets/verdent-logo-original.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v015/template/assets/verdent-logo-original.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v016/template/assets/verdent-logo-original.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v017/template/assets/verdent-logo-original.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v018/template/assets/verdent-logo-original.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v019/template/assets/verdent-logo-original.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v001/template/assets/verdent-logo-original.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v002/template/assets/verdent-logo-original.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v003/template/assets/verdent-logo-original.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v004/template/assets/verdent-logo-original.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v005/template/assets/verdent-logo.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v002/template/assets/verdent-logo-supplied-2026-10-22.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v003/template/assets/verdent-logo-supplied-2026-10-22.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v004/template/assets/verdent-logo-supplied-2026-10-22.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v005/template/assets/verdent-logo-supplied-2026-10-22.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v006/template/assets/verdent-logo-supplied-2026-10-22.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v007/template/assets/verdent-logo-supplied-2026-10-22.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v008/template/assets/verdent-logo-supplied-2026-10-22.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v009/template/assets/verdent-logo-supplied-2026-10-22.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v010/template/assets/verdent-logo-supplied-2026-10-22.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v011/template/assets/verdent-logo-supplied-2026-10-22.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v012/template/assets/verdent-logo-supplied-2026-10-22.png",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "characters/expressions/lucky-six-moods-v001.png",
+      "sha256": "cf9f1d826baac5ec3a9c5ed8c6e46f05d0894ec38e4a6db11a25723e58a616e4",
+      "bytes": 1990613,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "characters/expressions/lucky-six-moods-v001.png",
+          "role": "shared-original"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "characters/expressions/mochi-curious-moods-v001.png",
+      "sha256": "bf6c7087fb7e5e011e82213bd2efdc66153f8d6a7331addd5c879af0aae016f5",
+      "bytes": 2316046,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "characters/expressions/mochi-curious-moods-v001.png",
+          "role": "shared-original"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "characters/expressions/mochi-six-moods-v001.png",
+      "sha256": "fadfa6120791ababbee5c68478a21d53eaa0e4e4b8cc36b79afe898a04c10d03",
+      "bytes": 2280939,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "characters/expressions/mochi-six-moods-v001.png",
+          "role": "shared-original"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "characters/expressions/mochi-warm-moods-v001.png",
+      "sha256": "6d506b11721855de7eaa9e2c07ede1a8422a9a659d2ded32b6b70b50f24c4f07",
+      "bytes": 2292827,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "characters/expressions/mochi-warm-moods-v001.png",
+          "role": "shared-original"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "characters/poses/lucky-proud-blink-v001.png",
+      "sha256": "84bfa81706901b22d852f8b8e2a06dd7dbc4d3b418b121034db7d014f24df0b2",
+      "bytes": 1858737,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "characters/poses/lucky-proud-blink-v001.png",
+          "role": "shared-original"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/template/assets/lucky-proud-blink-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/template/assets/lucky-proud-blink-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v006/template/assets/lucky-proud-blink-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v007/template/assets/lucky-proud-blink-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v008/template/assets/lucky-proud-blink-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v009/template/assets/lucky-proud-blink-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v010/template/assets/lucky-proud-blink-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v011/template/assets/lucky-proud-blink-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v012/template/assets/lucky-proud-blink-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v001/template/assets/lucky-proud-blink-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v002/template/assets/lucky-proud-blink-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v003/template/assets/lucky-proud-blink-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v004/template/assets/lucky-proud-blink-v001.png",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "characters/poses/lucky-proud-v001.png",
+      "sha256": "642dcffb2e77fa8f13becbe3f36400b0f57ca4b62210b606ffa6ef6de4281ee1",
+      "bytes": 1851220,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "characters/poses/lucky-proud-v001.png",
+          "role": "shared-original"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/template/assets/lucky-proud-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/template/assets/lucky-proud-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v004/template/assets/lucky-proud-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v005/template/assets/lucky-proud-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v006/template/assets/lucky-proud-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v007/template/assets/lucky-proud-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v008/template/assets/lucky-proud-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v009/template/assets/lucky-proud-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v010/template/assets/lucky-proud-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v011/template/assets/lucky-proud-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v012/template/assets/lucky-proud-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v001/template/assets/lucky-proud-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v002/template/assets/lucky-proud-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v003/template/assets/lucky-proud-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v004/template/assets/lucky-proud-v001.png",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "characters/poses/lucky-sheepish-v001.png",
+      "sha256": "a5a1cb5be14fc966fc064dba5e765017c71da6741b25719ffbcb736b122d63a8",
+      "bytes": 1894639,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "characters/poses/lucky-sheepish-v001.png",
+          "role": "shared-original"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/template/assets/lucky-sheepish-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/template/assets/lucky-sheepish-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v006/template/assets/lucky-sheepish-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v007/template/assets/lucky-sheepish-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v008/template/assets/lucky-sheepish-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v009/template/assets/lucky-sheepish-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v010/template/assets/lucky-sheepish-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v011/template/assets/lucky-sheepish-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v012/template/assets/lucky-sheepish-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v001/template/assets/lucky-sheepish-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v002/template/assets/lucky-sheepish-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v003/template/assets/lucky-sheepish-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v004/template/assets/lucky-sheepish-v001.png",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "characters/poses/lucky-taste-test-v001.png",
+      "sha256": "c67d1e1e49ceef6fce68c017a7b09b8790106bb83aea1764b864f5199132f1e6",
+      "bytes": 2142578,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "characters/poses/lucky-taste-test-v001.png",
+          "role": "shared-original"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/template/assets/lucky-taste-test-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/template/assets/lucky-taste-test-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v006/template/assets/lucky-taste-test-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v007/template/assets/lucky-taste-test-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v008/template/assets/lucky-taste-test-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v009/template/assets/lucky-taste-test-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v010/template/assets/lucky-taste-test-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v011/template/assets/lucky-taste-test-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v012/template/assets/lucky-taste-test-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v001/template/assets/lucky-taste-test-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v002/template/assets/lucky-taste-test-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v003/template/assets/lucky-taste-test-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v004/template/assets/lucky-taste-test-v001.png",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "characters/poses/lucky-yawn-v001.png",
+      "sha256": "c66da1c1e475e5ef035b1ec541c8649460020b2569adbe2875f7077c64b0739e",
+      "bytes": 2550841,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "characters/poses/lucky-yawn-v001.png",
+          "role": "shared-original"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/template/assets/lucky-yawn-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/template/assets/lucky-yawn-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v004/template/assets/lucky-yawn-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v005/template/assets/lucky-yawn-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v006/template/assets/lucky-yawn-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v007/template/assets/lucky-yawn-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v008/template/assets/lucky-yawn-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v009/template/assets/lucky-yawn-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v010/template/assets/lucky-yawn-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v011/template/assets/lucky-yawn-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v012/template/assets/lucky-yawn-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v001/template/assets/lucky-yawn-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v002/template/assets/lucky-yawn-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v003/template/assets/lucky-yawn-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v004/template/assets/lucky-yawn-v001.png",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "characters/poses/mochi-amused-v001.png",
+      "sha256": "dde51367bb516365d6a753443e1107c19beffcd5933d2107a17a68927aff20f9",
+      "bytes": 2118038,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "characters/poses/mochi-amused-v001.png",
+          "role": "shared-original"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/template/assets/mochi-amused-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/template/assets/mochi-amused-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v006/template/assets/mochi-amused-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v007/template/assets/mochi-amused-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v008/template/assets/mochi-amused-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v009/template/assets/mochi-amused-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v010/template/assets/mochi-amused-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v011/template/assets/mochi-amused-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v012/template/assets/mochi-amused-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v001/template/assets/mochi-amused-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v002/template/assets/mochi-amused-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v003/template/assets/mochi-amused-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v004/template/assets/mochi-amused-v001.png",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "characters/poses/mochi-side-eye-blink-v001.png",
+      "sha256": "6e8a67869482b8b58b3b1ef6e9eda9252328547206ba35094bb6db92c14d9bd0",
+      "bytes": 2014259,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "characters/poses/mochi-side-eye-blink-v001.png",
+          "role": "shared-original"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/template/assets/mochi-side-eye-blink-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/template/assets/mochi-side-eye-blink-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v006/template/assets/mochi-side-eye-blink-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v007/template/assets/mochi-side-eye-blink-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v008/template/assets/mochi-side-eye-blink-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v009/template/assets/mochi-side-eye-blink-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v010/template/assets/mochi-side-eye-blink-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v011/template/assets/mochi-side-eye-blink-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v012/template/assets/mochi-side-eye-blink-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v001/template/assets/mochi-side-eye-blink-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v002/template/assets/mochi-side-eye-blink-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v003/template/assets/mochi-side-eye-blink-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v004/template/assets/mochi-side-eye-blink-v001.png",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "characters/poses/mochi-side-eye-v001.png",
+      "sha256": "e88e463e482b8ff9e104410fecb4840a305f59660d37682c67c8901dc2968a7e",
+      "bytes": 2114284,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "characters/poses/mochi-side-eye-v001.png",
+          "role": "shared-original"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/template/assets/mochi-side-eye-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/template/assets/mochi-side-eye-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v004/template/assets/mochi-side-eye-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v005/template/assets/mochi-side-eye-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v006/template/assets/mochi-side-eye-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v007/template/assets/mochi-side-eye-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v008/template/assets/mochi-side-eye-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v009/template/assets/mochi-side-eye-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v010/template/assets/mochi-side-eye-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v011/template/assets/mochi-side-eye-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v012/template/assets/mochi-side-eye-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v001/template/assets/mochi-side-eye-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v002/template/assets/mochi-side-eye-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v003/template/assets/mochi-side-eye-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v004/template/assets/mochi-side-eye-v001.png",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "characters/poses/sequences/lucky-nap-sheet-v001-draft.png",
+      "sha256": "ed85aa936110576df5fc4b83fbd0e29c89f5189afc40b8798cf57e2d56b12409",
+      "bytes": 2079573,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "characters/poses/sequences/lucky-nap-sheet-v001-draft.png",
+          "role": "shared-original"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "characters/poses/sequences/lucky-nap-sheet-v002.png",
+      "sha256": "296fa5eebc2091c84de7c44d65b4a38ec099492c8ec549364aad30d01b08ad95",
+      "bytes": 1422299,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "characters/poses/sequences/lucky-nap-sheet-v002.png",
+          "role": "shared-original"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/template/assets/lucky-nap-sheet-v002.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v012/template/assets/lucky-nap-sheet-v002.png",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "characters/poses/sequences/lucky-reach-sheet-v001-draft.png",
+      "sha256": "ca561c840c3a08b4bb1ee2a7ecddf36005eadfebfe4bef022824ef9d1a167dc2",
+      "bytes": 2344717,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "characters/poses/sequences/lucky-reach-sheet-v001-draft.png",
+          "role": "shared-original"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "characters/poses/sequences/lucky-reach-sheet-v002.png",
+      "sha256": "549c45cfa6b1c207b3f4a8d4c15987c48306e1212ff759aabcddf192c3ce8e33",
+      "bytes": 1990994,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "characters/poses/sequences/lucky-reach-sheet-v002.png",
+          "role": "shared-original"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/template/assets/lucky-reach-sheet-v002.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v011/template/assets/lucky-reach-sheet-v002.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v012/template/assets/lucky-reach-sheet-v002.png",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "characters/poses/sequences/mochi-reaction-sheet-v001-draft.png",
+      "sha256": "38114821fe2bc50b5ef10794dc988da527247caacf3d98aa6db0c81c23915f6a",
+      "bytes": 2328546,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "characters/poses/sequences/mochi-reaction-sheet-v001-draft.png",
+          "role": "shared-original"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "characters/poses/sequences/mochi-reaction-sheet-v002.png",
+      "sha256": "5b532bd2a9ac568f185a41facf4ece409b90dc0d3f2b4ffa241fbbccf3f116b1",
+      "bytes": 1560126,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "characters/poses/sequences/mochi-reaction-sheet-v002.png",
+          "role": "shared-original"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/template/assets/mochi-reaction-sheet-v002.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v011/template/assets/mochi-reaction-sheet-v002.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v012/template/assets/mochi-reaction-sheet-v002.png",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "characters/references/mochi-and-lucky-original.jpeg",
+      "sha256": "8a38cab65220c648bb4c95836ba5dafd3f47b9e0d830f5fbd56dccceec13bed4",
+      "bytes": 7870907,
+      "extension": "jpeg",
+      "locations": [
+        {
+          "path": "characters/references/mochi-and-lucky-original.jpeg",
+          "role": "private-reference"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "characters/references/painted-style-2026-10-20.png",
+      "sha256": "131cba9bb753c0883cb0b041a2fdc1cef7b2727385e89a97a3773f160c0c2c6b",
+      "bytes": 2859193,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "characters/references/painted-style-2026-10-20.png",
+          "role": "private-reference"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "characters/style-anchors/blue-studio-keyframe-v001.png",
+      "sha256": "06e777a3863f1bc380fcba06ebf705b766927f6c6acaecf0c300c786f9c34d9b",
+      "bytes": 2676920,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "characters/style-anchors/blue-studio-keyframe-v001.png",
+          "role": "shared-original"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "characters/style-anchors/halloween-approved-painting-2026-10-22.png",
+      "sha256": "5295be5a2f8552c77029e1da9772eb2cfc49a8eabf3601f54f82031cd941ab91",
+      "bytes": 2929102,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "characters/style-anchors/halloween-approved-painting-2026-10-22.png",
+          "role": "shared-original"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "docs/assets/episodes/001-have-an-idea.webp",
+      "sha256": "438077084cd6f337131f14fa29ece7db8c46cdde70f42294e99b1b6cd2312a27",
+      "bytes": 72796,
+      "extension": "webp",
+      "locations": [
+        {
+          "path": "docs/assets/episodes/001-have-an-idea.webp",
+          "role": "viewing-copy"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "docs/assets/episodes/002-tiny-feature.webp",
+      "sha256": "45ad0bb858d20bc880244c979d1d0dce810837290b67a74029e84830a0c805f9",
+      "bytes": 62012,
+      "extension": "webp",
+      "locations": [
+        {
+          "path": "docs/assets/episodes/002-tiny-feature.webp",
+          "role": "viewing-copy"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "docs/assets/episodes/003-chief-nap-officer.webp",
+      "sha256": "a8c385dceeb38829dfab8b5cbeb31001c4468b30c3f8a5b0fb226c2ef752fd82",
+      "bytes": 38798,
+      "extension": "webp",
+      "locations": [
+        {
+          "path": "docs/assets/episodes/003-chief-nap-officer.webp",
+          "role": "viewing-copy"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "docs/assets/episodes/004-that-was-a-sentence.webp",
+      "sha256": "a3d3a7aed2a6767384679f418fe7c3dcb1dfb6807bc41d7246586b691196f83e",
+      "bytes": 64990,
+      "extension": "webp",
+      "locations": [
+        {
+          "path": "docs/assets/episodes/004-that-was-a-sentence.webp",
+          "role": "viewing-copy"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "docs/assets/episodes/005-halloween.webp",
+      "sha256": "3a09641fd0561fadef6e301d26e7d7c412e0c29b561e994c2dca78cd47dd63f5",
+      "bytes": 58800,
+      "extension": "webp",
+      "locations": [
+        {
+          "path": "docs/assets/episodes/005-halloween.webp",
+          "role": "viewing-copy"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/_painted-story/assets/box-cast-v001.png",
+      "sha256": "334ab46c19ecbd67fab54cf11266d1ee525b56cd5c9af4d21096a868d97051b3",
+      "bytes": 1681376,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/_painted-story/assets/box-cast-v001.png",
+          "role": "current-shared-story-art"
+        },
+        {
+          "path": "motion/001-have-an-idea/template-story/assets/episode-cast.png",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/001-have-an-idea/versions/v004/template/assets/episode-cast.png",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/_painted-story/assets/box-room-v001.png",
+      "sha256": "b770d46c17024084432f13044a620876865cfb83a60856a88a6b605a6dc487c8",
+      "bytes": 2943374,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/_painted-story/assets/box-room-v001.png",
+          "role": "current-shared-story-art"
+        },
+        {
+          "path": "motion/001-have-an-idea/template-story/assets/episode-room.png",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/001-have-an-idea/versions/v004/template/assets/episode-room.png",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/_painted-story/assets/cafe-cast-v001.png",
+      "sha256": "fa9fae9085143d8bd25fef70c6db47eae3587a6b705f0aa319793d9ed234f214",
+      "bytes": 1877054,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/_painted-story/assets/cafe-cast-v001.png",
+          "role": "current-shared-story-art"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/template-story/assets/episode-cast.png",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v006/template/assets/episode-cast.png",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/_painted-story/assets/cafe-room-v001.png",
+      "sha256": "ab3da565cf4ae5b472b14949adfcebf9b487acf1bff6b767e7955ee925b22ee9",
+      "bytes": 2706149,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/_painted-story/assets/cafe-room-v001.png",
+          "role": "current-shared-story-art"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/template-story/assets/episode-room.png",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v006/template/assets/episode-room.png",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/_painted-story/assets/coffee-cast-v001.png",
+      "sha256": "caffe0c5659a1c5c87e86df2b95c80b4267e44ba78ed9cc94ea1065480f1e8dc",
+      "bytes": 1773460,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/_painted-story/assets/coffee-cast-v001.png",
+          "role": "current-shared-story-art"
+        },
+        {
+          "path": "motion/002-tiny-feature/template-story/assets/episode-cast.png",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/002-tiny-feature/versions/v003/template/assets/episode-cast.png",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/_painted-story/assets/coffee-room-v001.png",
+      "sha256": "4e3fbef97882e1ff4a4b6afee0ff80b32edffa0340642bbe915f8a927c4f5369",
+      "bytes": 2776237,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/_painted-story/assets/coffee-room-v001.png",
+          "role": "current-shared-story-art"
+        },
+        {
+          "path": "motion/002-tiny-feature/template-story/assets/episode-room.png",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/002-tiny-feature/versions/v003/template/assets/episode-room.png",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/_painted-story/assets/painted-mug-v001.png",
+      "sha256": "83a499997f917cad34e0381ca90d94b2c6de5d29e75dc0aa3745427210a489ba",
+      "bytes": 1966895,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/_painted-story/assets/painted-mug-v001.png",
+          "role": "current-shared-story-art"
+        },
+        {
+          "path": "motion/001-have-an-idea/template-story/assets/painted-mug-v001.png",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/002-tiny-feature/template-story/assets/painted-mug-v001.png",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/template-story/assets/painted-mug-v001.png",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/_painted-series/assets/painted-mug-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/001-have-an-idea/template-unified/assets/painted-mug-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/002-tiny-feature/template-unified/assets/painted-mug-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/template-unified/assets/painted-mug-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/001-have-an-idea/versions/v003/template/assets/painted-mug-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/001-have-an-idea/versions/v004/template/assets/painted-mug-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/002-tiny-feature/versions/v002/template/assets/painted-mug-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/002-tiny-feature/versions/v003/template/assets/painted-mug-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v005/template/assets/painted-mug-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v006/template/assets/painted-mug-v001.png",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/001-have-an-idea/audio/story-score-v001/original-score.wav",
+      "sha256": "6f0e26dd675214bc0e5819a2f82dbc77c428f4a69e4f8c7d5c308a1a14f153ba",
+      "bytes": 1152044,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/001-have-an-idea/audio/story-score-v001/original-score.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/001-have-an-idea/audio/story-score-v001/score-normalized.wav",
+      "sha256": "caa84956a7ad963e13e36644dd0127e89f8043541abba3f1df7055b0bf0956be",
+      "bytes": 1728078,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/001-have-an-idea/audio/story-score-v001/score-normalized.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/001-have-an-idea/audio/v001/line-01.mp3",
+      "sha256": "b6b136957ad3356c32d8fb6a32a76a1b168b888de4b8c44f76fdd5680b452949",
+      "bytes": 16704,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/001-have-an-idea/audio/v001/line-01.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/001-have-an-idea/audio/v001/line-02.mp3",
+      "sha256": "a433c4013b1ff6a9dfdd05ef2e9b1c70747d570e86db1fcbd91ac6c1d9854c3b",
+      "bytes": 11232,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/001-have-an-idea/audio/v001/line-02.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/001-have-an-idea/audio/v001/original-music.wav",
+      "sha256": "d849153968b604b5013e1dbcc0a7322867c09bac3855f42ad52835d6c5522d8a",
+      "bytes": 640044,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/001-have-an-idea/audio/v001/original-music.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/001-have-an-idea/audio/v002-story/line-01.mp3",
+      "sha256": "94888550272ed64108d8e1793e2f9963f7833756e7072eb51b9478f7014111cd",
+      "bytes": 15120,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/001-have-an-idea/audio/v002-story/line-01.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/001-have-an-idea/audio/v002-story/line-02.mp3",
+      "sha256": "fc04e352da5debdab5490dde52f6c2bf112e8a7d39bce855deed461dd0f80e67",
+      "bytes": 11232,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/001-have-an-idea/audio/v002-story/line-02.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/001-have-an-idea/audio/v003-story/line-01.mp3",
+      "sha256": "bb9d5593f14f6dd7949582ed97a8c6de4cdeeeb28fedf2213c65d070a4e76f73",
+      "bytes": 15120,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/001-have-an-idea/audio/v003-story/line-01.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/001-have-an-idea/audio/v003-story/line-02.mp3",
+      "sha256": "fa6492856868188217987bcc8c5f00e317e557a55639c25319549d85500ed007",
+      "bytes": 11232,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/001-have-an-idea/audio/v003-story/line-02.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/001-have-an-idea/audio/v003-story/line-03.mp3",
+      "sha256": "814b80f4b9307661043f20f1226420c13756bb4337030ef308521d1b0272a656",
+      "bytes": 12096,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/001-have-an-idea/audio/v003-story/line-03.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/001-have-an-idea/audio/v003-story/line-04.mp3",
+      "sha256": "f24153c9b7ea3b7e04e910b5602974c863353cda27310b4c158ff71a327dc719",
+      "bytes": 11520,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/001-have-an-idea/audio/v003-story/line-04.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/001-have-an-idea/audio/v003-story/line-05.mp3",
+      "sha256": "fa36edaccb28dd52d14c3bb08da1de2c070b35ed5f1c1d840639f7cc669491bc",
+      "bytes": 11232,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/001-have-an-idea/audio/v003-story/line-05.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/001-have-an-idea/previews/unified-painted-review.mp4",
+      "sha256": "1bab13193d789d29e31bc09eaa09a56eb1d4ac31e923248b598f4b0bb42fdd43",
+      "bytes": 557799,
+      "extension": "mp4",
+      "locations": [
+        {
+          "path": "motion/001-have-an-idea/previews/unified-painted-review.mp4",
+          "role": "review-export"
+        },
+        {
+          "path": "motion/001-have-an-idea/template-unified/assets/episode-export.mp4",
+          "role": "historical-source"
+        },
+        {
+          "path": "docs/media/001-have-an-idea-v003.mp4",
+          "role": "viewing-copy"
+        },
+        {
+          "path": "motion/001-have-an-idea/versions/v003/template/assets/episode-export.mp4",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/001-have-an-idea/template-story/assets/episode-export.mp4",
+      "sha256": "c2a37c3c916811bb1e29ca02270604042c0c5585693716abf6c79db461eef304",
+      "bytes": 3707752,
+      "extension": "mp4",
+      "locations": [
+        {
+          "path": "motion/001-have-an-idea/template-story/assets/episode-export.mp4",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/001-have-an-idea/previews/v004-corner-office-review.mp4",
+          "role": "review-export"
+        },
+        {
+          "path": "docs/media/001-have-an-idea-v004.mp4",
+          "role": "viewing-copy"
+        },
+        {
+          "path": "motion/001-have-an-idea/versions/v004/template/assets/episode-export.mp4",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/001-have-an-idea/template-story/assets/episode-score-raw.m4a",
+      "sha256": "8c4a006f13e38003b71ffb58e129080e86843a9340e198fc71b638cd101cabad",
+      "bytes": 360533,
+      "extension": "m4a",
+      "locations": [
+        {
+          "path": "motion/001-have-an-idea/template-story/assets/episode-score-raw.m4a",
+          "role": "current-template"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/001-have-an-idea/template-story/assets/episode-score.m4a",
+      "sha256": "3cb1c2ec02c9d77613952c36e67be1e3108e426f9efe800d57f6a3c57268b045",
+      "bytes": 387950,
+      "extension": "m4a",
+      "locations": [
+        {
+          "path": "motion/001-have-an-idea/template-story/assets/episode-score.m4a",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/001-have-an-idea/versions/v004/template/assets/episode-score.m4a",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/001-have-an-idea/template-unified/assets/episode-score.m4a",
+      "sha256": "7e8a6318744f0214f7ffaf3c3ac05406c8bea8c27ae39ffb7d5eb54f9218f944",
+      "bytes": 177657,
+      "extension": "m4a",
+      "locations": [
+        {
+          "path": "motion/001-have-an-idea/template-unified/assets/episode-score.m4a",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/001-have-an-idea/template/assets/episode-audio-v001.m4a",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/001-have-an-idea/versions/v003/template/assets/episode-score.m4a",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/002-tiny-feature/audio/story-score-v001/original-score.wav",
+      "sha256": "b3343db5bd9d87c62f486f8ebd272a8d61a1394c743a3f5f49d9330f54946686",
+      "bytes": 1152044,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/002-tiny-feature/audio/story-score-v001/original-score.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/002-tiny-feature/audio/story-score-v001/score-normalized.wav",
+      "sha256": "65c02d34851c537ee40eb9e73d79300934156f4ad59413dba91166a854717680",
+      "bytes": 1728078,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/002-tiny-feature/audio/story-score-v001/score-normalized.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/002-tiny-feature/audio/v001/line-01.mp3",
+      "sha256": "98fc38a31962718bc765a7e9874cf020ad393e4c086cd04029da7835c1e4bfae",
+      "bytes": 15264,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/002-tiny-feature/audio/v001/line-01.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/002-tiny-feature/audio/v001/line-02.mp3",
+      "sha256": "1a429923d8b5a44d61ae1aa5bf9fd8e8d7d312c402ed72c26267fd934c736283",
+      "bytes": 11232,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/002-tiny-feature/audio/v001/line-02.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/002-tiny-feature/audio/v001/line-03.mp3",
+      "sha256": "797d823f53567d18a82965a2ae8b3aaf02de798e9403b149f185d9ff6cdc8b97",
+      "bytes": 11232,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/002-tiny-feature/audio/v001/line-03.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/002-tiny-feature/audio/v001/line-04.mp3",
+      "sha256": "78e887cc6b36cf498009bbc6deac21c84a3c4d346bd441f671640081568c3366",
+      "bytes": 13536,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/002-tiny-feature/audio/v001/line-04.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/002-tiny-feature/audio/v001/original-music.wav",
+      "sha256": "9b0b85d50e5d4b81d5efb155b191eda467e5ad843266026e3e9e8678d4e9b19b",
+      "bytes": 896044,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/002-tiny-feature/audio/v001/original-music.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/002-tiny-feature/audio/v002-story/line-01.mp3",
+      "sha256": "36349d401477c1f8d88ab91f1fa755de92da15e984facc77cbc3bd2a9b40cedd",
+      "bytes": 15264,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/002-tiny-feature/audio/v002-story/line-01.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/002-tiny-feature/audio/v002-story/line-02.mp3",
+      "sha256": "a3dee5306411464cd6f76e57771ae85cdd84e6b36d8636beb066c738640fb7af",
+      "bytes": 11232,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/002-tiny-feature/audio/v002-story/line-02.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/002-tiny-feature/audio/v003-story/line-01.mp3",
+      "sha256": "aff0d2a32850cb079826342d039adcd5aab3ee79394a570567a1248c8e1334b4",
+      "bytes": 15264,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/002-tiny-feature/audio/v003-story/line-01.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/002-tiny-feature/audio/v003-story/line-02.mp3",
+      "sha256": "af2c61510a7e25421d4f0a58fdf92f479804e4bb765cc52a136f3403e3b8b19c",
+      "bytes": 11232,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/002-tiny-feature/audio/v003-story/line-02.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/002-tiny-feature/audio/v003-story/line-03.mp3",
+      "sha256": "b0c4fde68d4699d8bd3e49ca22a1537ab0d9931b0d9c8bf146b13c28c014de71",
+      "bytes": 11232,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/002-tiny-feature/audio/v003-story/line-03.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/002-tiny-feature/audio/v003-story/line-04.mp3",
+      "sha256": "c1cb2e4d10a58c6f2d518c34853179568f47f809567231ae85f8bb2eb3d9546f",
+      "bytes": 11232,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/002-tiny-feature/audio/v003-story/line-04.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/002-tiny-feature/audio/v003-story/line-05.mp3",
+      "sha256": "e0e4ab7570e738613078dfb78d99095091227d79568521ddce3ea5a4149f6cb3",
+      "bytes": 13536,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/002-tiny-feature/audio/v003-story/line-05.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/002-tiny-feature/previews/unified-painted-review.mp4",
+      "sha256": "2d2f13520dc3c723d1478dd9cc1d2d522f605fd0c6731eb2b9d80681b8970106",
+      "bytes": 1048603,
+      "extension": "mp4",
+      "locations": [
+        {
+          "path": "motion/002-tiny-feature/previews/unified-painted-review.mp4",
+          "role": "review-export"
+        },
+        {
+          "path": "motion/002-tiny-feature/template-unified/assets/episode-export.mp4",
+          "role": "historical-source"
+        },
+        {
+          "path": "docs/media/002-tiny-feature-v002.mp4",
+          "role": "viewing-copy"
+        },
+        {
+          "path": "motion/002-tiny-feature/versions/v002/template/assets/episode-export.mp4",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/002-tiny-feature/template-story/assets/episode-export.mp4",
+      "sha256": "f4b3bc59f76af0b04979b9a11d4a17d42764bb6b98a1f7aa2f3bd8a1c0888a9a",
+      "bytes": 3366120,
+      "extension": "mp4",
+      "locations": [
+        {
+          "path": "motion/002-tiny-feature/template-story/assets/episode-export.mp4",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/002-tiny-feature/previews/v003-coffee-story-review.mp4",
+          "role": "review-export"
+        },
+        {
+          "path": "docs/media/002-tiny-feature-v003.mp4",
+          "role": "viewing-copy"
+        },
+        {
+          "path": "motion/002-tiny-feature/versions/v003/template/assets/episode-export.mp4",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/002-tiny-feature/template-story/assets/episode-score-raw.m4a",
+      "sha256": "5c44f47b83b611b6ff44da44044b3790397456a6d651e2f90b4209c8b57ffcc2",
+      "bytes": 350424,
+      "extension": "m4a",
+      "locations": [
+        {
+          "path": "motion/002-tiny-feature/template-story/assets/episode-score-raw.m4a",
+          "role": "current-template"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/002-tiny-feature/template-story/assets/episode-score.m4a",
+      "sha256": "e7738045557537eacf3eaf6c52e5dd440c1fae1ef48f0717f74ad3f9acc268e2",
+      "bytes": 375213,
+      "extension": "m4a",
+      "locations": [
+        {
+          "path": "motion/002-tiny-feature/template-story/assets/episode-score.m4a",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/002-tiny-feature/versions/v003/template/assets/episode-score.m4a",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/002-tiny-feature/template-unified/assets/episode-score.m4a",
+      "sha256": "8801847d6ccd5d9419c065ad7e9e216e44f5c866f54a672b86e3170287d08257",
+      "bytes": 257898,
+      "extension": "m4a",
+      "locations": [
+        {
+          "path": "motion/002-tiny-feature/template-unified/assets/episode-score.m4a",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/002-tiny-feature/template/assets/episode-audio-v001.m4a",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/002-tiny-feature/versions/v002/template/assets/episode-score.m4a",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/002-tiny-feature/template/assets/cats-gouache-v001.png",
+      "sha256": "2362eaf7403502d5435e58c00115e74bc0b5f9e00e29efa1ebc5df3365ba424d",
+      "bytes": 2584674,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/002-tiny-feature/template/assets/cats-gouache-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/template/assets/cats-gouache-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/002-tiny-feature/versions/v001/template/assets/cats-gouache-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v001/template/assets/cats-gouache-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v002/template/assets/cats-gouache-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v003/template/assets/cats-gouache-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v004/template/assets/cats-gouache-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v005/template/assets/cats-gouache-v001.png",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/003-chief-nap-officer/audio/v001/line-01.mp3",
+      "sha256": "d8d28033fcb4a5abe94ae61eb4dc575a02c2be2bac3c66c905f82cd98eb9f425",
+      "bytes": 12240,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/003-chief-nap-officer/audio/v001/line-01.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/003-chief-nap-officer/audio/v001/line-02.mp3",
+      "sha256": "f529daaeef03657041b3e6d978d5a6b0ea63bd2fe9399fe76581050c15634814",
+      "bytes": 14256,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/003-chief-nap-officer/audio/v001/line-02.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/003-chief-nap-officer/audio/v001/line-03.mp3",
+      "sha256": "cfffa3a015cedaff49c5ae1f2c4beb5cd9b7fc2684cc8006cee416a5b5bd39fc",
+      "bytes": 11232,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/003-chief-nap-officer/audio/v001/line-03.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/003-chief-nap-officer/audio/v001/line-04.mp3",
+      "sha256": "3174b8729bbc25f4696b366373d3fd72a0c366d4035ee93fe260c119f18a0c49",
+      "bytes": 11952,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/003-chief-nap-officer/audio/v001/line-04.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/003-chief-nap-officer/audio/v001/line-05.mp3",
+      "sha256": "3fbba24f552975a4cb5b60ed085ceda5426ee56919b9f28ef26664b412735fe9",
+      "bytes": 12816,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/003-chief-nap-officer/audio/v001/line-05.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/003-chief-nap-officer/audio/v001/original-music.wav",
+      "sha256": "08cf877e4e57b50fd0986470ab3a4b662e0bd9d67327e815ac725439301549bd",
+      "bytes": 1152044,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/003-chief-nap-officer/audio/v001/original-music.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/003-chief-nap-officer/audio/v002/line-01.mp3",
+      "sha256": "0ee1676415fe6b14650f60721d6ed12fbbd87c87153078f1807d2169173b67fc",
+      "bytes": 13248,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/003-chief-nap-officer/audio/v002/line-01.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/003-chief-nap-officer/audio/v002/line-02.mp3",
+      "sha256": "6168e25b207f4d64366fa8267e4fcf989d98036c0cca0aaa0637fd2cd437fb1b",
+      "bytes": 14688,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/003-chief-nap-officer/audio/v002/line-02.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/003-chief-nap-officer/audio/v002/line-03.mp3",
+      "sha256": "02109324137a6be14a6e53e5dd1c19932babe229f49ed9cb08b3da63d8131ae6",
+      "bytes": 11232,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/003-chief-nap-officer/audio/v002/line-03.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/003-chief-nap-officer/audio/v002/line-04.mp3",
+      "sha256": "f0f90b2b15cccf753e93a9c35c69704703e649b40db71ba0c2ce8557756da880",
+      "bytes": 12528,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/003-chief-nap-officer/audio/v002/line-04.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/003-chief-nap-officer/audio/v002/line-05.mp3",
+      "sha256": "0a861ffdd00381fb04e53eeb1de58578b0f71aa716c70267b9a5364af4b9b145",
+      "bytes": 13680,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/003-chief-nap-officer/audio/v002/line-05.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/003-chief-nap-officer/audio/v002/original-music.wav",
+      "sha256": "411ee76837cf5575eec891b3a8be3eb3ee62088a98c1054eeae9bd1ba72cfe00",
+      "bytes": 1152044,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/003-chief-nap-officer/audio/v002/original-music.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/003-chief-nap-officer/audio/v003-fast/episode-fast-v001.m4a",
+      "sha256": "7eeb33c83fc778ca30641ebd6e6d42159c68b4b6f5cbb1404a28ca7efd132298",
+      "bytes": 138315,
+      "extension": "m4a",
+      "locations": [
+        {
+          "path": "motion/003-chief-nap-officer/audio/v003-fast/episode-fast-v001.m4a",
+          "role": "audio-source"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/template-blue-polish/assets/episode-fast-v001.m4a",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/template-blue/assets/episode-fast-v001.m4a",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v013/template/assets/episode-fast-v001.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v014/template/assets/episode-fast-v001.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v015/template/assets/episode-fast-v001.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v016/template/assets/episode-fast-v001.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v017/template/assets/episode-fast-v001.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v018/template/assets/episode-fast-v001.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v019/template/assets/episode-fast-v001.m4a",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/003-chief-nap-officer/audio/v004-blue-polish/episode-blue-polish-v001.m4a",
+      "sha256": "8e0f507349093fcaf3296280cf133931af64f6db763b82d7d6989755e7a2cd20",
+      "bytes": 195999,
+      "extension": "m4a",
+      "locations": [
+        {
+          "path": "motion/003-chief-nap-officer/audio/v004-blue-polish/episode-blue-polish-v001.m4a",
+          "role": "audio-source"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/template-blue-polish/assets/episode-blue-polish-v001.m4a",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/template-blue/assets/episode-blue-polish-v001.m4a",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v017/template/assets/episode-blue-polish-v001.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v018/template/assets/episode-blue-polish-v001.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v019/template/assets/episode-blue-polish-v001.m4a",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/003-chief-nap-officer/previews/v007-native-preview.mp4",
+      "sha256": "b8b0f753f6b2de12570b011bf55c62068710f698f6922624a66eeeae5f7b1483",
+      "bytes": 1130468,
+      "extension": "mp4",
+      "locations": [
+        {
+          "path": "motion/003-chief-nap-officer/previews/v007-native-preview.mp4",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/003-chief-nap-officer/previews/v009-native-preview.mp4",
+      "sha256": "ff0e7e28cb77bbd608fcd28a00882248d71f3c420144a9c30a269e9fbbf484eb",
+      "bytes": 956983,
+      "extension": "mp4",
+      "locations": [
+        {
+          "path": "motion/003-chief-nap-officer/previews/v009-native-preview.mp4",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/003-chief-nap-officer/previews/v010-acting-study.mp4",
+      "sha256": "7537458e92b6e40abea90e6fcb61a2867389917d7d2c050780d65edfa452c06f",
+      "bytes": 636418,
+      "extension": "mp4",
+      "locations": [
+        {
+          "path": "motion/003-chief-nap-officer/previews/v010-acting-study.mp4",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/003-chief-nap-officer/previews/v011-acting-study.mp4",
+      "sha256": "f410547735f3c2899d6b0af9fa4062b41b82840680cdcd109af7ffa3306b7e45",
+      "bytes": 657166,
+      "extension": "mp4",
+      "locations": [
+        {
+          "path": "motion/003-chief-nap-officer/previews/v011-acting-study.mp4",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/003-chief-nap-officer/previews/v012-full-story-review.mp4",
+      "sha256": "a30653cd227cabb9e54711eca767b395c8ef686631716e1daee3733fae204f0b",
+      "bytes": 1330058,
+      "extension": "mp4",
+      "locations": [
+        {
+          "path": "motion/003-chief-nap-officer/previews/v012-full-story-review.mp4",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/003-chief-nap-officer/previews/v017-blue-acting-review.mp4",
+      "sha256": "dc8372a9ba33bf3d2482e9a01f8948b11d547ecd2cb246da2c9d9b135ac037f4",
+      "bytes": 2565513,
+      "extension": "mp4",
+      "locations": [
+        {
+          "path": "motion/003-chief-nap-officer/previews/v017-blue-acting-review.mp4",
+          "role": "review-export"
+        },
+        {
+          "path": "docs/media/003-chief-nap-officer-v017.mp4",
+          "role": "viewing-copy"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/003-chief-nap-officer/previews/v019-browser-review.mp4",
+      "sha256": "1d781d21158e19b04d06b9e06ffd5057c28c4283a7267d47e0484bbf202e5028",
+      "bytes": 1959378,
+      "extension": "mp4",
+      "locations": [
+        {
+          "path": "motion/003-chief-nap-officer/previews/v019-browser-review.mp4",
+          "role": "review-export"
+        },
+        {
+          "path": "docs/media/003-chief-nap-officer-v019.mp4",
+          "role": "viewing-copy"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/003-chief-nap-officer/template-blue-polish/assets/blue-cast-sequence-v001.png",
+      "sha256": "5f7630cd4e46cbaa5d88a9626511ac59d9056f49045ddc6f0b1650c2597a8fd6",
+      "bytes": 1069364,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/003-chief-nap-officer/template-blue-polish/assets/blue-cast-sequence-v001.png",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/_painted-series/assets/blue-cast-sequence-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/001-have-an-idea/template-unified/assets/blue-cast-sequence-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/002-tiny-feature/template-unified/assets/blue-cast-sequence-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/template-blue/assets/blue-cast-sequence-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/template-unified/assets/blue-cast-sequence-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/001-have-an-idea/versions/v003/template/assets/blue-cast-sequence-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/002-tiny-feature/versions/v002/template/assets/blue-cast-sequence-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v013/template/assets/blue-cast-sequence-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v014/template/assets/blue-cast-sequence-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v015/template/assets/blue-cast-sequence-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v016/template/assets/blue-cast-sequence-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v017/template/assets/blue-cast-sequence-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v018/template/assets/blue-cast-sequence-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v019/template/assets/blue-cast-sequence-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v005/template/assets/blue-cast-sequence-v001.png",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/003-chief-nap-officer/template-blue-polish/assets/blue-studio-background-v001.png",
+      "sha256": "d226ed8f4e7e47a80c2e950cee9e23aec25fdfb9407fda7e76df0c019cf0c557",
+      "bytes": 2561129,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/003-chief-nap-officer/template-blue-polish/assets/blue-studio-background-v001.png",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/_painted-series/assets/blue-studio-background-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/001-have-an-idea/template-unified/assets/blue-studio-background-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/002-tiny-feature/template-unified/assets/blue-studio-background-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/template-blue/assets/blue-studio-background-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/template-unified/assets/blue-studio-background-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/001-have-an-idea/versions/v003/template/assets/blue-studio-background-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/002-tiny-feature/versions/v002/template/assets/blue-studio-background-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v013/template/assets/blue-studio-background-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v014/template/assets/blue-studio-background-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v015/template/assets/blue-studio-background-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v016/template/assets/blue-studio-background-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v017/template/assets/blue-studio-background-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v018/template/assets/blue-studio-background-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v019/template/assets/blue-studio-background-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v005/template/assets/blue-studio-background-v001.png",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/003-chief-nap-officer/template-blue-polish/assets/lucky-keyboard-insert-v001.png",
+      "sha256": "101b2c82e0c480ebd3c2711ccce2540ad883605842edf056ef4e4a9b62376f28",
+      "bytes": 2725360,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/003-chief-nap-officer/template-blue-polish/assets/lucky-keyboard-insert-v001.png",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/_painted-series/assets/lucky-keyboard-insert-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/001-have-an-idea/template-unified/assets/lucky-keyboard-insert-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/002-tiny-feature/template-unified/assets/lucky-keyboard-insert-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/template-unified/assets/lucky-keyboard-insert-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/001-have-an-idea/versions/v003/template/assets/lucky-keyboard-insert-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/002-tiny-feature/versions/v002/template/assets/lucky-keyboard-insert-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v017/template/assets/lucky-keyboard-insert-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v018/template/assets/lucky-keyboard-insert-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v019/template/assets/lucky-keyboard-insert-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v005/template/assets/lucky-keyboard-insert-v001.png",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/003-chief-nap-officer/template-blue/assets/episode-audio-v002.m4a",
+      "sha256": "b69d6efb2685acaa4e172615eca33d9b041460e1988e8d221e6f9da054edd8e5",
+      "bytes": 328755,
+      "extension": "m4a",
+      "locations": [
+        {
+          "path": "motion/003-chief-nap-officer/template-blue/assets/episode-audio-v002.m4a",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/template/assets/episode-audio-v002.m4a",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v005/template/assets/episode-audio-v002.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v006/template/assets/episode-audio-v002.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v007/template/assets/episode-audio-v002.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v008/template/assets/episode-audio-v002.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v009/template/assets/episode-audio-v002.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v010/template/assets/episode-audio-v002.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v011/template/assets/episode-audio-v002.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v012/template/assets/episode-audio-v002.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v013/template/assets/episode-audio-v002.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v014/template/assets/episode-audio-v002.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v015/template/assets/episode-audio-v002.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v016/template/assets/episode-audio-v002.m4a",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/003-chief-nap-officer/template/assets/episode-audio-v001.m4a",
+      "sha256": "418f2c726a280d8d54acb90c15de6bd5410c08db8878051cba9af85afad9a13c",
+      "bytes": 326681,
+      "extension": "m4a",
+      "locations": [
+        {
+          "path": "motion/003-chief-nap-officer/template/assets/episode-audio-v001.m4a",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v001/template/assets/episode-audio-v001.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v002/template/assets/episode-audio-v001.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v003/template/assets/episode-audio-v001.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v004/template/assets/episode-audio-v001.m4a",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/003-chief-nap-officer/template/assets/lucky-sleeping-v001.png",
+      "sha256": "c23fa16acb686eb10610790a5c859fbc02eee15b596576ba7a6aa73af722683f",
+      "bytes": 2408534,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/003-chief-nap-officer/template/assets/lucky-sleeping-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/template/assets/lucky-sleeping-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v001/template/assets/lucky-sleeping-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v002/template/assets/lucky-sleeping-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v003/template/assets/lucky-sleeping-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v004/template/assets/lucky-sleeping-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v005/template/assets/lucky-sleeping-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v006/template/assets/lucky-sleeping-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v007/template/assets/lucky-sleeping-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v008/template/assets/lucky-sleeping-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v009/template/assets/lucky-sleeping-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v010/template/assets/lucky-sleeping-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v011/template/assets/lucky-sleeping-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v012/template/assets/lucky-sleeping-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v001/template/assets/lucky-sleeping-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v002/template/assets/lucky-sleeping-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v003/template/assets/lucky-sleeping-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v004/template/assets/lucky-sleeping-v001.png",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/audio/original-music-v001.wav",
+      "sha256": "1acac9e632682426c6628dff47ef57c42fd8ddd564e72a0afb912881a83eb0a8",
+      "bytes": 1152044,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/audio/original-music-v001.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/audio/story-score-v001/original-score.wav",
+      "sha256": "d41925be297995dabdec8fc3cf70c28b3ba7d5918b3af6345ced1cc83350d295",
+      "bytes": 1280044,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/audio/story-score-v001/original-score.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/audio/story-score-v001/score-normalized.wav",
+      "sha256": "c9446494a2aca8c010f1bf1c423708d60f2653ef15b9b0b9dc1f8ce410d6aaed",
+      "bytes": 1920078,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/audio/story-score-v001/score-normalized.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/audio/v001/line-01.mp3",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/audio/v001/line-01.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/audio/v002/line-01.mp3",
+      "sha256": "b35489fc0609d21a61684d7ad4562685113d5d0280470f3f8fc689937670ca07",
+      "bytes": 11232,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/audio/v002/line-01.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/audio/v002/line-02.mp3",
+      "sha256": "b668fca379859332af6df3027a1192e7ed7ab397a6f1a87de71f40d8102e8658",
+      "bytes": 11232,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/audio/v002/line-02.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/audio/v002/line-03.mp3",
+      "sha256": "eae585499852b19e9e978cdc981321c4a123d458a6e756043e00470155185468",
+      "bytes": 13536,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/audio/v002/line-03.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/audio/v002/line-04.mp3",
+      "sha256": "f220411f981763b6546aa2159062cdcac46115d464edbf8ebcec58d313a8d042",
+      "bytes": 13248,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/audio/v002/line-04.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/audio/v002/line-05.mp3",
+      "sha256": "2bd28f830a43aea7ea738544e174b0b829c4a402a4b58df9ef819f0fe2ef7c1a",
+      "bytes": 14544,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/audio/v002/line-05.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/audio/v002/original-music.wav",
+      "sha256": "b25c4ff606f3ccb1003a2b1a35f6fff9e0d3512cd4d418423cffa2bf2951cb87",
+      "bytes": 1152044,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/audio/v002/original-music.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/audio/v003-story/line-01.mp3",
+      "sha256": "b89313652ee9dbed82919572ea764830e03c52d354ea22426c094bc2c3bd639b",
+      "bytes": 13104,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/audio/v003-story/line-01.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/audio/v003-story/line-02.mp3",
+      "sha256": "da751d5d77fadcb4bd8cf1098b9e8f787cc7c20bd253ae464256f274af84a074",
+      "bytes": 13104,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/audio/v003-story/line-02.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/audio/v003-story/line-03.mp3",
+      "sha256": "aca4ed08de56d5bd1ed706acab70a18c6a75368ec03966b8a38b69f0c12e9fcc",
+      "bytes": 11232,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/audio/v003-story/line-03.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/audio/v003-story/line-04.mp3",
+      "sha256": "fe1149bb3bafe3a9aa9a1e2050a44a2d053f270ea69ad4d5996a9cfa62b9625c",
+      "bytes": 11232,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/audio/v003-story/line-04.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/audio/v003-story/line-05.mp3",
+      "sha256": "30081d11f6a5040cd9360d2037eed5064347891114bd640c1aef9807f809a386",
+      "bytes": 12672,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/audio/v003-story/line-05.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/audio/v003-story/line-06.mp3",
+      "sha256": "dbb7f186d2ebc623995ec84276ce95ee2437328769b7e1156db13c809c767198",
+      "bytes": 11808,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/audio/v003-story/line-06.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/previews/unified-painted-review.mp4",
+      "sha256": "398252200f7da5488ad7fe6fca946b3f7c26168efdfc7e5628d30824cbe0c08e",
+      "bytes": 1707545,
+      "extension": "mp4",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/previews/unified-painted-review.mp4",
+          "role": "review-export"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/template-unified/assets/episode-export.mp4",
+          "role": "historical-source"
+        },
+        {
+          "path": "docs/media/004-that-was-a-sentence-v005.mp4",
+          "role": "viewing-copy"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v005/template/assets/episode-export.mp4",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/previews/v002-native-preview.mp4",
+      "sha256": "421ae67949dfca03903d4f86802cec9df6a76836e4111524a518f9380120abde",
+      "bytes": 939928,
+      "extension": "mp4",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/previews/v002-native-preview.mp4",
+          "role": "review-export"
+        },
+        {
+          "path": "docs/media/004-that-was-a-sentence-v002.mp4",
+          "role": "viewing-copy"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/previews/v004-voiced-browser-review.mp4",
+      "sha256": "e7a16b4766187528c0b0dd2094fbfe2c6422385584b69c5fe59568fe301f9554",
+      "bytes": 1868744,
+      "extension": "mp4",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/previews/v004-voiced-browser-review.mp4",
+          "role": "review-export"
+        },
+        {
+          "path": "docs/media/004-that-was-a-sentence-v004.mp4",
+          "role": "viewing-copy"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/template-story/assets/episode-export.mp4",
+      "sha256": "730cbc36b85a8caf3a7b0dc041e6067f914eb9f72552e1685e38ed1788ab2da9",
+      "bytes": 3507850,
+      "extension": "mp4",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/template-story/assets/episode-export.mp4",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/previews/v006-soft-launch-review.mp4",
+          "role": "review-export"
+        },
+        {
+          "path": "docs/media/004-that-was-a-sentence-v006.mp4",
+          "role": "viewing-copy"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v006/template/assets/episode-export.mp4",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/template-story/assets/episode-score-raw.m4a",
+      "sha256": "834dee5973677eb781955f300502eaa80c49e4740177335ddc87523a24092b93",
+      "bytes": 399376,
+      "extension": "m4a",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/template-story/assets/episode-score-raw.m4a",
+          "role": "current-template"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/template-story/assets/episode-score.m4a",
+      "sha256": "d60b5b1429c9765b30f1410179b7ac2688b4d96fbf0741c38c61ca9dea561fdd",
+      "bytes": 431511,
+      "extension": "m4a",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/template-story/assets/episode-score.m4a",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v006/template/assets/episode-score.m4a",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/template-unified/assets/episode-score.m4a",
+      "sha256": "411b3232ce45098285632d18207aad6e13c39b18e88c5014da050e37b94e01ae",
+      "bytes": 336149,
+      "extension": "m4a",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/template-unified/assets/episode-score.m4a",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/template/assets/episode-audio-v002.m4a",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v004/template/assets/episode-audio-v002.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v005/template/assets/episode-score.m4a",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/template/assets/episode-music-v001.m4a",
+      "sha256": "2b36ca85a69b59a73e04f2cffb378833da575a8a9adbc0063028bbded42e0db6",
+      "bytes": 228423,
+      "extension": "m4a",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/template/assets/episode-music-v001.m4a",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v001/template/assets/episode-music-v001.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v002/template/assets/episode-music-v001.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v003/template/assets/episode-music-v001.m4a",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/audio/v001/halloween-score-v001.wav",
+      "sha256": "151ed5d14552731ad60871120a4f76ef7d2cd26b0e1118a2825eb5e681382ec8",
+      "bytes": 2048044,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/005-halloween/audio/v001/halloween-score-v001.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/audio/v002/halloween-wish-score-v001.wav",
+      "sha256": "12b0b22fe959889af5df24536d997d284e3e747d39c348bfbe9a6048b9639be0",
+      "bytes": 2304044,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/005-halloween/audio/v002/halloween-wish-score-v001.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/audio/v003/halloween-wish-score-v002.wav",
+      "sha256": "3d650f376bb926572d3000c34918fd54ad3a213949fa3c0f83e1ce86779034e1",
+      "bytes": 2304044,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/005-halloween/audio/v003/halloween-wish-score-v002.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/audio/v004/halloween-wish-score-v003.wav",
+      "sha256": "a318ce7acd82f29ae37ae9f7a644fbce58462400d4ee662e99d15bcf13ea6cea",
+      "bytes": 2304044,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/005-halloween/audio/v004/halloween-wish-score-v003.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/audio/v005/line-01.mp3",
+      "sha256": "b87aa0b0b8b6c69c1686daf1fd0ea4d7ee4709d510a1ebc41101c9338f5bcf7f",
+      "bytes": 12528,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/005-halloween/audio/v005/line-01.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/audio/v005/line-02.mp3",
+      "sha256": "58165aae41503502a838328efb6ee5de07eae6c5cd54f3963f5ecaf62b654d81",
+      "bytes": 11232,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/005-halloween/audio/v005/line-02.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/audio/v005/line-03.mp3",
+      "sha256": "a81b563a8819083bc34db0750ff9aada37b1a245404e9e8291b9c61925f13c12",
+      "bytes": 12816,
+      "extension": "mp3",
+      "locations": [
+        {
+          "path": "motion/005-halloween/audio/v005/line-03.mp3",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/concepts/treat-bowl/storyboard-v001.png",
+      "sha256": "3187b9c2c2d39a8004eeedb0bc1b6cdc73e0d5e5e0010d1a5e8005077719dac1",
+      "bytes": 2719807,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/concepts/treat-bowl/storyboard-v001.png",
+          "role": "historical-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/halloween-wish-v004-review.mp4",
+      "sha256": "c5b259b97a56acc3e2b30df4c6e6d7a4ddd6ad013ad0fbaf82549dab37da580a",
+      "bytes": 1936279,
+      "extension": "mp4",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/halloween-wish-v004-review.mp4",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/halloween-wish-v008-review.mp4",
+      "sha256": "c96ce6eff7f14074848b9432a2c6e1c83ef766451b1bd72ba5859a2f823f9ca5",
+      "bytes": 2486123,
+      "extension": "mp4",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/halloween-wish-v008-review.mp4",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/v008/contact-wish-1100.png",
+      "sha256": "d38e6c0a7eb9097cedb32c0edd3a1ec58481113644b6961343252d7a47f7891a",
+      "bytes": 507023,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/v008/contact-wish-1100.png",
+          "role": "review-export"
+        },
+        {
+          "path": "motion/005-halloween/previews/v008/wish-1100.png",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/v008/contact-wish-1280.png",
+      "sha256": "99607a95f514f4cdca8991fc159088a6612b41baecea425a0b82020ada347a2c",
+      "bytes": 506794,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/v008/contact-wish-1280.png",
+          "role": "review-export"
+        },
+        {
+          "path": "motion/005-halloween/previews/v008/wish-1280.png",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/v008/contact-wish-5300.png",
+      "sha256": "c067f08c0add2afed3480e33038cf824ea4f4cbc2bd5f4148c1e0cb7a35ed56b",
+      "bytes": 507597,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/v008/contact-wish-5300.png",
+          "role": "review-export"
+        },
+        {
+          "path": "motion/005-halloween/previews/v008/wish-5300.png",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/v008/final.png",
+      "sha256": "7fcbba74a956d8e4ba54464490a64b7ff7491acc7f7096e9347adfae9e599670",
+      "bytes": 556033,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/v008/final.png",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/v008/wish-12500.png",
+      "sha256": "ea629be66bdc3437ceff3b4e26ae47e999a7c77845229706bb98e5cf0e91ae02",
+      "bytes": 543204,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/v008/wish-12500.png",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/v008/wish-17000.png",
+      "sha256": "35d737e7f83753357719eb8062df22cc01b4afff7b7af09ae1fa88b8a8ca1bf0",
+      "bytes": 537296,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/v008/wish-17000.png",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/v008/wish-1800.png",
+      "sha256": "de3e1e0ed0b3c55c6015f5d2be618a053ee3d3b17e6f7a4a9980c161608bf745",
+      "bytes": 508181,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/v008/wish-1800.png",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/v008/wish-3500.png",
+      "sha256": "552a9f537f47ce79779008f15089eddbde42c294af2b2667a68c683264fa1fac",
+      "bytes": 512074,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/v008/wish-3500.png",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/v008/wish-8500.png",
+      "sha256": "1bb9ef3a6906f91d07120aa7b5dd0774ddf3a203aea83224920a6c2699355c5f",
+      "bytes": 516100,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/v008/wish-8500.png",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/v008/wish-final.png",
+      "sha256": "94e8445d2192b9c00bf8c5433070b7c5e4ef2ea03b738222799062dec3fd9109",
+      "bytes": 545158,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/v008/wish-final.png",
+          "role": "review-export"
+        },
+        {
+          "path": "motion/005-halloween/previews/wish-final.png",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/v009/wish-1050.png",
+      "sha256": "22a3aa805a58eca8af566b594173cfae08e0dfdf344782f62b5a76d4c75cf059",
+      "bytes": 508069,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/v009/wish-1050.png",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/v009/wish-12500.png",
+      "sha256": "c250aa1bb60e889db67e49ba389b89d7578a38198a9a9be5780f67b79cfb4d9d",
+      "bytes": 545838,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/v009/wish-12500.png",
+          "role": "review-export"
+        },
+        {
+          "path": "motion/005-halloween/previews/v010/wish-12500.png",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/v009/wish-1280.png",
+      "sha256": "27544741f1775e6bccd800a894503a81ae2b5d8a67ee0b8a85e1abdcafca1473",
+      "bytes": 507324,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/v009/wish-1280.png",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/v009/wish-14900.png",
+      "sha256": "927f270ca50fde2f7852dabc640c67e22b24bfaa49a97168279dbfabd39da9f0",
+      "bytes": 540971,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/v009/wish-14900.png",
+          "role": "review-export"
+        },
+        {
+          "path": "motion/005-halloween/previews/v010/wish-14900.png",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/v009/wish-17000.png",
+      "sha256": "4073581158ac9e942da548d2b70a5cca4b70faa3d3fff084c63d7633f4130f12",
+      "bytes": 537444,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/v009/wish-17000.png",
+          "role": "review-export"
+        },
+        {
+          "path": "motion/005-halloween/previews/v010/wish-17000.png",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/v009/wish-1800.png",
+      "sha256": "48003048fa1adfbcbaebdf950c15fa2105b34d93cdb9ad5471ec799310f4c81b",
+      "bytes": 508088,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/v009/wish-1800.png",
+          "role": "review-export"
+        },
+        {
+          "path": "motion/005-halloween/previews/v010/wish-1800.png",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/v009/wish-3500.png",
+      "sha256": "c52b509de4bb699ba306be09a563e3a579dfbce643764a47242a5b5058412169",
+      "bytes": 511974,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/v009/wish-3500.png",
+          "role": "review-export"
+        },
+        {
+          "path": "motion/005-halloween/previews/v010/wish-3500.png",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/v009/wish-3650.png",
+      "sha256": "1b8cdb8dbae8949198df6edf22b7c2452ce16268ddc2e734ac540a78b6e0acb5",
+      "bytes": 511730,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/v009/wish-3650.png",
+          "role": "review-export"
+        },
+        {
+          "path": "motion/005-halloween/previews/v010/wish-3650.png",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/v009/wish-3780.png",
+      "sha256": "3524dddbe04e339b5cd4eb28aeeee2ded47d452684541c57623739e63a9d464b",
+      "bytes": 511853,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/v009/wish-3780.png",
+          "role": "review-export"
+        },
+        {
+          "path": "motion/005-halloween/previews/v010/wish-3780.png",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/v009/wish-5300.png",
+      "sha256": "80cbe3977c5982bdc1c7623e9b0d60c96bd761cfb2f6e4252465a936048bf460",
+      "bytes": 506887,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/v009/wish-5300.png",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/v009/wish-8050.png",
+      "sha256": "4d80fe3ef81756d0e88574fe8a69e8c805485af4bc0ba4efb551eebe4d558a37",
+      "bytes": 515276,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/v009/wish-8050.png",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/v009/wish-8500.png",
+      "sha256": "1fab7f4e49bcf72cac00a89d02dc4ddc86beb6990eff1b3243bc53ee998dfb73",
+      "bytes": 515389,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/v009/wish-8500.png",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/v010/final.png",
+      "sha256": "ea7a3c413b1586bc23b926001f98423d7c17381545257052f6cccb4bd1bb90cf",
+      "bytes": 815190,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/v010/final.png",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/v010/wish-1050.png",
+      "sha256": "9b23ceae77e6067469bd5c7154295bd932134dcfb4723e903e49396e73178929",
+      "bytes": 507425,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/v010/wish-1050.png",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/v010/wish-1280.png",
+      "sha256": "b728136835e7cc653998c48a30d34e0794e2faf0b30b389c657d42c3406ebc79",
+      "bytes": 506660,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/v010/wish-1280.png",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/v010/wish-5300.png",
+      "sha256": "a72df26ab9a98a3b202eb42b0bb83763434a4cb6f979af1ac1eca4b9aa4963df",
+      "bytes": 506243,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/v010/wish-5300.png",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/v010/wish-8050.png",
+      "sha256": "92baad5fc56f6717bba6c96e56642ac1cdb6a9fe48f8719fc9dbfda0aa962f36",
+      "bytes": 514526,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/v010/wish-8050.png",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/v010/wish-8500.png",
+      "sha256": "b9d379f32a52bf5fa3a936fb458413f0790e1791119ab6ef27e320dd5fe77539",
+      "bytes": 514966,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/v010/wish-8500.png",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/wish-12500.png",
+      "sha256": "700e9f737a2a86c97a0d49903ccaffcf9acc0ecd7f8c81f4b1d8a07c219ab868",
+      "bytes": 529436,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/wish-12500.png",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/wish-17000.png",
+      "sha256": "6757a704867ca93edeffbb12371a3efb28dbee2f50bcfe123a0937f096144461",
+      "bytes": 526506,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/wish-17000.png",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/wish-1800.png",
+      "sha256": "2048de73bf75ccb30ed5f716634ffb86f9714b5338452326c1c2475dda7f9b15",
+      "bytes": 513993,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/wish-1800.png",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/wish-3500.png",
+      "sha256": "3b3c876968c2e585406fb18578992c0b8965cd72e3319a4c30b59be2e27f9163",
+      "bytes": 512334,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/wish-3500.png",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/previews/wish-8500.png",
+      "sha256": "8e580002193c73c4f2811601f7b0d745bfd00e887751d6471e6a19bedd642578",
+      "bytes": 517144,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/previews/wish-8500.png",
+          "role": "review-export"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/template-interaction/assets/episode-voices-v005.m4a",
+      "sha256": "ad0bd3ce9dcc716f650537eea42e37477b48c413bc89d0871a0babc4ec5672ec",
+      "bytes": 338264,
+      "extension": "m4a",
+      "locations": [
+        {
+          "path": "motion/005-halloween/template-interaction/assets/episode-voices-v005.m4a",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/005-halloween/versions/v012/template/assets/episode-voices-v005.m4a",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/template-interaction/assets/halloween-export-v010.mp4",
+      "sha256": "845acfb1b0f4d71ddf193b2d08d3857365f0fecda2c0c72421e38adadaab2c91",
+      "bytes": 2997496,
+      "extension": "mp4",
+      "locations": [
+        {
+          "path": "motion/005-halloween/template-interaction/assets/halloween-export-v010.mp4",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/005-halloween/previews/halloween-wish-v010-review.mp4",
+          "role": "review-export"
+        },
+        {
+          "path": "docs/media/005-halloween-v010.mp4",
+          "role": "viewing-copy"
+        },
+        {
+          "path": "motion/005-halloween/versions/v011/template/assets/halloween-export-v010.mp4",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/template-interaction/assets/halloween-export-v012.mp4",
+      "sha256": "acbdd17a1dc960f70bbcd935cb88cfe5af0546b5f43a715baf0ebed67e9c5592",
+      "bytes": 2996691,
+      "extension": "mp4",
+      "locations": [
+        {
+          "path": "motion/005-halloween/template-interaction/assets/halloween-export-v012.mp4",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/005-halloween/previews/halloween-wish-v012-voiced-review.mp4",
+          "role": "review-export"
+        },
+        {
+          "path": "docs/media/005-halloween-v012.mp4",
+          "role": "viewing-copy"
+        },
+        {
+          "path": "motion/005-halloween/versions/v012/template/assets/halloween-export-v012.mp4",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/template-interaction/assets/halloween-room-v001.png",
+      "sha256": "787dae59aab0ecc7467c26a323017810be9e2208161175076944c259e76440f2",
+      "bytes": 2562726,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/template-interaction/assets/halloween-room-v001.png",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/005-halloween/template-wish/assets/halloween-room-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/005-halloween/versions/v002/template/assets/halloween-room-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v003/template/assets/halloween-room-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v004/template/assets/halloween-room-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v005/template/assets/halloween-room-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v006/template/assets/halloween-room-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v007/template/assets/halloween-room-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v008/template/assets/halloween-room-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v009/template/assets/halloween-room-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v010/template/assets/halloween-room-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v011/template/assets/halloween-room-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v012/template/assets/halloween-room-v001.png",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/template-interaction/assets/halloween-wish-score-v001.m4a",
+      "sha256": "3835f0f8c8e3d0988cbdc9ab5cb234295cbf706ac3053898e0a4b21dc1a85f82",
+      "bytes": 332050,
+      "extension": "m4a",
+      "locations": [
+        {
+          "path": "motion/005-halloween/template-interaction/assets/halloween-wish-score-v001.m4a",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/005-halloween/template-wish/assets/halloween-wish-score-v001.m4a",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/005-halloween/versions/v002/template/assets/halloween-wish-score-v001.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v003/template/assets/halloween-wish-score-v001.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v004/template/assets/halloween-wish-score-v001.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v005/template/assets/halloween-wish-score-v001.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v006/template/assets/halloween-wish-score-v001.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v007/template/assets/halloween-wish-score-v001.m4a",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/template-interaction/assets/halloween-wish-score-v002.m4a",
+      "sha256": "4de8143923ef0654238adf59ca021098da1ec7ab3c2f14fb133a772bc04cab55",
+      "bytes": 332765,
+      "extension": "m4a",
+      "locations": [
+        {
+          "path": "motion/005-halloween/template-interaction/assets/halloween-wish-score-v002.m4a",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/005-halloween/versions/v008/template/assets/halloween-wish-score-v002.m4a",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/template-interaction/assets/halloween-wish-score-v003.m4a",
+      "sha256": "252d07d82059c3131adee2ca719cf0cb362dab3be5550ce6d68ce048d6271b21",
+      "bytes": 332421,
+      "extension": "m4a",
+      "locations": [
+        {
+          "path": "motion/005-halloween/template-interaction/assets/halloween-wish-score-v003.m4a",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/005-halloween/versions/v009/template/assets/halloween-wish-score-v003.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v010/template/assets/halloween-wish-score-v003.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v011/template/assets/halloween-wish-score-v003.m4a",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/template-interaction/assets/lucky-ghost-painted-v001.png",
+      "sha256": "260ee3f9d04d9741a7b04565d38cde728213abdadee8eca3114cbe18f96c0f92",
+      "bytes": 1498889,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/template-interaction/assets/lucky-ghost-painted-v001.png",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/005-halloween/versions/v005/template/assets/lucky-ghost-painted-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v006/template/assets/lucky-ghost-painted-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v007/template/assets/lucky-ghost-painted-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v008/template/assets/lucky-ghost-painted-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v009/template/assets/lucky-ghost-painted-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v010/template/assets/lucky-ghost-painted-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v011/template/assets/lucky-ghost-painted-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v012/template/assets/lucky-ghost-painted-v001.png",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/template-interaction/assets/lucky-wish-sheet-v001.png",
+      "sha256": "1dcd71ebba7c3ecb43717ea66b117a398b8e74e13afcb55287e250e5f811ef70",
+      "bytes": 2124807,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/template-interaction/assets/lucky-wish-sheet-v001.png",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/005-halloween/template-wish/assets/lucky-wish-sheet-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/005-halloween/versions/v002/template/assets/lucky-wish-sheet-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v003/template/assets/lucky-wish-sheet-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v004/template/assets/lucky-wish-sheet-v001.png",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/template-interaction/assets/mochi-wish-sheet-v001.png",
+      "sha256": "8fe97b04b0a39e73dfa36f3ea3ebc8aee1a430927ff04bc3c68f488dc5b7de4d",
+      "bytes": 1778415,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/template-interaction/assets/mochi-wish-sheet-v001.png",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/005-halloween/template-wish/assets/mochi-wish-sheet-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/005-halloween/versions/v002/template/assets/mochi-wish-sheet-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v003/template/assets/mochi-wish-sheet-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v004/template/assets/mochi-wish-sheet-v001.png",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/template-interaction/assets/mochi-witch-painted-v001.png",
+      "sha256": "aafcec28179e5d1b30793fe2a7752f026653d740bcb5bc735dadc03e4145ffd9",
+      "bytes": 1746440,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/template-interaction/assets/mochi-witch-painted-v001.png",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/005-halloween/versions/v005/template/assets/mochi-witch-painted-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v006/template/assets/mochi-witch-painted-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v007/template/assets/mochi-witch-painted-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v008/template/assets/mochi-witch-painted-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v009/template/assets/mochi-witch-painted-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v010/template/assets/mochi-witch-painted-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v011/template/assets/mochi-witch-painted-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v012/template/assets/mochi-witch-painted-v001.png",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/template/assets/halloween-score-v001.m4a",
+      "sha256": "79664b039f4ec42a60376226fb63202620b3658b030f6d0332b69fe9e2bc6ad0",
+      "bytes": 214916,
+      "extension": "m4a",
+      "locations": [
+        {
+          "path": "motion/005-halloween/template/assets/halloween-score-v001.m4a",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/005-halloween/versions/v001/template/assets/halloween-score-v001.m4a",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/template/assets/halloween-storyboard-v001.png",
+      "sha256": "34296dfd9138b1c294fddccaac62e1f879a6aab15ca035a8905bd3f992fc9379",
+      "bytes": 2733651,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "motion/005-halloween/template/assets/halloween-storyboard-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/005-halloween/versions/v001/template/assets/halloween-storyboard-v001.png",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "scenes/blanket-sofa-evening/keyframe-v001.png",
+      "sha256": "b9b4361fe1ff8f22ab6081b212f4d22ae94104bdeee28abc0b20c8526f774d24",
+      "bytes": 2508335,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "scenes/blanket-sofa-evening/keyframe-v001.png",
+          "role": "shared-original"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "scenes/box-living-room/keyframe-v001.png",
+      "sha256": "e4211141134d3f3d03a5c049e8e5919d5fc4adc225a7ee0f41f1470098a7b4d0",
+      "bytes": 2629712,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "scenes/box-living-room/keyframe-v001.png",
+          "role": "shared-original"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "scenes/entryway-adventure/keyframe-v001.png",
+      "sha256": "0afa0ec4b4c7d027857dad880fc2590ca3e2691342d322555b645b8545651efb",
+      "bytes": 2575551,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "scenes/entryway-adventure/keyframe-v001.png",
+          "role": "shared-original"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "scenes/garden-path-after-rain/keyframe-v001.png",
+      "sha256": "aefd177d452d6ef299630d960e45a9f5c18d84c414d10c9b3b6d6ed3813a7cd2",
+      "bytes": 2877058,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "scenes/garden-path-after-rain/keyframe-v001.png",
+          "role": "shared-original"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "scenes/kitchen-last-treat/keyframe-v001.png",
+      "sha256": "9e51b4851f71795fb5ab125573f4ff7febfeeb6fee3d4d62775e30d6cffd49f2",
+      "bytes": 2592216,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "scenes/kitchen-last-treat/keyframe-v001.png",
+          "role": "shared-original"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "scenes/laundry-basket/keyframe-v001.png",
+      "sha256": "c39d8362e5dbffa398647afc7bea22b1ae3dc13a97629239c20f7138115db14b",
+      "bytes": 2824448,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "scenes/laundry-basket/keyframe-v001.png",
+          "role": "shared-original"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "scenes/neighborhood-bakery-window/keyframe-v001.png",
+      "sha256": "9fa8da175b3c57a715c701bc37ef71f0dd3335fb2131d64304f00c090dd25c43",
+      "bytes": 2768055,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "scenes/neighborhood-bakery-window/keyframe-v001.png",
+          "role": "shared-original"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "scenes/night-terrace-stars/keyframe-v001.png",
+      "sha256": "7469384ecffae7a7b5c52e77323fdc566f68057de36f50084da5aab58faa6133",
+      "bytes": 2653838,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "scenes/night-terrace-stars/keyframe-v001.png",
+          "role": "shared-original"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "scenes/park-picnic/keyframe-v001.png",
+      "sha256": "688b22211e126b1552378842f314b1a73c68a266dc7c0bae3fb195b2a532b4a3",
+      "bytes": 3118383,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "scenes/park-picnic/keyframe-v001.png",
+          "role": "shared-original"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "scenes/plant-corner/keyframe-v001.png",
+      "sha256": "098cfe71219a30c539d9c77ad6e46d76d2a8f100c74b3964c2388788efb726cf",
+      "bytes": 2740984,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "scenes/plant-corner/keyframe-v001.png",
+          "role": "shared-original"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "scenes/sun-patch-reading-nook/keyframe-v001.png",
+      "sha256": "f5e427c9420397511f93f41b20c31488aeb98bda8d63a6e46c121b1579a49f1c",
+      "bytes": 2718766,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "scenes/sun-patch-reading-nook/keyframe-v001.png",
+          "role": "shared-original"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "scenes/window-rain/keyframe-v001.png",
+      "sha256": "c77cc76bc54098a0598db6d8565dc56541efe533025cefa2c3b1364f31e8beb9",
+      "bytes": 2600368,
+      "extension": "png",
+      "locations": [
+        {
+          "path": "scenes/window-rain/keyframe-v001.png",
+          "role": "shared-original"
+        }
+      ]
+    }
+  ]
+}

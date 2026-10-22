@@ -1,11 +1,19 @@
-# Motion 002 · Caption Draft / 发布文案草稿
+# 002 · One Tiny Feature · Caption Draft / 发布草稿
 
-Status / 状态: Draft, unpublished / 草稿，未发布。
+For / 对应：**v003**, [selected episode / 剧集](../motion/002-tiny-feature/index.html). Status / 状态：Draft, not scheduled or published / 草稿，未排期未发布。
 
-Internal note / 内部说明: Publishing copy stays English only / 下方发布内容保持全英文。
+The publishing text below stays English only / 下方发布内容保持英文。
 
-Caption: The feature is tiny. The coffee is not.
+## Caption · 英文文案
 
-Alt text: On cream paper, Lucky, a black cat with yellow-green eyes, suggests one tiny feature, then adds a login and payments. Beside him, Mochi, a fluffy orange cat with a cream muzzle and chest, quietly gets a bigger coffee cup at each step. Mochi finally says, “I'll get a bigger cup.” The gouache-painted cats breathe gently while steam rises from the growing blue cup.
+The feature is tiny. The coffee is not.
 
-Channel / date / URL · 渠道／日期／链接: TBD / 待定。
+## Alt text · 英文画面描述
+
+In a painted coffee nook, Lucky proposes one tiny feature, then adds a login and payments. Cream coffee mugs arrive in increasing sizes. Mochi gets a much bigger cup, and Lucky stretches up to peek over it.
+
+## Internal record · 内部记录
+
+Channel / date / URL / approval: TBD / 渠道、日期、链接及批准待定。
+
+Earlier copy is retained in [documentation history / 说明历史](../archive/README.md).

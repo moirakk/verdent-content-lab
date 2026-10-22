@@ -1,3 +1,5 @@
+> Historical production notes / 历史制作记录: the versions, source selection and limitations below describe that earlier experiment. Current selections: [EPISODES.md](../../EPISODES.md). / 下文属当时批次，当前以总览为准。
+
 # Image generation prompts / 图像生成提示词
 
 ## Final painted ghost contact sheet / 最终油画幽灵装接触动作

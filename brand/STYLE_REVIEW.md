@@ -1,3 +1,5 @@
+> Historical production notes / 历史制作记录: the versions, source selection and limitations below describe that earlier experiment. Current selections: [EPISODES.md](../EPISODES.md). / 下文属当时批次，当前以总览为准。
+
 # Style Recalibration · 画风回校
 
 2026-10-20. The creator re-shared the blue-floor painting and questioned the current visual distance. This reopens style review; continuing content was not approval of the rendering style / 创作者重发蓝底绘画并指出差距，画风重新回校；继续内容打磨不代表现有渲染风格获批。

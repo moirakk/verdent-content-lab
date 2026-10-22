@@ -1,71 +1,43 @@
-# Content Map · 内容与实际状态总表
+# Content Map · 实际内容状态
 
-Updated / 更新：2026-10-22（Asia/Shanghai）。This file is the actual-artifact/publication source of truth / 本文件统一记录实际文件与发布状态。
-
-[Episode library / 剧集总览](EPISODES.md) · [Browser library / 浏览器总览](docs/index.html)
-
-## State Labels · 先分清状态
-
-- Confirmed direction: identity/style/voice preference, not a finished film / 已确认方向，不等于已确认成片。
-- Working draft: current editable/output file, not necessarily preferred / 当前工作稿，不一定最满意。
-- Review render: a viewing aid, not proof of browser playback / 审片渲染，不证明浏览器验收。
-- Approved/Scheduled/Published require explicit evidence; do not infer them / 已确认、已排期、已发布须有明确证据。
+This file records factual state; current versions/lengths/exports are generated in [EPISODES.md](EPISODES.md). [Inventory](inventory/README.md) lists exact source paths and media fingerprints / 本页管实际状态，版本时长导出查自动总览，素材位置指纹查统一目录。
 
 ## Motion · 动态作品
 
-| ID / 标题 | Current local working file / 本地工作文件 | What exists / 实际完成 | Missing/review / 缺失或待审 |
-| --- | --- | --- | --- |
-| 001 · The Corner Office | [v004 HTML](motion/001-have-an-idea/index.html), 18s / 18 秒 | Living room, 8 box-entry/settling poses, 5 child lines, original pizzicato and box sounds, [MP4](motion/001-have-an-idea/previews/v004-corner-office-review.mp4); 4 archives / 客厅挤纸箱、五句童声、拨弦纸箱声，4 版 | New story review pending / 新剧情待验看 |
-| 002 · One Tiny Feature | [v003 HTML](motion/002-tiny-feature/index.html), 18s / 18 秒 | Coffee nook, 8 reactions/peeking poses, escalating cup entrances, 5 child lines, café score and clinks, [MP4](motion/002-tiny-feature/previews/v003-coffee-story-review.mp4); 3 archives / 咖啡角、换杯探头、五句童声与咖啡馆配乐，3 版 | New acting/story review pending / 新动作剧情待验看 |
-| 003 · Chief Nap Officer | [A v019 HTML](motion/003-chief-nap-officer/index.html), 18s / 18 秒 | Retained visual benchmark, child speech and [MP4](motion/003-chief-nap-officer/previews/v019-browser-review.mp4); 19 archives / 保留基准、童声与视频，19 版 | No new film source/output edits / 本轮未改成片源码 |
-| 004 · Soft Launch | [v006 HTML](motion/004-that-was-a-sentence/index.html), 20s / 20 秒 | Bakery kitchen, 8 empty-tray/crumb/guarding poses, 6 child lines, sneaky plucks and SFX, [MP4](motion/004-that-was-a-sentence/previews/v006-soft-launch-review.mp4); 6 archives / 厨房空盘碎屑护盘、六句童声与潜行小调，6 版 | New standalone comedy; earlier M01 product-story drafts retained / 新生活喜剧，旧 M01 功能故事保留 |
-| 005 · A Little More | [v012 HTML](motion/005-halloween/index.html), 18s / 18 秒 | Retained Halloween benchmark, 3 child lines, seasonal score and [MP4](motion/005-halloween/previews/halloween-wish-v012-voiced-review.mp4); 12 archives / 保留节日基准与三句童声、配乐下载，12 版 | Unpublished review draft / 未发布待审 |
+All selected motion films are unpublished review drafts with actual synthetic child speech, original BGM and MP4 downloads. New story films use distinct living-room, coffee-nook and kitchen scenes; 003/005 remain accepted visual benchmarks for further review / 当前动态均未发布待审，实际含合成童声、原创配乐与下载；新剧情分客厅、咖啡角、厨房，003、005 保留视觉基准。
 
-**All selected films have actual child speech, original music and downloadable MP4s. 44 immutable HTML archives. Three newly rebuilt films are 800×1000/24fps Chromium timeline exports; all five remain unpublished review drafts. / 五集均有实际童声、原创配乐与下载，共 44 个永久 HTML；新三集为 800×1000/24fps 浏览器时间轴导出，均未发布待审。**
+Current MP4s are actual Chromium timeline samples at 24 fps with H.264/AAC. 001/002/004 use 800×1000, 003 uses 480×600, 005 uses 540×960. They are review exports, not final delivery approval / 当前视频为真实浏览器时间轴采样，尺寸如上，仍属审片导出。
 
-Current production stage / 当前所处阶段：**2 of 4 — character acting and short-scene validation / 四阶段中的第 2 阶段：角色动作与短段验证**. This is not 50% completion; full-episode approval, actual recording and publication remain pending. [Stage definitions / 阶段说明](PRODUCTION_GUIDE.md) / 不按阶段数推算百分比；整集验收、实录与发布仍待完成。
-Details / 逐版解释：[Version Guide](motion/VERSION_GUIDE.md). Stable episode paths are preserved; current selections are listed above / 保留稳定集数路径，当前选用稿见上表。
+The new stories are limited animation, without phoneme lip sync. Their opening button starts sound explicitly; the library can unmute/restart one movie and pause other movies / 新剧情为有限动画，无音素口型；点击显式带声，目录可重播当前片并暂停其他片。
 
-Immediate priority / 当前优先：review the creator-requested Halloween candy-wish episode 005; 003 v017 remains preserved / 验看创作者新要求的 005 万圣节许愿糖雨，003 v017 保留不动。
+## Art and sound · 素材声音
 
-003 maps to M02. Earlier 004 versions map to M01; current 004 v006 is a standalone kitchen comedy with no product capability claim. 001/002 are also original stories, not verified product demonstrations. / 003 对应 M02；004 旧版为 M01，当前 v006 是独立厨房喜剧，无产品功能承诺，001/002 同样不是实测演示。
+| Group / 分类 | Actual material / 实际资料 |
+| --- | --- |
+| Characters / 角色 | [Profiles and private references](characters/README.md), [style anchors](characters/style-anchors/README.md) / 档案、私有参考、画风锚点 |
+| Reusable locations / 生活场景 | [Scene keyframes and generation metadata](scenes/README.md) / 场景关键帧与生成记录 |
+| Expressions and poses / 表情动作 | [Expression sheets](characters/expressions/README.md), [pose studies](characters/poses/README.md) / 表情稿及姿势实验 |
+| Current story art / 新剧情画稿 | [Three rooms, three eight-cell whole-cat sheets, mug and registration](motion/_painted-story/README.md) / 三房间、三套八帧整猫、杯子与对位 |
+| Current story audio / 新剧情声音 | Per-episode audio/v003-story/ clips/mix metadata, audio/story-score-v001/ original scores/SFX, selected template/assets/ mixes / 本集分轨、时长、原创谱和混音 |
+| Older sound / 旧声音 | Adult-voice tests, music-only films and incomplete attempts remain labelled history / 成人声试验、仅配乐稿和未完成尝试保留标记 |
+| Branding / 品牌 | [Supplied original logo files](brand/assets/README.md), unchanged / 用户原 Logo，不修改原件 |
 
-## Art & Sound · 素材与声音
+003's workflow is illustrative M02 parallel work. Earlier 004 drafts illustrated M01; current Soft Launch is a standalone kitchen comedy, with no product capability claim. Halloween candy wishes are fictional / 003 为并行工作示意，004 旧稿为目标拆解，新稿是生活喜剧；节日出糖属于虚构。
 
-| Group / 分类 | What exists / 现有 | Approval/limit / 状态与边界 |
-| --- | --- | --- |
-| References / 参考 | [Private photo/style references](characters/references/README.md) / 真猫与画风参考 | Appearance anchors, not permission to copy compositions / 外貌参考，不复制构图 |
-| Shared poses / 共享姿势 | [8 PNGs](characters/poses/README.md) with prompt records / 8 张 PNG 与提示词 | Reusable candidate assets, not a complete approved model sheet / 候选素材，不是完整获批角色设定表 |
-| New story art / 新剧情素材 | 3 painted backgrounds + 3 whole-cat sheets (24 cells), mug, registration and prompts in `motion/_painted-story/` / 三套布景、三套共二十四帧整猫、杯子与提示记录 | Selected draft art, not a full approved model sheet / 选用待审素材，非完整批准设定表 |
-| 003 audio v001 / 旧声音 | Adult Jenny/Eric voices + original score / 成人声与配乐 | Retained for history; current voice direction rejects adult narration / 仅历史保留，不作为当前声线方向 |
-| 003 audio v002 / 当前童声 | Maisie UK + Ana US, 5 synthetic English lines, 18s mix / 两种英语口音、五句合成童声 | Existing usable pilot audio; not real child recordings or permanent casting approval / 可用试播音轨，非真人儿童录音或永久定音 |
-| 001/002/004 sound / 新剧情声音 | `audio/v003-story/`: 5 + 5 + 6 measured child lines, distinct scores and SFX / 十六句童声、独立配乐与动作音 | Incomplete v002-story attempts in 001/002 are retained, unused / 两处未完成尝试保留但未使用 |
-| 005 sound / 万圣节声音 | v005 mix: three measured child lines + original Halloween score / 三句实测童声与原节日配乐 | Music-only versions retained / 原配乐版保留 |
-| Official logo / 标志 | [Unmodified original](brand/assets/verdent-logo-original.png) / 原文件 | Use without redrawing/stretching / 不重画不拉伸 |
+## Comics and publication · 漫画与发布
 
-Current H.264/AAC review exports are 24fps: 001/002/004 are 800×1000 (18/18/20s), 003 is 480×600 (18s), 005 is 540×960 (18s). All use actual Chromium timeline sampling; older offline exports remain historical / 当前均为浏览器时间轴采样，尺寸时长如上，旧离线导出保留。
+| Item / 内容 | Evidence/status / 事实状态 |
+| --- | --- |
+| EP.05 · It Works on My Machine. | Creator-confirmed published; original art, channel/date/URL not archived / 创作者确认已发布，原稿和渠道日期链接待归档 |
+| Mid-Autumn Special / 中秋 | Follows EP.05; release unverified, existing brief is a proposal / 接续 EP.05，发布未核实，现有说明为提案 |
+| EP.06 / EP.07 | Unpublished story briefs / 未发布选题说明 |
 
-## Comics · 漫画连续性
+Comic numbering is independent. [Publishing copy](captions/README.md) is version-labelled draft copy, never proof of release / 漫画编号独立，发布文案按版本标记且不代表真实发布。
 
-| Order / 顺序 | Item / 内容 | Known state / 已知状态 | Next / 待补 |
-| --- | --- | --- | --- |
-| 1 | EP.05 · It Works on My Machine. | Published, creator-confirmed / 创作者确认已发布 | Original artwork, channel/date/link not archived / 原稿与渠道日期链接待归档 |
-| 2 | Mid-Autumn Special | Follows EP.05; release unverified / 接续 EP.05，发布待核实 | [Brief](comics/ideas/mid-autumn-special.md) is a proposal / 现有说明为提案 |
-| 3 | EP.06 | Next regular comic; brief only / 下一篇正篇，只有选题说明 | [Confirm story](comics/ep06/README.md) / 确认故事 |
-| 4 | EP.07 | Unconfirmed idea / 未确认选题 | [Brief](comics/ep07/README.md) / 待推进 |
+## Planning, storage and access · 提案保存访问
 
-Comic numbering is separate from motion. Do not reuse the tiny-feature/coffee or machine joke without checking existing work / 两套编号独立，复用小功能咖啡或 machine 笑点前查旧作。
+[Feature map](brand/VERDENT_FEATURE_MAP.md) and [queue](brand/FEATURE_CONTENT_QUEUE.md) are editorial research/proposals, not a verified full specification or approved schedule. Office Upgrade has been adapted into 001; two further [life-story cards](motion/ideas/README.md) remain proposals / 功能表和队列是资料提案，不冒充完整规格或排期；纸箱已改编，其余生活故事仍为提案。
 
-## Product & Queue · 功能与选题
+Repository: private [moirakk/verdent-content-lab](https://github.com/moirakk/verdent-content-lab). The current Git commit is the saved snapshot identity. Pages is disabled; built HTML and MP4s work locally. [History](motion/VERSION_GUIDE.md) preserves every saved film, including failed experiments / 仓库私有，当前 Git 提交标识保存状态；Pages 未启用，可本地看，所有旧片含失败实验保留。
 
-[40 entries](brand/VERDENT_FEATURE_MAP.md): Manager/Desktop 18, Cloud 11, VS Code 11. [Eight story cards](brand/FEATURE_CONTENT_QUEUE.md): R01/R02 have the above drafts; R03–R08 remain proposals, with no dates / 40 项功能工作条目，八张选题卡；只有前两张有样片，其他未排期。
-This is not a full product specification or an approved 40-episode schedule / 不是完整规格或已批准的 40 集排期。
-
-## Git & Access · 保存与访问
-
-- Private repo / 私有仓库：[moirakk/verdent-content-lab](https://github.com/moirakk/verdent-content-lab).
-- Previous complete project sync confirmed by push: `a6ed89c`, after cat-scene sync `42f7483` / 上一批全部旧稿已推送，新场景素材先由 42f7483 保存。
-- Previous confirmed complete sync: `89bc89f`. This batch includes new story source, selected art, prompts, raw voices, scores, mixes, MP4s, HTML archives and navigation. The current Git commit/remote identifies the exact saved snapshot / 上轮完整同步为 89bc89f，本批含新剧情所有源码素材声音视频历史与导航，准确版本以当前 Git 提交及远端为准。
-- Pages remains disabled/private. [Episode library](docs/index.html) and all current HTMLs work locally; Chromium playback and direct MP4 download have been checked / Pages 未启用，目录与 HTML 可本地用，浏览器播放和视频下载已验证。
-
-For a real release, add approved asset/version, channel, date and URL. Unknown fields stay TBD / 真正发布后补最终版本、渠道、日期、链接，未知不编造。
+Actual release records require an approved version, channel, date and URL; missing facts stay TBD / 真实发布后补批准版、渠道、日期链接，未知不编造。

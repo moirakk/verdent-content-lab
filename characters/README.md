@@ -1,14 +1,16 @@
 # Characters · 角色资料
 
-[Reusable gouache poses / 可复用水粉姿势库](poses/README.md)：Lucky's raised paw and yawn, Mochi's skeptical side-eye / Lucky 举爪、打哈欠，Mochi 怀疑侧目。
-
-| Character / 角色 | Identity & personality / 身份与性格 | Profile / 档案 |
+| Character / 角色 | Identity / 身份 | Profile / 档案 |
 | --- | --- | --- |
-| Mochi | Yellow older sister; calm, rational, dry humor / 黄猫姐姐，冷静、理性、冷面幽默 | [Mochi](mochi.md) |
-| Lucky | Black younger brother; lively, eager, easily carried away / 黑猫弟弟，活泼、热情、容易上头 | [Lucky](lucky.md) |
+| Mochi | Fluffy orange-gold older sister, cream muzzle/chest, pink nose; calm and dryly funny / 橘金蓬松姐姐、浅口鼻胸毛粉鼻，冷静冷幽默 | [Profile](mochi.md) |
+| Lucky | Warm charcoal black younger brother, large ears, yellow-green eyes; eager and curious / 温黑弟弟、大耳黄绿眼，热情好奇 | [Profile](lucky.md) |
 
-Start with [the original cat photo / 真猫参考照片](references/README.md). Mochi is the orange cat at the back left; Lucky is the black cat in the foreground right. The photo guides appearance, not personality. Keep it in private references, outside `docs/`.
+[Private originals / 私有原始参考](references/README.md) anchor appearance; [IP Bible / 人设](../brand/IP_BIBLE.md) anchors personality. Private real-cat photos stay outside docs/ / 外貌与性格分别查原始参考和人设，真猫照片不进观看目录。
 
-先看真猫照片：左后方橘猫是 Mochi，右前方黑猫是 Lucky。照片用于外貌参考，性格以文字设定为准。原图留在私有资料中，不复制进预览目录。
+- [Accepted painting anchors / 画风锚点](style-anchors/README.md)
+- [Expression sheets / 表情稿](expressions/README.md)
+- [Shared pose studies / 共享姿势实验](poses/README.md)
+- [New full-character story sequences / 新生活短剧整猫序列](../motion/_painted-story/README.md)
+- [Lifestyle scene references / 生活场景](../scenes/README.md)
 
-See [IP Bible / 人物设定](../brand/IP_BIBLE.md) and [Visual Style / 视觉规范](../brand/VISUAL_STYLE.md). Finished dialogue and audience-facing text are English only / 成品对白和面向观众的文字全部用英文。
+Natural kitten proportions, coarse matte brush masses and connected anatomy take priority over any particular generated experiment / 自然幼猫比例、粗哑光笔触及完整结构优先，不把任何新实验自动当成标准。

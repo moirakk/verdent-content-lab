@@ -1,3 +1,5 @@
+> Historical production notes / 历史制作记录: the versions, source selection and limitations below describe that earlier experiment. Current selections: [EPISODES.md](../../../EPISODES.md). / 下文属当时批次，当前以总览为准。
+
 # A/B Review Checks · 双版检查记录
 
 2026-10-20. A v015 / B v016, local drafts only / 本地待审稿。

@@ -1,0 +1,14 @@
+{
+  "name": "verdent-content-lab",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Private Mochi and Lucky painted story sources, media and archives",
+  "engines": {"node": ">=22"},
+  "scripts": {
+    "check": "node scripts/check-repository.mjs",
+    "index": "node scripts/build-episode-library.mjs && node scripts/build-repository-index.mjs",
+    "build:episode": "node scripts/build-motion.mjs",
+    "render:stories": "node scripts/render-story-previews.cjs"
+  },
+  "devDependencies": {"playwright": "1.62.1"}
+}

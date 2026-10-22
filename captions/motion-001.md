@@ -1,11 +1,19 @@
-# Motion 001 · Caption Draft / 发布文案草稿
+# 001 · The Corner Office · Caption Draft / 发布草稿
 
-Status / 状态: Draft / unpublished · 草稿，未发布
+For / 对应：**v004**, [selected episode / 剧集](../motion/001-have-an-idea/index.html). Status / 状态：Draft, not scheduled or published / 草稿，未排期未发布。
 
-Internal note / 内部说明: The caption and alt text below are publishing copy and must remain English only. 下方为发布内容，保持全英文，不加中文译文。
+The publishing text below stays English only / 下方发布内容保持英文。
 
-Caption: Another day. Another “tiny” idea.
+## Caption · 英文文案
 
-Alt text: On warm paper, Lucky, an excited black cat, says, “Mochi, I have an idea.” Mochi, a calm yellow cat, replies, “How tiny?” The footer reads, “the project was not tiny.” A laptop and steaming coffee sit on their desk. The animation has gentle blinking and tail movement.
+Corner office. Excellent company. Limited floor space.
 
-Channel / publication date / URL · 渠道／日期／链接: TBD / 待定
+## Alt text · 英文画面描述
+
+In a warm painted living room, Lucky presents a cardboard box as an office upgrade. He climbs inside. Mochi asks whether there is room for two, then squeezes in beside him. Both settle together as Lucky calls it an open plan.
+
+## Internal record · 内部记录
+
+Channel / date / URL / approval: TBD / 渠道、日期、链接及批准待定。
+
+Earlier copy is retained in [documentation history / 说明历史](../archive/README.md).

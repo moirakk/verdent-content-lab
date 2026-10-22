@@ -1,19 +1,19 @@
-# Motion 003 · Caption Draft / 发布文案草稿
+# 003 · Chief Nap Officer · Caption Draft / 发布草稿
 
-Status / 状态：Draft, unpublished / 草稿，未发布。
+For / 对应：**v019**, [selected episode / 剧集](../motion/003-chief-nap-officer/index.html). Status / 状态：Draft, not scheduled or published / 草稿，未排期未发布。
 
-Internal note / 内部说明：All publishing copy below stays English / 下方发布内容全部英文。
+The publishing text below stays English only / 下方发布内容保持英文。
 
-Cover / 封面短句：I started a company.
+## Caption · 英文文案
 
-Caption: A very hands-off founder.
+A very hands-off founder.
 
-Optional audience prompt: What's your unofficial job title?
+## Alt text · 英文画面描述
 
-Alt text: Lucky announces that he started a company. Mochi points out that he has no employees. Lucky presses a key and an illustrated Verdent Manager panel reveals three tasks working in parallel on a cat café website. Mochi asks what Lucky does. In closeup, he replies “Chief Nap Officer.” After a pause, he yawns, folds his legs and curls up asleep. The task bars keep advancing without reaching completion. Mochi finally smiles. The last line reads “Business as usual.” The short uses painted cats, English childlike character voices and soft toy-bell music.
+Lucky announces that he started a company. Mochi points out that he has no employees. An illustrated Verdent Manager screen shows three tasks working in parallel. Asked what he does, Lucky replies Chief Nap Officer, yawns and curls up asleep. The work remains in progress.
 
-Internal note / 内部说明：The cover/caption should not reveal the nap punchline before viewing. UI and progress are illustrative, not a real product recording / 封面和 caption 不提前揭晓午睡反转；界面与进度是示意，不冒充录屏。
+## Internal record · 内部记录
 
-Product focus / 产品重点：Verdent Manager task decomposition and parallel work / 拆任务与并行工作。
+Channel / date / URL / approval: TBD / 渠道、日期、链接及批准待定。 Product UI is illustrative, not a real product recording / 产品界面为示意。
 
-Channel / date / URL · 渠道／日期／链接：TBD / 待定。
+Earlier copy is retained in [documentation history / 说明历史](../archive/README.md).

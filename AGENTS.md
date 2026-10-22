@@ -21,3 +21,5 @@ Official-media planning follows `brand/CONTENT_STRATEGY.md`, whose new recurring
 已生成 HTML 的编辑必须通过当前模板和 episode.json，随后重建并提交源文件、当前输出、完整历史版本与索引。手工改动的现有 HTML 会在下次构建前自动捕获保存。无需内容变化的重复构建不增加相同 HTML 的副本。
 
 用户给定的人物、原创与发布原则以 `brand/IP_BIBLE.md`、`brand/VISUAL_STYLE.md` 和 `CONTENT_MAP.md` 为准。仓库保持私有。仅 `docs/` 作为可选 Pages 发布目录。
+
+Repository maintenance / 仓库维护：Current state is generated from episodes.json, episode.json and HTML hashes. Run `npm run index` after changing metadata/media and `npm run check` before syncing; use `npm run check -- --assets` for full media fingerprint verification. Do not hand-edit generated episode READMEs, EPISODES.md, motion/VERSION_GUIDE.md, motion/TEMPLATE_MAP.md or inventory JSON. Earlier documentation is in archive/ and is historical context, not current instructions. / 当前状态按配置与实际文件生成；维护后更新索引并检查，素材可全量核对；生成文件不手改，旧说明仅作历史。

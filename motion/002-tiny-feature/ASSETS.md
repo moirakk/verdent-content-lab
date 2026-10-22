@@ -1,3 +1,5 @@
+> Historical production notes / 历史制作记录: the versions, source selection and limitations below describe that earlier experiment. Current selections: [EPISODES.md](../../EPISODES.md). / 下文属当时批次，当前以总览为准。
+
 # Artwork & Generation · 素材与生成说明
 
 Mode / 模式：Built-in Image Generation tool / 内置图像生成工具。Date / 日期：2026-10-20。

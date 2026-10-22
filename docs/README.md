@@ -1,27 +1,18 @@
-# Preview Copies · 预览副本
+# Viewing Copies · 观看副本
 
-[Project direction / 总方向](../PROJECT_BRIEF.md) · [Actual status / 实际状态](../CONTENT_MAP.md) · [Version meanings / 版本说明](../motion/VERSION_GUIDE.md)
+[Open library / 打开剧集总览](index.html) · [Current versions / 当前版本](../EPISODES.md) · [Source index / 修改源索引](../PROJECT_INDEX.md)
 
-These are generated viewing copies, not editable source, approval evidence or proof that Pages is live / 本目录是生成副本，不是编辑源码、批准证据或已上线 Pages 的证明。
+This is generated output. Edit episode sources in motion/, then build. The library offers explicit Play with sound actions and MP4 downloads; it pauses other library movies to avoid overlapping audio / 本目录为生成副本，源码在 motion 修改；目录可显式带声播放与下载，并避免多片声音重叠。
 
-Open [index.html](index.html) in a browser after downloading the repository. This section contains the English preview homepage, selected motion HTML, and saved-version preview copies. It is prepared for optional GitHub Pages publishing from `main` → `/docs`, but Pages is not currently enabled because the account plan rejected this private repository.
+| Path / 路径 | Role / 用途 |
+| --- | --- |
+| index.html | Current episode library / 当前剧集目录 |
+| assets/episodes/ | Current poster thumbnails / 当前封面 |
+| media/ | Version-labelled video viewing/download copies / 按版本保存的视频副本 |
+| motion/集数/index.html | Selected standalone animation / 选用单文件动画 |
+| motion/集数/versions/ | Immutable saved-film mirrors / 永久历史镜像 |
+| index-vNNN.html | Earlier homepage experiments, preserved / 历史首页实验，保留 |
 
-下载仓库后，用浏览器打开首页。这里保存英文预览页、当前动态片和历史版本预览副本，可用于未来从 main 分支的 /docs 发布 Pages；目前套餐不支持该私有仓库的 Pages，尚未启用。
+Private real-cat photos and private reference notes stay outside docs/. Public Pages is disabled; this folder does not prove a live website or publication / 私有真猫照片和参考说明不放这里；Pages 未启用，本目录不表示已上线或发布。
 
-[Previous preview home / 旧版预览首页](index-v001.html) is retained as an independent HTML snapshot / 原预览首页也作为独立 HTML 保留。
-
-[Preview home with Motion 002 / 含动态 002 的旧首页](index-v002.html) is also retained / 该版首页同样保留。Motion 003 has English audio; open its player and click Watch with sound / 003 请进入播放器点击声音按钮。
-
-Edit episode sources in `motion/`, then run the build tool to refresh generated copies. Keep every historical HTML intact. Do not place the real-cat photo, private character notes, or internal captions here. The audience-facing preview and creative content remain English; this internal README is bilingual.
-
-作品应在 motion 中修改源码，再通过工具更新生成副本。历史 HTML 全部保留；真猫照片、内部设定与文案不放进此目录。面向观众的预览和成品保持英文，本内部说明双语。
-
-## Current library / 当前剧集总览
-
-The homepage is now a lightweight five-film library, Halloween first, with posters and on-demand video players instead of several simultaneous animation iframes. Open HTML uses explicit `index.html` paths so local file browsing works. MP4 copies include mixed audio. / 首页改为轻量剧集总览，缩略图和按需视频播放代替同时加载多条动画；HTML 使用显式文件路径，本地可用，MP4 带混音。
-
-The previous five-episode homepage remains in [index-v004.html](index-v004.html). Current catalog source lives at `../episodes.json`; regenerate through `../scripts/build-episode-library.mjs`. / 旧首页保留；目录数据及构建工具位于仓库根部。
-
-2026-10-22 visual-unification update: all five library cards have videos with real mixed speech/music and downloads. 001 v003, 002 v002 and 004 v005 now share the original painted 003 cast/room; 003 v019 and 005 v012 remain the selected benchmarks. / 本轮统一画风后，五张卡均有实际带声视频与下载，三集重做，003、005 保留基准；全部待审、未发布。
-
-Latest story pass / 最新剧情批次：001 v004, 002 v003, 004 v006 now use distinct living-room, coffee-nook and kitchen scenes with original scores. All five cards offer explicit Play with sound buttons. Earlier unified-pass descriptions above are historical. Current selections are in [EPISODES.md](../EPISODES.md) and [PROJECT_INDEX.md](../PROJECT_INDEX.md). / 新三集改用不同生活布景及独立配乐，五集均显式带声播放；上方统一场景批次为历史，当前选用以总览和项目索引为准。
+Rebuild viewing indexes with npm run index; do not hand-edit generated HTML. All versions/vNNN/ snapshots remain immutable / 用命令更新目录，不手改生成 HTML，永久历史不变。

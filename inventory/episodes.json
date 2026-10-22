@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "episodes": [
+    {
+      "id": "001-have-an-idea",
+      "title": "The Corner Office",
+      "version": "v004",
+      "durationMs": 18000,
+      "aspect": "4:5",
+      "config": "motion/001-have-an-idea/episode.json",
+      "template": "motion/001-have-an-idea/template-story",
+      "html": "motion/001-have-an-idea/index.html",
+      "video": "motion/001-have-an-idea/previews/v004-corner-office-review.mp4",
+      "history": "motion/001-have-an-idea/versions/index.html",
+      "archiveCount": 4,
+      "sha256": "5a4b96c354aa9522c2d2a8da2a1dc255810dfaa973c3893d03fa5552653bec5a",
+      "status": "Unpublished draft"
+    },
+    {
+      "id": "002-tiny-feature",
+      "title": "One Tiny Feature",
+      "version": "v003",
+      "durationMs": 18000,
+      "aspect": "4:5",
+      "config": "motion/002-tiny-feature/episode.json",
+      "template": "motion/002-tiny-feature/template-story",
+      "html": "motion/002-tiny-feature/index.html",
+      "video": "motion/002-tiny-feature/previews/v003-coffee-story-review.mp4",
+      "history": "motion/002-tiny-feature/versions/index.html",
+      "archiveCount": 3,
+      "sha256": "abb6bb8c726b1be5e4002750169e4040a5fed80c6aef781cb9d31a973aaec4ae",
+      "status": "Unpublished draft"
+    },
+    {
+      "id": "003-chief-nap-officer",
+      "title": "Chief Nap Officer",
+      "version": "v019",
+      "durationMs": 18000,
+      "aspect": "4:5",
+      "config": "motion/003-chief-nap-officer/episode.json",
+      "template": "motion/003-chief-nap-officer/template-blue-polish",
+      "html": "motion/003-chief-nap-officer/index.html",
+      "video": "motion/003-chief-nap-officer/previews/v019-browser-review.mp4",
+      "history": "motion/003-chief-nap-officer/versions/index.html",
+      "archiveCount": 19,
+      "sha256": "62ff0d6cb9f2ae7f1eb8b3caf5edfa84379768a53c9196216e7fd20630b00095",
+      "status": "Unpublished draft"
+    },
+    {
+      "id": "004-that-was-a-sentence",
+      "title": "Soft Launch",
+      "version": "v006",
+      "durationMs": 20000,
+      "aspect": "4:5",
+      "config": "motion/004-that-was-a-sentence/episode.json",
+      "template": "motion/004-that-was-a-sentence/template-story",
+      "html": "motion/004-that-was-a-sentence/index.html",
+      "video": "motion/004-that-was-a-sentence/previews/v006-soft-launch-review.mp4",
+      "history": "motion/004-that-was-a-sentence/versions/index.html",
+      "archiveCount": 6,
+      "sha256": "d26b4f2e0e40e9d17f2896754292e4b68334c025d095fdaa7eb4f26946ac1d98",
+      "status": "Unpublished draft"
+    },
+    {
+      "id": "005-halloween",
+      "title": "A Little More",
+      "version": "v012",
+      "durationMs": 18000,
+      "aspect": "9:16",
+      "config": "motion/005-halloween/episode.json",
+      "template": "motion/005-halloween/template-interaction",
+      "html": "motion/005-halloween/index.html",
+      "video": "motion/005-halloween/previews/halloween-wish-v012-voiced-review.mp4",
+      "history": "motion/005-halloween/versions/index.html",
+      "archiveCount": 12,
+      "sha256": "158aa876b56954cc8382a0da2b9373c1b37ea43ea498b911c399562db381239f",
+      "status": "Unpublished draft"
+    }
+  ],
+  "templates": [
+    {
+      "episode": "001-have-an-idea",
+      "path": "motion/001-have-an-idea/template",
+      "role": "historical",
+      "editableSource": "motion/001-have-an-idea/template"
+    },
+    {
+      "episode": "001-have-an-idea",
+      "path": "motion/001-have-an-idea/template-story",
+      "role": "current",
+      "editableSource": "motion/_painted-story"
+    },
+    {
+      "episode": "001-have-an-idea",
+      "path": "motion/001-have-an-idea/template-unified",
+      "role": "historical",
+      "editableSource": "motion/001-have-an-idea/template-unified"
+    },
+    {
+      "episode": "002-tiny-feature",
+      "path": "motion/002-tiny-feature/template",
+      "role": "historical",
+      "editableSource": "motion/002-tiny-feature/template"
+    },
+    {
+      "episode": "002-tiny-feature",
+      "path": "motion/002-tiny-feature/template-story",
+      "role": "current",
+      "editableSource": "motion/_painted-story"
+    },
+    {
+      "episode": "002-tiny-feature",
+      "path": "motion/002-tiny-feature/template-unified",
+      "role": "historical",
+      "editableSource": "motion/002-tiny-feature/template-unified"
+    },
+    {
+      "episode": "003-chief-nap-officer",
+      "path": "motion/003-chief-nap-officer/template",
+      "role": "historical",
+      "editableSource": "motion/003-chief-nap-officer/template"
+    },
+    {
+      "episode": "003-chief-nap-officer",
+      "path": "motion/003-chief-nap-officer/template-blue",
+      "role": "historical",
+      "editableSource": "motion/003-chief-nap-officer/template-blue"
+    },
+    {
+      "episode": "003-chief-nap-officer",
+      "path": "motion/003-chief-nap-officer/template-blue-polish",
+      "role": "current",
+      "editableSource": "motion/003-chief-nap-officer/template-blue-polish"
+    },
+    {
+      "episode": "004-that-was-a-sentence",
+      "path": "motion/004-that-was-a-sentence/template",
+      "role": "historical",
+      "editableSource": "motion/004-that-was-a-sentence/template"
+    },
+    {
+      "episode": "004-that-was-a-sentence",
+      "path": "motion/004-that-was-a-sentence/template-story",
+      "role": "current",
+      "editableSource": "motion/_painted-story"
+    },
+    {
+      "episode": "004-that-was-a-sentence",
+      "path": "motion/004-that-was-a-sentence/template-unified",
+      "role": "historical",
+      "editableSource": "motion/004-that-was-a-sentence/template-unified"
+    },
+    {
+      "episode": "005-halloween",
+      "path": "motion/005-halloween/template",
+      "role": "historical",
+      "editableSource": "motion/005-halloween/template"
+    },
+    {
+      "episode": "005-halloween",
+      "path": "motion/005-halloween/template-interaction",
+      "role": "current",
+      "editableSource": "motion/005-halloween/template-interaction"
+    },
+    {
+      "episode": "005-halloween",
+      "path": "motion/005-halloween/template-wish",
+      "role": "historical",
+      "editableSource": "motion/005-halloween/template-wish"
+    }
+  ]
+}

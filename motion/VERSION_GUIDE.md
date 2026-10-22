@@ -1,93 +1,86 @@
-# Version Guide · HTML 版本使用指南
+# Version Guide · 永久版本指南
 
-Updated / 更新：2026-10-22。44 immutable episode HTML archives / 共 44 个不可覆盖的作品 HTML 存档。
+Generated from archive index records and selected-file hashes / 根据归档记录和选用文件哈希生成。
 
-## Current selection · 当前选用
+All versions/vNNN/ snapshots are immutable, including failed experiments. Selected does not mean release-approved / 所有永久快照含失败实验均不可改，选用不等于批准发布。
 
-001 **v004 · The Corner Office** (18s living room); 002 **v003 · One Tiny Feature** (18s coffee nook); 003 **v019** (18s retained); 004 **v006 · Soft Launch** (20s kitchen); 005 **v012** (18s retained). All have verified synthetic child speech and original scores. New 001/002/004 use different painted sets, complete-character action sheets, visual jokes and matched 800×1000 MP4s, with explicit sound playback. / 三集新稿换不同水粉布景与完整动作、视觉反转和独立配乐，均有匹配带声视频；003、005 保留，全部未发布。
+Earlier detailed production notes are preserved in [documentation history / 说明历史](../archive/README.md).
 
-The sections below retain historical version descriptions; their older “current” wording describes those earlier batches. The list above and EPISODES.md take precedence. / 下方保留历史版本说明，其中“当前”为当时批次；最新以此表与总览为准。
+## 001 · The Corner Office
 
-## Do Not Confuse · 先区分四件事
+Selected / 当前：[v004](001-have-an-idea/index.html) · [History / 历史入口](001-have-an-idea/versions/index.html)
 
-- **Visual anchor / 造型参考**: original blue-floor painting and accepted blue studio keyframe; v005 is historical / 原蓝底画与获认可蓝地板关键帧优先，v005 留作历史。
-- **Current working HTML / 当前工作文件**: `motion/<id>/index.html`; it is not automatically the best/approved film / 当前文件不自动等于最好或已批准。
-- **Archive / 历史存档**: `versions/vNNN/index.html`; never overwrite, delete or edit / 永久保留，只可复制续改。
-- **Review video / 审片视频**: offline render, not a browser recording or final export / 离线渲染，不冒充浏览器录屏或最终输出。
-
-## 001 · Have an Idea
-
-| Version / 版本 | Role / 用途 | Sound / 声音 | Open / 文件 |
-| --- | --- | --- | --- |
-| v001 | Current 8s draft / 当前 8 秒样片 | Silent / 无声 | [HTML](001-have-an-idea/versions/v001/index.html) |
-| v002 | Reconstructed 12s alternative / 重建的 12 秒备选 | Silent / 无声 | [HTML](001-have-an-idea/versions/v002/index.html) |
-
-Both were reconstructed from conversation; the original old-environment file was not recovered. v001 has no separated frozen template / 根据对话重建，旧环境原文件未取回；v001 没有分离的当时模板。
+| Version / 版本 | Role / 状态 | Saved title / 当时标题 |
+| --- | --- | --- |
+| [v001](001-have-an-idea/versions/v001/index.html) | Historical / 历史 | Have an idea |
+| [v002](001-have-an-idea/versions/v002/index.html) | Historical / 历史 | Have an idea |
+| [v003](001-have-an-idea/versions/v003/index.html) | Historical / 历史 | Have an idea |
+| [v004](001-have-an-idea/versions/v004/index.html) | Selected review draft / 当前待审 | The Corner Office |
 
 ## 002 · One Tiny Feature
 
-| Version / 版本 | Role / 用途 | Sound / 声音 | Open / 文件 |
-| --- | --- | --- | --- |
-| v001 | 12s painterly style/cup-growth sample; current / 当前 12 秒水粉与咖啡杯动效样片 | Silent / 无声 | [HTML](002-tiny-feature/versions/v001/index.html) |
+Selected / 当前：[v003](002-tiny-feature/index.html) · [History / 历史入口](002-tiny-feature/versions/index.html)
 
-The creator liked the visual direction; that does not mean this draft was approved for publication / 画风方向获认可，不等于成片已批准发布。
+| Version / 版本 | Role / 状态 | Saved title / 当时标题 |
+| --- | --- | --- |
+| [v001](002-tiny-feature/versions/v001/index.html) | Historical / 历史 | One Tiny Feature |
+| [v002](002-tiny-feature/versions/v002/index.html) | Historical / 历史 | One Tiny Feature |
+| [v003](002-tiny-feature/versions/v003/index.html) | Selected review draft / 当前待审 | One Tiny Feature |
 
 ## 003 · Chief Nap Officer
 
-v001–v013, v015 and v017 are 18s; v014/v016 are 12s alternatives. None is Published / 长版 18 秒，两个 B 剪辑 12 秒；均未发布。
+Selected / 当前：[v019](003-chief-nap-officer/index.html) · [History / 历史入口](003-chief-nap-officer/versions/index.html)
 
-Current A / 当前 A: [v017 · 18s](003-chief-nap-officer/versions/v017/index.html), eight new complete contact drawings, bounded speaker cameras, caption-free reaction hold and remixed original score / 八幅完整接触稿、约束镜头、无字幕反应停顿与原配乐重混。[Review MP4 / 审片视频](003-chief-nap-officer/previews/v017-blue-acting-review.mp4).
+| Version / 版本 | Role / 状态 | Saved title / 当时标题 |
+| --- | --- | --- |
+| [v001](003-chief-nap-officer/versions/v001/index.html) | Historical / 历史 | Chief Nap Officer |
+| [v002](003-chief-nap-officer/versions/v002/index.html) | Historical / 历史 | Chief Nap Officer |
+| [v003](003-chief-nap-officer/versions/v003/index.html) | Historical / 历史 | Chief Nap Officer |
+| [v004](003-chief-nap-officer/versions/v004/index.html) | Historical / 历史 | Chief Nap Officer |
+| [v005](003-chief-nap-officer/versions/v005/index.html) | Historical / 历史 | Chief Nap Officer |
+| [v006](003-chief-nap-officer/versions/v006/index.html) | Historical / 历史 | Chief Nap Officer |
+| [v007](003-chief-nap-officer/versions/v007/index.html) | Historical / 历史 | Chief Nap Officer |
+| [v008](003-chief-nap-officer/versions/v008/index.html) | Historical / 历史 | Chief Nap Officer |
+| [v009](003-chief-nap-officer/versions/v009/index.html) | Historical / 历史 | Chief Nap Officer |
+| [v010](003-chief-nap-officer/versions/v010/index.html) | Rejected detached-paw rig / 已否决断爪结构 | Chief Nap Officer |
+| [v011](003-chief-nap-officer/versions/v011/index.html) | Historical / 历史 | Chief Nap Officer |
+| [v012](003-chief-nap-officer/versions/v012/index.html) | Historical / 历史 | Chief Nap Officer |
+| [v013](003-chief-nap-officer/versions/v013/index.html) | Historical / 历史 | Chief Nap Officer · Blue Scene A |
+| [v014](003-chief-nap-officer/versions/v014/index.html) | Historical / 历史 | Chief Nap Officer · Blue Scene B |
+| [v015](003-chief-nap-officer/versions/v015/index.html) | Historical / 历史 | Chief Nap Officer · Blue Scene A |
+| [v016](003-chief-nap-officer/versions/v016/index.html) | Historical / 历史 | Chief Nap Officer · Blue Scene B |
+| [v017](003-chief-nap-officer/versions/v017/index.html) | Historical / 历史 | Chief Nap Officer · Blue A Acting Polish |
+| [v018](003-chief-nap-officer/versions/v018/index.html) | Invalid intermediate JavaScript / 无效中间脚本 | Chief Nap Officer · Blue A Motion Polish |
+| [v019](003-chief-nap-officer/versions/v019/index.html) | Selected review draft / 当前待审 | Chief Nap Officer · Blue A Motion Polish |
 
-Retained comparison / 保留对照: [original A · v015 · 18s](003-chief-nap-officer/versions/v015/index.html) and [B · v016 · 12s](003-chief-nap-officer/versions/v016/index.html). v013/v014 are first assemblies. All use the blue scene direction; none is an approved final film / 原 A、B 及首次组装均保留，不等于成片获批。
+## 004 · Soft Launch
 
-| Version / 版本 | What changed / 主要变化 | Sound / 声音 | Open / 文件 |
-| --- | --- | --- | --- |
-| v001 | Initial story pilot / 初始剧情试播 | Adult voices, audio v001 / 成人声 | [HTML](003-chief-nap-officer/versions/v001/index.html) |
-| v002 | Early layout refinement / 早期布局调整 | Audio v001 / 成人声 | [HTML](003-chief-nap-officer/versions/v002/index.html) |
-| v003 | More compact 4:5 composition / 收紧 4:5 构图 | Audio v001 / 成人声 | [HTML](003-chief-nap-officer/versions/v003/index.html) |
-| v004 | Raised paw, side-eye, yawn and stronger acting / 增加举爪、侧目、打哈欠与动作 | Audio v001 / 成人声 | [HTML](003-chief-nap-officer/versions/v004/index.html) |
-| v005 | Child voices; historical identity/material experiment / 换童声，历史造型材质实验 | Audio v002 / 童声 | [HTML](003-chief-nap-officer/versions/v005/index.html) |
-| v006 | New limited-animation staging, head/body layers and blinks / 分层、眨眼与镜头实验 | Audio v002 / 童声 | [HTML](003-chief-nap-officer/versions/v006/index.html) |
-| v007 | Logo blending and reduced-motion corrections; previous animation experiment / 标志显示与减少动态修正，上一轮动画实验 | Audio v002 / 童声 | [HTML](003-chief-nap-officer/versions/v007/index.html) |
-| v008 | Uncropped camera, larger cats, compact task panel, discrete reactions and post-speech yawn / 修裁切、放大角色、收紧任务板、去表情重影、对白后打哈欠 | Audio v002 / 童声 | [HTML](003-chief-nap-officer/versions/v008/index.html) |
-| v009 | Corrects 4:5 stage/footer clearance; previous visual-polish draft / 修正 4:5 舞台与片尾间距，上一轮视觉精修稿 | Audio v002 / 童声 | [HTML](003-chief-nap-officer/versions/v009/index.html) |
-| v010 | Rejected: detached-paw defect in cut-apart rig. Preserve as failed experiment; do not reuse rig / 因断爪被否决，保留失败实验，不复用该拆分结构 | Audio v002 / 童声 | [HTML](003-chief-nap-officer/versions/v010/index.html) |
-| v011 | Whole-body repair direction liked, not final style approval / 整猫修复方向获认可，不等于最终画风批准 | Audio v002 / 童声 | [HTML](003-chief-nap-officer/versions/v011/index.html) |
-| v012 | Historical story/motion experiment: 8 more sit-to-nap drawings, answer closeup and partial-work contrast. Style was challenged / 历史剧情动作实验，另补八帧入睡等；画风曾被指出偏离 | Audio v002 / 童声 | [HTML](003-chief-nap-officer/versions/v012/index.html) |
+Selected / 当前：[v006](004-that-was-a-sentence/index.html) · [History / 历史入口](004-that-was-a-sentence/versions/index.html)
 
-Review / 审片：[v011 first 8s / 当前前 8 秒](003-chief-nap-officer/previews/v011-acting-study.mp4) · [v009 full 18s / 历史完整预览](003-chief-nap-officer/previews/v009-native-preview.mp4) · [Rejected v010 / 断爪失败实验](003-chief-nap-officer/previews/v010-acting-study.mp4). v011 retains old media and adds two AI-generated complete-character sheets; source PNGs are unedited. Later yawn/sleep pose transitions remain discrete / v011 保留旧媒体，另加两套 AI 生成完整角色稿，源 PNG 不改；后半哈欠睡姿仍硬切。**New working drafts do not replace the v005 identity anchor / 新工作稿不自动替换 v005 造型锚点。**
+| Version / 版本 | Role / 状态 | Saved title / 当时标题 |
+| --- | --- | --- |
+| [v001](004-that-was-a-sentence/versions/v001/index.html) | Historical / 历史 | That Was a Sentence |
+| [v002](004-that-was-a-sentence/versions/v002/index.html) | Historical / 历史 | That Was a Sentence |
+| [v003](004-that-was-a-sentence/versions/v003/index.html) | Intermediate audio wiring; use later selected film / 中间音轨接线稿 | That Was a Sentence |
+| [v004](004-that-was-a-sentence/versions/v004/index.html) | Historical / 历史 | That Was a Sentence |
+| [v005](004-that-was-a-sentence/versions/v005/index.html) | Historical / 历史 | That Was a Sentence |
+| [v006](004-that-was-a-sentence/versions/v006/index.html) | Selected review draft / 当前待审 | Soft Launch |
 
-## 004 · That Was a Sentence
+## 005 · A Little More
 
-| Version / 版本 | What changed / 主要变化 | Sound / 声音 | Open / 文件 |
-| --- | --- | --- | --- |
-| v001 | Goal unfolds into tasks, reaction/volunteer acting / 目标拆解与反应认领剧情 | Music only; child speech missing / 仅配乐，缺童声 | [HTML](004-that-was-a-sentence/versions/v001/index.html) |
-| v002 | Planning/progress distinction, logo/reduced-motion corrections; current / 区分计划与执行、修显示与减少动态，当前工作稿 | Music only; child speech missing / 仅配乐，缺童声 | [HTML](004-that-was-a-sentence/versions/v002/index.html) |
+Selected / 当前：[v012](005-halloween/index.html) · [History / 历史入口](005-halloween/versions/index.html)
 
-Review / 审片：[v002 MP4](004-that-was-a-sentence/previews/v002-native-preview.mp4). Some frozen generation notes mention child-voice intent; actual archived `voicesAvailable: false` and embedded music are authoritative. Those historical notes do **not** prove speech exists / 个别历史生成备注提到童声意图，以实际配置和内嵌配乐为准，不能据备注误称已配音；不改写旧存档。
-
-## Preview Limits · 预览边界
-
-v012 covers the full 18s at 24 timeline samples/sec with 20 AI key drawings in total. It remains a style-challenged experiment. [Style review takes precedence](../brand/STYLE_REVIEW.md) before expansion / v012 为全长十八秒、24 帧时间轴采样，共二十张 AI 关键稿；仍是画风待回校的实验，不因此获批扩产。
-
-v010/v011 action-test MP4s cover only the first 8s, 432×768, 24 timeline samples/sec. Earlier full MP4s are 18s, 432×768, 12 unique frames/sec encoded at 24fps. All are H.264/AAC low-resolution offline SVG renders, not browser captures or 1080p deliveries; v011 has 12 new key drawings, not 24 new drawings per second / 动作测试仅前 8 秒、24 帧时间轴采样；旧完整视频为 18 秒、12 帧采样及 24fps 编码。均为低清离线渲染，不是实录；v011 新增十二张关键画稿，不是每秒 24 张新图。
-
-HTML embeds art/audio and can be opened manually in a local browser. Latest browser recording is unverified because the last attempt was blocked by local server/browser restrictions; an old localhost tab is not proof that a new build was loaded / HTML 可手动离线打开；最新浏览器录屏仍待验证，旧 localhost 标签页不证明新版已载入。
-
-[Current progress](../CONTENT_MAP.md) · [Current direction](../PROJECT_BRIEF.md) · [Build and preserve](../scripts/README.md)
-
-## 005 · Halloween / 万圣节
-
-v001: vacuum storyboard animatic. v002: first candy-wish build. v003: corrected crop registration and bounded candy pile. v004: larger cats for phone readability, current working draft. All unpublished; no child speech. / v001 吸尘器分镜；v002 许愿初版；v003 修整猫裁切和糖堆；v004 放大猫咪便于手机观看，为当前工作稿；均未发布，无童声。
-
-005 v005–v008: painted Halloween costumes, solid projected laptop, paw/key contact, head-following dialogue bubbles and candy front/back depth. v006 reduces the computer to keep faces clear; v007 refines complete-cat source windows and candy occlusion; v008 adds timed key taps and the current soundtrack. Current: v008. The room remains painted; 3D-rendered cat experiments were rejected and not used. / v005–v008 为油画装扮、电脑立体接触与头顶对白；v006 修电脑尺寸，v007 修整猫窗口和糖果遮挡，v008 加按键声与当前音轨；当前 v008，不采用三维渲染猫。
-
-005 v009–v010: creator-liked v008 preserved; continuous body anticipation/recoil, connected ghost-cloth mesh follow-through, bucket impact/wobble, accelerating candy rain and a later deadpan line. v010 fixes the mesh’s antialias seams. Current: v010, still unpublished. / 保留获认可 v008，增加连续蓄力回弹、整猫布料延迟、落桶晃动、糖雨加密与尾句停顿；v010 修网格抗锯齿细缝，为当前未发布工作稿。
-
-## 2026-10-22 library batch / 剧集整理与配音批次
-
-- 005 v011: one-click sound/direct music-only MP4 download. v012: three measured child lines, original Halloween BGM ducking, greeting after speech and matching embedded voiced export; current. / v011 加带声播放下载，v012 补三句童声及匹配带声视频，为当前版。
-- 004 v003: intermediate voice wiring, not selected. v004: verified five-line child mix is actually connected, with a browser export; current. / v003 为中间接线稿，v004 才是真正连接五句童声的当前版。
-- 003 v018: intermediate source draft with a JavaScript validation error, not playable/selected. v019 fixes it and supplies retimed contact/sleep and smooth camera; current. Build tooling now rejects invalid template JS before archiving. / v018 为脚本校验失败的中间稿，不使用；v019 修正并打磨节奏，为当前版；工具现会先拦截语法错误。
-
-Earlier HTML bytes are immutable even for intermediate drafts. The library opens only verified selected files. / 即使中间稿也保留原 HTML 字节，目录只打开核对后的选用版。
+| Version / 版本 | Role / 状态 | Saved title / 当时标题 |
+| --- | --- | --- |
+| [v001](005-halloween/versions/v001/index.html) | Historical / 历史 | Try Harder |
+| [v002](005-halloween/versions/v002/index.html) | Historical / 历史 | A Little More |
+| [v003](005-halloween/versions/v003/index.html) | Historical / 历史 | A Little More |
+| [v004](005-halloween/versions/v004/index.html) | Historical / 历史 | A Little More |
+| [v005](005-halloween/versions/v005/index.html) | Historical / 历史 | A Little More |
+| [v006](005-halloween/versions/v006/index.html) | Historical / 历史 | A Little More |
+| [v007](005-halloween/versions/v007/index.html) | Historical / 历史 | A Little More |
+| [v008](005-halloween/versions/v008/index.html) | Historical / 历史 | A Little More |
+| [v009](005-halloween/versions/v009/index.html) | Historical / 历史 | A Little More |
+| [v010](005-halloween/versions/v010/index.html) | Historical / 历史 | A Little More |
+| [v011](005-halloween/versions/v011/index.html) | Historical / 历史 | A Little More |
+| [v012](005-halloween/versions/v012/index.html) | Selected review draft / 当前待审 | A Little More |

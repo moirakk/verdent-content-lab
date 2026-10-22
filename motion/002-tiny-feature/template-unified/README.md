@@ -1,3 +1,5 @@
+> Historical production notes / 历史制作记录: the versions, source selection and limitations below describe that earlier experiment. Current selections: [EPISODES.md](../../../EPISODES.md). / 下文属当时批次，当前以总览为准。
+
 # Painted series system · 统一水粉剧集系统
 
 Creator steering, 2026-10-22: retain 003/005 as visual benchmarks and rebuild 001/002/004 consistently. This editable source uses the exact existing 003 blue-room/cast paintings, warm-black Lucky and orange Mochi, a shared 4:5 stage, anchored speech bubbles and grounded story props. 005 retains its seasonal 9:16 setting. / 创作者以 003、005 为视觉基准，重做其余三集；复用 003 原水粉猫和房间，统一 4:5 舞台、头顶气泡与道具落点，005 保留节日竖屏场景。

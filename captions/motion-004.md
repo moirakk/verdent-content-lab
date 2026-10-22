@@ -1,16 +1,19 @@
-# Motion 004 Caption · 动态 004 发布文案
+# 004 · Soft Launch · Caption Draft / 发布草稿
 
-Status / 状态：Draft; not scheduled or published / 草稿，未排期、未发布。
+For / 对应：**v006**, [selected episode / 剧集](../motion/004-that-was-a-sentence/index.html). Status / 状态：Draft, not scheduled or published / 草稿，未排期未发布。
 
-## Caption · 英文成品文案
+The publishing text below stays English only / 下方发布内容保持英文。
 
-One big idea. Several actual tasks.
-Lucky has already chosen his.
+## Caption · 英文文案
 
-## Image Description · 英文画面描述
+Quality control has been very thorough.
 
-Lucky announces a plan to open a cat café. Mochi points out that it is only a sentence. The idea unfolds into a task plan, and Lucky eagerly volunteers for taste testing.
+## Alt text · 英文画面描述
 
-## Internal Note · 内部备注
+In a painted bakery kitchen, Mochi finds an empty sample tray. Lucky has biscuit crumbs around his mouth and calls the missing samples internal testing. Mochi asks about all twelve and reminds him that they open tomorrow. Lucky eagerly offers to test again.
 
-M01 goal decomposition, original illustrative UI. Do not advertise this draft as a real product demo or voiced final / 目标拆解剧情示意，不能标成真实实测或已配童声的最终成片。
+## Internal record · 内部记录
+
+Channel / date / URL / approval: TBD / 渠道、日期、链接及批准待定。
+
+Earlier copy is retained in [documentation history / 说明历史](../archive/README.md).

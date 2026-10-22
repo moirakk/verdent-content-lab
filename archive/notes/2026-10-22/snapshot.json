@@ -1,0 +1,115 @@
+{
+  "parentCommit": "ef6b6b7",
+  "documents": [
+    {
+      "originalPath": "README.md",
+      "snapshot": "archive/notes/2026-10-22/README.md",
+      "originalSha256": "f1c1c252b49653f58536282f418e761cb092c157ad26db4bb0dcf84c47aaad1b"
+    },
+    {
+      "originalPath": "PROJECT_INDEX.md",
+      "snapshot": "archive/notes/2026-10-22/PROJECT_INDEX.md",
+      "originalSha256": "0297f38b0410e18db4c3312e59e0677170721ec1ed4270c517b18ad8be1fe39e"
+    },
+    {
+      "originalPath": "PROJECT_BRIEF.md",
+      "snapshot": "archive/notes/2026-10-22/PROJECT_BRIEF.md",
+      "originalSha256": "edf64d591c6edd4ef6fdbd39258ce42c04935fb04cddf11ad60be05086e56a9a"
+    },
+    {
+      "originalPath": "HANDOFF.md",
+      "snapshot": "archive/notes/2026-10-22/HANDOFF.md",
+      "originalSha256": "2f3f6e9d37119bb189defe82e800e8b749f4326829b0948b81a3f6e5b1237ea6"
+    },
+    {
+      "originalPath": "CONTENT_MAP.md",
+      "snapshot": "archive/notes/2026-10-22/CONTENT_MAP.md",
+      "originalSha256": "275fdf3781f2b720668b258c7ecfe8ad3aee536171552cd2d8420b2399e1eaf1"
+    },
+    {
+      "originalPath": "scripts/README.md",
+      "snapshot": "archive/notes/2026-10-22/scripts/README.md",
+      "originalSha256": "713aace63762b3bda52d244f8c201ec4edad6a9304a411b70d9f15e8916ed138"
+    },
+    {
+      "originalPath": "docs/README.md",
+      "snapshot": "archive/notes/2026-10-22/docs/README.md",
+      "originalSha256": "786a99e3f3d38e3846ced7de0f41e009959141f66c8fec508f613e8845e85f48"
+    },
+    {
+      "originalPath": "motion/VERSION_GUIDE.md",
+      "snapshot": "archive/notes/2026-10-22/motion/VERSION_GUIDE.md",
+      "originalSha256": "24204da39178c1f11fb5b316fb1b567751e69787deb548acd84b8e61e7037408"
+    },
+    {
+      "originalPath": "motion/README.md",
+      "snapshot": "archive/notes/2026-10-22/motion/README.md",
+      "originalSha256": "be0bffa5dd81bcdab80adca4296c0788b22c8f6dac9c5e3d084530807d771af5"
+    },
+    {
+      "originalPath": "captions/README.md",
+      "snapshot": "archive/notes/2026-10-22/captions/README.md",
+      "originalSha256": "59e43d6e5d9846e7360a5fb0e49023d83ab9212ea5bee445dc865a09b8707239"
+    },
+    {
+      "originalPath": "brand/VISUAL_STYLE.md",
+      "snapshot": "archive/notes/2026-10-22/brand/VISUAL_STYLE.md",
+      "originalSha256": "78d2bcbc8ca7e8c1092aa12b2880f251fcf22d0e8b19a13107f95417e01aa78a"
+    },
+    {
+      "originalPath": "brand/README.md",
+      "snapshot": "archive/notes/2026-10-22/brand/README.md",
+      "originalSha256": "ea11cbc7b4c76bc887379f0031412693b9d922dc3e647a449c3f1247d2c15ab9"
+    },
+    {
+      "originalPath": "captions/motion-005-halloween.md",
+      "snapshot": "archive/notes/2026-10-22/captions/motion-005-halloween.md",
+      "originalSha256": "cfc2b3b0925c41d2e4631e25eed454d7729e05db34a3585b1c1528e7c43eaac0"
+    },
+    {
+      "originalPath": "captions/motion-001.md",
+      "snapshot": "archive/notes/2026-10-22/captions/motion-001.md",
+      "originalSha256": "3164eb30f666c65295f2d4cc11419ba336b141cd91a4b51c4837bf118fb9f0a1"
+    },
+    {
+      "originalPath": "captions/motion-004.md",
+      "snapshot": "archive/notes/2026-10-22/captions/motion-004.md",
+      "originalSha256": "e8cdfac6937afccedd345b5b72aa3b668434117b0d5578e8dfa25fc7cc439b06"
+    },
+    {
+      "originalPath": "captions/motion-003.md",
+      "snapshot": "archive/notes/2026-10-22/captions/motion-003.md",
+      "originalSha256": "3f1e6d0f8c3f1fd45e9a08840f0ea48bd5e26fb93f9fca8a04e7d82cc872ef86"
+    },
+    {
+      "originalPath": "captions/motion-002.md",
+      "snapshot": "archive/notes/2026-10-22/captions/motion-002.md",
+      "originalSha256": "63534ba3e027b1d5a48012573c0dec5ac189b2a235db1a12a82c6e930d8c2c54"
+    },
+    {
+      "originalPath": "motion/004-that-was-a-sentence/README.md",
+      "snapshot": "archive/notes/2026-10-22/motion/004-that-was-a-sentence/README.md",
+      "originalSha256": "77c82ac5047dd5bf9912a7d0bf6c2730cd7268030f94a55c48899d40b4f6aaa9"
+    },
+    {
+      "originalPath": "motion/001-have-an-idea/README.md",
+      "snapshot": "archive/notes/2026-10-22/motion/001-have-an-idea/README.md",
+      "originalSha256": "8d21b40e2b91e6eabaf434b66132e3a484239f6e88d2d052132885237cd79483"
+    },
+    {
+      "originalPath": "motion/003-chief-nap-officer/README.md",
+      "snapshot": "archive/notes/2026-10-22/motion/003-chief-nap-officer/README.md",
+      "originalSha256": "ad7c03688bc74c2257b63f3d1b5b641b578f07c4e6503704c1da0afafd2ec538"
+    },
+    {
+      "originalPath": "motion/002-tiny-feature/README.md",
+      "snapshot": "archive/notes/2026-10-22/motion/002-tiny-feature/README.md",
+      "originalSha256": "d94a950a942d6c7ae90476c6488f237fc5128c67268931e7ae6343709c745877"
+    },
+    {
+      "originalPath": "motion/005-halloween/README.md",
+      "snapshot": "archive/notes/2026-10-22/motion/005-halloween/README.md",
+      "originalSha256": "80a94b4e89a33a94bafb87986a09773b38623317ca6c723e6310de21a61e99ce"
+    }
+  ]
+}

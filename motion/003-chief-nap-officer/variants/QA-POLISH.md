@@ -1,3 +1,5 @@
+> Historical production notes / 历史制作记录: the versions, source selection and limitations below describe that earlier experiment. Current selections: [EPISODES.md](../../../EPISODES.md). / 下文属当时批次，当前以总览为准。
+
 # v017 Checks · 表演打磨版检查
 
 2026-10-21. Local review only, not creator approval / 本地检查，不代替创作者验收。

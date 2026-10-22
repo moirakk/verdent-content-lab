@@ -1,3 +1,5 @@
+> Historical production notes / 历史制作记录: the versions, source selection and limitations below describe that earlier experiment. Current selections: [EPISODES.md](../../EPISODES.md). / 下文属当时批次，当前以总览为准。
+
 # Acting Study v010 · 分关节动作测试
 
 Latest status / 最新状态：v012 is the current story/motion experiment; visual calibration is reopened against the creator's painted reference. [Style review first](../../brand/STYLE_REVIEW.md). The v010/v011 sections below are historical repair records / 当前文件为 v012 剧情动作实验，画风已重新回校；下述 v010/v011 为历史修复记录。
