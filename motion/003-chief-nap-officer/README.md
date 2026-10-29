@@ -1,8 +1,8 @@
 # 003 · Chief Nap Officer
 
-**v020 · 18s · 4:5 · Unpublished review draft / 未发布待审稿**
+**v021 · 18s · 4:5 · Unpublished review draft / 未发布待审稿**
 
-[Play / 播放](index.html) · [MP4 / 带声视频](previews/v019-browser-review.mp4) · [All versions / 全部历史](versions/index.html) · [Caption / 发布草稿](../../captions/motion-003.md)
+[Play / 播放](index.html) · [MP4 / 带声视频](previews/v021-clear-computer-review.mp4) · [All versions / 全部历史](versions/index.html) · [Caption / 发布草稿](../../captions/motion-003.md)
 
 Lucky starts a company. Mochi asks who does the work.
 

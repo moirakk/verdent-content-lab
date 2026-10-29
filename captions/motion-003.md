@@ -1,6 +1,6 @@
 # 003 · Chief Nap Officer · Caption Draft / 发布草稿
 
-For / 对应：**v020**, [selected episode / 剧集](../motion/003-chief-nap-officer/index.html). Status / 状态：Draft, not scheduled or published / 草稿，未排期未发布。
+For / 对应：**v021**, [selected episode / 剧集](../motion/003-chief-nap-officer/index.html). Status / 状态：Draft, not scheduled or published / 草稿，未排期未发布。
 
 The publishing text below stays English only / 下方发布内容保持英文。
 

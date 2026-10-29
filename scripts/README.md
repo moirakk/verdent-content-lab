@@ -64,3 +64,5 @@ Network is needed to generate remote speech; already embedded playback works off
 `check-halloween.cjs [episode.json]` checks native character aspect, paw/key contact, dialogue bounds, deterministic seeking, sound start/pause/replay/end and reduced-motion pause. `mix-halloween-polish.py` remixes existing child recordings locally with smooth music ducking and new contact cues; no external TTS call / 检查原比例、接触、气泡、确定性与播放；声音脚本仅本地混合既有童声、柔和避让配乐并加动作声，不外发语音请求。
 
 `check-story-revisions.cjs` verifies the coffee/bakery cuts: head bubbles, cookie contact/carry/bite, website timing, sound controls and deterministic seeking. `mix-story-polish.py` reuses existing child recordings locally with original retimed scores and smooth ducking; no external speech requests. Both mixers preserve earlier audio versions / 咖啡烘焙检查涵盖头顶对白、拿饼干送嘴、网页时序与播放；重混仅本地复用童声并保留旧版本。
+
+`check-nap-staging.cjs` checks laptop pixels with cats shown/hidden, frame/caption clearance, native cat proportions, deterministic seeking and voiced playback. `render-story-previews.cjs` accepts `render.player` and `render.audio` for the SVG nap film / 午睡片检查覆盖电脑像素无遮挡、画框字幕避让、原比例与播放；通用渲染器可指定 SVG 播放器及音轨。

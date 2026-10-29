@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "summary": {
-    "mediaFiles": 729,
-    "uniqueContents": 239,
-    "totalBytes": 1002768419,
-    "uniqueBytes": 255475644
+    "mediaFiles": 738,
+    "uniqueContents": 240,
+    "totalBytes": 1024810435,
+    "uniqueBytes": 259834565
   },
   "note": "Identical copies are intentional for standalone films, frozen source and docs previews. Never delete a copy using this catalog alone. / 单文件成片、永久源码和预览需要同内容副本，不可仅凭此表删除。",
   "assets": [
@@ -184,6 +184,10 @@
         },
         {
           "path": "motion/003-chief-nap-officer/versions/v020/template/assets/verdent-logo-original.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v021/template/assets/verdent-logo-original.png",
           "role": "immutable-archive"
         },
         {
@@ -1026,8 +1030,8 @@
     },
     {
       "canonicalPath": "docs/assets/episodes/003-chief-nap-officer.webp",
-      "sha256": "a8c385dceeb38829dfab8b5cbeb31001c4468b30c3f8a5b0fb226c2ef752fd82",
-      "bytes": 38798,
+      "sha256": "7458b100f365e026180ad1ecd1661d785e8b2b8bf8460ec4c248fac3e6d9c056",
+      "bytes": 88686,
       "extension": "webp",
       "locations": [
         {
@@ -2261,6 +2265,10 @@
         {
           "path": "motion/003-chief-nap-officer/versions/v020/template/assets/episode-fast-v001.m4a",
           "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v021/template/assets/episode-fast-v001.m4a",
+          "role": "immutable-archive"
         }
       ]
     },
@@ -2296,6 +2304,10 @@
         },
         {
           "path": "motion/003-chief-nap-officer/versions/v020/template/assets/episode-blue-polish-v001.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v021/template/assets/episode-blue-polish-v001.m4a",
           "role": "immutable-archive"
         }
       ]
@@ -2377,6 +2389,30 @@
       ]
     },
     {
+      "canonicalPath": "motion/003-chief-nap-officer/previews/v019-browser-review.mp4",
+      "sha256": "1d781d21158e19b04d06b9e06ffd5057c28c4283a7267d47e0484bbf202e5028",
+      "bytes": 1959378,
+      "extension": "mp4",
+      "locations": [
+        {
+          "path": "motion/003-chief-nap-officer/previews/v019-browser-review.mp4",
+          "role": "review-export"
+        },
+        {
+          "path": "docs/media/003-chief-nap-officer-v019.mp4",
+          "role": "viewing-copy"
+        },
+        {
+          "path": "docs/media/003-chief-nap-officer-v020.mp4",
+          "role": "viewing-copy"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v020/template/assets/episode-export.mp4",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
       "canonicalPath": "motion/003-chief-nap-officer/template-blue-polish/assets/blue-cast-sequence-v001.png",
       "sha256": "5f7630cd4e46cbaa5d88a9626511ac59d9056f49045ddc6f0b1650c2597a8fd6",
       "bytes": 1069364,
@@ -2444,6 +2480,10 @@
         },
         {
           "path": "motion/003-chief-nap-officer/versions/v020/template/assets/blue-cast-sequence-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v021/template/assets/blue-cast-sequence-v001.png",
           "role": "immutable-archive"
         },
         {
@@ -2523,6 +2563,10 @@
           "role": "immutable-archive"
         },
         {
+          "path": "motion/003-chief-nap-officer/versions/v021/template/assets/blue-studio-background-v001.png",
+          "role": "immutable-archive"
+        },
+        {
           "path": "motion/004-that-was-a-sentence/versions/v005/template/assets/blue-studio-background-v001.png",
           "role": "immutable-archive"
         }
@@ -2530,8 +2574,8 @@
     },
     {
       "canonicalPath": "motion/003-chief-nap-officer/template-blue-polish/assets/episode-export.mp4",
-      "sha256": "1d781d21158e19b04d06b9e06ffd5057c28c4283a7267d47e0484bbf202e5028",
-      "bytes": 1959378,
+      "sha256": "d96e5f02c6a627ca4d814c3d23db40832676e315c165745ae1a2395e24554473",
+      "bytes": 4309033,
       "extension": "mp4",
       "locations": [
         {
@@ -2539,19 +2583,15 @@
           "role": "current-template"
         },
         {
-          "path": "motion/003-chief-nap-officer/previews/v019-browser-review.mp4",
+          "path": "motion/003-chief-nap-officer/previews/v021-clear-computer-review.mp4",
           "role": "review-export"
         },
         {
-          "path": "docs/media/003-chief-nap-officer-v019.mp4",
+          "path": "docs/media/003-chief-nap-officer-v021.mp4",
           "role": "viewing-copy"
         },
         {
-          "path": "docs/media/003-chief-nap-officer-v020.mp4",
-          "role": "viewing-copy"
-        },
-        {
-          "path": "motion/003-chief-nap-officer/versions/v020/template/assets/episode-export.mp4",
+          "path": "motion/003-chief-nap-officer/versions/v021/template/assets/episode-export.mp4",
           "role": "immutable-archive"
         }
       ]
@@ -2604,6 +2644,10 @@
         },
         {
           "path": "motion/003-chief-nap-officer/versions/v020/template/assets/lucky-keyboard-insert-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/003-chief-nap-officer/versions/v021/template/assets/lucky-keyboard-insert-v001.png",
           "role": "immutable-archive"
         },
         {

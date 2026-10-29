@@ -1,0 +1,310 @@
+{
+  "passed": true,
+  "pixelsCompared": 52326,
+  "checks": [
+    "Laptop pixels identical with cats shown/hidden",
+    "Laptop inside frame and above captions",
+    "Native equal-axis cat scaling",
+    "Keyboard insert captions clear",
+    "Eight whole-character contact drawings",
+    "Deterministic seeking",
+    "Sound/pause/replay/one-shot end",
+    "Reduced-motion pause",
+    "No page errors"
+  ],
+  "samples": [
+    {
+      "time": 800,
+      "pose": 0,
+      "contact": false,
+      "actionFrame": 0,
+      "catScaleX": 1.7,
+      "catScaleY": 1.7,
+      "computerOnTop": true,
+      "detailMix": 0,
+      "computerBounds": {
+        "left": 244,
+        "right": 708,
+        "top": 444,
+        "bottom": 832
+      },
+      "captionTop": 871
+    },
+    {
+      "time": 3200,
+      "pose": 0,
+      "contact": false,
+      "actionFrame": 0,
+      "catScaleX": 1.7,
+      "catScaleY": 1.7,
+      "computerOnTop": true,
+      "detailMix": 0,
+      "computerBounds": {
+        "left": 268.40000000000003,
+        "right": 778.8000000000001,
+        "top": 428.2,
+        "bottom": 855
+      },
+      "captionTop": 871
+    },
+    {
+      "time": 4850,
+      "pose": 2,
+      "contact": true,
+      "actionFrame": 0,
+      "catScaleX": 1.7,
+      "catScaleY": 1.7,
+      "computerOnTop": true,
+      "detailMix": 0,
+      "computerBounds": {
+        "left": 262.74082031250003,
+        "right": 762.3791015625001,
+        "top": 437.1990234375,
+        "bottom": 855
+      },
+      "captionTop": 51
+    },
+    {
+      "time": 5030,
+      "pose": 2,
+      "contact": true,
+      "actionFrame": 1,
+      "catScaleX": 1.7,
+      "catScaleY": 1.7,
+      "computerOnTop": true,
+      "detailMix": 0,
+      "computerBounds": {
+        "left": 245.04843750000003,
+        "right": 711.0421875000001,
+        "top": 444.6242889404297,
+        "bottom": 834.2914764404297
+      },
+      "captionTop": 51
+    },
+    {
+      "time": 5150,
+      "pose": 2,
+      "contact": true,
+      "actionFrame": 2,
+      "catScaleX": 1.7,
+      "catScaleY": 1.7,
+      "computerOnTop": true,
+      "detailMix": 0,
+      "computerBounds": {
+        "left": 244,
+        "right": 708,
+        "top": 444,
+        "bottom": 832
+      },
+      "captionTop": 51
+    },
+    {
+      "time": 5300,
+      "pose": 2,
+      "contact": true,
+      "actionFrame": 3,
+      "catScaleX": 1.7,
+      "catScaleY": 1.7,
+      "computerOnTop": true,
+      "detailMix": 0,
+      "computerBounds": {
+        "left": 244,
+        "right": 708,
+        "top": 444,
+        "bottom": 832
+      },
+      "captionTop": 51
+    },
+    {
+      "time": 5460,
+      "pose": 2,
+      "contact": true,
+      "actionFrame": 4,
+      "catScaleX": 1.7,
+      "catScaleY": 1.7,
+      "computerOnTop": true,
+      "detailMix": 0,
+      "computerBounds": {
+        "left": 244,
+        "right": 708,
+        "top": 444,
+        "bottom": 832
+      },
+      "captionTop": 51
+    },
+    {
+      "time": 5710,
+      "pose": 2,
+      "contact": true,
+      "actionFrame": 5,
+      "catScaleX": 1.7,
+      "catScaleY": 1.7,
+      "computerOnTop": true,
+      "detailMix": 0,
+      "computerBounds": {
+        "left": 244,
+        "right": 708,
+        "top": 444,
+        "bottom": 832
+      },
+      "captionTop": 51
+    },
+    {
+      "time": 5920,
+      "pose": 2,
+      "contact": true,
+      "actionFrame": 6,
+      "catScaleX": 1.7,
+      "catScaleY": 1.7,
+      "computerOnTop": true,
+      "detailMix": 0,
+      "computerBounds": {
+        "left": 244,
+        "right": 708,
+        "top": 444,
+        "bottom": 832
+      },
+      "captionTop": 51
+    },
+    {
+      "time": 6130,
+      "pose": 2,
+      "contact": true,
+      "actionFrame": 7,
+      "catScaleX": 1.7,
+      "catScaleY": 1.7,
+      "computerOnTop": true,
+      "detailMix": 0,
+      "computerBounds": {
+        "left": 244,
+        "right": 708,
+        "top": 444,
+        "bottom": 832
+      },
+      "captionTop": 51
+    },
+    {
+      "time": 6700,
+      "pose": 4,
+      "contact": false,
+      "actionFrame": 7,
+      "catScaleX": 1.7,
+      "catScaleY": 1.7,
+      "computerOnTop": true,
+      "detailMix": 0.8960000000000001,
+      "computerBounds": {
+        "left": 111.9296,
+        "right": 742.2272,
+        "top": 325.36959999999993,
+        "bottom": 852.4288000000001
+      },
+      "captionTop": 871
+    },
+    {
+      "time": 7100,
+      "pose": 4,
+      "contact": false,
+      "actionFrame": 7,
+      "catScaleX": 1.7,
+      "catScaleY": 1.7,
+      "computerOnTop": true,
+      "detailMix": 1,
+      "computerBounds": {
+        "left": 96.59999999999997,
+        "right": 746.1999999999999,
+        "top": 311.5999999999999,
+        "bottom": 854.8
+      },
+      "captionTop": 871
+    },
+    {
+      "time": 8050,
+      "pose": 4,
+      "contact": false,
+      "actionFrame": 7,
+      "catScaleX": 1.7,
+      "catScaleY": 1.7,
+      "computerOnTop": true,
+      "detailMix": 0.1314800901577761,
+      "computerBounds": {
+        "left": 224.61983471074385,
+        "right": 713.0225394440271,
+        "top": 426.5920360631104,
+        "bottom": 834.9977460555973
+      },
+      "captionTop": 871
+    },
+    {
+      "time": 11000,
+      "pose": 0,
+      "contact": false,
+      "actionFrame": 7,
+      "catScaleX": 1.7,
+      "catScaleY": 1.7,
+      "computerOnTop": true,
+      "detailMix": 0,
+      "computerBounds": {
+        "left": 268.40000000000003,
+        "right": 778.8000000000001,
+        "top": 428.2,
+        "bottom": 855
+      },
+      "captionTop": 871
+    },
+    {
+      "time": 13700,
+      "pose": 4,
+      "contact": false,
+      "actionFrame": 7,
+      "catScaleX": 1.7,
+      "catScaleY": 1.7,
+      "computerOnTop": true,
+      "detailMix": 0,
+      "computerBounds": {
+        "left": 176.56,
+        "right": 705.52,
+        "top": 412.68000000000006,
+        "bottom": 855
+      },
+      "captionTop": 871
+    },
+    {
+      "time": 15800,
+      "pose": 6,
+      "contact": false,
+      "actionFrame": 7,
+      "catScaleX": 1.7,
+      "catScaleY": 1.7,
+      "computerOnTop": true,
+      "detailMix": 0,
+      "computerBounds": {
+        "left": 244,
+        "right": 708,
+        "top": 444,
+        "bottom": 832
+      },
+      "captionTop": 871
+    },
+    {
+      "time": 17400,
+      "pose": 7,
+      "contact": false,
+      "actionFrame": 7,
+      "catScaleX": 1.7,
+      "catScaleY": 1.7,
+      "computerOnTop": true,
+      "detailMix": 0,
+      "computerBounds": {
+        "left": 244,
+        "right": 708,
+        "top": 444,
+        "bottom": 832
+      },
+      "captionTop": 871
+    }
+  ],
+  "episode": "003-chief-nap-officer",
+  "version": "v021",
+  "checked": "2026-10-29",
+  "remaining": "Creator review / 创作者验看"
+}

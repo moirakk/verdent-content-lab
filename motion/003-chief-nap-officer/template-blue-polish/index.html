@@ -7,6 +7,7 @@
 <svg id="film" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="film-title film-description">
 <title id="film-title">Chief Nap Officer</title><desc id="film-description">Lucky recruits a parallel team, then appoints himself Chief Nap Officer.</desc>
 <defs><image id="action-sheet" href="asset:lucky-keyboard-insert-v001.png" width="1587" height="991"/>
+<clipPath id="computer-front"><path d="M396 444L708 476 680 724 616 832 244 758 363 662Z"/></clipPath>
 <image id="cast-sheet" href="asset:blue-cast-sequence-v001.png" width="1122" height="1402"/>
 <clipPath id="cell-0" clipPathUnits="userSpaceOnUse"><rect x="0" y="300" width="280.5" height="440"/></clipPath>
 <clipPath id="cell-1" clipPathUnits="userSpaceOnUse"><rect x="280.5" y="300" width="280.5" height="440"/></clipPath>
@@ -19,6 +20,8 @@
 </defs>
 <g id="scene">
 <image href="asset:blue-studio-background-v001.png" width="800" height="1000"/>
+<g id="cast"><g id="cast-placement"><g id="cast-crop" clip-path="url(#cell-0)"><use href="#cast-sheet"/></g></g></g>
+<g id="computer-foreground" clip-path="url(#computer-front)"><image href="asset:blue-studio-background-v001.png" width="800" height="1000"/></g>
 <g id="screen-ui" opacity="0" transform="translate(445 505) rotate(8) skewX(-8)">
 <image href="asset:verdent-logo-original.png" width="109" height="46" style="mix-blend-mode:multiply"/>
 <text x="125" y="28" class="screen-label">Manager</text>
@@ -27,7 +30,6 @@
 <g transform="translate(0 111)"><text class="screen-label">Menu</text><path d="M0 11h192" class="track"/><path id="progress-1" d="M0 11h20" class="progress"/></g>
 <g transform="translate(0 142)"><text class="screen-label">Booking</text><path d="M0 11h192" class="track"/><path id="progress-2" d="M0 11h20" class="progress"/></g>
 </g>
-<g id="cast"><g id="cast-placement"><g id="cast-crop" clip-path="url(#cell-0)"><use href="#cast-sheet"/></g></g></g>
 </g>
 <g id="action-shot" opacity="0" aria-hidden="true"><svg id="action-window" x="0" y="0" width="800" height="1000" viewBox="0 0 396.75 495.5" preserveAspectRatio="xMidYMid meet" overflow="hidden"><use href="#action-sheet"/></svg></g>
 <g id="subtitle"><path d="M29 874L767 871 775 973 23 977Z" fill="#fff4dc" fill-opacity=".94"/>

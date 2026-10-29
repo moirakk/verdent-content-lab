@@ -6,7 +6,7 @@ Version-labelled English captions and alt text for review. These files do not pr
 | --- | --- |
 | 001 · The Corner Office · v005 | [Caption / 发布草稿](motion-001.md) |
 | 002 · One Tiny Feature · v004 | [Caption / 发布草稿](motion-002.md) |
-| 003 · Chief Nap Officer · v020 | [Caption / 发布草稿](motion-003.md) |
+| 003 · Chief Nap Officer · v021 | [Caption / 发布草稿](motion-003.md) |
 | 004 · Soft Launch · v009 | [Caption / 发布草稿](motion-004.md) |
 | 005 · A Little More · v013 | [Caption / 发布草稿](motion-005-halloween.md) |
 

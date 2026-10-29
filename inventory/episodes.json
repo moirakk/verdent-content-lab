@@ -34,16 +34,16 @@
     {
       "id": "003-chief-nap-officer",
       "title": "Chief Nap Officer",
-      "version": "v020",
+      "version": "v021",
       "durationMs": 18000,
       "aspect": "4:5",
       "config": "motion/003-chief-nap-officer/episode.json",
       "template": "motion/003-chief-nap-officer/template-blue-polish",
       "html": "motion/003-chief-nap-officer/index.html",
-      "video": "motion/003-chief-nap-officer/previews/v019-browser-review.mp4",
+      "video": "motion/003-chief-nap-officer/previews/v021-clear-computer-review.mp4",
       "history": "motion/003-chief-nap-officer/versions/index.html",
-      "archiveCount": 20,
-      "sha256": "48869274c355e87860820af13189474e057480074e361f0e4f5878406a469a70",
+      "archiveCount": 21,
+      "sha256": "75babb0acce818c254702577b0d595838d4e3bcc92f738677eb7ceb2d22ef81b",
       "status": "Unpublished draft"
     },
     {

@@ -1,15 +1,13 @@
-# Blue A Acting Polish · 蓝地板 A 版表演打磨
+# Selected blue studio source · 当前蓝地毯源码
 
-2026-10-21. Working source for [v017 HTML](../versions/v017/index.html), selected by ../episode.json and ../variants/blue-a-polish.json / 新版源码，由主配置与独立打磨配置选用。
+**v021 · 18s · 800×1000 · 30fps · Unpublished review cut / 未发布审片稿**
 
-- Preserve the accepted blue scene, original paired artwork, English child dialogue and supplied logo / 保留获认可蓝地板场景、原双猫稿、英文童声和原 Logo。
-- Add eight complete Lucky/laptop contact drawings, 4.85–6.30s; no cut-apart limb rig / 增加八幅完整猫与电脑接触稿，不拆关节。
-- Contact at 5.30s precedes visible parallel progress; all tasks stay incomplete / 按键后才进入并行工作示意，不展示瞬间完成。
-- Speaker-directed cuts stay within the painted canvas. Captions leave the frame during the silent final reaction / 说话镜头约束在画布内；结尾反应时让字幕退场。
-- Same five child clips, newly remixed score; quiet beats before the answer and yawn / 沿用五句童声，配乐另存重混，回答与哈欠前短暂静音。
-- [18s review MP4](../previews/v017-blue-acting-review.mp4), native SVG render, 800×1000, 12 timeline samples/sec encoded at 24fps; not browser capture / 离线审片，不冒充浏览器实录。
-- Prior A v015, B v016, all earlier HTMLs, original audio and template-blue remain unchanged / 原 A/B、全部旧版、声音与旧模板不动。
+Whole original paired-cat paintings keep native proportions and sit behind the foreground laptop. The original laptop pixels and illustrative Verdent workflow render above the cast, keeping the complete screen and keyboard visible, including the sleeping pose / 原双猫稿保持比例，坐在前景电脑后侧；原电脑及示意界面绘于角色前层，午睡也不盖屏幕键盘。
 
-Still limited key-drawing animation: no phoneme lip sync, no dense in-between drawings, slight generated-art variation and shot continuity require creator review / 仍是有限关键稿动画，无音素口型和密集中间帧，细微造型及镜头连续性待创作者验看。
+The wider computer detail shot stays within the frame. Keyboard-insert captions move to the empty upper wall; camera bounds keep the wide-shot computer above the bottom captions / 电脑特写放宽且不出画，按键字幕放在上方空墙，全景镜头约束电脑在底部字幕之上。
 
-[Exact new-art prompt / 新素材完整提示词](PROMPTS.md) · [Checks / 检查](../variants/QA-POLISH.md).
+Existing English child dialogue, original music and all eight complete contact drawings remain. No new external speech or image request / 沿用英文童声、原创音乐与八幅完整接触稿，无新增外部语音或生图请求。
+
+[Configuration / 配置](../episode.json) · [HTML](../index.html) · [Matching voiced MP4 / 匹配带声视频](../previews/v021-clear-computer-review.mp4) · [QA / 检查](../previews/v021-checks.json)
+
+Edit this source and episode.json; render a new movie before building. Every existing versions/vNNN/ remains immutable / 修改本源及配置，先渲染匹配视频再构建，永久历史不可改。

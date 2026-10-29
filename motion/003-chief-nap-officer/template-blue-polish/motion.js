@@ -17,7 +17,7 @@
   let looping = params.get("once") !== "1";
   let frame = null;
   let previous = performance.now();
-  let requestId = 0;
+  let requestId = 0, artworkReady = false;
   document.title = "Mochi & Lucky · " + episode.title;
   element("film-title").textContent = episode.title;
   element("transcript").textContent = episode.beats.map(beat => beat.speaker + ": " + beat.text).join("\n") + "\n" + episode.footer;
@@ -37,10 +37,10 @@
     episode.frames.forEach(item => { if (elapsed >= item.at) pose = item.pose; });
     const baselines = [672, 672, 671, 672, 1094, 1094, 1094, 1094];
     const sourceLeft = pose % 4 * 280.5;
-    const scale = 2.2;
-    const breath = reduced.matches ? 1 : 1 + Math.sin(elapsed / 850) * .0008;
+    const scale = 1.7;
+    const breath = 1; // Native equal-axis painting scale / 原稿等比，不拉伸呼吸。
     set("cast", "transform", "translate(0 830) scale(1 " + breath + ") translate(0 -830)");
-    set("cast-placement", "transform", "translate(" + (18 - sourceLeft * scale) + " " + (830 - baselines[pose] * scale) + ") scale(" + scale + ")");
+    set("cast-placement", "transform", "translate(" + (28 - sourceLeft * scale) + " " + (625 - baselines[pose] * scale) + ") scale(" + scale + ")");
     set("cast-crop", "clip-path", "url(#cell-" + pose + ")");
     const contact = elapsed >= episode.action.start && elapsed < episode.action.end;
     let actionFrame = 0;
@@ -48,6 +48,8 @@
     if (reduced.matches) actionFrame = 3;
     set("action-window", "viewBox", (actionFrame % 4 * 396.75) + " " + (Math.floor(actionFrame / 4) * 495.5) + " 396.75 495.5");
     set("action-shot", "opacity", contact ? 1 : 0);
+    // During the keyboard insert the caption sits on the empty upper wall / 按键特写时字幕移到上方空墙，不盖键盘。
+    set("subtitle", "transform", contact ? "translate(0 -820)" : "translate(0 0)");
     set("action-shot", "aria-hidden", !contact);
     set("action-shot", "data-frame", actionFrame);
     set("scene", "opacity", contact ? 0 : 1);
@@ -58,7 +60,7 @@
     const left=Math.max(800*(1-cameraScale),Math.min(0,400-focus[0]*cameraScale));
     const top=Math.max(1000*(1-cameraScale),Math.min(0,600-focus[1]*cameraScale));
     const detailMix=reduced.matches?0:smooth((elapsed-episode.detail[0])/250)*smooth((episode.detail[1]-elapsed)/220);
-    const finalCameraScale=cameraScale+(1.8-cameraScale)*detailMix,x=left+(-554-left)*detailMix,y=top+(-636-top)*detailMix;
+    const finalCameraScale=cameraScale+(1.4-cameraScale)*detailMix,x=left+(-245-left)*detailMix,rawY=top+(-310-top)*detailMix,y=Math.min(rawY,855-832*finalCameraScale);
     set("scene","transform",`translate(${x} ${y}) scale(${finalCameraScale})`);
     set("cast","opacity",1-detailMix);
     set("screen-ui", "opacity", elapsed >= episode.launchAt ? 1 : 0);
@@ -66,6 +68,7 @@
       const progress = 28 + clamp((elapsed - episode.launchAt - position * 130) / 16000) * (120 - position * 20);
       set("progress-" + position, "d", "M0 11h" + progress.toFixed(2));
     });
+    window.napState={time:elapsed,pose,contact,actionFrame,catScaleX:scale,catScaleY:scale,computerOnTop:true,detailMix,computerBounds:{left:244*finalCameraScale+x,right:708*finalCameraScale+x,top:444*finalCameraScale+y,bottom:832*finalCameraScale+y},captionTop:contact?51:871};
     element("seek").value = String(Math.round(elapsed));
     set("seek", "aria-valuetext", (elapsed / 1000).toFixed(1) + " seconds");
     element("time").textContent = format(elapsed) + " / " + format(episode.duration);
@@ -157,6 +160,8 @@
   document.addEventListener("visibilitychange", sync);
   document.addEventListener("fullscreenchange", () => { if (!document.fullscreenElement && params.get("capture") !== "1") document.body.classList.toggle("capture", false); });
   reduced.addEventListener("change", () => { if (reduced.matches) { paused = true; render(); sync(); } });
+  window.napPlayer={get ready(){return artworkReady},get time(){return elapsed},get playing(){return !paused},seek(value){paused=true;audio.pause();return setTime(value)}};
+  Promise.all([...document.querySelectorAll('#film image')].map(el=>new Promise((resolve,reject)=>{const im=new Image();im.onload=resolve;im.onerror=reject;im.src=el.getAttribute('href')}))).then(()=>{artworkReady=true;render()}).catch(()=>{element('audio-status').textContent='Artwork failed to load. Reopen the complete HTML file.'});
   render();
   sync();
 })();

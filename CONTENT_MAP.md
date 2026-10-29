@@ -6,7 +6,7 @@ This file records factual state; current versions/lengths/exports are generated 
 
 All selected motion films are unpublished review drafts with actual synthetic child speech, original BGM and MP4 downloads. New story films use distinct living-room, coffee-nook and kitchen scenes; 003/005 remain accepted visual benchmarks for further review / 当前动态均未发布待审，实际含合成童声、原创配乐与下载；新剧情分客厅、咖啡角、厨房，003、005 保留视觉基准。
 
-Current MP4s are actual Chromium timeline samples with H.264/AAC: 24 fps for 001/003 and 30 fps for 002/004/005. 001/002/004 use 800×1000, 003 uses 480×600, 005 uses 720×1280. They are review exports, not final delivery approval / 当前视频为真实浏览器时间轴采样，002/004/005 为30帧，001/003 为24帧，尺寸如上，仍属审片导出。
+Current MP4s are actual Chromium timeline samples with H.264/AAC: 24 fps for 001 and 30 fps for 002–005. 001–004 use 800×1000, 005 uses 720×1280. They are review exports, not final delivery approval / 当前视频为真实浏览器时间轴采样，002–005 为30帧，001 为24帧，尺寸如上，仍属审片导出。
 
 The new stories are limited animation, without phoneme lip sync. Their opening button starts sound explicitly; the library can unmute/restart one movie and pause other movies / 新剧情为有限动画，无音素口型；点击显式带声，目录可重播当前片并暂停其他片。
 
@@ -47,3 +47,5 @@ Actual release records require an approved version, channel, date and URL; missi
 2026-10-29: Halloween 005 v013 is a new 20s recordable review cut: direct Verdent wishes, original intact painted cats, unobstructed paw/key contact, single-candy hold, candy shower and visible faces above the pile. Existing child speech is remixed with smooth ducking; no new external speech request. / 万圣节新版已可录制审片；对 Verdent 许愿，完整原比例猫、清楚爪键接触、首糖停顿、糖雨及糖堆探头；既有童声柔和混音，本次未重新请求外部配音。
 
 2026-10-29: Coffee 002 v004 and Soft Launch 004 v009 are selected 30fps review cuts. Both directly address Verdent, show an illustrative computer response and retain intact painted cats. Local remixes reuse existing child recordings and original music; matching exports and downloads are complete / 咖啡与烘焙新版已选用，可录制；直接请求 Verdent、电脑示意反馈、完整猫稿、本地童声配乐重混和匹配视频下载均已完成。
+
+003 v021: The complete painted cats sit behind the original foreground laptop; the screen and keyboard remain uncovered in wide, close and sleeping shots. Insert captions move to the empty upper wall. Same child recordings/music, new 800×1000 / 30fps matching export / 原比例猫退到原电脑后侧，全景、特写、午睡均不挡电脑，按键字幕移到空墙，沿用声音并重导匹配视频。
