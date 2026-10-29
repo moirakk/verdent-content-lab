@@ -1,0 +1,175 @@
+{
+  "source": "../v006-natural/mix.json",
+  "lines": [
+    {
+      "speaker": "Lucky",
+      "text": "Hey, Verdent... treats, please?",
+      "start": 0.25,
+      "duration": 2.5775,
+      "voice": "en-US-AnaNeural",
+      "rate": "+1%",
+      "file": "line-01.wav",
+      "postTempo": 1
+    },
+    {
+      "speaker": "Lucky",
+      "text": "Ooh! A little more?",
+      "start": 5.35,
+      "duration": 1.924,
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
+      "file": "line-02.wav",
+      "postTempo": 1
+    },
+    {
+      "speaker": "Mochi",
+      "text": "You call that little?",
+      "start": 16.05,
+      "duration": 1.166958,
+      "voice": "en-GB-MaisieNeural",
+      "rate": "-1%",
+      "file": "line-03.wav",
+      "postTempo": 0.86
+    }
+  ],
+  "duration": 20.0,
+  "externalSpeechRequests": false,
+  "pitchChanged": false,
+  "smoothDucking": {
+    "attackMs": 18,
+    "releaseMs": 220
+  },
+  "foley": [
+    [
+      2.8,
+      "key",
+      0.045
+    ],
+    [
+      4.45,
+      "bucket",
+      0.075
+    ],
+    [
+      7.9,
+      "key",
+      0.045
+    ],
+    [
+      9.25,
+      "paper",
+      0.009
+    ],
+    [
+      9.485,
+      "paper",
+      0.00925
+    ],
+    [
+      9.72,
+      "paper",
+      0.0095
+    ],
+    [
+      9.955,
+      "paper",
+      0.00975
+    ],
+    [
+      10.19,
+      "paper",
+      0.009999999999999998
+    ],
+    [
+      10.425,
+      "paper",
+      0.010249999999999999
+    ],
+    [
+      10.66,
+      "paper",
+      0.010499999999999999
+    ],
+    [
+      10.895,
+      "paper",
+      0.01075
+    ],
+    [
+      11.129999999999999,
+      "paper",
+      0.011
+    ],
+    [
+      11.365,
+      "paper",
+      0.01125
+    ],
+    [
+      11.6,
+      "paper",
+      0.0115
+    ],
+    [
+      11.835,
+      "paper",
+      0.01175
+    ],
+    [
+      12.07,
+      "paper",
+      0.012
+    ],
+    [
+      12.305,
+      "paper",
+      0.01225
+    ],
+    [
+      12.54,
+      "paper",
+      0.012499999999999999
+    ],
+    [
+      12.775,
+      "paper",
+      0.01275
+    ],
+    [
+      13.01,
+      "paper",
+      0.013
+    ],
+    [
+      13.245,
+      "paper",
+      0.01325
+    ],
+    [
+      13.48,
+      "paper",
+      0.0135
+    ],
+    [
+      13.715,
+      "paper",
+      0.013749999999999998
+    ],
+    [
+      13.95,
+      "paper",
+      0.013999999999999999
+    ],
+    [
+      14.184999999999999,
+      "paper",
+      0.014249999999999999
+    ],
+    [
+      14.42,
+      "paper",
+      0.014499999999999999
+    ]
+  ],
+  "note": "Native child voices retained; Mochi slowed gently, no pitch shift / 保留原童声，Mochi 稍放慢，不变调"
+}

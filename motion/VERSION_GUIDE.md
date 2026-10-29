@@ -71,7 +71,7 @@ Selected / 当前：[v007](004-that-was-a-sentence/index.html) · [History / 历
 
 ## 005 · A Little More
 
-Selected / 当前：[v012](005-halloween/index.html) · [History / 历史入口](005-halloween/versions/index.html)
+Selected / 当前：[v013](005-halloween/index.html) · [History / 历史入口](005-halloween/versions/index.html)
 
 | Version / 版本 | Role / 状态 | Saved title / 当时标题 |
 | --- | --- | --- |
@@ -86,4 +86,5 @@ Selected / 当前：[v012](005-halloween/index.html) · [History / 历史入口]
 | [v009](005-halloween/versions/v009/index.html) | Historical / 历史 | A Little More |
 | [v010](005-halloween/versions/v010/index.html) | Historical / 历史 | A Little More |
 | [v011](005-halloween/versions/v011/index.html) | Historical / 历史 | A Little More |
-| [v012](005-halloween/versions/v012/index.html) | Selected review draft / 当前待审 | A Little More |
+| [v012](005-halloween/versions/v012/index.html) | Historical / 历史 | A Little More |
+| [v013](005-halloween/versions/v013/index.html) | Selected review draft / 当前待审 | A Little More |

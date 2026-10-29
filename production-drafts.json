@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-10-22",
+  "updated": "2026-10-29",
   "drafts": [
     {
       "episode": "002-tiny-feature",
@@ -33,15 +33,14 @@
       "episode": "005-halloween",
       "config": "motion/005-halloween/drafts/2026-10-22-verdent-interaction/episode.json",
       "template": "motion/005-halloween/template-natural",
-      "status": "work-in-progress",
+      "status": "ready-for-review",
       "audioReady": true,
-      "newHtmlReady": false,
-      "newVideoReady": false,
+      "newHtmlReady": true,
+      "newVideoReady": true,
       "remaining": [
-        "Retiming of contact, candy and reactions to new 20s audio is still required / 尚需按新20秒声音重排接触出糖与反应",
-        "Remove cat-body/cloth deformation without reducing acting / 去除身体布料变形并加强表演",
-        "Render matching MP4 and new HTML / 导出匹配视频与新 HTML"
-      ]
+        "Creator review of acting, voice performance and staging / 创作者验看动作、配音与空间关系"
+      ],
+      "selectedVersion": "v013"
     }
   ]
 }

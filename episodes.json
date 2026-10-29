@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22",
+  "updated": "2026-10-29",
   "priority": "005-halloween",
   "episodes": [
     {
@@ -11,9 +11,9 @@
       "musicAvailable": true,
       "voicesAvailable": true,
       "aspect": "9:16",
-      "video": "motion/005-halloween/previews/halloween-wish-v012-voiced-review.mp4",
-      "nextTask": "Review the final voice performance, acting and cat-to-prop staging before release.",
-      "nextTaskZh": "优先复查童声表现、动作和猫咪与道具的空间关系。",
+      "video": "motion/005-halloween/previews/halloween-wish-v013-natural-review.mp4",
+      "nextTask": "Review the 20s Halloween cut: native cat shapes, visible paw contact, conversational child speech and the candy-pile reaction.",
+      "nextTaskZh": "验看20秒万圣节新版：原比例猫、爪键接触、口语童声与糖堆探头反应。",
       "status": "Unpublished draft"
     },
     {

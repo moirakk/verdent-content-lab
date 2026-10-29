@@ -1,14 +1,14 @@
 # 005 · A Little More
 
-**v012 · 18s · 9:16 · Unpublished review draft / 未发布待审稿**
+**v013 · 20s · 9:16 · Unpublished review draft / 未发布待审稿**
 
-[Play / 播放](index.html) · [MP4 / 带声视频](previews/halloween-wish-v012-voiced-review.mp4) · [All versions / 全部历史](versions/index.html) · [Caption / 发布草稿](../../captions/motion-005-halloween.md)
+[Play / 播放](index.html) · [MP4 / 带声视频](previews/halloween-wish-v013-natural-review.mp4) · [All versions / 全部历史](versions/index.html) · [Caption / 发布草稿](../../captions/motion-005-halloween.md)
 
 Lucky makes a wish. The candy takes it literally.
 
 ## Edit · 修改
 
-[Configuration / 配置](episode.json) + [Selected local template / 本集选用模板](template-interaction). Actual selected template: motion/005-halloween/template-interaction / 选用模板以配置为准。
+[Configuration / 配置](episode.json) + [Selected local template / 本集选用模板](template-natural). Actual selected template: motion/005-halloween/template-natural / 选用模板以配置为准。
 
 [Template roles / 模板状态](../TEMPLATE_MAP.md) · [Build tools / 构建工具](../../scripts/README.md)
 
@@ -18,9 +18,9 @@ Use the sound button before viewing. Downloaded MP4 includes the mixed speech/mu
 
 | Time / 时间 | Speaker / 角色 | English line / 英文对白 |
 | --- | --- | --- |
-| 0.0s | Lucky | Treats, please. |
-| 4.8s | Lucky | A little more. |
-| 14.8s | Mochi | Define “little”. |
+| 0.0s | Lucky | Hey, Verdent... treats, please? |
+| 5.2s | Lucky | Ooh! A little more? |
+| 15.9s | Mochi | You call that little? |
 
 ## Preservation · 保留
 

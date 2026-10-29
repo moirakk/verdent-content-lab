@@ -1,13 +1,17 @@
-# Work in progress · 制作中
+# Halloween natural cut · 万圣节自然节奏版
 
-This template is an unfinished new cut, not the selected recordable film. Existing current HTML/MP4 remain selected. Download asset copies in this working directory are placeholders from the prior template and must be replaced after rendering. / 此源为未完成改稿，不是当前可录制成片。现有 HTML/MP4 仍选用；本工作目录下载资产来自旧模板，仅占位，渲染后须替换。
+Selected for v013 on 2026-10-29. 20 seconds; native 800×1422 canvas, review export 720×1280 / 30 fps with H.264/AAC. The creator's original painted cats, costumes, room and supplied Verdent logo are unchanged / 10月29日选用 v013，20秒，竖屏有声视频；原油画猫、装扮、房间及 Logo 原件不改。
 
-[Draft configuration / 改稿配置](../drafts/2026-10-22-verdent-interaction/episode.json) · [Selected film / 当前成片](../index.html) · [Production status / 制作状态](../../../WORK_IN_PROGRESS.md)
+Whole connected paintings use equal X/Y scale. No mesh, cloth ripple, face warp or separated limbs. Acting uses authored reach/contact/release poses, a brief recoil and whole-cat peeking above the candy pile. The bucket clears the keyboard contact; the cats come forward at the ending so their eyes remain visible / 整幅原画等比显示，无网格、布料波纹、脸部拉伸或拆肢体；完整动作稿完成伸爪按键收回、受惊及糖堆探头，糖桶让开接触点，结尾前后遮挡保留双眼。
 
-## Remaining · 剩余
+The spoken wish names Verdent; the screen acknowledges the wish before one candy, then a deliberate pause precedes the shower. Three existing child performances retain internal pauses. Mochi's final line is gently slowed without changing pitch, music ducks smoothly and contact cues follow the action / 台词直接向 Verdent 许愿，电脑先回应，单糖后留停顿再出糖雨；沿用三句童声并保留句内停顿，末句稍放慢不变调，配乐柔和避让并对齐动作音。
 
-- Retiming of contact, candy and reactions to new 20s audio is still required / 尚需按新20秒声音重排接触出糖与反应
-- Remove cat-body/cloth deformation without reducing acting / 去除身体布料变形并加强表演
-- Render matching MP4 and new HTML / 导出匹配视频与新 HTML
+## Source and review · 修改与审片
 
-Existing versions/vNNN/ remain immutable. Build the draft configuration only after review/export; never overwrite selected files by hand. / 历史不可改；审看导出后才构建改稿配置，不手工覆盖选用文件。
+[Selected config / 选用配置](../episode.json) + motion.js / style.css / index.html. [Dialogue/score mix / 对白配乐](../audio/v007-polish-20261029/mix.json). Earlier working config is retained in [draft history / 改稿历史](../drafts/2026-10-22-verdent-interaction/episode.json). All old templates and versions remain / 旧模板与存档全部保留。
+
+- Render: `node scripts/render-story-previews.cjs --episode 005-halloween` from repository root / 根目录渲染，先配置新导出文件名。
+- Check: `node scripts/check-halloween.cjs` with Playwright supplied as described in scripts/README.md / 验证播放、接触、边界、原比例与确定性。
+- After rendering copy the matching movie to assets/episode-export.mp4, build episode.json and refresh indexes / 视频匹配后复制下载资产、构建并更新索引。
+
+Opens paused on Play with sound; source HTML and MP4 both retain full playback controls. Synthetic child voices, fictional wishes and limited painted animation; final creative review remains pending / 默认点击带声，HTML 与视频均有播放控制；合成童声、虚构出糖、有限水粉动画，仍待创作者验看。

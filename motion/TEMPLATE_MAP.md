@@ -20,8 +20,8 @@ Generated from episode.json; do not infer the selected template from its name / 
 | 004 | [004-that-was-a-sentence/template-story](../motion/004-that-was-a-sentence/template-story) | Historical / 历史 | [motion/004-that-was-a-sentence/template-story](../motion/004-that-was-a-sentence/template-story) |
 | 004 | [004-that-was-a-sentence/template-unified](../motion/004-that-was-a-sentence/template-unified) | Historical / 历史 | [motion/004-that-was-a-sentence/template-unified](../motion/004-that-was-a-sentence/template-unified) |
 | 005 | [005-halloween/template](../motion/005-halloween/template) | Historical / 历史 | [motion/005-halloween/template](../motion/005-halloween/template) |
-| 005 | [005-halloween/template-interaction](../motion/005-halloween/template-interaction) | Current / 当前 | [motion/005-halloween/template-interaction](../motion/005-halloween/template-interaction) |
-| 005 | [005-halloween/template-natural](../motion/005-halloween/template-natural) | Work in progress / 制作中 | [motion/005-halloween/template-natural](../motion/005-halloween/template-natural) |
+| 005 | [005-halloween/template-interaction](../motion/005-halloween/template-interaction) | Historical / 历史 | [motion/005-halloween/template-interaction](../motion/005-halloween/template-interaction) |
+| 005 | [005-halloween/template-natural](../motion/005-halloween/template-natural) | Current / 当前 | [motion/005-halloween/template-natural](../motion/005-halloween/template-natural) |
 | 005 | [005-halloween/template-wish](../motion/005-halloween/template-wish) | Historical / 历史 | [motion/005-halloween/template-wish](../motion/005-halloween/template-wish) |
 
 `_painted-story` is the current shared source for 001/002; 004 uses its independent `template-acting`. `_painted-series` is the earlier unified-room experiment; `_template` is the initial sample scaffold. Neither is the selected source for current films / 当前两集共用新剧情源，004 用独立整猫动作源；其余两个为早期统一场景和初始样片源。

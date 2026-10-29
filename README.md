@@ -9,6 +9,7 @@ Private sources and archives for the original painted cat series / 原创水粉�
 **Character first. Joke second. Product third. / 先人物，再笑点，最后产品。**
 
 - [Watch all episodes / 观看全部剧集](docs/index.html) — Click **Play with sound**; MP4 downloads include voices and music / 点击带声播放，下载视频已含童声与配乐。
+- [Repository status / 仓库现状（2026-10-29）](REPO_STATUS.md) — Recordable films, active drafts and source locations / 成片、改稿及源码位置。
 - [Selected versions / 当前版本表](EPISODES.md) — Generated from the actual selected HTML hashes / 通过实际文件校验值确认选用版。
 - [Project index / 项目总索引](PROJECT_INDEX.md) — Find sources, art, audio, captions and archives / 查找源码、画稿、声音、文案与历史。
 - [Production drafts / 制作中改稿](WORK_IN_PROGRESS.md) — Saved source/audio; current films stay selected / 已保存源码声音，完成片仍为当前入口。

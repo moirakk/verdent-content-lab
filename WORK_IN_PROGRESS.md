@@ -1,6 +1,6 @@
 # Production drafts · 正在制作
 
-Saved on 2026-10-22 at the creator's request to sync existing work first. These are sources and measured audio, not finished or creatively approved new episodes. Current watch/record/download links continue to use completed films in [EPISODES.md](EPISODES.md). / 按创作者“先同步已有内容”保存；本页为制作源码与实测声音，不是已完成或创意批准的新片。观看、录制与下载仍使用已完成版本。
+Saved on 2026-10-22; updated 2026-10-29. Halloween is now v013, ready for creator review. 002/004 remain unfinished. / 10月29日更新：万圣节已成 v013 待审，002/004 仍在制作。 Saved initially at the creator's request to sync existing work first. These are sources and measured audio, not finished or creatively approved new episodes. Current watch/record/download links continue to use completed films in [EPISODES.md](EPISODES.md). / 按创作者“先同步已有内容”保存；本页为制作源码与实测声音，不是已完成或创意批准的新片。观看、录制与下载仍使用已完成版本。
 
 ## Confirmed revision direction · 本轮明确要求
 
@@ -12,7 +12,7 @@ Saved on 2026-10-22 at the creator's request to sync existing work first. These 
 | --- | --- | --- | --- |
 | 002 · One Tiny Feature | [Config / 配置](motion/002-tiny-feature/drafts/2026-10-22-verdent-interaction/episode.json), [template-verdent](motion/002-tiny-feature/template-verdent/README.md) | Lucky asks Verdent for a feature, login and payments; visible plan replies and solid laptop; measured child audio / 对 Verdent 追加需求、计划反馈、立体电脑与实测童声 | Check eye line, physical staging, render matching movie/HTML / 检查视线与空间，导出匹配视频和 HTML |
 | 004 · Soft Launch | [Config / 配置](motion/004-that-was-a-sentence/drafts/2026-10-22-verdent-interaction/episode.json), [template-bakery-preview](motion/004-that-was-a-sentence/template-bakery-preview/README.md) | Verdent makes bakery-site preview; Lucky tests the cookies instead of the website; new child lines and native-proportion painting renderer / 网页预览与误试吃笑点、新童声及原比例画稿渲染 | Review clear setup/payoff, contact and export / 复查铺垫反转、接触并导出 |
-| 005 · A Little More | [Config / 配置](motion/005-halloween/drafts/2026-10-22-verdent-interaction/episode.json), [template-natural](motion/005-halloween/template-natural/README.md) | Three new child lines with outer silence trimmed and internal pauses kept; retimed 20s original score / 三句新童声，去首尾空白保留句内停顿；新20秒原创节日谱 | Animation still uses prior timing/warping; retime and remove body/cloth deformation before review/export / 动画仍为旧时间与变形逻辑，先重排并去除身体布料变形，再审看导出 |
+| 005 · A Little More | [Config / 配置](motion/005-halloween/drafts/2026-10-22-verdent-interaction/episode.json), [template-natural](motion/005-halloween/template-natural/README.md) | Three new child lines with outer silence trimmed and internal pauses kept; retimed 20s original score / 三句新童声，去首尾空白保留句内停顿；新20秒原创节日谱 | Completed v013 HTML + voiced MP4, selected in the recording hub; creator review remains / v013 HTML 与带声视频已完成并进入成片入口，待创作者验看 |
 
 Each new audio directory retains raw MP3s, trimmed WAVs, mix metadata, voice profiles and final AAC. Audio generation completed and measured for all three drafts. The creator explicitly authorized sending the five displayed Soft Launch lines to Microsoft's online speech service. This is permission for those lines, not automatic publication / 新声音保留原 MP3、修剪 WAV、混音数据、声线配置与 AAC，三集均已生成实测。创作者明确授权了显示的五句 Soft Launch 台词发送微软在线语音服务；不等于发布授权。
 

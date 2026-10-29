@@ -56,3 +56,9 @@ Install optional browser tooling with npm install then npx playwright install ch
 | sync-painted-series.mjs | Earlier unified-room source preparation; historical / 早期统一房间模板，历史保留 |
 
 Network is needed to generate remote speech; already embedded playback works offline. Incomplete attempts remain labelled and never imply voices are present / 生成语音需联网，成片可离线；未完成尝试不得标成已有配音。
+
+## Halloween v013 review · 万圣节新版审片
+
+`render-story-previews.cjs --episode 005-halloween` follows render.width/height/fps/player in the selected config. `--config <draft episode.json>` renders a saved working configuration without selecting it as current. / 渲染支持本集尺寸帧率播放器；也可指定改稿配置预渲染，不切换当前成片。
+
+`check-halloween.cjs [episode.json]` checks native character aspect, paw/key contact, dialogue bounds, deterministic seeking, sound start/pause/replay/end and reduced-motion pause. `mix-halloween-polish.py` remixes existing child recordings locally with smooth music ducking and new contact cues; no external TTS call / 检查原比例、接触、气泡、确定性与播放；声音脚本仅本地混合既有童声、柔和避让配乐并加动作声，不外发语音请求。

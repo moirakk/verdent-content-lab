@@ -64,16 +64,16 @@
     {
       "id": "005-halloween",
       "title": "A Little More",
-      "version": "v012",
-      "durationMs": 18000,
+      "version": "v013",
+      "durationMs": 20000,
       "aspect": "9:16",
       "config": "motion/005-halloween/episode.json",
-      "template": "motion/005-halloween/template-interaction",
+      "template": "motion/005-halloween/template-natural",
       "html": "motion/005-halloween/index.html",
-      "video": "motion/005-halloween/previews/halloween-wish-v012-voiced-review.mp4",
+      "video": "motion/005-halloween/previews/halloween-wish-v013-natural-review.mp4",
       "history": "motion/005-halloween/versions/index.html",
-      "archiveCount": 12,
-      "sha256": "158aa876b56954cc8382a0da2b9373c1b37ea43ea498b911c399562db381239f",
+      "archiveCount": 13,
+      "sha256": "0a8d0431d7c9c7626d729e378b0319b61acb5e38e01e67306585bc5a051569c8",
       "status": "Unpublished draft"
     }
   ],
@@ -177,13 +177,13 @@
     {
       "episode": "005-halloween",
       "path": "motion/005-halloween/template-interaction",
-      "role": "current",
+      "role": "historical",
       "editableSource": "motion/005-halloween/template-interaction"
     },
     {
       "episode": "005-halloween",
       "path": "motion/005-halloween/template-natural",
-      "role": "work-in-progress",
+      "role": "current",
       "editableSource": "motion/005-halloween/template-natural"
     },
     {

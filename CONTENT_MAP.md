@@ -6,7 +6,7 @@ This file records factual state; current versions/lengths/exports are generated 
 
 All selected motion films are unpublished review drafts with actual synthetic child speech, original BGM and MP4 downloads. New story films use distinct living-room, coffee-nook and kitchen scenes; 003/005 remain accepted visual benchmarks for further review / 当前动态均未发布待审，实际含合成童声、原创配乐与下载；新剧情分客厅、咖啡角、厨房，003、005 保留视觉基准。
 
-Current MP4s are actual Chromium timeline samples at 24 fps with H.264/AAC. 001/002/004 use 800×1000, 003 uses 480×600, 005 uses 540×960. They are review exports, not final delivery approval / 当前视频为真实浏览器时间轴采样，尺寸如上，仍属审片导出。
+Current MP4s are actual Chromium timeline samples with H.264/AAC: 24 fps for 001–004 and 30 fps for 005. 001/002/004 use 800×1000, 003 uses 480×600, 005 uses 720×1280. They are review exports, not final delivery approval / 当前视频为真实浏览器时间轴采样，005 为30帧，其余24帧，尺寸如上，仍属审片导出。
 
 The new stories are limited animation, without phoneme lip sync. Their opening button starts sound explicitly; the library can unmute/restart one movie and pause other movies / 新剧情为有限动画，无音素口型；点击显式带声，目录可重播当前片并暂停其他片。
 
@@ -43,3 +43,5 @@ Repository: private [moirakk/verdent-content-lab](https://github.com/moirakk/ver
 Actual release records require an approved version, channel, date and URL; missing facts stay TBD / 真实发布后补批准版、渠道、日期链接，未知不编造。
 
 004 now uses independent complete-cat paintings with continuous mesh in-betweens, pinned feet and visible tray contact; 001 prints the unmodified official Verdent mark onto the cardboard face. Both remain review drafts. / 004 新增独立整猫动作与连续中间变形，脚底固定、爪盘接触可见；001 纸箱加原版 Verdent 印字；两者仍待审。
+
+2026-10-29: Halloween 005 v013 is a new 20s recordable review cut: direct Verdent wishes, original intact painted cats, unobstructed paw/key contact, single-candy hold, candy shower and visible faces above the pile. Existing child speech is remixed with smooth ducking; no new external speech request. / 万圣节新版已可录制审片；对 Verdent 许愿，完整原比例猫、清楚爪键接触、首糖停顿、糖雨及糖堆探头；既有童声柔和混音，本次未重新请求外部配音。

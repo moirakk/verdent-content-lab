@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "summary": {
-    "mediaFiles": 673,
-    "uniqueContents": 224,
-    "totalBytes": 921673291,
-    "uniqueBytes": 233166527
+    "mediaFiles": 687,
+    "uniqueContents": 228,
+    "totalBytes": 948787954,
+    "uniqueBytes": 240139911
   },
   "note": "Identical copies are intentional for standalone films, frozen source and docs previews. Never delete a copy using this catalog alone. / 单文件成片、永久源码和预览需要同内容副本，不可仅凭此表删除。",
   "assets": [
@@ -31,11 +31,11 @@
           "role": "current-template"
         },
         {
-          "path": "motion/005-halloween/template-interaction/assets/verdent-logo-original.png",
+          "path": "motion/005-halloween/template-natural/assets/verdent-logo-original.png",
           "role": "current-template"
         },
         {
-          "path": "motion/005-halloween/template-interaction/assets/verdent-logo-supplied-2026-10-22.png",
+          "path": "motion/005-halloween/template-natural/assets/verdent-logo-supplied-2026-10-22.png",
           "role": "current-template"
         },
         {
@@ -44,14 +44,6 @@
         },
         {
           "path": "motion/004-that-was-a-sentence/template-bakery-preview/assets/verdent-logo-original.png",
-          "role": "draft-template"
-        },
-        {
-          "path": "motion/005-halloween/template-natural/assets/verdent-logo-original.png",
-          "role": "draft-template"
-        },
-        {
-          "path": "motion/005-halloween/template-natural/assets/verdent-logo-supplied-2026-10-22.png",
           "role": "draft-template"
         },
         {
@@ -80,6 +72,14 @@
         },
         {
           "path": "motion/004-that-was-a-sentence/template/assets/verdent-logo-original.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/005-halloween/template-interaction/assets/verdent-logo-original.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/005-halloween/template-interaction/assets/verdent-logo-supplied-2026-10-22.png",
           "role": "historical-source"
         },
         {
@@ -244,6 +244,10 @@
         },
         {
           "path": "motion/005-halloween/versions/v012/template/assets/verdent-logo-supplied-2026-10-22.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v013/template/assets/verdent-logo-supplied-2026-10-22.png",
           "role": "immutable-archive"
         }
       ]
@@ -1034,8 +1038,8 @@
     },
     {
       "canonicalPath": "docs/assets/episodes/005-halloween.webp",
-      "sha256": "3a09641fd0561fadef6e301d26e7d7c412e0c29b561e994c2dca78cd47dd63f5",
-      "bytes": 58800,
+      "sha256": "c8b7cd634cee202a7bbe0a31d09879ea1e7ad9aab63c7d383160d6c400861d85",
+      "bytes": 134638,
       "extension": "webp",
       "locations": [
         {
@@ -3357,10 +3361,6 @@
         {
           "path": "motion/005-halloween/audio/v006-natural/episode-score.m4a",
           "role": "audio-source"
-        },
-        {
-          "path": "motion/005-halloween/template-natural/assets/episode-score.m4a",
-          "role": "draft-template"
         }
       ]
     },
@@ -3385,6 +3385,10 @@
         {
           "path": "motion/005-halloween/audio/v006-natural/line-01.wav",
           "role": "audio-source"
+        },
+        {
+          "path": "motion/005-halloween/audio/v007-polish-20261029/line-01.wav",
+          "role": "audio-source"
         }
       ]
     },
@@ -3408,6 +3412,10 @@
       "locations": [
         {
           "path": "motion/005-halloween/audio/v006-natural/line-02.wav",
+          "role": "audio-source"
+        },
+        {
+          "path": "motion/005-halloween/audio/v007-polish-20261029/line-02.wav",
           "role": "audio-source"
         }
       ]
@@ -3444,6 +3452,50 @@
       "locations": [
         {
           "path": "motion/005-halloween/audio/v006-score/halloween-wish-score-v004.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/audio/v007-polish-20261029/contact-cues.wav",
+      "sha256": "17c89d3a0161ae6d9aa9a69a6a50cb399ba9bac7f5e7acd15ff2bafb059c2385",
+      "bytes": 1920044,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/005-halloween/audio/v007-polish-20261029/contact-cues.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/audio/v007-polish-20261029/episode-score.m4a",
+      "sha256": "e80304b8aefcc740da74ece501b6cb1467a40e278406201be225de59810e7405",
+      "bytes": 313425,
+      "extension": "m4a",
+      "locations": [
+        {
+          "path": "motion/005-halloween/audio/v007-polish-20261029/episode-score.m4a",
+          "role": "audio-source"
+        },
+        {
+          "path": "motion/005-halloween/template-natural/assets/episode-score.m4a",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/005-halloween/versions/v013/template/assets/episode-score.m4a",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/audio/v007-polish-20261029/line-03.wav",
+      "sha256": "3f83fb81904d5e36225a57f6095402774535e75c7a9b9c840fa2ac838e71becd",
+      "bytes": 112106,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/005-halloween/audio/v007-polish-20261029/line-03.wav",
           "role": "audio-source"
         }
       ]
@@ -3925,18 +3977,42 @@
       ]
     },
     {
-      "canonicalPath": "motion/005-halloween/template-interaction/assets/episode-voices-v005.m4a",
+      "canonicalPath": "motion/005-halloween/template-natural/assets/episode-export.mp4",
+      "sha256": "9625defe6dff5a1a61e2ad365168a2ba6945df3f031b0b6ee8894228ba9d26b6",
+      "bytes": 4551971,
+      "extension": "mp4",
+      "locations": [
+        {
+          "path": "motion/005-halloween/template-natural/assets/episode-export.mp4",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/005-halloween/previews/halloween-wish-v013-natural-review.mp4",
+          "role": "review-export"
+        },
+        {
+          "path": "docs/media/005-halloween-v013.mp4",
+          "role": "viewing-copy"
+        },
+        {
+          "path": "motion/005-halloween/versions/v013/template/assets/episode-export.mp4",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/005-halloween/template-natural/assets/episode-voices-v005.m4a",
       "sha256": "ad0bd3ce9dcc716f650537eea42e37477b48c413bc89d0871a0babc4ec5672ec",
       "bytes": 338264,
       "extension": "m4a",
       "locations": [
         {
-          "path": "motion/005-halloween/template-interaction/assets/episode-voices-v005.m4a",
+          "path": "motion/005-halloween/template-natural/assets/episode-voices-v005.m4a",
           "role": "current-template"
         },
         {
-          "path": "motion/005-halloween/template-natural/assets/episode-voices-v005.m4a",
-          "role": "draft-template"
+          "path": "motion/005-halloween/template-interaction/assets/episode-voices-v005.m4a",
+          "role": "historical-source"
         },
         {
           "path": "motion/005-halloween/versions/v012/template/assets/episode-voices-v005.m4a",
@@ -3945,22 +4021,22 @@
       ]
     },
     {
-      "canonicalPath": "motion/005-halloween/template-interaction/assets/halloween-export-v010.mp4",
+      "canonicalPath": "motion/005-halloween/template-natural/assets/halloween-export-v010.mp4",
       "sha256": "845acfb1b0f4d71ddf193b2d08d3857365f0fecda2c0c72421e38adadaab2c91",
       "bytes": 2997496,
       "extension": "mp4",
       "locations": [
         {
-          "path": "motion/005-halloween/template-interaction/assets/halloween-export-v010.mp4",
-          "role": "current-template"
-        },
-        {
           "path": "motion/005-halloween/template-natural/assets/halloween-export-v010.mp4",
-          "role": "draft-template"
+          "role": "current-template"
         },
         {
           "path": "motion/005-halloween/previews/halloween-wish-v010-review.mp4",
           "role": "review-export"
+        },
+        {
+          "path": "motion/005-halloween/template-interaction/assets/halloween-export-v010.mp4",
+          "role": "historical-source"
         },
         {
           "path": "docs/media/005-halloween-v010.mp4",
@@ -3973,22 +4049,22 @@
       ]
     },
     {
-      "canonicalPath": "motion/005-halloween/template-interaction/assets/halloween-export-v012.mp4",
+      "canonicalPath": "motion/005-halloween/template-natural/assets/halloween-export-v012.mp4",
       "sha256": "acbdd17a1dc960f70bbcd935cb88cfe5af0546b5f43a715baf0ebed67e9c5592",
       "bytes": 2996691,
       "extension": "mp4",
       "locations": [
         {
-          "path": "motion/005-halloween/template-interaction/assets/halloween-export-v012.mp4",
-          "role": "current-template"
-        },
-        {
           "path": "motion/005-halloween/template-natural/assets/halloween-export-v012.mp4",
-          "role": "draft-template"
+          "role": "current-template"
         },
         {
           "path": "motion/005-halloween/previews/halloween-wish-v012-voiced-review.mp4",
           "role": "review-export"
+        },
+        {
+          "path": "motion/005-halloween/template-interaction/assets/halloween-export-v012.mp4",
+          "role": "historical-source"
         },
         {
           "path": "docs/media/005-halloween-v012.mp4",
@@ -4001,18 +4077,18 @@
       ]
     },
     {
-      "canonicalPath": "motion/005-halloween/template-interaction/assets/halloween-room-v001.png",
+      "canonicalPath": "motion/005-halloween/template-natural/assets/halloween-room-v001.png",
       "sha256": "787dae59aab0ecc7467c26a323017810be9e2208161175076944c259e76440f2",
       "bytes": 2562726,
       "extension": "png",
       "locations": [
         {
-          "path": "motion/005-halloween/template-interaction/assets/halloween-room-v001.png",
+          "path": "motion/005-halloween/template-natural/assets/halloween-room-v001.png",
           "role": "current-template"
         },
         {
-          "path": "motion/005-halloween/template-natural/assets/halloween-room-v001.png",
-          "role": "draft-template"
+          "path": "motion/005-halloween/template-interaction/assets/halloween-room-v001.png",
+          "role": "historical-source"
         },
         {
           "path": "motion/005-halloween/template-wish/assets/halloween-room-v001.png",
@@ -4061,22 +4137,26 @@
         {
           "path": "motion/005-halloween/versions/v012/template/assets/halloween-room-v001.png",
           "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v013/template/assets/halloween-room-v001.png",
+          "role": "immutable-archive"
         }
       ]
     },
     {
-      "canonicalPath": "motion/005-halloween/template-interaction/assets/halloween-wish-score-v001.m4a",
+      "canonicalPath": "motion/005-halloween/template-natural/assets/halloween-wish-score-v001.m4a",
       "sha256": "3835f0f8c8e3d0988cbdc9ab5cb234295cbf706ac3053898e0a4b21dc1a85f82",
       "bytes": 332050,
       "extension": "m4a",
       "locations": [
         {
-          "path": "motion/005-halloween/template-interaction/assets/halloween-wish-score-v001.m4a",
+          "path": "motion/005-halloween/template-natural/assets/halloween-wish-score-v001.m4a",
           "role": "current-template"
         },
         {
-          "path": "motion/005-halloween/template-natural/assets/halloween-wish-score-v001.m4a",
-          "role": "draft-template"
+          "path": "motion/005-halloween/template-interaction/assets/halloween-wish-score-v001.m4a",
+          "role": "historical-source"
         },
         {
           "path": "motion/005-halloween/template-wish/assets/halloween-wish-score-v001.m4a",
@@ -4109,18 +4189,18 @@
       ]
     },
     {
-      "canonicalPath": "motion/005-halloween/template-interaction/assets/halloween-wish-score-v002.m4a",
+      "canonicalPath": "motion/005-halloween/template-natural/assets/halloween-wish-score-v002.m4a",
       "sha256": "4de8143923ef0654238adf59ca021098da1ec7ab3c2f14fb133a772bc04cab55",
       "bytes": 332765,
       "extension": "m4a",
       "locations": [
         {
-          "path": "motion/005-halloween/template-interaction/assets/halloween-wish-score-v002.m4a",
+          "path": "motion/005-halloween/template-natural/assets/halloween-wish-score-v002.m4a",
           "role": "current-template"
         },
         {
-          "path": "motion/005-halloween/template-natural/assets/halloween-wish-score-v002.m4a",
-          "role": "draft-template"
+          "path": "motion/005-halloween/template-interaction/assets/halloween-wish-score-v002.m4a",
+          "role": "historical-source"
         },
         {
           "path": "motion/005-halloween/versions/v008/template/assets/halloween-wish-score-v002.m4a",
@@ -4129,18 +4209,18 @@
       ]
     },
     {
-      "canonicalPath": "motion/005-halloween/template-interaction/assets/halloween-wish-score-v003.m4a",
+      "canonicalPath": "motion/005-halloween/template-natural/assets/halloween-wish-score-v003.m4a",
       "sha256": "252d07d82059c3131adee2ca719cf0cb362dab3be5550ce6d68ce048d6271b21",
       "bytes": 332421,
       "extension": "m4a",
       "locations": [
         {
-          "path": "motion/005-halloween/template-interaction/assets/halloween-wish-score-v003.m4a",
+          "path": "motion/005-halloween/template-natural/assets/halloween-wish-score-v003.m4a",
           "role": "current-template"
         },
         {
-          "path": "motion/005-halloween/template-natural/assets/halloween-wish-score-v003.m4a",
-          "role": "draft-template"
+          "path": "motion/005-halloween/template-interaction/assets/halloween-wish-score-v003.m4a",
+          "role": "historical-source"
         },
         {
           "path": "motion/005-halloween/versions/v009/template/assets/halloween-wish-score-v003.m4a",
@@ -4157,18 +4237,18 @@
       ]
     },
     {
-      "canonicalPath": "motion/005-halloween/template-interaction/assets/lucky-ghost-painted-v001.png",
+      "canonicalPath": "motion/005-halloween/template-natural/assets/lucky-ghost-painted-v001.png",
       "sha256": "260ee3f9d04d9741a7b04565d38cde728213abdadee8eca3114cbe18f96c0f92",
       "bytes": 1498889,
       "extension": "png",
       "locations": [
         {
-          "path": "motion/005-halloween/template-interaction/assets/lucky-ghost-painted-v001.png",
+          "path": "motion/005-halloween/template-natural/assets/lucky-ghost-painted-v001.png",
           "role": "current-template"
         },
         {
-          "path": "motion/005-halloween/template-natural/assets/lucky-ghost-painted-v001.png",
-          "role": "draft-template"
+          "path": "motion/005-halloween/template-interaction/assets/lucky-ghost-painted-v001.png",
+          "role": "historical-source"
         },
         {
           "path": "motion/005-halloween/versions/v005/template/assets/lucky-ghost-painted-v001.png",
@@ -4201,22 +4281,26 @@
         {
           "path": "motion/005-halloween/versions/v012/template/assets/lucky-ghost-painted-v001.png",
           "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v013/template/assets/lucky-ghost-painted-v001.png",
+          "role": "immutable-archive"
         }
       ]
     },
     {
-      "canonicalPath": "motion/005-halloween/template-interaction/assets/lucky-wish-sheet-v001.png",
+      "canonicalPath": "motion/005-halloween/template-natural/assets/lucky-wish-sheet-v001.png",
       "sha256": "1dcd71ebba7c3ecb43717ea66b117a398b8e74e13afcb55287e250e5f811ef70",
       "bytes": 2124807,
       "extension": "png",
       "locations": [
         {
-          "path": "motion/005-halloween/template-interaction/assets/lucky-wish-sheet-v001.png",
+          "path": "motion/005-halloween/template-natural/assets/lucky-wish-sheet-v001.png",
           "role": "current-template"
         },
         {
-          "path": "motion/005-halloween/template-natural/assets/lucky-wish-sheet-v001.png",
-          "role": "draft-template"
+          "path": "motion/005-halloween/template-interaction/assets/lucky-wish-sheet-v001.png",
+          "role": "historical-source"
         },
         {
           "path": "motion/005-halloween/template-wish/assets/lucky-wish-sheet-v001.png",
@@ -4237,18 +4321,18 @@
       ]
     },
     {
-      "canonicalPath": "motion/005-halloween/template-interaction/assets/mochi-wish-sheet-v001.png",
+      "canonicalPath": "motion/005-halloween/template-natural/assets/mochi-wish-sheet-v001.png",
       "sha256": "8fe97b04b0a39e73dfa36f3ea3ebc8aee1a430927ff04bc3c68f488dc5b7de4d",
       "bytes": 1778415,
       "extension": "png",
       "locations": [
         {
-          "path": "motion/005-halloween/template-interaction/assets/mochi-wish-sheet-v001.png",
+          "path": "motion/005-halloween/template-natural/assets/mochi-wish-sheet-v001.png",
           "role": "current-template"
         },
         {
-          "path": "motion/005-halloween/template-natural/assets/mochi-wish-sheet-v001.png",
-          "role": "draft-template"
+          "path": "motion/005-halloween/template-interaction/assets/mochi-wish-sheet-v001.png",
+          "role": "historical-source"
         },
         {
           "path": "motion/005-halloween/template-wish/assets/mochi-wish-sheet-v001.png",
@@ -4269,18 +4353,18 @@
       ]
     },
     {
-      "canonicalPath": "motion/005-halloween/template-interaction/assets/mochi-witch-painted-v001.png",
+      "canonicalPath": "motion/005-halloween/template-natural/assets/mochi-witch-painted-v001.png",
       "sha256": "aafcec28179e5d1b30793fe2a7752f026653d740bcb5bc735dadc03e4145ffd9",
       "bytes": 1746440,
       "extension": "png",
       "locations": [
         {
-          "path": "motion/005-halloween/template-interaction/assets/mochi-witch-painted-v001.png",
+          "path": "motion/005-halloween/template-natural/assets/mochi-witch-painted-v001.png",
           "role": "current-template"
         },
         {
-          "path": "motion/005-halloween/template-natural/assets/mochi-witch-painted-v001.png",
-          "role": "draft-template"
+          "path": "motion/005-halloween/template-interaction/assets/mochi-witch-painted-v001.png",
+          "role": "historical-source"
         },
         {
           "path": "motion/005-halloween/versions/v005/template/assets/mochi-witch-painted-v001.png",
@@ -4312,6 +4396,10 @@
         },
         {
           "path": "motion/005-halloween/versions/v012/template/assets/mochi-witch-painted-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/005-halloween/versions/v013/template/assets/mochi-witch-painted-v001.png",
           "role": "immutable-archive"
         }
       ]

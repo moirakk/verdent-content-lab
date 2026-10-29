@@ -1,0 +1,40 @@
+{
+  "id": "005-halloween",
+  "title": "A Little More",
+  "kicker": "MOCHI & LUCKY · HALLOWEEN SPECIAL",
+  "footer": "Happy Halloween.",
+  "duration": 20000,
+  "template": "motion/005-halloween/template-natural",
+  "voicesAvailable": true,
+  "note": "2026-10-29 polish: native-proportion whole painted cats, visible paw/key contact, bucket clearance, one-candy pause and staged candy shower. Direct Verdent wish, conversational child dialogue and retimed original Halloween score. Unpublished fictional review draft.",
+  "beats": [
+    {
+      "at": 0,
+      "speaker": "Lucky",
+      "text": "Hey, Verdent... treats, please?",
+      "voiceAt": 250,
+      "captionUntil": 4050
+    },
+    {
+      "at": 5200,
+      "speaker": "Lucky",
+      "text": "Ooh! A little more?",
+      "voiceAt": 5350,
+      "captionUntil": 8100
+    },
+    {
+      "at": 15900,
+      "speaker": "Mochi",
+      "text": "You call that little?",
+      "voiceAt": 16050,
+      "captionUntil": 19000
+    }
+  ],
+  "videoExport": "previews/halloween-wish-v013-natural-review.mp4",
+  "render": {
+    "width": 720,
+    "height": 1280,
+    "fps": 30,
+    "player": "halloweenPlayer"
+  }
+}

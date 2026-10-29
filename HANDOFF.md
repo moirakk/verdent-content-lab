@@ -6,7 +6,7 @@ Read [README](README.md) → [Project index](PROJECT_INDEX.md) → [Brief](PROJE
 
 - 001/002: [motion/_painted-story](motion/_painted-story/README.md) + per-episode episode.json; prepare into template-story/ / 两集共用剧情源与本集配置，准备为本集模板。
 - 004: [template-acting](motion/004-that-was-a-sentence/template-acting/README.md), independent whole-cat acting, tray contact / 独立整猫连续动作与护盘。
-- 003: episode.json + template-blue-polish/; 005: episode.json + template-interaction/ / 两条基准片用独立源。
+- 003: episode.json + template-blue-polish/; 005: episode.json + template-natural/ / 两条基准片用独立源。
 - [Template map](motion/TEMPLATE_MAP.md) labels all earlier templates historical. Never edit a similarly named old template assuming it is current / 模板表标清历史，不按近似目录名猜当前源。
 
 ## Routine checks · 常规检查
@@ -40,4 +40,4 @@ The earlier accumulated handoffs are in [documentation history](archive/README.m
 
 ## Saved unfinished revisions · 已保存未完成改稿
 
-[Production drafts / 制作中](WORK_IN_PROGRESS.md) tracks the new Verdent-led coffee/bakery stories and Halloween voice/motion pass. Selected episode.json files still point at completed films. Resume from each draft config; do not mistake working download placeholders for matching exports / 新品牌剧情与节日优化另存；选用配置仍指向完成片，接手读改稿配置，工作下载占位不可当新片。
+[Production drafts / 制作中](WORK_IN_PROGRESS.md) tracks the new Verdent-led coffee/bakery stories and Halloween voice/motion pass. Selected episode.json files point at completed films; Halloween is now v013/template-natural. Resume 002/004 from their draft configs; do not mistake working download placeholders for matching exports / 新品牌剧情与节日优化另存；选用配置仍指向完成片，接手读改稿配置，工作下载占位不可当新片。
