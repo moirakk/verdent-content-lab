@@ -1,0 +1,146 @@
+{
+  "id": "002-tiny-feature",
+  "title": "One Tiny Feature",
+  "kicker": "MOCHI & LUCKY · LITTLE MOMENTS 002",
+  "footer": "Mochi & Lucky",
+  "footerAt": 17000,
+  "template": "motion/002-tiny-feature/template-verdent",
+  "duration": 18000,
+  "beats": [
+    {
+      "at": 0,
+      "speaker": "Lucky",
+      "text": "Verdent, one tiny feature.",
+      "voiceAt": 250,
+      "captionUntil": 3350
+    },
+    {
+      "at": 3500,
+      "speaker": "Mochi",
+      "text": "One.",
+      "voiceAt": 3700,
+      "captionUntil": 5650
+    },
+    {
+      "at": 5700,
+      "speaker": "Lucky",
+      "text": "And a login.",
+      "voiceAt": 5900,
+      "captionUntil": 8200
+    },
+    {
+      "at": 8700,
+      "speaker": "Lucky",
+      "text": "And payments.",
+      "voiceAt": 8900,
+      "captionUntil": 11200
+    },
+    {
+      "at": 12200,
+      "speaker": "Mochi",
+      "text": "I'll get a bigger cup.",
+      "voiceAt": 12400,
+      "captionUntil": 15400
+    }
+  ],
+  "visualSystem": "painted-story-v002",
+  "voicesAvailable": true,
+  "note": "Verdent is the addressed character in the request loop. Original painted cats and coffee escalation retained; new direct address, visible task responses and solid laptop. Illustrative UI; unpublished review draft.",
+  "storyType": "coffee",
+  "registration": {
+    "width": 1774,
+    "height": 887,
+    "cw": 443.5,
+    "ch": 443.5,
+    "frames": [
+      {
+        "l": 18,
+        "r": 442,
+        "t": 82,
+        "b": 416,
+        "headY": [
+          86,
+          130
+        ]
+      },
+      {
+        "l": 0,
+        "r": 442,
+        "t": 79,
+        "b": 415,
+        "headY": [
+          81,
+          132
+        ]
+      },
+      {
+        "l": 0,
+        "r": 430,
+        "t": 111,
+        "b": 419,
+        "headY": [
+          113,
+          132
+        ]
+      },
+      {
+        "l": 2,
+        "r": 427,
+        "t": 88,
+        "b": 420,
+        "headY": [
+          138,
+          92
+        ]
+      },
+      {
+        "l": 17,
+        "r": 442,
+        "t": 42,
+        "b": 371,
+        "headY": [
+          46,
+          87
+        ]
+      },
+      {
+        "l": 0,
+        "r": 442,
+        "t": 25,
+        "b": 370,
+        "headY": [
+          28,
+          54
+        ]
+      },
+      {
+        "l": 0,
+        "r": 431,
+        "t": 57,
+        "b": 370,
+        "headY": [
+          59,
+          116
+        ]
+      },
+      {
+        "l": 5,
+        "r": 422,
+        "t": 0,
+        "b": 374,
+        "headY": [
+          52,
+          0
+        ]
+      }
+    ]
+  },
+  "videoExport": "previews/v004-verdent-requests-review.mp4",
+  "brandStory": "Lucky asks Verdent to add a feature, login and payments; an illustrative plan grows while Mochi brings bigger coffee. / Lucky 对 Verdent 追加需求，示意计划变长，Mochi 换大杯咖啡。",
+  "render": {
+    "width": 800,
+    "height": 1000,
+    "fps": 30,
+    "player": "paintedPlayer"
+  }
+}

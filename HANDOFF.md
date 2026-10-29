@@ -4,8 +4,9 @@ Read [README](README.md) → [Project index](PROJECT_INDEX.md) → [Brief](PROJE
 
 ## Current sources · 当前修改源
 
-- 001/002: [motion/_painted-story](motion/_painted-story/README.md) + per-episode episode.json; prepare into template-story/ / 两集共用剧情源与本集配置，准备为本集模板。
-- 004: [template-acting](motion/004-that-was-a-sentence/template-acting/README.md), independent whole-cat acting, tray contact / 独立整猫连续动作与护盘。
+- 001: [motion/_painted-story](motion/_painted-story/README.md) + per-episode episode.json; prepare into template-story/ / 共用剧情源与本集配置，准备为本集模板。
+- 002: [template-verdent](motion/002-tiny-feature/template-verdent/README.md), direct requests and growing coffee / 品牌请求与咖啡升级。
+- 004: [template-bakery-preview](motion/004-that-was-a-sentence/template-bakery-preview/README.md), website test versus cookie taste-test / 网页测试与试吃反转。
 - 003: episode.json + template-blue-polish/; 005: episode.json + template-natural/ / 两条基准片用独立源。
 - [Template map](motion/TEMPLATE_MAP.md) labels all earlier templates historical. Never edit a similarly named old template assuming it is current / 模板表标清历史，不按近似目录名猜当前源。
 
@@ -38,6 +39,6 @@ The earlier accumulated handoffs are in [documentation history](archive/README.m
 
 [Task list](TASKS.md) contains current film-review gaps and archival follow-ups. Git sync and passing checks do not equal creative approval / 待办列出审片与归档缺口；Git 同步和检查通过不等于创意验收。
 
-## Saved unfinished revisions · 已保存未完成改稿
+## Completed story revisions · 本轮已完成改稿
 
-[Production drafts / 制作中](WORK_IN_PROGRESS.md) tracks the new Verdent-led coffee/bakery stories and Halloween voice/motion pass. Selected episode.json files point at completed films; Halloween is now v013/template-natural. Resume 002/004 from their draft configs; do not mistake working download placeholders for matching exports / 新品牌剧情与节日优化另存；选用配置仍指向完成片，接手读改稿配置，工作下载占位不可当新片。
+002 v004, 004 v009 and Halloween 005 v013 are now selected recordable cuts with matching voiced MP4 downloads. The earlier draft configs are retained as revision records, not unfinished selections. [Revision notes / 改稿记录](WORK_IN_PROGRESS.md). Creator review remains / 三条本轮改稿现已进入成片入口，匹配带声下载；原改稿配置保留为记录，创作者验看待完成。

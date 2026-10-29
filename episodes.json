@@ -20,14 +20,14 @@
       "id": "004-that-was-a-sentence",
       "title": "Soft Launch",
       "kind": "Painted story · New cut",
-      "tagline": "Twelve missing samples. One very thorough tester.",
+      "tagline": "Test the website. Taste the cookies. Five stars.",
       "priority": 2,
       "musicAvailable": true,
       "voicesAvailable": true,
       "aspect": "4:5",
-      "video": "motion/004-that-was-a-sentence/previews/v007-continuous-acting-review.mp4",
-      "nextTask": "Review independent reach/block/recoil acting, paw-to-tray contact and matched sounds.",
-      "nextTaskZh": "验看独立伸爪拦截收回动作、爪盘接触及对应声音。",
+      "video": "motion/004-that-was-a-sentence/previews/v009-website-test-review.mp4",
+      "nextTask": "Review website setup, cookie pickup/bite and Mochi guarding the remaining samples.",
+      "nextTaskZh": "验看网页铺垫、拿饼干试吃及 Mochi 护住余下样品。",
       "status": "Unpublished draft"
     },
     {
@@ -53,9 +53,9 @@
       "musicAvailable": true,
       "voicesAvailable": true,
       "aspect": "4:5",
-      "video": "motion/002-tiny-feature/previews/v003-coffee-story-review.mp4",
-      "nextTask": "Review the new story, original score and complete-character acting.",
-      "nextTaskZh": "验看新剧情、独立配乐与整猫动作。",
+      "video": "motion/002-tiny-feature/previews/v004-verdent-requests-review.mp4",
+      "nextTask": "Review the Verdent request loop, growing coffee and unobstructed native painted cats.",
+      "nextTaskZh": "验看对 Verdent 追加需求、咖啡升级与无遮挡原比例猫。",
       "status": "Unpublished draft"
     },
     {

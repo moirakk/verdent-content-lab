@@ -1,0 +1,26 @@
+{
+  "original": true,
+  "style": "cafe",
+  "bpm": 116,
+  "duration": 20,
+  "cues": [
+    [
+      3.45,
+      "tick"
+    ],
+    [
+      8.18,
+      "tick"
+    ],
+    [
+      9.09,
+      "crumb"
+    ],
+    [
+      13.3,
+      "box"
+    ]
+  ],
+  "level": "-23 LUFS before dialogue ducking",
+  "instruments": "synthetic plucked bass, pizzicato/soft keys, bell and woodblock; deterministic original notes"
+}

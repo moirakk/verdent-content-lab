@@ -1,6 +1,6 @@
 # 002 · One Tiny Feature · Caption Draft / 发布草稿
 
-For / 对应：**v003**, [selected episode / 剧集](../motion/002-tiny-feature/index.html). Status / 状态：Draft, not scheduled or published / 草稿，未排期未发布。
+For / 对应：**v004**, [selected episode / 剧集](../motion/002-tiny-feature/index.html). Status / 状态：Draft, not scheduled or published / 草稿，未排期未发布。
 
 The publishing text below stays English only / 下方发布内容保持英文。
 
@@ -10,7 +10,7 @@ The feature is tiny. The coffee is not.
 
 ## Alt text · 英文画面描述
 
-In a painted coffee nook, Lucky proposes one tiny feature, then adds a login and payments. Cream coffee mugs arrive in increasing sizes. Mochi gets a much bigger cup, and Lucky stretches up to peek over it.
+In a painted coffee nook, Lucky asks Verdent for one tiny feature, then adds a login and payments. An illustrative laptop plan grows as cream coffee mugs arrive in increasing sizes. Mochi gets a much bigger cup, and Lucky sits up beside the laptop.
 
 ## Internal record · 内部记录
 

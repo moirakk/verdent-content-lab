@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "summary": {
-    "mediaFiles": 687,
-    "uniqueContents": 228,
-    "totalBytes": 948787954,
-    "uniqueBytes": 240139911
+    "mediaFiles": 729,
+    "uniqueContents": 239,
+    "totalBytes": 1002768419,
+    "uniqueBytes": 255475644
   },
   "note": "Identical copies are intentional for standalone films, frozen source and docs previews. Never delete a copy using this catalog alone. / 单文件成片、永久源码和预览需要同内容副本，不可仅凭此表删除。",
   "assets": [
@@ -27,7 +27,15 @@
           "role": "current-template"
         },
         {
+          "path": "motion/002-tiny-feature/template-verdent/assets/verdent-logo-original.png",
+          "role": "current-template"
+        },
+        {
           "path": "motion/003-chief-nap-officer/template-blue-polish/assets/verdent-logo-original.png",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/template-bakery-preview/assets/verdent-logo-original.png",
           "role": "current-template"
         },
         {
@@ -37,14 +45,6 @@
         {
           "path": "motion/005-halloween/template-natural/assets/verdent-logo-supplied-2026-10-22.png",
           "role": "current-template"
-        },
-        {
-          "path": "motion/002-tiny-feature/template-verdent/assets/verdent-logo-original.png",
-          "role": "draft-template"
-        },
-        {
-          "path": "motion/004-that-was-a-sentence/template-bakery-preview/assets/verdent-logo-original.png",
-          "role": "draft-template"
         },
         {
           "path": "motion/_painted-series/assets/verdent-logo.png",
@@ -100,6 +100,10 @@
         },
         {
           "path": "motion/002-tiny-feature/versions/v002/template/assets/verdent-logo.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/002-tiny-feature/versions/v004/template/assets/verdent-logo-original.png",
           "role": "immutable-archive"
         },
         {
@@ -200,6 +204,14 @@
         },
         {
           "path": "motion/004-that-was-a-sentence/versions/v005/template/assets/verdent-logo.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v008/template/assets/verdent-logo-original.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v009/template/assets/verdent-logo-original.png",
           "role": "immutable-archive"
         },
         {
@@ -1002,8 +1014,8 @@
     },
     {
       "canonicalPath": "docs/assets/episodes/002-tiny-feature.webp",
-      "sha256": "45ad0bb858d20bc880244c979d1d0dce810837290b67a74029e84830a0c805f9",
-      "bytes": 62012,
+      "sha256": "31c87fd756cf7d161f0cd1a0efa941bb336b35424bdd0b047f4c59ae54faae6f",
+      "bytes": 96030,
       "extension": "webp",
       "locations": [
         {
@@ -1026,8 +1038,8 @@
     },
     {
       "canonicalPath": "docs/assets/episodes/004-that-was-a-sentence.webp",
-      "sha256": "51a71576821878f408cc28db927cdcb0177273e681c9cf2e68b90ac4e6393bff",
-      "bytes": 163182,
+      "sha256": "86f09da0dd2c4a773468551e0ab41aad869e0e5775b3fad24fffc901b21a8f1c",
+      "bytes": 110448,
       "extension": "webp",
       "locations": [
         {
@@ -1127,12 +1139,12 @@
           "role": "current-shared-story-art"
         },
         {
-          "path": "motion/004-that-was-a-sentence/template-acting/assets/episode-room.png",
+          "path": "motion/004-that-was-a-sentence/template-bakery-preview/assets/episode-room.png",
           "role": "current-template"
         },
         {
-          "path": "motion/004-that-was-a-sentence/template-bakery-preview/assets/episode-room.png",
-          "role": "draft-template"
+          "path": "motion/004-that-was-a-sentence/template-acting/assets/episode-room.png",
+          "role": "historical-source"
         },
         {
           "path": "motion/004-that-was-a-sentence/template-story/assets/episode-room.png",
@@ -1144,6 +1156,14 @@
         },
         {
           "path": "motion/004-that-was-a-sentence/versions/v007/template/assets/episode-room.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v008/template/assets/episode-room.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v009/template/assets/episode-room.png",
           "role": "immutable-archive"
         }
       ]
@@ -1159,15 +1179,19 @@
           "role": "current-shared-story-art"
         },
         {
-          "path": "motion/002-tiny-feature/template-story/assets/episode-cast.png",
+          "path": "motion/002-tiny-feature/template-verdent/assets/episode-cast.png",
           "role": "current-template"
         },
         {
-          "path": "motion/002-tiny-feature/template-verdent/assets/episode-cast.png",
-          "role": "draft-template"
+          "path": "motion/002-tiny-feature/template-story/assets/episode-cast.png",
+          "role": "historical-source"
         },
         {
           "path": "motion/002-tiny-feature/versions/v003/template/assets/episode-cast.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/002-tiny-feature/versions/v004/template/assets/episode-cast.png",
           "role": "immutable-archive"
         }
       ]
@@ -1183,15 +1207,19 @@
           "role": "current-shared-story-art"
         },
         {
-          "path": "motion/002-tiny-feature/template-story/assets/episode-room.png",
+          "path": "motion/002-tiny-feature/template-verdent/assets/episode-room.png",
           "role": "current-template"
         },
         {
-          "path": "motion/002-tiny-feature/template-verdent/assets/episode-room.png",
-          "role": "draft-template"
+          "path": "motion/002-tiny-feature/template-story/assets/episode-room.png",
+          "role": "historical-source"
         },
         {
           "path": "motion/002-tiny-feature/versions/v003/template/assets/episode-room.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/002-tiny-feature/versions/v004/template/assets/episode-room.png",
           "role": "immutable-archive"
         }
       ]
@@ -1211,12 +1239,8 @@
           "role": "current-template"
         },
         {
-          "path": "motion/002-tiny-feature/template-story/assets/painted-mug-v001.png",
-          "role": "current-template"
-        },
-        {
           "path": "motion/002-tiny-feature/template-verdent/assets/painted-mug-v001.png",
-          "role": "draft-template"
+          "role": "current-template"
         },
         {
           "path": "motion/_painted-series/assets/painted-mug-v001.png",
@@ -1224,6 +1248,10 @@
         },
         {
           "path": "motion/001-have-an-idea/template-unified/assets/painted-mug-v001.png",
+          "role": "historical-source"
+        },
+        {
+          "path": "motion/002-tiny-feature/template-story/assets/painted-mug-v001.png",
           "role": "historical-source"
         },
         {
@@ -1256,6 +1284,10 @@
         },
         {
           "path": "motion/002-tiny-feature/versions/v003/template/assets/painted-mug-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/002-tiny-feature/versions/v004/template/assets/painted-mug-v001.png",
           "role": "immutable-archive"
         },
         {
@@ -1725,10 +1757,6 @@
         {
           "path": "motion/002-tiny-feature/audio/v004-verdent/episode-score.m4a",
           "role": "audio-source"
-        },
-        {
-          "path": "motion/002-tiny-feature/template-verdent/assets/episode-score.m4a",
-          "role": "draft-template"
         }
       ]
     },
@@ -1753,6 +1781,10 @@
         {
           "path": "motion/002-tiny-feature/audio/v004-verdent/line-01.wav",
           "role": "audio-source"
+        },
+        {
+          "path": "motion/002-tiny-feature/audio/v005-polish-20261029/line-01.wav",
+          "role": "audio-source"
         }
       ]
     },
@@ -1764,6 +1796,10 @@
       "locations": [
         {
           "path": "motion/002-tiny-feature/audio/v004-verdent/line-02.wav",
+          "role": "audio-source"
+        },
+        {
+          "path": "motion/002-tiny-feature/audio/v005-polish-20261029/line-02.wav",
           "role": "audio-source"
         }
       ]
@@ -1777,6 +1813,10 @@
         {
           "path": "motion/002-tiny-feature/audio/v004-verdent/line-03.wav",
           "role": "audio-source"
+        },
+        {
+          "path": "motion/002-tiny-feature/audio/v005-polish-20261029/line-03.wav",
+          "role": "audio-source"
         }
       ]
     },
@@ -1789,6 +1829,10 @@
         {
           "path": "motion/002-tiny-feature/audio/v004-verdent/line-04.wav",
           "role": "audio-source"
+        },
+        {
+          "path": "motion/002-tiny-feature/audio/v005-polish-20261029/line-04.wav",
+          "role": "audio-source"
         }
       ]
     },
@@ -1800,6 +1844,62 @@
       "locations": [
         {
           "path": "motion/002-tiny-feature/audio/v004-verdent/line-05.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/002-tiny-feature/audio/v005-polish-20261029/episode-score.m4a",
+      "sha256": "c45e3ff41a2e49c4ab582144edd1a029c1472613724530b3648b00fafe25163f",
+      "bytes": 359375,
+      "extension": "m4a",
+      "locations": [
+        {
+          "path": "motion/002-tiny-feature/audio/v005-polish-20261029/episode-score.m4a",
+          "role": "audio-source"
+        },
+        {
+          "path": "motion/002-tiny-feature/template-verdent/assets/episode-score.m4a",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/002-tiny-feature/versions/v004/template/assets/episode-score.m4a",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/002-tiny-feature/audio/v005-polish-20261029/line-05.wav",
+      "sha256": "38e0b7d2accacd921094411ddbfcd36ccb10e95a1ab30a465e96c8b140700ca0",
+      "bytes": 123142,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/002-tiny-feature/audio/v005-polish-20261029/line-05.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/002-tiny-feature/audio/v005-polish-20261029/original-score.wav",
+      "sha256": "2a442ac727ce1b9e0804fac99f1423e94f150e1c71082f2fd4bb7c1baee5e563",
+      "bytes": 1152044,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/002-tiny-feature/audio/v005-polish-20261029/original-score.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/002-tiny-feature/audio/v005-polish-20261029/score-normalized.wav",
+      "sha256": "d142a6251ca856ae1c113eac79fd28072b0202efd9628db425f7453fb1d623df",
+      "bytes": 1728078,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/002-tiny-feature/audio/v005-polish-20261029/score-normalized.wav",
           "role": "audio-source"
         }
       ]
@@ -1829,22 +1929,18 @@
       ]
     },
     {
-      "canonicalPath": "motion/002-tiny-feature/template-story/assets/episode-export.mp4",
+      "canonicalPath": "motion/002-tiny-feature/previews/v003-coffee-story-review.mp4",
       "sha256": "f4b3bc59f76af0b04979b9a11d4a17d42764bb6b98a1f7aa2f3bd8a1c0888a9a",
       "bytes": 3366120,
       "extension": "mp4",
       "locations": [
         {
-          "path": "motion/002-tiny-feature/template-story/assets/episode-export.mp4",
-          "role": "current-template"
-        },
-        {
-          "path": "motion/002-tiny-feature/template-verdent/assets/episode-export.mp4",
-          "role": "draft-template"
-        },
-        {
           "path": "motion/002-tiny-feature/previews/v003-coffee-story-review.mp4",
           "role": "review-export"
+        },
+        {
+          "path": "motion/002-tiny-feature/template-story/assets/episode-export.mp4",
+          "role": "historical-source"
         },
         {
           "path": "docs/media/002-tiny-feature-v003.mp4",
@@ -1857,22 +1953,6 @@
       ]
     },
     {
-      "canonicalPath": "motion/002-tiny-feature/template-story/assets/episode-score-raw.m4a",
-      "sha256": "5c44f47b83b611b6ff44da44044b3790397456a6d651e2f90b4209c8b57ffcc2",
-      "bytes": 350424,
-      "extension": "m4a",
-      "locations": [
-        {
-          "path": "motion/002-tiny-feature/template-story/assets/episode-score-raw.m4a",
-          "role": "current-template"
-        },
-        {
-          "path": "motion/002-tiny-feature/template-verdent/assets/episode-score-raw.m4a",
-          "role": "draft-template"
-        }
-      ]
-    },
-    {
       "canonicalPath": "motion/002-tiny-feature/template-story/assets/episode-score.m4a",
       "sha256": "e7738045557537eacf3eaf6c52e5dd440c1fae1ef48f0717f74ad3f9acc268e2",
       "bytes": 375213,
@@ -1880,7 +1960,7 @@
       "locations": [
         {
           "path": "motion/002-tiny-feature/template-story/assets/episode-score.m4a",
-          "role": "current-template"
+          "role": "historical-source"
         },
         {
           "path": "motion/002-tiny-feature/versions/v003/template/assets/episode-score.m4a",
@@ -1905,6 +1985,46 @@
         {
           "path": "motion/002-tiny-feature/versions/v002/template/assets/episode-score.m4a",
           "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/002-tiny-feature/template-verdent/assets/episode-export.mp4",
+      "sha256": "baba9a6f4a077f0d9e75339ac5d157dace9d77db0c10533be755c8cb3d1892f3",
+      "bytes": 3433401,
+      "extension": "mp4",
+      "locations": [
+        {
+          "path": "motion/002-tiny-feature/template-verdent/assets/episode-export.mp4",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/002-tiny-feature/previews/v004-verdent-requests-review.mp4",
+          "role": "review-export"
+        },
+        {
+          "path": "docs/media/002-tiny-feature-v004.mp4",
+          "role": "viewing-copy"
+        },
+        {
+          "path": "motion/002-tiny-feature/versions/v004/template/assets/episode-export.mp4",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/002-tiny-feature/template-verdent/assets/episode-score-raw.m4a",
+      "sha256": "5c44f47b83b611b6ff44da44044b3790397456a6d651e2f90b4209c8b57ffcc2",
+      "bytes": 350424,
+      "extension": "m4a",
+      "locations": [
+        {
+          "path": "motion/002-tiny-feature/template-verdent/assets/episode-score-raw.m4a",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/002-tiny-feature/template-story/assets/episode-score-raw.m4a",
+          "role": "historical-source"
         }
       ]
     },
@@ -2880,7 +3000,7 @@
         },
         {
           "path": "motion/004-that-was-a-sentence/template-acting/assets/episode-score.m4a",
-          "role": "current-template"
+          "role": "historical-source"
         },
         {
           "path": "motion/004-that-was-a-sentence/versions/v007/template/assets/episode-score.m4a",
@@ -2897,10 +3017,6 @@
         {
           "path": "motion/004-that-was-a-sentence/audio/v005-website-test/episode-score.m4a",
           "role": "audio-source"
-        },
-        {
-          "path": "motion/004-that-was-a-sentence/template-bakery-preview/assets/episode-score.m4a",
-          "role": "draft-template"
         }
       ]
     },
@@ -2924,6 +3040,10 @@
       "locations": [
         {
           "path": "motion/004-that-was-a-sentence/audio/v005-website-test/line-01.wav",
+          "role": "audio-source"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/audio/v006-polish-20261029/line-01.wav",
           "role": "audio-source"
         }
       ]
@@ -2949,6 +3069,10 @@
         {
           "path": "motion/004-that-was-a-sentence/audio/v005-website-test/line-02.wav",
           "role": "audio-source"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/audio/v006-polish-20261029/line-02.wav",
+          "role": "audio-source"
         }
       ]
     },
@@ -2972,6 +3096,10 @@
       "locations": [
         {
           "path": "motion/004-that-was-a-sentence/audio/v005-website-test/line-03.wav",
+          "role": "audio-source"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/audio/v006-polish-20261029/line-03.wav",
           "role": "audio-source"
         }
       ]
@@ -3020,6 +3148,70 @@
       "locations": [
         {
           "path": "motion/004-that-was-a-sentence/audio/v005-website-test/line-05.wav",
+          "role": "audio-source"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/audio/v006-polish-20261029/line-05.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/audio/v006-polish-20261029/episode-score.m4a",
+      "sha256": "4bf9664ab7687887e8ac5bc20b3b523ba07395112b66087dc18607cf68f9215a",
+      "bytes": 388811,
+      "extension": "m4a",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/audio/v006-polish-20261029/episode-score.m4a",
+          "role": "audio-source"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/template-bakery-preview/assets/episode-score.m4a",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v008/template/assets/episode-score.m4a",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v009/template/assets/episode-score.m4a",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/audio/v006-polish-20261029/line-04.wav",
+      "sha256": "ee63d1c4a3865c8dee9c8771804a7a5b739dc6f45b7aa37cfa3575bacc328e7a",
+      "bytes": 143952,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/audio/v006-polish-20261029/line-04.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/audio/v006-polish-20261029/original-score.wav",
+      "sha256": "31b05eebd2fe17855af54a61ac72cc499ed6c7d7ec9e433676fe8dd1c6d941d4",
+      "bytes": 1280044,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/audio/v006-polish-20261029/original-score.wav",
+          "role": "audio-source"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/audio/v006-polish-20261029/score-normalized.wav",
+      "sha256": "b83131999300915f51d71e599be8abd45b01df132430bc23a5204f15683ed500",
+      "bytes": 1920078,
+      "extension": "wav",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/audio/v006-polish-20261029/score-normalized.wav",
           "role": "audio-source"
         }
       ]
@@ -3105,22 +3297,18 @@
       ]
     },
     {
-      "canonicalPath": "motion/004-that-was-a-sentence/template-acting/assets/episode-export.mp4",
+      "canonicalPath": "motion/004-that-was-a-sentence/previews/v007-continuous-acting-review.mp4",
       "sha256": "f05e7507c55e151bf3b8dbcf7547e339d10f7c277f428f58f53f55aa8dd9dcdc",
       "bytes": 3609560,
       "extension": "mp4",
       "locations": [
         {
-          "path": "motion/004-that-was-a-sentence/template-acting/assets/episode-export.mp4",
-          "role": "current-template"
-        },
-        {
-          "path": "motion/004-that-was-a-sentence/template-bakery-preview/assets/episode-export.mp4",
-          "role": "draft-template"
-        },
-        {
           "path": "motion/004-that-was-a-sentence/previews/v007-continuous-acting-review.mp4",
           "role": "review-export"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/template-acting/assets/episode-export.mp4",
+          "role": "historical-source"
         },
         {
           "path": "docs/media/004-that-was-a-sentence-v007.mp4",
@@ -3133,61 +3321,129 @@
       ]
     },
     {
-      "canonicalPath": "motion/004-that-was-a-sentence/template-acting/assets/lucky-reach-v001.png",
+      "canonicalPath": "motion/004-that-was-a-sentence/previews/v008-website-test-review.mp4",
+      "sha256": "0a849c0e9494ac80c0bb4a6b374050983df388e5f5c98bda6983557ce5e882c7",
+      "bytes": 2411633,
+      "extension": "mp4",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/previews/v008-website-test-review.mp4",
+          "role": "review-export"
+        },
+        {
+          "path": "docs/media/004-that-was-a-sentence-v008.mp4",
+          "role": "viewing-copy"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v008/template/assets/episode-export.mp4",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/template-bakery-preview/assets/episode-export.mp4",
+      "sha256": "edc49f7492595cbb3c26b0e584403481914c804e182d4ecee227ad5899e17d73",
+      "bytes": 2413891,
+      "extension": "mp4",
+      "locations": [
+        {
+          "path": "motion/004-that-was-a-sentence/template-bakery-preview/assets/episode-export.mp4",
+          "role": "current-template"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/previews/v009-website-test-review.mp4",
+          "role": "review-export"
+        },
+        {
+          "path": "docs/media/004-that-was-a-sentence-v009.mp4",
+          "role": "viewing-copy"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v009/template/assets/episode-export.mp4",
+          "role": "immutable-archive"
+        }
+      ]
+    },
+    {
+      "canonicalPath": "motion/004-that-was-a-sentence/template-bakery-preview/assets/lucky-reach-v001.png",
       "sha256": "f61c716990c009de91afb02880891f8fe29919522fa15594140bf142206a84e6",
       "bytes": 1450545,
       "extension": "png",
       "locations": [
         {
-          "path": "motion/004-that-was-a-sentence/template-acting/assets/lucky-reach-v001.png",
+          "path": "motion/004-that-was-a-sentence/template-bakery-preview/assets/lucky-reach-v001.png",
           "role": "current-template"
         },
         {
-          "path": "motion/004-that-was-a-sentence/template-bakery-preview/assets/lucky-reach-v001.png",
-          "role": "draft-template"
+          "path": "motion/004-that-was-a-sentence/template-acting/assets/lucky-reach-v001.png",
+          "role": "historical-source"
         },
         {
           "path": "motion/004-that-was-a-sentence/versions/v007/template/assets/lucky-reach-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v008/template/assets/lucky-reach-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v009/template/assets/lucky-reach-v001.png",
           "role": "immutable-archive"
         }
       ]
     },
     {
-      "canonicalPath": "motion/004-that-was-a-sentence/template-acting/assets/mochi-block-v001.png",
+      "canonicalPath": "motion/004-that-was-a-sentence/template-bakery-preview/assets/mochi-block-v001.png",
       "sha256": "3a293eb57f8f6c0e9f4b0a3a88b8242f8a66f17244e8b02b276a1c40411fb1b7",
       "bytes": 1788504,
       "extension": "png",
       "locations": [
         {
-          "path": "motion/004-that-was-a-sentence/template-acting/assets/mochi-block-v001.png",
+          "path": "motion/004-that-was-a-sentence/template-bakery-preview/assets/mochi-block-v001.png",
           "role": "current-template"
         },
         {
-          "path": "motion/004-that-was-a-sentence/template-bakery-preview/assets/mochi-block-v001.png",
-          "role": "draft-template"
+          "path": "motion/004-that-was-a-sentence/template-acting/assets/mochi-block-v001.png",
+          "role": "historical-source"
         },
         {
           "path": "motion/004-that-was-a-sentence/versions/v007/template/assets/mochi-block-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v008/template/assets/mochi-block-v001.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v009/template/assets/mochi-block-v001.png",
           "role": "immutable-archive"
         }
       ]
     },
     {
-      "canonicalPath": "motion/004-that-was-a-sentence/template-acting/assets/painted-tray-v002.png",
+      "canonicalPath": "motion/004-that-was-a-sentence/template-bakery-preview/assets/painted-tray-v002.png",
       "sha256": "dd3fc286ce612a07dd48a29fe850ee95565b0443b09b7f1b66b342b16fb86635",
       "bytes": 1301091,
       "extension": "png",
       "locations": [
         {
-          "path": "motion/004-that-was-a-sentence/template-acting/assets/painted-tray-v002.png",
+          "path": "motion/004-that-was-a-sentence/template-bakery-preview/assets/painted-tray-v002.png",
           "role": "current-template"
         },
         {
-          "path": "motion/004-that-was-a-sentence/template-bakery-preview/assets/painted-tray-v002.png",
-          "role": "draft-template"
+          "path": "motion/004-that-was-a-sentence/template-acting/assets/painted-tray-v002.png",
+          "role": "historical-source"
         },
         {
           "path": "motion/004-that-was-a-sentence/versions/v007/template/assets/painted-tray-v002.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v008/template/assets/painted-tray-v002.png",
+          "role": "immutable-archive"
+        },
+        {
+          "path": "motion/004-that-was-a-sentence/versions/v009/template/assets/painted-tray-v002.png",
           "role": "immutable-archive"
         }
       ]

@@ -1,0 +1,25 @@
+{
+  "episode": "002-tiny-feature",
+  "version": "v004",
+  "checked": "2026-10-29",
+  "passed": true,
+  "render": {
+    "width": 800,
+    "height": 1000,
+    "fps": 30,
+    "video": "H.264",
+    "audio": "AAC"
+  },
+  "checks": [
+    "Head-following dialogue inside frame",
+    "Native whole-painting proportions",
+    "Deterministic seeking",
+    "Explicit sound start",
+    "Pause/replay/end",
+    "Reduced-motion starts paused",
+    "No page errors",
+    "Three request replies after speech",
+    "Escalating coffee with unobstructed faces"
+  ],
+  "remaining": "Creator review / 创作者验看"
+}

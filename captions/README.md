@@ -4,10 +4,10 @@ Version-labelled English captions and alt text for review. These files do not pr
 
 | Episode / 剧集 | Copy / 文案 |
 | --- | --- |
-| 001 · The Corner Office · v004 | [Caption / 发布草稿](motion-001.md) |
-| 002 · One Tiny Feature · v003 | [Caption / 发布草稿](motion-002.md) |
-| 003 · Chief Nap Officer · v019 | [Caption / 发布草稿](motion-003.md) |
-| 004 · Soft Launch · v006 | [Caption / 发布草稿](motion-004.md) |
-| 005 · A Little More · v012 | [Caption / 发布草稿](motion-005-halloween.md) |
+| 001 · The Corner Office · v005 | [Caption / 发布草稿](motion-001.md) |
+| 002 · One Tiny Feature · v004 | [Caption / 发布草稿](motion-002.md) |
+| 003 · Chief Nap Officer · v020 | [Caption / 发布草稿](motion-003.md) |
+| 004 · Soft Launch · v009 | [Caption / 发布草稿](motion-004.md) |
+| 005 · A Little More · v013 | [Caption / 发布草稿](motion-005-halloween.md) |
 
 Finished captions/alt text are English only; internal notes are bilingual. Check the film after every story change before reusing copy. [Actual release state](../CONTENT_MAP.md) and [current film versions](../EPISODES.md) take precedence / 成品文案英文、内部说明双语；剧情改动后先对片再复用，实际发布与选用版本以总表为准。

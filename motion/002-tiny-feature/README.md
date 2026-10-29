@@ -1,14 +1,14 @@
 # 002 · One Tiny Feature
 
-**v003 · 18s · 4:5 · Unpublished review draft / 未发布待审稿**
+**v004 · 18s · 4:5 · Unpublished review draft / 未发布待审稿**
 
-[Play / 播放](index.html) · [MP4 / 带声视频](previews/v003-coffee-story-review.mp4) · [All versions / 全部历史](versions/index.html) · [Caption / 发布草稿](../../captions/motion-002.md)
+[Play / 播放](index.html) · [MP4 / 带声视频](previews/v004-verdent-requests-review.mp4) · [All versions / 全部历史](versions/index.html) · [Caption / 发布草稿](../../captions/motion-002.md)
 
 One tiny request. One increasingly ridiculous coffee.
 
 ## Edit · 修改
 
-[Configuration / 配置](episode.json) + [Shared story source / 共用剧情源](../_painted-story/README.md). Actual selected template: motion/002-tiny-feature/template-story / 选用模板以配置为准。
+[Configuration / 配置](episode.json) + [Selected local template / 本集选用模板](template-verdent). Actual selected template: motion/002-tiny-feature/template-verdent / 选用模板以配置为准。
 
 [Template roles / 模板状态](../TEMPLATE_MAP.md) · [Build tools / 构建工具](../../scripts/README.md)
 
@@ -18,7 +18,7 @@ Use the sound button before viewing. Downloaded MP4 includes the mixed speech/mu
 
 | Time / 时间 | Speaker / 角色 | English line / 英文对白 |
 | --- | --- | --- |
-| 0.0s | Lucky | Just one tiny feature. |
+| 0.0s | Lucky | Verdent, one tiny feature. |
 | 3.5s | Mochi | One. |
 | 5.7s | Lucky | And a login. |
 | 8.7s | Lucky | And payments. |

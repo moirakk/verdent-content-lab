@@ -25,7 +25,7 @@
 
 [Current episode/template data / 当前配置与模板](inventory/episodes.json) is generated from episode.json and the selected HTML hash. [Template map / 模板状态表](motion/TEMPLATE_MAP.md) distinguishes current and historical directories / 当前表根据实际配置生成，明确当前和历史模板。
 
-001/002 share [the painted story system / 新剧情系统](motion/_painted-story/README.md); their template-story directories are prepared local copies. 004 uses template-acting; 003 uses template-blue-polish; 005 uses template-interaction. Earlier templates stay available for historical reuse / 两集共用新剧情系统，本集模板为准备后的副本；004 独立整猫动作模板；003、005 各用独立模板，旧模板保留复用。
+001 uses [the shared painted story source / 共用剧情源](motion/_painted-story/README.md). 002 uses template-verdent; 004 uses template-bakery-preview; 003 uses template-blue-polish; 005 uses template-natural. Earlier templates remain historical / 001 用共用源；002 品牌咖啡、004 网页试吃、003 午睡、005 万圣节用上述独立选用源，旧模板为历史。
 
 [Tools / 工具](scripts/README.md) · [Production stages / 制作阶段](PRODUCTION_GUIDE.md) · [Every HTML version / 全部 HTML 历史](motion/VERSION_GUIDE.md)
 

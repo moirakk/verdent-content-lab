@@ -6,7 +6,7 @@ This file records factual state; current versions/lengths/exports are generated 
 
 All selected motion films are unpublished review drafts with actual synthetic child speech, original BGM and MP4 downloads. New story films use distinct living-room, coffee-nook and kitchen scenes; 003/005 remain accepted visual benchmarks for further review / 当前动态均未发布待审，实际含合成童声、原创配乐与下载；新剧情分客厅、咖啡角、厨房，003、005 保留视觉基准。
 
-Current MP4s are actual Chromium timeline samples with H.264/AAC: 24 fps for 001–004 and 30 fps for 005. 001/002/004 use 800×1000, 003 uses 480×600, 005 uses 720×1280. They are review exports, not final delivery approval / 当前视频为真实浏览器时间轴采样，005 为30帧，其余24帧，尺寸如上，仍属审片导出。
+Current MP4s are actual Chromium timeline samples with H.264/AAC: 24 fps for 001/003 and 30 fps for 002/004/005. 001/002/004 use 800×1000, 003 uses 480×600, 005 uses 720×1280. They are review exports, not final delivery approval / 当前视频为真实浏览器时间轴采样，002/004/005 为30帧，001/003 为24帧，尺寸如上，仍属审片导出。
 
 The new stories are limited animation, without phoneme lip sync. Their opening button starts sound explicitly; the library can unmute/restart one movie and pause other movies / 新剧情为有限动画，无音素口型；点击显式带声，目录可重播当前片并暂停其他片。
 
@@ -22,7 +22,7 @@ The new stories are limited animation, without phoneme lip sync. Their opening b
 | Older sound / 旧声音 | Adult-voice tests, music-only films and incomplete attempts remain labelled history / 成人声试验、仅配乐稿和未完成尝试保留标记 |
 | Branding / 品牌 | [Supplied original logo files](brand/assets/README.md), unchanged / 用户原 Logo，不修改原件 |
 
-003's workflow is illustrative M02 parallel work. Earlier 004 drafts illustrated M01; current Soft Launch is a standalone kitchen comedy, with no product capability claim. Halloween candy wishes are fictional / 003 为并行工作示意，004 旧稿为目标拆解，新稿是生活喜剧；节日出糖属于虚构。
+003's workflow is illustrative M02 parallel work. Earlier 004 drafts illustrated M01; current Soft Launch uses an illustrative bakery-website generation/preview followed by a cookie-testing joke. Halloween candy wishes are fictional / 003 为并行工作示意，004 旧稿为目标拆解，新稿为烘焙网页生成预览示意与误试吃喜剧；节日出糖属于虚构。
 
 ## Comics and publication · 漫画与发布
 
@@ -42,6 +42,8 @@ Repository: private [moirakk/verdent-content-lab](https://github.com/moirakk/ver
 
 Actual release records require an approved version, channel, date and URL; missing facts stay TBD / 真实发布后补批准版、渠道、日期链接，未知不编造。
 
-004 now uses independent complete-cat paintings with continuous mesh in-betweens, pinned feet and visible tray contact; 001 prints the unmodified official Verdent mark onto the cardboard face. Both remain review drafts. / 004 新增独立整猫动作与连续中间变形，脚底固定、爪盘接触可见；001 纸箱加原版 Verdent 印字；两者仍待审。
+004 now uses complete native paintings with fixed floor anchors, cookie pickup/carry/bite and tray contact, without mesh warping. 001 prints the unchanged official mark onto its cardboard box / 004 用完整原比例画稿、固定脚底及拿饼干送嘴护盘动作，无网格变形；001 纸箱印原 Logo。
 
 2026-10-29: Halloween 005 v013 is a new 20s recordable review cut: direct Verdent wishes, original intact painted cats, unobstructed paw/key contact, single-candy hold, candy shower and visible faces above the pile. Existing child speech is remixed with smooth ducking; no new external speech request. / 万圣节新版已可录制审片；对 Verdent 许愿，完整原比例猫、清楚爪键接触、首糖停顿、糖雨及糖堆探头；既有童声柔和混音，本次未重新请求外部配音。
+
+2026-10-29: Coffee 002 v004 and Soft Launch 004 v009 are selected 30fps review cuts. Both directly address Verdent, show an illustrative computer response and retain intact painted cats. Local remixes reuse existing child recordings and original music; matching exports and downloads are complete / 咖啡与烘焙新版已选用，可录制；直接请求 Verdent、电脑示意反馈、完整猫稿、本地童声配乐重混和匹配视频下载均已完成。

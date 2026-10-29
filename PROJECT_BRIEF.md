@@ -27,7 +27,7 @@ For Halloween, “more 3D” applies to laptop thickness/perspective, keys, hing
 
 ## Current work · 当前作品
 
-Actual selections, sound and exports live in [EPISODES.md](EPISODES.md) and [CONTENT_MAP.md](CONTENT_MAP.md). 001 is box-office comedy, 002 coffee escalation, 004 pre-opening sample testing; 003 and 005 retain their existing benchmarks / 实际选用见总览；新三集为纸箱办公室、咖啡升级、开业前试吃，003、005 保留基准。
+Actual selections, sound and exports live in [EPISODES.md](EPISODES.md) and [CONTENT_MAP.md](CONTENT_MAP.md). 001 is box-office comedy, 002 coffee escalation, 004 bakery-website test versus cookie tasting; 003 and 005 retain their existing benchmarks / 实际选用见总览；新三集为纸箱办公室、咖啡升级、烘焙网页测试误成试吃，003、005 保留基准。
 
 Current films are limited-animation review drafts: complete painted key poses plus continuous props/camera, not fully hand-drawn in-betweens or phoneme lip sync / 当前为有限动画待审稿，完整关键姿势配连续道具镜头，不宣称完整逐帧手绘或音素口型。
 
@@ -39,4 +39,4 @@ All motion films remain unpublished. Comic EP.05 has creator-confirmed publicati
 
 ## Latest clarification · 最新澄清（2026-10-22）
 
-The creator now asks Verdent to participate in the revised stories, with direct requests and visible computer responses; adding a logo alone is insufficient. Keep cat proportions unchanged, strengthen acting, clarify Soft Launch, and rework Halloween with natural child delivery. [Current revisions / 本轮改稿](WORK_IN_PROGRESS.md) remain unfinished / 本轮要求品牌参与剧情，对工具说话并看到反馈；不能只贴标志。造型比例不变，加强表演、讲清 Soft Launch，并让万圣节童声自然。改稿仍在制作。
+The creator now asks Verdent to participate in the revised stories, with direct requests and visible computer responses; adding a logo alone is insufficient. Keep cat proportions unchanged, strengthen acting, clarify Soft Launch, and rework Halloween with natural child delivery. [Current revisions / 本轮改稿](WORK_IN_PROGRESS.md) are now recordable and pending creator review / 本轮要求品牌参与剧情，对工具说话并看到反馈；不能只贴标志。造型比例不变，加强表演、讲清 Soft Launch，并让万圣节童声自然。改稿已可录制，待创作者验看。

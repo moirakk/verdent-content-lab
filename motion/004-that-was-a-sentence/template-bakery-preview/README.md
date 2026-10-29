@@ -1,13 +1,13 @@
-# Work in progress · 制作中
+# Selected painted source · 当前油画修改源
 
-This template is an unfinished new cut, not the selected recordable film. Existing current HTML/MP4 remain selected. Download asset copies in this working directory are placeholders from the prior template and must be replaced after rendering. / 此源为未完成改稿，不是当前可录制成片。现有 HTML/MP4 仍选用；本工作目录下载资产来自旧模板，仅占位，渲染后须替换。
+**v009 · 20s · 800×1000 · 30fps · Recordable review cut / 可录制审片稿**
 
-[Draft configuration / 改稿配置](../drafts/2026-10-22-verdent-interaction/episode.json) · [Selected film / 当前成片](../index.html) · [Production status / 制作状态](../../../WORK_IN_PROGRESS.md)
+Verdent builds the bakery website. Lucky is asked to test the website, picks up a real cookie, eats it and rates it five stars. Mochi slides the other two cookies away. / Verdent 做好烘焙网页；Lucky 接到网页测试却拿起真饼干试吃，给出五星评价，Mochi 把余下两块移走。
 
-## Remaining · 剩余
+[Selected configuration / 当前配置](../episode.json) · [HTML / 播放](../index.html) · [Matching voiced MP4 / 匹配带声视频](../previews/v009-website-test-review.mp4)
 
-- Review website/cookie visual setup and payoff / 复查网页与试吃的铺垫反转
-- Check native cat proportions and contact / 复查原比例猫与接触
-- Render matching MP4 and new HTML / 导出匹配视频与新 HTML
+Complete native paintings keep their proportions. Head-following dialogue, physical laptop thickness, original logo, explicit sound start and an embedded matching MP4 are retained / 完整原稿不拉伸，头顶对白、立体电脑、原 Logo、显式带声播放和匹配视频下载。
 
-Existing versions/vNNN/ remain immutable. Build the draft configuration only after review/export; never overwrite selected files by hand. / 历史不可改；审看导出后才构建改稿配置，不手工覆盖选用文件。
+The child recordings were reused locally with preserved internal pauses, smoother music ducking and retimed original contact cues. No new external speech request / 本地复用已有童声，保留句内停顿，柔和避让配乐并对齐原创接触声，本次无外部语音请求。
+
+Edit this source and episode.json, render a new export, then build. Never edit versions/vNNN/. All cuts remain unpublished pending creator review / 修改本源与配置，导出新视频后构建；永久历史不可改，成片未发布待审。

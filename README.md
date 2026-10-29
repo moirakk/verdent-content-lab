@@ -12,7 +12,7 @@ Private sources and archives for the original painted cat series / 原创水粉�
 - [Repository status / 仓库现状（2026-10-29）](REPO_STATUS.md) — Recordable films, active drafts and source locations / 成片、改稿及源码位置。
 - [Selected versions / 当前版本表](EPISODES.md) — Generated from the actual selected HTML hashes / 通过实际文件校验值确认选用版。
 - [Project index / 项目总索引](PROJECT_INDEX.md) — Find sources, art, audio, captions and archives / 查找源码、画稿、声音、文案与历史。
-- [Production drafts / 制作中改稿](WORK_IN_PROGRESS.md) — Saved source/audio; current films stay selected / 已保存源码声音，完成片仍为当前入口。
+- [Story revision records / 剧情改稿记录](WORK_IN_PROGRESS.md) — 002/004/005 completed and selected; creator review remains / 三条改稿已完成并选用，待创作者验看。
 - [Continue work / 接手说明](HANDOFF.md) · [Tasks / 当前待办](TASKS.md)
 
 ## Repository layout · 目录分工

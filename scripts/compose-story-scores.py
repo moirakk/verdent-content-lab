@@ -4,8 +4,8 @@ import math,random,wave,struct,json,subprocess
 ROOT=Path(__file__).resolve().parents[1]
 RATE=32000
 
-def compose(episode,style,seconds,bpm,chords,cues):
- out=ROOT/'motion'/episode/'audio/story-score-v001';out.mkdir(parents=True,exist_ok=False)
+def compose(episode,style,seconds,bpm,chords,cues,out_name="story-score-v001",gaps=None):
+ out=ROOT/'motion'/episode/'audio'/out_name;out.mkdir(parents=True,exist_ok=False)
  samples=[0.]*(seconds*RATE);rng=random.Random(810+seconds)
  def tone(start,pitch,length,gain,voice='pluck'):
   freq=440*2**((pitch-69)/12)
@@ -48,7 +48,7 @@ def compose(episode,style,seconds,bpm,chords,cues):
  # A short final musical answer, after the final speech / 最后对白后留一个短音乐回答。
  for offset,pitch in [(0,chords[0][0]+24),(.17,chords[0][1]+24),(.36,chords[0][0]+24)]:tone(seconds-.85+offset,pitch,.34,.08,'bell' if style!='cafe' else 'wood')
  # Purposeful music gaps, rather than a continuous identical loop / 留反应空拍。
- gaps={'box':[(3.0,3.3),(12.1,12.6)],'coffee':[(3.35,3.7),(11.55,12.25)],'cafe':[(6.0,6.4),(8.6,9.25)]}[style]
+ gaps=gaps if gaps is not None else {'box':[(3.0,3.3),(12.1,12.6)],'coffee':[(3.35,3.7),(11.55,12.25)],'cafe':[(6.0,6.4),(8.6,9.25)]}[style]
  data=bytearray()
  for i,v in enumerate(samples):
   tm=i/RATE;level=.10 if any(a<=tm<=b for a,b in gaps) else 1

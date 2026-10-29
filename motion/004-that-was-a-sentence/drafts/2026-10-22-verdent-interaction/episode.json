@@ -1,7 +1,7 @@
 {
   "id": "004-that-was-a-sentence",
   "title": "Soft Launch",
-  "kicker": "MOCHI & LUCKY · THE TINY COMPANY 004",
+  "kicker": "MOCHI & LUCKY \u00b7 THE TINY COMPANY 004",
   "footer": "Mochi & Lucky",
   "footerAt": 19000,
   "template": "motion/004-that-was-a-sentence/template-bakery-preview",
@@ -52,15 +52,15 @@
       "type": "preview-ready"
     },
     {
-      "at": 8600,
-      "type": "cookie-tap"
+      "at": 8180,
+      "type": "cookie-pickup"
     },
     {
-      "at": 9450,
-      "type": "crumb"
+      "at": 9090,
+      "type": "cookie-bite"
     },
     {
-      "at": 13200,
+      "at": 13300,
       "type": "tray-slide"
     }
   ],
@@ -551,6 +551,12 @@
       }
     ]
   },
-  "videoExport": "previews/v008-website-test-review.mp4",
-  "brandStory": "Verdent builds a bakery-site preview; asked to test the website, Lucky taste-tests the cookies instead. / Verdent 做好烘焙店网页预览，Lucky 将测试网页误当成试吃饼干。"
+  "videoExport": "previews/v009-website-test-review.mp4",
+  "brandStory": "Verdent builds a bakery-site preview; asked to test the website, Lucky taste-tests the cookies instead. / Verdent \u505a\u597d\u70d8\u7119\u5e97\u7f51\u9875\u9884\u89c8\uff0cLucky \u5c06\u6d4b\u8bd5\u7f51\u9875\u8bef\u5f53\u6210\u8bd5\u5403\u997c\u5e72\u3002",
+  "render": {
+    "width": 800,
+    "height": 1000,
+    "fps": 30,
+    "player": "paintedPlayer"
+  }
 }

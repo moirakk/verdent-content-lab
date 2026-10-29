@@ -4,71 +4,64 @@
   "kicker": "MOCHI & LUCKY \u00b7 THE TINY COMPANY 004",
   "footer": "Mochi & Lucky",
   "footerAt": 19000,
-  "template": "motion/004-that-was-a-sentence/template-acting",
+  "template": "motion/004-that-was-a-sentence/template-bakery-preview",
   "duration": 20000,
   "storyType": "cafe",
   "voicesAvailable": true,
-  "note": "Independent whole-cat acting with registered feet, continuous painted mesh in-betweens, two reach/block/recoil attempts and tray contact. Original matte paint, child voices and original score; unpublished review draft.",
+  "note": "Rewritten setup and payoff: build bakery site, preview ready, test the website, Lucky eats the cookies, Mochi corrects him, buttery five-star verdict. Complete painted cats keep native proportions; no mesh warping. Illustrative Verdent preview; unpublished review draft.",
   "beats": [
     {
       "at": 0,
-      "speaker": "Mochi",
-      "text": "Where are the samples?",
+      "speaker": "Lucky",
+      "text": "Verdent, build our bakery site.",
       "voiceAt": 250,
-      "captionUntil": 2900
+      "captionUntil": 3650
     },
     {
-      "at": 3200,
-      "speaker": "Lucky",
-      "text": "Internal testing.",
-      "voiceAt": 3400,
-      "captionUntil": 5800
-    },
-    {
-      "at": 6200,
+      "at": 4000,
       "speaker": "Mochi",
-      "text": "All twelve?",
-      "voiceAt": 6400,
-      "captionUntil": 8600
+      "text": "Lucky, test the website.",
+      "voiceAt": 4200,
+      "captionUntil": 7250
     },
     {
-      "at": 9000,
+      "at": 7600,
       "speaker": "Lucky",
-      "text": "Very thorough.",
-      "voiceAt": 9200,
-      "captionUntil": 11500
+      "text": "On it.",
+      "voiceAt": 7800,
+      "captionUntil": 9700
     },
     {
-      "at": 12200,
+      "at": 11200,
       "speaker": "Mochi",
-      "text": "We open tomorrow.",
-      "voiceAt": 12400,
-      "captionUntil": 14900
+      "text": "The website, Lucky.",
+      "voiceAt": 11400,
+      "captionUntil": 14500
     },
     {
-      "at": 15800,
+      "at": 15400,
       "speaker": "Lucky",
-      "text": "I'll test again.",
-      "voiceAt": 16000,
-      "captionUntil": 18600
+      "text": "Five stars. Very buttery.",
+      "voiceAt": 15600,
+      "captionUntil": 19000
     }
   ],
   "soundEffects": [
     {
-      "at": 6890,
-      "type": "paw-tap"
+      "at": 3450,
+      "type": "preview-ready"
     },
     {
-      "at": 12850,
-      "type": "tray-scrape"
+      "at": 8180,
+      "type": "cookie-pickup"
     },
     {
-      "at": 16380,
-      "type": "paw-tap"
+      "at": 9090,
+      "type": "cookie-bite"
     },
     {
-      "at": 16620,
-      "type": "soft-recoil"
+      "at": 13300,
+      "type": "tray-slide"
     }
   ],
   "visualSystem": "painted-independent-acting-v001",
@@ -558,5 +551,12 @@
       }
     ]
   },
-  "videoExport": "previews/v007-continuous-acting-review.mp4"
+  "videoExport": "previews/v009-website-test-review.mp4",
+  "brandStory": "Verdent builds a bakery-site preview; asked to test the website, Lucky taste-tests the cookies instead. / Verdent \u505a\u597d\u70d8\u7119\u5e97\u7f51\u9875\u9884\u89c8\uff0cLucky \u5c06\u6d4b\u8bd5\u7f51\u9875\u8bef\u5f53\u6210\u8bd5\u5403\u997c\u5e72\u3002",
+  "render": {
+    "width": 800,
+    "height": 1000,
+    "fps": 30,
+    "player": "paintedPlayer"
+  }
 }

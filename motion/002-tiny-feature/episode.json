@@ -1,18 +1,18 @@
 {
   "id": "002-tiny-feature",
   "title": "One Tiny Feature",
-  "kicker": "MOCHI & LUCKY · LITTLE MOMENTS 002",
+  "kicker": "MOCHI & LUCKY \u00b7 LITTLE MOMENTS 002",
   "footer": "Mochi & Lucky",
   "footerAt": 17000,
-  "template": "motion/002-tiny-feature/template-story",
+  "template": "motion/002-tiny-feature/template-verdent",
   "duration": 18000,
   "beats": [
     {
       "at": 0,
       "speaker": "Lucky",
-      "text": "Just one tiny feature.",
+      "text": "Verdent, one tiny feature.",
       "voiceAt": 250,
-      "captionUntil": 3100
+      "captionUntil": 3350
     },
     {
       "at": 3500,
@@ -45,7 +45,7 @@
   ],
   "visualSystem": "painted-story-v002",
   "voicesAvailable": true,
-  "note": "Story-first redesign after creator feedback: new painted location, complete-character action drawings, visual cold open, camera changes and a distinct original score. Synthetic child dialogue; unpublished limited-animation review.",
+  "note": "Verdent is the addressed character in the request loop. Original painted cats and coffee escalation retained; new direct address, visible task responses and solid laptop. Illustrative UI; unpublished review draft.",
   "storyType": "coffee",
   "registration": {
     "width": 1774,
@@ -126,14 +126,21 @@
       {
         "l": 5,
         "r": 422,
-        "t": -8,
+        "t": 0,
         "b": 374,
         "headY": [
           52,
-          -4
+          0
         ]
       }
     ]
   },
-  "videoExport": "previews/v003-coffee-story-review.mp4"
+  "videoExport": "previews/v004-verdent-requests-review.mp4",
+  "brandStory": "Lucky asks Verdent to add a feature, login and payments; an illustrative plan grows while Mochi brings bigger coffee. / Lucky \u5bf9 Verdent \u8ffd\u52a0\u9700\u6c42\uff0c\u793a\u610f\u8ba1\u5212\u53d8\u957f\uff0cMochi \u6362\u5927\u676f\u5496\u5561\u3002",
+  "render": {
+    "width": 800,
+    "height": 1000,
+    "fps": 30,
+    "player": "paintedPlayer"
+  }
 }

@@ -19,16 +19,16 @@
     {
       "id": "002-tiny-feature",
       "title": "One Tiny Feature",
-      "version": "v003",
+      "version": "v004",
       "durationMs": 18000,
       "aspect": "4:5",
       "config": "motion/002-tiny-feature/episode.json",
-      "template": "motion/002-tiny-feature/template-story",
+      "template": "motion/002-tiny-feature/template-verdent",
       "html": "motion/002-tiny-feature/index.html",
-      "video": "motion/002-tiny-feature/previews/v003-coffee-story-review.mp4",
+      "video": "motion/002-tiny-feature/previews/v004-verdent-requests-review.mp4",
       "history": "motion/002-tiny-feature/versions/index.html",
-      "archiveCount": 3,
-      "sha256": "abb6bb8c726b1be5e4002750169e4040a5fed80c6aef781cb9d31a973aaec4ae",
+      "archiveCount": 4,
+      "sha256": "71aba726c89478d5593cdaca65eff8e69c25173c8ae6dc79aab335158f4736b5",
       "status": "Unpublished draft"
     },
     {
@@ -49,16 +49,16 @@
     {
       "id": "004-that-was-a-sentence",
       "title": "Soft Launch",
-      "version": "v007",
+      "version": "v009",
       "durationMs": 20000,
       "aspect": "4:5",
       "config": "motion/004-that-was-a-sentence/episode.json",
-      "template": "motion/004-that-was-a-sentence/template-acting",
+      "template": "motion/004-that-was-a-sentence/template-bakery-preview",
       "html": "motion/004-that-was-a-sentence/index.html",
-      "video": "motion/004-that-was-a-sentence/previews/v007-continuous-acting-review.mp4",
+      "video": "motion/004-that-was-a-sentence/previews/v009-website-test-review.mp4",
       "history": "motion/004-that-was-a-sentence/versions/index.html",
-      "archiveCount": 7,
-      "sha256": "4bcc2d87a007843fa6d2140ca45a744c58aa4dd89523eaf50c119cbf01fb9b07",
+      "archiveCount": 9,
+      "sha256": "d5bd38e5879b1aba7845a33c147b8bd87de4f583f3e54e2098a7e86aab24faad",
       "status": "Unpublished draft"
     },
     {
@@ -105,8 +105,8 @@
     {
       "episode": "002-tiny-feature",
       "path": "motion/002-tiny-feature/template-story",
-      "role": "current",
-      "editableSource": "motion/_painted-story"
+      "role": "historical",
+      "editableSource": "motion/002-tiny-feature/template-story"
     },
     {
       "episode": "002-tiny-feature",
@@ -117,7 +117,7 @@
     {
       "episode": "002-tiny-feature",
       "path": "motion/002-tiny-feature/template-verdent",
-      "role": "work-in-progress",
+      "role": "current",
       "editableSource": "motion/002-tiny-feature/template-verdent"
     },
     {
@@ -147,13 +147,13 @@
     {
       "episode": "004-that-was-a-sentence",
       "path": "motion/004-that-was-a-sentence/template-acting",
-      "role": "current",
+      "role": "historical",
       "editableSource": "motion/004-that-was-a-sentence/template-acting"
     },
     {
       "episode": "004-that-was-a-sentence",
       "path": "motion/004-that-was-a-sentence/template-bakery-preview",
-      "role": "work-in-progress",
+      "role": "current",
       "editableSource": "motion/004-that-was-a-sentence/template-bakery-preview"
     },
     {

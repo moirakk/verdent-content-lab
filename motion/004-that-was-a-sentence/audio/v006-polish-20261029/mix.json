@@ -1,0 +1,81 @@
+{
+  "source": "../v005-website-test/mix.json",
+  "lines": [
+    {
+      "speaker": "Lucky",
+      "text": "Verdent, build our bakery site.",
+      "start": 0.25,
+      "duration": 2.225875,
+      "voice": "en-US-AnaNeural",
+      "rate": "+4%",
+      "file": "line-01.wav",
+      "postTempo": 1
+    },
+    {
+      "speaker": "Mochi",
+      "text": "Lucky, test the website.",
+      "start": 4.2,
+      "duration": 1.767292,
+      "voice": "en-GB-MaisieNeural",
+      "rate": "+1%",
+      "file": "line-02.wav",
+      "postTempo": 1
+    },
+    {
+      "speaker": "Lucky",
+      "text": "On it.",
+      "start": 7.8,
+      "duration": 0.378792,
+      "voice": "en-US-AnaNeural",
+      "rate": "+7%",
+      "file": "line-03.wav",
+      "postTempo": 1
+    },
+    {
+      "speaker": "Mochi",
+      "text": "The website, Lucky.",
+      "start": 11.4,
+      "duration": 1.498688,
+      "voice": "en-GB-MaisieNeural",
+      "rate": "-2%",
+      "file": "line-04.wav",
+      "postTempo": 0.94
+    },
+    {
+      "speaker": "Lucky",
+      "text": "Five stars. Very buttery.",
+      "start": 15.6,
+      "duration": 2.888417,
+      "voice": "en-US-AnaNeural",
+      "rate": "+2%",
+      "file": "line-05.wav",
+      "postTempo": 1
+    }
+  ],
+  "duration": 20.0,
+  "externalSpeechRequests": false,
+  "pitchChanged": false,
+  "smoothDucking": {
+    "attackMs": 18,
+    "releaseMs": 220
+  },
+  "foley": [
+    [
+      3.45,
+      "tick"
+    ],
+    [
+      8.18,
+      "tick"
+    ],
+    [
+      9.09,
+      "crumb"
+    ],
+    [
+      13.3,
+      "box"
+    ]
+  ],
+  "note": "Existing child performances, preserved pauses, original score and contact cues / 既有童声保留停顿，原创配乐与接触音"
+}

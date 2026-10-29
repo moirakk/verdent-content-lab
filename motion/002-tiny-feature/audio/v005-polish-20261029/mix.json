@@ -1,0 +1,89 @@
+{
+  "source": "../v004-verdent/mix.json",
+  "lines": [
+    {
+      "speaker": "Lucky",
+      "text": "Verdent, one tiny feature.",
+      "start": 0.25,
+      "duration": 2.197833,
+      "voice": "en-US-AnaNeural",
+      "rate": "+3%",
+      "file": "line-01.wav",
+      "postTempo": 1
+    },
+    {
+      "speaker": "Mochi",
+      "text": "One.",
+      "start": 3.7,
+      "duration": 0.389958,
+      "voice": "en-GB-MaisieNeural",
+      "rate": "+0%",
+      "file": "line-02.wav",
+      "postTempo": 1
+    },
+    {
+      "speaker": "Lucky",
+      "text": "And a login.",
+      "start": 5.9,
+      "duration": 0.829625,
+      "voice": "en-US-AnaNeural",
+      "rate": "+5%",
+      "file": "line-03.wav",
+      "postTempo": 1
+    },
+    {
+      "speaker": "Lucky",
+      "text": "And payments.",
+      "start": 8.9,
+      "duration": 0.926958,
+      "voice": "en-US-AnaNeural",
+      "rate": "+5%",
+      "file": "line-04.wav",
+      "postTempo": 1
+    },
+    {
+      "speaker": "Mochi",
+      "text": "I'll get a bigger cup.",
+      "start": 12.4,
+      "duration": 1.281917,
+      "voice": "en-GB-MaisieNeural",
+      "rate": "+0%",
+      "file": "line-05.wav",
+      "postTempo": 0.94
+    }
+  ],
+  "duration": 18.0,
+  "externalSpeechRequests": false,
+  "pitchChanged": false,
+  "smoothDucking": {
+    "attackMs": 18,
+    "releaseMs": 220
+  },
+  "foley": [
+    [
+      2.7,
+      "tick"
+    ],
+    [
+      6.9,
+      "tick"
+    ],
+    [
+      7.35,
+      "cup"
+    ],
+    [
+      10.05,
+      "tick"
+    ],
+    [
+      10.5,
+      "cup"
+    ],
+    [
+      14.45,
+      "cup"
+    ]
+  ],
+  "note": "Existing child performances, preserved pauses, original score and contact cues / 既有童声保留停顿，原创配乐与接触音"
+}
