@@ -4,7 +4,7 @@
 
 ## Watch and continue · 观看与接手
 
-[New maintainer / 新接手人](HANDOFF.md) · [Episode library / 剧集总览](docs/index.html) · [Selected versions / 当前版本](EPISODES.md) · [Actual state / 实际状态](CONTENT_MAP.md) · [Tasks / 待办](TASKS.md) · [Handoff / 接手](HANDOFF.md)
+[New maintainer / 新接手人](HANDOFF.md) · [Episode library / 剧集总览](docs/index.html) · [Selected versions / 当前版本](EPISODES.md) · [Actual state / 实际状态](CONTENT_MAP.md) · [Tasks / 待办](TASKS.md)
 
 ## Find assets · 查找素材
 
@@ -25,7 +25,7 @@
 
 [Current episode/template data / 当前配置与模板](inventory/episodes.json) is generated from episode.json and the selected HTML hash. [Template map / 模板状态表](motion/TEMPLATE_MAP.md) distinguishes current and historical directories / 当前表根据实际配置生成，明确当前和历史模板。
 
-001 uses [the shared painted story source / 共用剧情源](motion/_painted-story/README.md). 002 uses template-verdent; 004 uses template-bakery-preview; 003 uses template-blue-polish; 005 uses template-natural. Earlier templates remain historical / 001 用共用源；002 品牌咖啡、004 网页试吃、003 午睡、005 万圣节用上述独立选用源，旧模板为历史。
+[Handoff / 接手指南](HANDOFF.md) lists the selected edit sources / 当前修改源统一查接手表。
 
 [Tools / 工具](scripts/README.md) · [Production stages / 制作阶段](PRODUCTION_GUIDE.md) · [Every HTML version / 全部 HTML 历史](motion/VERSION_GUIDE.md)
 
@@ -35,9 +35,6 @@
 
 Comic numbers are independent of motion IDs. A proposal, selected draft, Git sync and published post are different states / 漫画和动态编号独立；提案、选用稿、Git 同步与真实发布是不同状态。
 
-## History and preservation · 历史与保留
+## History · 历史
 
-- Each episode's versions/index.html browses permanent HTML/source snapshots / 本集版本入口保存永久 HTML 和源码快照。
-- [Documentation archive / 说明历史](archive/README.md) preserves the earlier accumulated notes; current instructions live at stable root paths / 旧批次说明另存，当前指引仍在稳定路径。
-- Identical media copies support standalone HTML, frozen sources and viewing copies. The inventory groups their fingerprints; it does not authorize deleting required copies / 同素材副本服务于单文件、永久源码和观看副本，目录只做归并查找，不据此删除。
-- Temporary browser frame dumps, runtime dependencies and caches stay outside production assets. The render procedure is saved in scripts/ / 临时帧图、依赖缓存不作为生产素材，复现渲染流程已保存。
+[HTML versions / 成片历史](motion/VERSION_GUIDE.md) · [Documentation history / 说明历史](archive/README.md). Preserve archived files and media copies; temporary renders stay outside the repository / 保留存档及必要副本，临时渲染放仓库外。

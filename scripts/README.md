@@ -41,7 +41,18 @@ node scripts/prepare-story-episodes.mjs --review --episode 001-have-an-idea
 
 After rendering 001, run the same command without `--review` to restore its embedded download. Preparation intentionally skips independent templates; do not use the shared source to overwrite 002/004 / 001渲染后去掉该参数再准备以恢复下载，脚本会跳过独立模板。
 
-The complete 003 example is in [Handoff](../HANDOFF.md). Renderer fields are `render.width`, `height`, `fps`, `player` and `audio`; omitted audio defaults to assets/episode-score.m4a. 003 specifies its original episode-blue-polish-v001.m4a. Assets are hydrated into a temporary standalone file and PNG frames remain in OS temp / 尺寸帧率播放器音轨按配置，003 指定原音轨；临时帧在系统临时目录。
+Example for 003, after editing and choosing a new videoExport / 修改并设置新路径后，以003为例：
+
+```sh
+npm run qa:nap
+npm run render:stories -- --episode 003-chief-nap-officer
+node -e 'const fs=require("node:fs"),c=require("./motion/003-chief-nap-officer/episode.json");fs.copyFileSync("motion/"+c.id+"/"+c.videoExport,c.template+"/assets/episode-export.mp4")'
+npm run build:episode -- motion/003-chief-nap-officer/episode.json
+npm run index
+npm run check -- --assets
+```
+
+ Renderer fields are `render.width`, `height`, `fps`, `player` and `audio`; omitted audio defaults to assets/episode-score.m4a. 003 specifies its original episode-blue-polish-v001.m4a. Assets are hydrated into a temporary standalone file and PNG frames remain in OS temp / 尺寸帧率播放器音轨按配置，003 指定原音轨；临时帧在系统临时目录。
 
 Existing preview files are preserved by default. `--replace-preview` is reserved for deliberate replacement of an unarchived working render or after preserving the previous film; never change assets inside an existing versions/vNNN/ / 默认不覆盖视频，仅在工作导出未归档或已保存旧片时明确替换，永久存档内资产不可改。
 
