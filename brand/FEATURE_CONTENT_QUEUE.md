@@ -17,7 +17,7 @@ Direction and visual rules / 总方向与画风：[PROJECT_BRIEF](../PROJECT_BRI
 
 | Review card / 确认卡 | Primary feature / 核心功能 | Working title / 暂定英文标题 | State / 状态 |
 | --- | --- | --- | --- |
-| R01 | M02 · Parallel workers / 并行团队 | Chief Nap Officer | Motion 003 v019 timing polish; creator review pending / 整猫动作节奏打磨，待创作者验收 |
+| R01 | M02 · Parallel workers / 并行团队 | Chief Nap Officer | Motion 003 selected cut: see EPISODES.md; creator review pending / 当前午睡片选用查版本总表，待创作者验收 |
 | R02 | M01 · Goal decomposition / 目标拆解 | That Was a Sentence | Motion 004 v004: five verified child lines, browser preview / 五句童声已补齐，已有浏览器审片 |
 | R03 | M05 · Memory / 记忆 | It Remembers | Proposal / 提案 |
 | R04 | M07 · Automations / 重复任务 | Every Monday | Proposal / 提案 |

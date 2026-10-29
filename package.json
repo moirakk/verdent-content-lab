@@ -10,9 +10,14 @@
     "check": "node scripts/check-repository.mjs",
     "index": "node scripts/build-episode-library.mjs && node scripts/build-repository-index.mjs && node scripts/build-recording-hub.mjs",
     "build:episode": "node scripts/build-motion.mjs",
-    "render:stories": "node scripts/render-story-previews.cjs"
+    "render:stories": "node scripts/render-story-previews.cjs",
+    "doctor": "node scripts/doctor.mjs",
+    "qa:stories": "node scripts/check-story-revisions.cjs",
+    "qa:nap": "node scripts/check-nap-staging.cjs",
+    "qa:halloween": "node scripts/check-halloween.cjs"
   },
   "devDependencies": {
-    "playwright": "1.62.1"
+    "playwright": "1.62.1",
+    "sharp": "0.35.5"
   }
 }

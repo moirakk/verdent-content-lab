@@ -1,44 +1,70 @@
-# Handoff · 接手说明
+# Handoff · 从这里接手
 
-Read [README](README.md) → [Project index](PROJECT_INDEX.md) → [Brief](PROJECT_BRIEF.md) → [Actual state](CONTENT_MAP.md). Current selections are generated in [EPISODES.md](EPISODES.md) / 先看入口、索引、方向与实际状态；当前选用版查自动生成总览。
+Updated 2026-10-29. Start with [README](README.md), then [confirmed direction](PROJECT_BRIEF.md), [actual state](CONTENT_MAP.md) and [version guide](motion/VERSION_GUIDE.md). This guide gives the practical workflow / 本页提供实际操作，方向、状态与历史分工如前。
 
-## Current sources · 当前修改源
+## Watch or record · 观看录制
 
-- 001: [motion/_painted-story](motion/_painted-story/README.md) + per-episode episode.json; prepare into template-story/ / 共用剧情源与本集配置，准备为本集模板。
-- 002: [template-verdent](motion/002-tiny-feature/template-verdent/README.md), direct requests and growing coffee / 品牌请求与咖啡升级。
-- 004: [template-bakery-preview](motion/004-that-was-a-sentence/template-bakery-preview/README.md), website test versus cookie taste-test / 网页测试与试吃反转。
-- 003: episode.json + template-blue-polish/; 005: episode.json + template-natural/ / 两条基准片用独立源。
-- [Template map](motion/TEMPLATE_MAP.md) labels all earlier templates historical. Never edit a similarly named old template assuming it is current / 模板表标清历史，不按近似目录名猜当前源。
+Give the next maintainer access to this private GitHub repository, then clone/download the **whole repository**, then open [成片.html](成片.html) on the local computer. GitHub's file viewer shows HTML source; it does not play the film. No npm/Python/server setup is needed for viewing / 先授予接手者私有仓库访问权限，再取回完整仓库，再本地打开成片入口；GitHub 文件页显示源码，不播放 HTML，观看无需安装开发环境。
 
-## Routine checks · 常规检查
+The green button restarts one movie with sound/full screen and pauses the others. “下载带声视频” gives the matching MP4. Each episode HTML also embeds its own download, so that HTML can be copied alone for offline review / 绿色按钮从头全屏带声并暂停其他片；下载含声音；各集 HTML 已内嵌资产和匹配视频，可单文件离线审看。
+
+Current selections: **001 v005 · 002 v004 · 003 v021 · 004 v009 · 005 v013**. See [generated episode table](EPISODES.md) for authoritative versions/links. These are unpublished review cuts; further creator feedback and actual publication records remain / 当前五集可录制，自动总表管准确选用；均未发布待审，后续按创作者反馈处理。
+
+## Where to edit · 改哪里
+
+The `template` field in each episode.json selects the working source. Stable IDs are historical names: 004's ID is still “that-was-a-sentence” although its current title is Soft Launch / 以本集配置指定的模板为准，旧 ID 保持稳定，不按 ID 猜当前故事。
+
+| Film / 剧集 | Configuration / 配置 | Editable source / 修改源 | Sound used / 选用声音 | Acting QA / 动作检查 |
+| --- | --- | --- | --- | --- |
+| 001 · The Corner Office | [episode.json](motion/001-have-an-idea/episode.json) | [_painted-story](motion/_painted-story/README.md), then prepare only 001 / 修改共用源后仅准备001 | template-story/assets/episode-score-raw.m4a → normalized mix / 原始混音再归一化 | Visually review all box poses and logo / 目测纸箱各姿势及标志 |
+| 002 · One Tiny Feature | [episode.json](motion/002-tiny-feature/episode.json) | [template-verdent](motion/002-tiny-feature/template-verdent/README.md) | [v005-polish mix](motion/002-tiny-feature/audio/v005-polish-20261029/mix.json) | `npm run qa:stories` |
+| 003 · Chief Nap Officer | [episode.json](motion/003-chief-nap-officer/episode.json) | [template-blue-polish](motion/003-chief-nap-officer/template-blue-polish/README.md) | [v004-blue-polish](motion/003-chief-nap-officer/audio/v004-blue-polish/README.md), episode-blue-polish-v001.m4a | `npm run qa:nap` |
+| 004 · Soft Launch | [episode.json](motion/004-that-was-a-sentence/episode.json) | [template-bakery-preview](motion/004-that-was-a-sentence/template-bakery-preview/README.md) | [v006-polish mix](motion/004-that-was-a-sentence/audio/v006-polish-20261029/mix.json) | `npm run qa:stories` |
+| 005 · A Little More | [episode.json](motion/005-halloween/episode.json) | [template-natural](motion/005-halloween/template-natural/README.md) | [v007-polish mix](motion/005-halloween/audio/v007-polish-20261029/mix.json) | `npm run qa:halloween` |
+
+Other template directories and draft configs are earlier work. Their filenames do not make them current. [Template map](motion/TEMPLATE_MAP.md) labels current/historical roles / 其他模板与改稿配置是早期记录，状态查模板表。
+
+## Set up a new editing computer · 新电脑准备
+
+Use Node 22+ (`.nvmrc` selects 22), npm, ffmpeg and ffprobe on PATH. Install ffmpeg with the computer's package manager; Python 3 is only needed for sound work. The locked npm dependencies include Playwright and Sharp / 开发用 Node、npm 及可执行的 ffmpeg/ffprobe，Python 仅声音处理需要；浏览器和图像依赖已有锁文件。
 
 ```sh
-npm run index
-npm run check
+npm ci
+npx playwright install chromium
+npm run doctor -- --render
+npm run check -- --assets
 ```
 
-Indexes do not rebuild film HTML or add versions. The checker verifies selected hashes, immutable mirrors, current JS, audio/video, media downloads and active Markdown links / 更新索引不重构成片或增版本；检查覆盖当前哈希、历史镜像、脚本、声音视频、下载和文档链接。
+For a fresh checkout, clone `https://github.com/moirakk/verdent-content-lab.git` and enter that folder first / 新电脑先克隆该地址并进入仓库目录。
 
-## Editing a film · 修改成片
+Run commands from repository root. Chromium installation needs network; Linux may additionally require the OS packages reported by Playwright. Watching existing films remains offline / 命令在根目录运行；安装需联网，Linux 按浏览器报告补系统库，既有成片可离线看。
 
-1. Read its current README/config and creator rules; edit the selected source / 先读本集说明与规范，修改选用源。
-2. For story films, prepare review templates; render the matching picture/audio into a NEW versioned videoExport path / 新剧情先准备模板，将匹配画面声音导出到新的版本文件。
-3. Prepare final templates with matching downloads, then build only the changed episode config / 准备匹配下载后，只构建改动的剧集。
-4. Refresh indexes, run checks, inspect playback/sound and phone staging, then sync source/output/archives together / 更新索引、检查实播声音和手机构图，再一并同步。
-5. Mark release only after actual publication / 真实发布后再记发布。
+## Change one film · 修改一集
 
-Exact commands and dependencies: [scripts/README.md](scripts/README.md). Existing export files and audio versions are preserved by default; choose new names for new work / 具体命令见工具说明，新工作使用新名称，默认保留已有导出与声音。
+1. Read its config/source and [visual rules](brand/VISUAL_STYLE.md). Make the edit in the selected working template. For 001 only, edit `_painted-story` and run `node scripts/prepare-story-episodes.mjs --review --episode 001-have-an-idea` / 改选用源；001 还需单集准备。
+2. Set `videoExport` in that episode.json to a **new** MP4 path, e.g. previews/v022-review.mp4 for the next 003 edit. Preserve earlier movies / 新导出用新文件名，旧视频保留。
+3. Run its acting QA and inspect representative frames with sound and muted. Contact, dialogue and shape must still fit the story; code checks do not replace creator review / 运行对应动作检查，并看关键画面及开关声音效果，自动检查不代替创意验看。
+4. Render the matching timeline, then copy that exact movie to the selected template's `assets/episode-export.mp4`. For 001, preparing without `--review` also restores its download link / 渲染匹配画面声音，再更新模板下载资产，001 最后还要准备以恢复下载链接。
+5. Build only that film, refresh indexes and verify. Update its poster, English caption/alt text and handoff/status only if affected / 只构建改动集，更新索引检查；封面、文案和状态按实际改动同步。
 
-## Preserve · 必须保留
+Example for **003**, after editing source and choosing a new videoExport / 下例以003为例，先修改源码及新视频路径：
 
-Every versions/vNNN/ directory under motion/ and docs/motion/ is immutable. Keep supplied art/logo bytes, private reference photos outside docs/, stable episode IDs and earlier templates. Media duplication supports standalone snapshots; do not deduplicate by deleting archive assets / 两处永久历史不可改；原稿 Logo 不变、私有照片不进预览，集数路径和旧模板保留；不删必要副本去重。
+```sh
+npm run qa:nap
+npm run render:stories -- --episode 003-chief-nap-officer
+node -e 'const fs=require("node:fs"),c=require("./motion/003-chief-nap-officer/episode.json");fs.copyFileSync("motion/"+c.id+"/"+c.videoExport,c.template+"/assets/episode-export.mp4")'
+npm run build:episode -- motion/003-chief-nap-officer/episode.json
+npm run index
+npm run check -- --assets
+```
 
-The earlier accumulated handoffs are in [documentation history](archive/README.md); they are historical context, not current instructions / 累积交接另存为历史，不当作当前指令。
+Use the same render/build flow for 002/004/005 with their IDs. 001 has the additional preparation step described above. More details and poster commands: [tools](scripts/README.md) / 其他集替换 ID；001 多一步准备，封面等命令见工具说明。
 
-## Next · 下一步
+## Preserve and deliver · 保留与交付
 
-[Task list](TASKS.md) contains current film-review gaps and archival follow-ups. Git sync and passing checks do not equal creative approval / 待办列出审片与归档缺口；Git 同步和检查通过不等于创意验收。
+- Keep every `motion/*/versions/vNNN/` and `docs/motion/*/versions/vNNN/` immutable. Builds freeze new sources/assets and capture existing unarchived HTML automatically / 两处永久快照不可改，构建会自动保存新源与现有未存档 HTML。
+- Preserve supplied art/logo bytes and native proportions. Private real-cat references stay outside docs/. Repeated media supports standalone/archived films; do not delete it as redundant / 原稿 Logo 不改，私有照片不进 docs，必要副本不删。
+- Do not hand-edit generated film HTML, episode READMEs, inventory or version tables. Edit sources/metadata, then build/index / 生成输出不手改，修改源数据后重建。
+- Keep source, matching MP4/download, new archive, covers/captions and generated indexes together in a private Git commit. Push the work when authorized; keep Pages disabled / 源码视频存档文案索引一起私有提交，按授权同步，Pages 保持关闭。
 
-## Completed story revisions · 本轮已完成改稿
-
-002 v004, 004 v009 and Halloween 005 v013 are now selected recordable cuts with matching voiced MP4 downloads. The earlier draft configs are retained as revision records, not unfinished selections. [Revision notes / 改稿记录](WORK_IN_PROGRESS.md). Creator review remains / 三条本轮改稿现已进入成片入口，匹配带声下载；原改稿配置保留为记录，创作者验看待完成。
+[Remaining review tasks](TASKS.md) · [Source/media lookup](PROJECT_INDEX.md) · [Earlier revision record](WORK_IN_PROGRESS.md) · [Documentation history](archive/README.md). Git sync and recordability do not imply publication / 同步和可录制不等于已发布。

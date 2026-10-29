@@ -1,4 +1,4 @@
-# Production drafts · 正在制作
+# Completed revision record · 已完成改稿记录
 
 Saved initially on 2026-10-22; all three revisions completed on 2026-10-29. **002 v004, 004 v009 and 005 v013 are now in the recording hub with matching voiced MP4s.** Creator review remains; none is published / 三条改稿现已完成并进入成片入口，匹配带声视频；仍待创作者验看，均未发布。 This file retains the revision history and selected source locations / 本页保留改稿记录与选用源码位置。
 
@@ -18,6 +18,6 @@ Each new audio directory retains raw MP3s, trimmed WAVs, mix metadata, voice pro
 
 The coffee plan is illustrative; the bakery preview is illustrative. Sources checked 2026-10-22: [Manager task decomposition](https://www.verdent.ai/docs/verdent-manager/core-features/manager), [Cloud generation/preview overview](https://www.verdent.ai/docs/verdent-cloud/getting-started/overview). Candy wishes remain fictional / 咖啡计划、烘焙网页为示意；依据当日核对的官方文档，不作为真实产品录屏或制作速度承诺；出糖为节日虚构。
 
-[Machine-readable draft status / 机器可读状态](production-drafts.json). The shared solid computer helper is [here / 电脑组件](motion/_painted-props/verdent-computer.js); its code was inserted into the coffee/bakery working players so eventual standalone HTML has no external runtime dependency / 电脑组件已插入两集工作脚本，未来单文件 HTML 不依赖外部运行脚本。
+[Machine-readable draft status / 机器可读状态](production-drafts.json). The shared solid computer helper is [here / 电脑组件](motion/_painted-props/verdent-computer.js); its code was inserted into the coffee/bakery working players so standalone HTML has no external runtime dependency / 电脑组件已插入两集工作脚本，单文件 HTML 不依赖外部运行脚本。
 
 Local polish mixes on 2026-10-29 reuse the saved voice recordings, preserve internal pauses and add smoother ducking plus contact-timed original scores. 002/004 export at 800×1000 / 30fps; the untouched originals remain in their earlier audio directories. Playback/contact checks: `node scripts/check-story-revisions.cjs` / 本轮只在本地复用童声、保留停顿，平滑避让配乐并对齐接触音；旧声音与全部旧片不变，检查命令如上。

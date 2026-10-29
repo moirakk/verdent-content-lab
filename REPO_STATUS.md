@@ -1,6 +1,6 @@
 # Repository Status · 仓库现状（2026-10-29）
 
-**[🎬 成片｜点开录制 · Ready to record](成片.html)**
+**[🎬 成片｜点开录制 · Ready to record](成片.html)** · **[新接手人从这里开始 · Handoff](HANDOFF.md)**
 
 Private repository / 私有仓库：[moirakk/verdent-content-lab](https://github.com/moirakk/verdent-content-lab). Public Pages is disabled. The five selected films can be recorded/downloaded locally; all remain unpublished review cuts, not release-approved / 未开启公开 Pages；五集可本地录制下载，均为未发布审片稿，尚不代表批准发布。
 

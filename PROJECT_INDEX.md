@@ -4,7 +4,7 @@
 
 ## Watch and continue · 观看与接手
 
-[Episode library / 剧集总览](docs/index.html) · [Selected versions / 当前版本](EPISODES.md) · [Actual state / 实际状态](CONTENT_MAP.md) · [Tasks / 待办](TASKS.md) · [Handoff / 接手](HANDOFF.md)
+[New maintainer / 新接手人](HANDOFF.md) · [Episode library / 剧集总览](docs/index.html) · [Selected versions / 当前版本](EPISODES.md) · [Actual state / 实际状态](CONTENT_MAP.md) · [Tasks / 待办](TASKS.md) · [Handoff / 接手](HANDOFF.md)
 
 ## Find assets · 查找素材
 

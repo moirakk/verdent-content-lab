@@ -1,43 +1,47 @@
 # Verdent Content Lab · Mochi & Lucky 内容工作室
 
-## 🎬 [成片｜点开录制 · Ready to record](成片.html)
+**[🎬 成片｜点开录制 · Ready to record](成片.html)** · **[接手指南 · Handoff](HANDOFF.md)** · **[当前版本 · Selected cuts](EPISODES.md)**
 
-**从这里打开 5 集可录制成片，或下载含配音和 BGM 的视频 / Open the five recordable cuts or download MP4s with voices and music.**
+Private source, media and version history for five original painted-cat shorts. All five selected cuts include English child voices, original music and matching MP4 downloads / 五集原创油画猫短片的私有源码、素材与历史；当前选用均含英文童声、原创配乐及匹配视频下载。
 
-Private sources and archives for the original painted cat series / 原创水粉小猫系列的私有源码与档案。
+## Start here · 按用途进入
 
-**Character first. Joke second. Product third. / 先人物，再笑点，最后产品。**
-
-- [Watch all episodes / 观看全部剧集](docs/index.html) — Click **Play with sound**; MP4 downloads include voices and music / 点击带声播放，下载视频已含童声与配乐。
-- [Repository status / 仓库现状（2026-10-29）](REPO_STATUS.md) — Recordable films, active drafts and source locations / 成片、改稿及源码位置。
-- [Selected versions / 当前版本表](EPISODES.md) — Generated from the actual selected HTML hashes / 通过实际文件校验值确认选用版。
-- [Project index / 项目总索引](PROJECT_INDEX.md) — Find sources, art, audio, captions and archives / 查找源码、画稿、声音、文案与历史。
-- [Story revision records / 剧情改稿记录](WORK_IN_PROGRESS.md) — 002/004/005 completed and selected; creator review remains / 三条改稿已完成并选用，待创作者验看。
-- [Continue work / 接手说明](HANDOFF.md) · [Tasks / 当前待办](TASKS.md)
-
-## Repository layout · 目录分工
-
-| Directory / 目录 | Contents / 内容 |
+| I want to… / 我要… | Open / 入口 |
 | --- | --- |
-| [brand/](brand/README.md) | Character, visual and editorial rules; product research and proposals / 人设、视觉规范、产品资料及提案 |
-| [characters/](characters/README.md) | Profiles, private references, expressions and pose studies / 档案、私有参考、表情与姿势 |
-| [scenes/](scenes/README.md) | Reusable lifestyle scene keyframes / 可复用生活场景关键帧 |
-| [motion/](motion/README.md) | Episode configs, editable templates, audio, movies and immutable versions / 剧集配置、模板、声音、视频及永久历史 |
-| [comics/](comics/README.md) · [captions/](captions/README.md) | Separate comic continuity and version-labelled English publishing drafts / 独立漫画连续性与按版本标记的英文发布草稿 |
-| [docs/](docs/README.md) | Generated viewing copies, covers and video downloads / 生成的观看副本、封面与下载 |
-| [inventory/](inventory/README.md) | Generated episode/template map and media fingerprints / 生成的集数模板表及素材指纹目录 |
-| [scripts/](scripts/README.md) | Build, render, audio and repository checks / 构建、渲染、声音与仓库检查 |
-| [archive/](archive/README.md) | Superseded documentation snapshots / 已被替代的说明快照 |
+| Watch, record or download / 观看、录制、下载 | Clone/download the whole repository, then open [成片.html](成片.html) **locally** / 取回完整仓库后本地打开 |
+| Continue editing on a new computer / 换人换电脑继续修改 | [HANDOFF.md](HANDOFF.md): setup, exact source paths, single-episode workflow / 环境、准确修改源、单集操作 |
+| Confirm versions and current state / 查当前版本与进度 | [EPISODES.md](EPISODES.md) · [REPO_STATUS.md](REPO_STATUS.md) · [TASKS.md](TASKS.md) |
+| Find art, voices, captions or history / 找画稿、声音、文案、历史 | [PROJECT_INDEX.md](PROJECT_INDEX.md) · [inventory/](inventory/README.md) |
+| Understand character/style rules / 了解人设画风 | [PROJECT_BRIEF.md](PROJECT_BRIEF.md) · [brand/](brand/README.md) |
 
-Watch offline without installing anything. Editing requires Node 22+; rendering also needs Playwright/Chromium and ffmpeg. / 离线观看无需安装；修改构建需 Node 22+，渲染另需 Playwright/Chromium 与 ffmpeg。
+GitHub displays HTML as source; it does not play these files. Open the local recording entrance, then use the green full-screen sound button or download the voiced MP4. Existing films require no server/npm/Python installation / GitHub 文件页显示源码，录制请本地打开；绿色按钮全屏带声，下载视频已有声音，观看无需开发环境。
+
+Current cuts: **001 v005 · 002 v004 · 003 v021 · 004 v009 · 005 v013**. The generated [episode table](EPISODES.md) is authoritative after future edits / 后续改动以自动版本总表为准。
+
+## Editing quick start · 修改前准备
+
+Node 22+ and ffmpeg/ffprobe must be on PATH. Commands run from repository root; `.nvmrc` selects Node 22 / 根目录执行，先安装 Node 与媒体工具。
 
 ```sh
-npm run index
-npm run check
+npm ci
+npx playwright install chromium
+npm run doctor -- --render
+npm run check -- --assets
 ```
 
-These commands refresh indexes and check the repository; they do not rebuild films or create episode versions / 上述命令只更新索引和检查仓库，不重做成片或增加剧集版本。
+Then follow [one-film editing instructions](HANDOFF.md). Indexing/checking does not rebuild a film. Current source is selected by each episode.json; similarly named old templates are historical / 下一步按单集指南修改，索引检查不重构成片，准确源码看本集配置。
 
-Keep stable paths, original art and every saved HTML. Sources belong in motion/, viewing copies in docs/. Documentation is bilingual; finished content is English only. The repository stays private and all current films remain unpublished review drafts / 保持路径、原稿与全部 HTML；源码与观看副本分开；说明双语、成品英文；仓库私有，当前片均为未发布待审稿。
+## Repository map · 仓库分工
+
+| Path / 路径 | Purpose / 用途 |
+| --- | --- |
+| [motion/](motion/README.md) | Selected configs, working templates, audio, exports and immutable versions / 当前配置源码、声音、视频与永久历史 |
+| [docs/](docs/README.md) | Generated viewing library, covers, movies and HTML mirrors / 自动生成的观看副本与封面 |
+| [characters/](characters/README.md) · [scenes/](scenes/README.md) · [brand/](brand/README.md) | Character/style references, lifestyle art and supplied logo / 角色画风参考、生活场景及原 Logo |
+| [captions/](captions/README.md) · [comics/](comics/README.md) | Versioned English publishing copy and separate comic continuity / 英文发布草稿及独立漫画线 |
+| [scripts/](scripts/README.md) · [inventory/](inventory/README.md) | Reproducible tools and generated source/media lookup / 制作检查工具与自动素材索引 |
+| [archive/](archive/README.md) | Earlier documentation; current instructions are at root / 旧说明记录，现行指引在根目录 |
+
+**Character first. Joke second. Product third. / 先人物，再笑点，最后产品。** Preserve the exact painted cats, original logo and all saved versions. Documentation is bilingual; audience-facing content stays English only. Keep the repository private and Pages disabled. All motion cuts remain unpublished review drafts / 保留油画猫、原标志和全部历史；说明双语、成品英文；仓库私有、不启用公开 Pages，动态均未发布待审。
 
 Original characters/content. All rights reserved; no open-source licence / 原创内容保留全部权利，不提供开源授权。

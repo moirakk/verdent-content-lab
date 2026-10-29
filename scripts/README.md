@@ -1,68 +1,91 @@
 # Tools · 制作与维护工具
 
-Watch built HTML/MP4 without installing anything. Development requires Node 22+, Python with [audio requirements](requirements-audio.txt), and ffmpeg/ffprobe. Browser rendering also requires Playwright + Chromium / 观看无需安装；制作需 Node、Python 声音依赖和 ffmpeg，浏览器渲染另需 Playwright/Chromium。
+Start with [Handoff / 接手指南](../HANDOFF.md) for the exact selected sources and edit sequence. Run commands from repository root. Watching existing HTML/MP4 needs no installation / 先读交接了解修改源与顺序，命令在根目录执行，观看成片无需安装。
 
-## Maintain indexes · 维护索引
+## Environment · 环境
+
+Node 22+, ffmpeg/ffprobe, and locked Playwright/Sharp are used for rendering and QA. Python 3 is only needed for audio processing; edge-tts is only needed for new online speech / 渲染检查需 Node、媒体工具及锁定依赖；Python 用于声音处理，在线新配音才需语音包。
+
+```sh
+npm ci
+npx playwright install chromium
+npm run doctor -- --render
+```
+
+`doctor` is read-only and offline: checks installed tools without generating films or calling services. Without `--render` it checks basic indexing/repository-check prerequisites / 环境检查只读离线，无参数检查基础维护工具，带参数检查浏览器及图像依赖。
+
+Existing managed runtimes can supply `RENDER_PLAYWRIGHT_MODULE` and `RENDER_SHARP_MODULE` as absolute module paths. Normal local installs need neither variable. Do not copy another person's absolute paths / 托管环境可指定外置模块，标准安装无需变量，不照抄他人电脑绝对路径。
+
+## Index and verify · 索引与检查
 
 ```sh
 npm run index
-npm run check
+npm run check -- --assets
 ```
 
-index refreshes the episode library, source/template map, media catalog and version guide. check verifies current files, archive hashes/mirrors, audio/video, current JS and active documentation links. Neither rebuilds episode films / 更新目录模板素材及版本索引；检查当前文件、历史哈希镜像、声音视频与文档；均不重构成片。
+`index` refreshes the recording hub, episode library, source/template map, media fingerprints and version guide. `check` is read-only; `--assets` additionally hashes all media. Neither renders/rebuilds a film / 索引更新入口、模板素材和版本表；检查只读，附加参数核对全部媒体指纹，两者不重做成片。
 
-## Build a changed episode · 构建改动剧集
+Generated files: root 成片.html, docs/index.html, EPISODES.md, inventory JSON, motion README/version/template maps and per-episode READMEs. Edit their generator or metadata, then regenerate / 这些文件由脚本生成，不手改。
+
+## Render and build one film · 单集渲染构建
+
+1. Edit only the template selected by its episode.json. **001** uses `_painted-story` and needs preparation; **002** uses template-verdent, **003** template-blue-polish, **004** template-bakery-preview, **005** template-natural / 修改选用源，001 多准备一步。
+2. Choose a new `videoExport` filename. Render with `--episode <id>`; `--config <episode.json path>` previews an unselected working config. The default without either filter renders 001/002/004, so use a filter when changing one film / 新视频用新名；指定单集或工作配置，省略则处理三条生活短剧。
+3. Copy the matching video to the selected template's assets/episode-export.mp4. Build that config, refresh indexes and check / 复制匹配下载资产，再构建、索引与检查。
+
+For **001 only**, before rendering / 仅001在渲染前执行：
 
 ```sh
-npm run build:episode -- motion/005-halloween/episode.json
+node scripts/prepare-story-episodes.mjs --review --episode 001-have-an-idea
 ```
 
-Edit the template selected by episode.json, not an old similarly named directory. Builds preserve existing HTML, freeze new source/assets and update docs copies; identical output does not add a version. Never edit versions/vNNN/ / 修改配置实际选用模板；构建保留旧稿、冻结新源并更新副本，相同输出不重复编号；历史不改。
+After rendering 001, run the same command without `--review` to restore its embedded download. Preparation intentionally skips independent templates; do not use the shared source to overwrite 002/004 / 001渲染后去掉该参数再准备以恢复下载，脚本会跳过独立模板。
 
-## Story films 001/002/004 · 生活短剧流程
+The complete 003 example is in [Handoff](../HANDOFF.md). Renderer fields are `render.width`, `height`, `fps`, `player` and `audio`; omitted audio defaults to assets/episode-score.m4a. 003 specifies its original episode-blue-polish-v001.m4a. Assets are hydrated into a temporary standalone file and PNG frames remain in OS temp / 尺寸帧率播放器音轨按配置，003 指定原音轨；临时帧在系统临时目录。
 
-1. Edit [shared story source](../motion/_painted-story/README.md) for 001/002, or [004 acting source](../motion/004-that-was-a-sentence/template-acting/README.md), plus episode config / 前两集改共用源，004 改独立整猫动作源与配置。
-2. Generate speech/score under NEW version names; verify real durations / 声音另起新版本并实测时长。
-3. Set a NEW videoExport path; prepare review templates / 设置新视频路径并准备。
-4. Render, prepare matching downloads, build changed episodes, refresh indexes and check / 渲染后准备匹配下载，再构建、更新索引检查。
+Existing preview files are preserved by default. `--replace-preview` is reserved for deliberate replacement of an unarchived working render or after preserving the previous film; never change assets inside an existing versions/vNNN/ / 默认不覆盖视频，仅在工作导出未归档或已保存旧片时明确替换，永久存档内资产不可改。
 
-```sh
-node scripts/prepare-story-episodes.mjs --review
-npm run render:stories
-node scripts/prepare-story-episodes.mjs
-npm run build:episode -- motion/001-have-an-idea/episode.json
-npm run index
-npm run check
-```
+## Acting checks · 动作与播放检查
 
-The renderer defaults to all three story films and follows each episode's selected template. Use `--episode 004-that-was-a-sentence` to render only 004. The preparation script skips independent templates and accepts the same `--episode` filter. / 渲染按配置选择源码，可单集处理；准备脚本跳过独立模板。 Preserve existing previews by choosing new videoExport filenames; --replace-preview is for deliberate replacement only after the previous movie is archived. Temporary PNG frames stay in OS temp / 渲染器默认处理三集；新稿选新文件名，替换参数只用于旧片已存档后的明确替换，帧图留临时目录。
+Run the check for the film you changed, then visually inspect its reported temporary frames. These inspect current episode.json selections; they do not certify creative approval / 检查本次改动集并目测输出帧，使用当前选用配置，不代替创意验收。
 
-Install optional browser tooling with npm install then npx playwright install chromium. An external Playwright module can be supplied with RENDER_PLAYWRIGHT_MODULE / 可安装浏览器工具，或通过该变量使用外置模块。
-
-## Script map · 脚本分工
-
-| Script / 脚本 | Job / 职责 |
+| Command / 命令 | Coverage / 覆盖 |
 | --- | --- |
-| build-recording-hub.mjs | Obvious recording entrance with full-screen sound playback and MP4 downloads / 显眼成片入口，全屏带声播放与视频下载 |
-| build-motion.mjs | Immutable standalone HTML/source versioning / 单文件及源码永久归档 |
-| build-episode-library.mjs | English browser library + bilingual episode table / 英文观看页及双语剧集表 |
-| build-repository-index.mjs | Media fingerprints, template map, version guide / 素材指纹、模板与版本索引 |
-| check-repository.mjs | Read-only consistency checks / 只读一致性检查 |
-| prepare-story-episodes.mjs | Prepare selected art/audio/downloads for current story templates / 准备新剧情模板 |
-| render-story-previews.cjs | Actual Chromium sampling + H.264/AAC output / 浏览器采样及带声视频 |
-| voice-existing-score.py | Measured child speech over a chosen original score / 原谱上加入实测童声 |
-| compose-story-scores.py | Original scene-specific notes/SFX / 独立场景原创配乐动作音 |
-| build-episode-audio.py | Earlier generic voice/score workflow; retained / 保留较早通用声音流程 |
-| sync-painted-series.mjs | Earlier unified-room source preparation; historical / 早期统一房间模板，历史保留 |
+| `npm run qa:stories` | 002/004: head bubbles, native proportions, requests, cookie contact/carry/bite, deterministic seeking, sound controls / 头顶对白、原比例、请求、拿饼干送嘴及播放 |
+| `npm run qa:nap` | 003: laptop pixels with cats shown/hidden, frame/caption clearance, equal scaling, contact frames and sound / 电脑像素无遮挡、边界字幕避让、原比例、接触与声音 |
+| `npm run qa:halloween` | 005: native aspect, paw/key contact, dialogue bounds, candy payoff, sound/reduced motion / 原比例、爪键接触、对白、糖果反转及播放 |
 
-Network is needed to generate remote speech; already embedded playback works offline. Incomplete attempts remain labelled and never imply voices are present / 生成语音需联网，成片可离线；未完成尝试不得标成已有配音。
+When intentionally retiming/revising a story, update its authored QA sample times/expected story events too; preserve earlier checks stored with old review exports / 剧情时序明确改动时，同步调整动作检查采样点及预期事件，旧审片检查记录保留。
 
-## Halloween v013 review · 万圣节新版审片
+001 currently needs visual review of its box/cat poses and logo plus the repository check / 001目前目测纸箱、猫和标志，再做仓库检查。
 
-`render-story-previews.cjs --episode 005-halloween` follows render.width/height/fps/player in the selected config. `--config <draft episode.json>` renders a saved working configuration without selecting it as current. / 渲染支持本集尺寸帧率播放器；也可指定改稿配置预渲染，不切换当前成片。
+## Posters and publishing copy · 封面与文案
 
-`check-halloween.cjs [episode.json]` checks native character aspect, paw/key contact, dialogue bounds, deterministic seeking, sound start/pause/replay/end and reduced-motion pause. `mix-halloween-polish.py` remixes existing child recordings locally with smooth music ducking and new contact cues; no external TTS call / 检查原比例、接触、气泡、确定性与播放；声音脚本仅本地混合既有童声、柔和避让配乐并加动作声，不外发语音请求。
+Extract a representative frame from the **new matching movie**, then use the locked Sharp dependency to save its cover. Example temporary paths below; replace movie/ID with the changed film / 从匹配的新视频取帧再生成封面，下例按修改集替换。
 
-`check-story-revisions.cjs` verifies the coffee/bakery cuts: head bubbles, cookie contact/carry/bite, website timing, sound controls and deterministic seeking. `mix-story-polish.py` reuses existing child recordings locally with original retimed scores and smooth ducking; no external speech requests. Both mixers preserve earlier audio versions / 咖啡烘焙检查涵盖头顶对白、拿饼干送嘴、网页时序与播放；重混仅本地复用童声并保留旧版本。
+```sh
+ffmpeg -hide_banner -loglevel error -ss 11 -i motion/003-chief-nap-officer/previews/v021-clear-computer-review.mp4 -frames:v 1 -y /tmp/verdent-cover.png
+node -e 'require("sharp")(process.argv[1]).resize(640).webp({quality:85}).toFile(process.argv[2])' /tmp/verdent-cover.png docs/assets/episodes/003-chief-nap-officer.webp
+```
 
-`check-nap-staging.cjs` checks laptop pixels with cats shown/hidden, frame/caption clearance, native cat proportions, deterministic seeking and voiced playback. `render-story-previews.cjs` accepts `render.player` and `render.audio` for the SVG nap film / 午睡片检查覆盖电脑像素无遮挡、画框字幕避让、原比例与播放；通用渲染器可指定 SVG 播放器及音轨。
+Update captions/motion-XXX.md and captions/README.md when the selected version/story changes. English caption/alt text must describe that actual cut. Run index/check afterwards / 版本故事变化时更新对应文案，英文描述必须对应实际画面，然后刷新检查。
+
+## Audio and earlier tools · 声音与历史工具
+
+Current voices and mixed AACs are already saved; ordinary visual edits reuse them. Local mix metadata and raw recordings are linked in [Handoff](../HANDOFF.md) / 已有童声混音可复用，源与数据见交接。
+
+| Script / 脚本 | Role / 用途 |
+| --- | --- |
+| doctor.mjs | Offline prerequisite report / 离线环境检查 |
+| build-motion.mjs | Self-contained HTML + new immutable source/version / 单文件与新永久源码快照 |
+| build-episode-library.mjs · build-repository-index.mjs · build-recording-hub.mjs | Generated navigation/inventory / 自动导航索引 |
+| render-story-previews.cjs | Actual Chromium timeline sampling + H.264/AAC / 浏览器采样与视频 |
+| prepare-story-episodes.mjs | Current shared source preparation for 001 / 001共用源准备 |
+| mix-story-polish.py · mix-halloween-polish.py | Local remix of existing speech, original score, ducking/contact cues / 本地复用童声及配乐动作音 |
+| compose-story-scores.py · compose-acting-contacts.py | Original score/foley recipes / 原创配乐动作音配方 |
+| voice-performance.py · voice-existing-score.py | Online speech generation, trimming, timing and mixing / 在线配音与修剪时长混音 |
+| build-episode-audio.py · sync-painted-series.mjs | Earlier generic audio/unified-room experiments; historical / 早期通用声音与统一房间实验 |
+
+Audio scripts retain version-specific recipes and refuse existing output directories. Choose new version names/paths before reusing a recipe. Do not rerun one-time historic mix scripts as “setup” / 声音配方按版本保存且拒绝覆盖，新混音先改新目录，不把历史脚本当安装命令。
+
+For new online speech only: create a Python venv and install [requirements-audio.txt](requirements-audio.txt). Those scripts send dialogue to Microsoft's online speech service. The earlier permission for five Soft Launch lines is recorded in [revision notes](../WORK_IN_PROGRESS.md) / 只有新在线配音才装 Python 语音依赖；该流程会外发对白，先前五句授权记录见改稿说明。
